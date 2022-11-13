@@ -1,0 +1,8 @@
+{
+	"mapname": "Custom_HM_MineralTownEntrance",
+	"displayname": "Mineral Town",
+	"destinationX": 43,
+	"destinationY": 20,
+	"arrivalFacing": 2,
+	"ticketPrice": 500
+}
