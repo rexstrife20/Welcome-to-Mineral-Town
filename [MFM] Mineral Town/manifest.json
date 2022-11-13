@@ -1,0 +1,12 @@
+{
+    "Name": "MFM for Mineral Town",
+    "Author": "Mineral Town Architects",
+    "Version": "1.0.3",
+    "Description": "Custom Mail for Mineral Town",
+    "UniqueID": "MineralTownArchitects.MineralTownMFM",
+    "MinimumApiVersion": "3.5.0",
+    "UpdateKeys": [ "Nexus:" ],
+    "ContentPackFor": {
+      "UniqueID": "DIGUS.MailFrameworkMod"
+    }
+  }

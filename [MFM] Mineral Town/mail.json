@@ -1,0 +1,298 @@
+[
+	
+    //Mineral Town Friendship Recipes
+    
+    {
+		"Id": "MT.basil.recipe", // Letter id. It's important to be an unique string to avoid conflicts. Also it shouldn't have space characters.
+		"Title": "basil.recipe.title", // Letter title. Will be shown in the collections menu. Set it null or remove the line if you don't want the letter to appear in the collection. If an translation file is provide, you should put a translation key here, but you can still leave if null for no Title.
+		"Text": "basil.recipe.text", // Text of the letter. You can use @ to put the players name and ^ for line breaks. You can also use the base game commands to add money, items and stuff. If an translation file is provide, you should put a translation key here.
+        "Recipe": "Fruit Latte", // Remove the line if you don't want to attach a recipe to the mail. It will only work if you have no other attachments to the mail.
+        "Repeatable": false,
+	    "FriendshipConditions": [
+			{
+				"NpcName": "Basil", //Name of the NPC. Can use custom NPCs.
+				"FriendshipLevel": 8 // NPC must have a friendship heart level equal or higher what is defined. Default is 0.
+			}
+		],
+    },
+    
+    {
+		"Id": "MT.carter.recipe",
+		"Title": "carter.recipe.title", 
+		"Text": "carter.recipe.text", 
+        "Recipe": "Strawberry Latte", 
+        "Repeatable": false,
+		"FriendshipConditions": [
+			{
+				"NpcName": "Carter",
+				"FriendshipLevel": 8,
+			}
+		],
+    },
+
+    {
+		"Id": "MT.doctor.recipe",
+		"Title": "doctor.recipe.title", 
+		"Text": "doctor.recipe.text", 
+        "Recipe": "Mixed Latte", 
+        "Repeatable": false,
+		"FriendshipConditions": [
+			{
+				"NpcName": "Doctor",
+				"FriendshipLevel": 8,
+			}
+		],
+    },
+
+    {
+		"Id": "MT.ellen.recipe",
+		"Title": "ellen.recipe.title", 
+		"Text": "ellen.recipe.text", 
+        "Recipe": "Sandwich", 
+        "Repeatable": false,
+		"FriendshipConditions": [
+			{
+				"NpcName": "Ellen",
+				"FriendshipLevel": 8,
+			}
+		],
+    },
+
+    {
+		"Id": "MT.harris.recipe",
+		"Title": "harris.recipe.title", 
+		"Text": "harris.recipe.text", 
+        "Recipe": "Shrimp Fried Rice", 
+        "Repeatable": false,
+	    "FriendshipConditions": [
+			{
+				"NpcName": "Harris",
+				"FriendshipLevel": 8,
+			}
+		],
+    },
+
+    {
+		"Id": "MT.kai.recipe",
+		"Title": "kai.recipe.title", 
+		"Text": "kai.recipe.text", 
+        "Recipe": "Salted Popcorn", 
+        "Repeatable": false,
+	    "FriendshipConditions": [
+			{
+				"NpcName": "Kai",
+				"FriendshipLevel": 8,
+			}
+		],
+    },
+
+    {
+		"Id": "MT.karen.recipe",
+		"Title": "karen.recipe.title", 
+		"Text": "karen.recipe.text", 
+        "Recipe": "Stew", 
+        "Repeatable": false,
+	    "FriendshipConditions": [
+			{
+				"NpcName": "Karen",
+				"FriendshipLevel": 8,
+			}
+		],
+    },
+
+    {
+		"Id": "MT.jeff.recipe",
+		"Title": "jeff.recipe.title", 
+		"Text": "jeff.recipe.text", 
+        "Recipe": "Spicy Ketchup", 
+        "Repeatable": false,
+	    "FriendshipConditions": [
+			{
+				"NpcName": "Jeff",
+				"FriendshipLevel": 8,
+			}
+		],
+    },
+
+    {
+		"Id": "MT.stu.recipe",
+		"Title": "stu.recipe.title", 
+		"Text": "stu.recipe.text", 
+        "Recipe": "French Fries", 
+        "Repeatable": false,
+	    "FriendshipConditions": [
+			{
+				"NpcName": "Stu",
+				"FriendshipLevel": 8,
+			}
+		],
+    },
+
+	{
+		"Id": "MT.doug.recipe",
+		"Title": "doug.recipe.title", 
+		"Text": "doug.recipe.text", 
+        "Recipe": "Cheese Fondue", 
+        "Repeatable": false,
+	    "FriendshipConditions": [
+			{
+				"NpcName": "Doug",
+				"FriendshipLevel": 8,
+			}
+		],
+    },
+  
+	{
+		"Id": "MT.gotz.recipe",
+		"Title": "gotz.recipe.title", 
+		"Text": "gotz.recipe.text", 
+        "Recipe": "Savory Pancakes", 
+        "Repeatable": false,
+	    "FriendshipConditions": [
+			{
+				"NpcName": "Gotz",
+				"FriendshipLevel": 8,
+			}
+		],
+    },
+
+	{
+		"Id": "MT.lillia.recipe",
+		"Title": "lillia.recipe.title", 
+		"Text": "lillia.recipe.text", 
+        "Recipe": "Omelet Rice", 
+        "Repeatable": false,
+	    "FriendshipConditions": [
+			{
+				"NpcName": "Lillia",
+				"FriendshipLevel": 8,
+			}
+		],
+    },	
+
+	{
+		"Id": "MT.barley.recipe",
+		"Title": "barley.recipe.title", 
+		"Text": "barley.recipe.text", 
+        "Recipe": "Pudding", 
+        "Repeatable": false,
+	    "FriendshipConditions": [
+			{
+				"NpcName": "Barley",
+				"FriendshipLevel": 8,
+			}
+		],
+    },	
+
+	{
+		"Id": "MT.cliff.recipe",
+		"Title": "cliff.recipe.title", 
+		"Text": "cliff.recipe.text", 
+        "Recipe": "Curry Rice", 
+        "Repeatable": false,
+	    "FriendshipConditions": [
+			{
+				"NpcName": "Cliff",
+				"FriendshipLevel": 8,
+			}
+		],
+    },	
+
+	{
+		"Id": "MT.elli.recipe",
+		"Title": "elli.recipe.title", 
+		"Text": "elli.recipe.text", 
+        "Recipe": "Yellow Miso Soup", 
+        "Repeatable": false,
+	    "FriendshipConditions": [
+			{
+				"NpcName": "Elli",
+				"FriendshipLevel": 8,
+			}
+		],
+    },	
+
+	{
+		"Id": "MT.mei.recipe",
+		"Title": "mei.recipe.title", 
+		"Text": "mei.recipe.text", 
+        "Recipe": "Harvest Pudding", 
+        "Repeatable": false,
+	    "FriendshipConditions": [
+			{
+				"NpcName": "Mei",
+				"FriendshipLevel": 8,
+			}
+		],
+    },	
+
+	{
+		"Id": "MT.rick.recipe",
+		"Title": "rick.recipe.title", 
+		"Text": "rick.recipe.text", 
+        "Recipe": "Corn Flakes", 
+        "Repeatable": false,
+	    "FriendshipConditions": [
+			{
+				"NpcName": "Rick",
+				"FriendshipLevel": 8,
+			}
+		],
+    },	
+	
+	{
+		"Id": "MT.manna.recipe",
+		"Title": "manna.recipe.title", 
+		"Text": "manna.recipe.text", 
+        "Recipe": "Candied Sweet Potatoes", 
+        "Repeatable": false,
+	    "FriendshipConditions": [
+			{
+				"NpcName": "Manna",
+				"FriendshipLevel": 8,
+			}
+		],
+    },	
+	
+	{
+		"Id": "MT.saibara.recipe",
+		"Title": "saibara.recipe.title", 
+		"Text": "saibara.recipe.text", 
+        "Recipe": "Happy Eggplant", 
+        "Repeatable": false,
+	    "FriendshipConditions": [
+			{
+				"NpcName": "Saibara",
+				"FriendshipLevel": 8,
+			}
+		],
+    },	
+	
+	{
+		"Id": "MT.sasha.recipe",
+		"Title": "sasha.recipe.title", 
+		"Text": "sasha.recipe.text", 
+        "Recipe": "Chocolate Cookies", 
+        "Repeatable": false,
+	    "FriendshipConditions": [
+			{
+				"NpcName": "Sasha",
+				"FriendshipLevel": 8,
+			}
+		],
+    },	
+	
+	{
+		"Id": "MT.zack.recipe",
+		"Title": "zack.recipe.title", 
+		"Text": "zack.recipe.text", 
+        "Recipe": "Raisin Bread", 
+        "Repeatable": false,
+	    "FriendshipConditions": [
+			{
+				"NpcName": "Zack",
+				"FriendshipLevel": 8,
+			}
+		],
+    },	
+]

@@ -1,0 +1,77 @@
+{
+    /*Info:
+    -------------Mineral Town NPC Friendship Recipes-------------
+        Fruit Latte - Basil
+        Strawberry Latte - Carter
+        Mixed Latte - Doctor
+        Sandwich - Ellen
+        Shrimp Fried Rice - Harris
+        Salted Popcorn - Kai
+        Stew - Karen
+        Vegetable Latte - Mary
+        Spicy Ketchup - Jeff
+        French Fries - Stu
+        Cheese Fondue - Doug
+        Savory Pancakes - Gotz
+        Omelet Rice - Lillia
+        Pudding - Barley
+        Curry Rice - Cliff
+        Yellow Miso Soup - Elli
+        Harvest Pudding - Mei
+        Corn Flakes - Rick
+        Candied Sweet Potatoes - Manna
+        Happy Eggplant - Saibara
+        Chocolate Cookies - Sasha
+        Raisin Bread - Zack
+    */
+    
+        //Titles
+            "basil.recipe.title": "A Taste of Nature's Bounty",
+            "carter.recipe.title": "Provision of the Goddess",
+            "doctor.recipe.title": "Life Tonic",
+            "ellen.recipe.title": "Family Recipe",
+            "harris.recipe.title": "Food Plan for Maximum Strength",
+            "kai.recipe.title": "Try Out My New Snack!",
+            "karen.recipe.title": "Is This Ready for the Cooking Contest?",
+            "jeff.recipe.title": "To My Good Friend",
+            "stu.recipe.title": "BEST FRIES EVER",
+            "doug.recipe.title": "Wow Your Next Party!",
+            "gotz.recipe.title": "Start the Day Off Right",
+            "lillia.recipe.title": "Popuri and Rick Couldn't Get Enough of This",
+            "barley.recipe.title": "You Don't Need Teeth!",
+            "cliff.recipe.title": "Adventuring Food",
+            "elli.recipe.title": "For Those Sick and Groggy Days",
+            "mei.recipe.title": "Pretty Please Make Harvest Pudding",
+            "rick.recipe.title": "Checkout this Sweet Breakfast Recipe",
+            "manna.recipe.title": "You're Gonna Love This!",
+            "saibara.recipe.title": "Perfected Over Generations",
+            "sasha.recipe.title": "I Have a Sweet Tooth",
+            "zack.recipe.title": "Lemme Letcha In on a Secret",
+
+    
+        //Texts
+            "basil.recipe.text": "Good morning, @. Or good evening, depending. I've come upon the perfect blend of fruits to provide maximum energy. I'll pass this knowledge along to you, use it well!",
+            "carter.recipe.text": "Hello there my friend. As a child, I had a particular affinity for Strawberry Lattes. I've decided to pass this along to you as well. If making this appeals to your tastes, I will not turn down a taste myself!",
+            "doctor.recipe.text": "Hey, @. I've been experimenting with different natural ingredients to make the perfect energizing blend. Use this wisely, and be well.",
+            "ellen.recipe.text": "Hello dearie, I hope you're doing well. I came upon an old family secret recipe while cleaning out the house. I don't cook much anymore, but maybe you'll get some use out of it.",
+            "harris.recipe.text": "Greetings cadet! As you may well know, Shrimp Fried Rice is a recipe that contains every key nutrient you need for maximum efficiency. I thought I'd pass this along to you formally!",
+            "kai.recipe.text": "Hey bud! I was screwing around with some ingredients around the shack the other day. Checkout this dope snack!",
+            "karen.recipe.text": "I think I finally did it, @. I came up with a fool proof recipe to win the next Cooking Contest. They need to bring them back ASAP so I can clean house!",
+            "jeff.recipe.text": "I came up with a little flavorful concoction the other day. You should give it a try! This counts as advertisement, right?",
+            "stu.recipe.text": "HEY @! THIS IS MY FIRST LETTER! YOU NEED TO MAKE SOME FRENCH FRIES! PLEASE BRING ME SOME! THANKS!",
+            "doug.recipe.text": "I had some free time the other day so I tried messing around with some ingredients. I realized, everything is better with cheese! So, I decided to make Cheese Fondue. Make this for your next party and you won't be sorry! See ya soon.",
+            "gotz.recipe.text": "They say breakfast is the most important meal of the day. Not sure who said it first, but I'll say it over and over again. My recipe for Savory Pancakes should be just the powerloaded start you need for your busy days on %farm.",
+            "lillia.recipe.text": "Hello there, @. I hope you're doing well. I was reflecting on things the other day and remembered how, each and every day, the children would as Rod and I to make Omelet Rice every morning for breakfast. I hope this recipe brings you as much joy as it did them.",
+            "barley.recipe.text": "I finally found a dessert I can eat without ma teeth! Try this Pudding on for size, it's even better than a sock hop!",
+            "cliff.recipe.text": "Hey, @. I wanted to share a recipe with you that I've made often on my travels. I'll sometimes get stuck foraging for roots and berries for long stretches of time, so it's always nice to have something simple and delicious to look forward too.",
+            "elli.recipe.text": "Hello, @. I hope you're taking care of yourself. I'm sure you know that a cold can strike at any time and completely derail your entire week. Here's a recipe we use here at the clinic to help releive all of those nasty symptoms so we can get back to doing what we love.",
+            "mei.recipe.text": "Do you grow any pumpkins on your farm? If you ever do, please please please make me some Harvest Pudding!",
+            "rick.recipe.text": "Hey, @. I figured that, since we're such good friends, I'd share with you the secret for how I can be so productive all the time. So, here it is! My recipe for homemade Corn Flakes! Now you'll be able to get all your work done in record time!",
+            "manna.recipe.text": "Hey there, @, I hope you're doing well. I was cleaning through my kitchen the other day, oh it was such a mess, I'll let you know! Anyways, I was going through all of my stuff when I found an old recipe book hidden behind all the pots and pans. I was reading through it and, wouldn't you know it, I found my old recipe for Candied Sweet Potatoes! I made them last night and Duke, he's a huge fan of sweet potatoes, but he said they were one of the best dishes he's tasted. So here I am, passing it along to you! Chow Chow!",
+            "saibara.recipe.text": "Well well, @. I assume that, since you're reading this, you've nothing better going on. Well let me delight you with an old family recipe for Happy Eggplant that has been passed down for fourteen generations. Or so I've been told by my father's father....",
+            "sasha.recipe.text": "Hello dear! I found just the tastiest sounding dessert recipe online for Chocolate Cookies. If you happen to make a batch, mind sharing some?",
+            "zack.recipe.text": "Listen up! Wanna know how I got this strong? Ya think it was because of all the hard work I do day in and day out? NO! Raisin Bread is the secret farmer. Here, make yerself some and prepare to have your entire life changed!",
+
+
+    }
+    

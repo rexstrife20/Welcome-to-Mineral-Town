@@ -1,0 +1,784 @@
+{
+  "ForageSpawnEnabled": true,
+  "LargeObjectSpawnEnabled": false,
+  "OreSpawnEnabled": false,
+  "MonsterSpawnEnabled": true,
+  "Forage_Spawn_Settings": {
+    "Areas": [
+      {
+        "SpringItemIndex": [
+          "Blue Grass",
+          16,
+          20,
+          22,
+          18
+        ],
+        "SummerItemIndex": [
+          396,
+          398,
+          402
+        ],
+        "FallItemIndex": [
+          "Red Grass",
+          281,
+          406,
+          410,
+          420,
+          408
+        ],
+        "WinterItemIndex": [
+          283,
+          412,
+          418
+        ],
+        "UniqueAreaID": "Wisp Song forest entrance",
+        "MapName": "Custom_HM_WoodCutter",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "30,14/38,21",
+          "48,0/52,5",
+          "52,24/9,24",
+          "0,13/4,31"
+        ],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          "Blue Grass",
+          16,
+          20,
+          22,
+          18
+        ],
+        "SummerItemIndex": [
+          396,
+          398,
+          402
+        ],
+        "FallItemIndex": [
+          "Red Grass",
+          281,
+          406,
+          410,
+          420,
+          408
+        ],
+        "WinterItemIndex": [
+          283,
+          412,
+          418
+        ],
+        "UniqueAreaID": "Goddess Hill",
+        "MapName": "Custom_HM_GoddessHill",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "43,19/36,22"
+        ],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          "Blue Grass",
+          "Bamboo Shoot",
+          "Moondrop",
+          "Black Grass",
+          16,
+          20,
+          22,
+          18
+        ],
+        "SummerItemIndex": [
+          "Green Grass",
+          "Blue Grass",
+          "Red Grass",
+          "Pink Cat",
+          396,
+          398,
+          402
+        ],
+        "FallItemIndex": [
+          "Red Grass",
+          "Green Grass",
+          "Blue Magic Grass",
+          "Red Magic Grass",
+          "Harvest Matsutake",
+          "Poisonous Mushroom",
+          281,
+          406,
+          410,
+          420,
+          408
+        ],
+        "WinterItemIndex": [
+          "White Grass",
+          "Black Grass",
+          283,
+          412,
+          418
+        ],
+        "UniqueAreaID": "Wisp Song forest lake",
+        "MapName": "Custom_HM_MountainLake",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          "Blue Grass",
+          "Moondrop",
+          16,
+          20,
+          22,
+          18
+        ],
+        "SummerItemIndex": [
+          "Green Grass",
+          "Blue Grass",
+          "Red Grass",
+          "Pink Cat",
+          396,
+          398,
+          402
+        ],
+        "FallItemIndex": [
+          "Red Grass",
+          "Green Grass",
+          "Blue Magic Grass",
+          "Red Magic Grass",
+          281,
+          406,
+          410,
+          420,
+          408
+        ],
+        "WinterItemIndex": [
+          "White Grass",
+          283,
+          412,
+          418
+        ],
+        "UniqueAreaID": "Wisp Song forest FlowerHill",
+        "MapName": "Custom_HM_FlowerHill",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          "Blue Grass",
+          "Moondrop",
+          16,
+          20,
+          22,
+          18
+        ],
+        "SummerItemIndex": [
+          "Green Grass",
+          "Blue Grass",
+          "Red Grass",
+          "Pink Cat",
+          396,
+          398,
+          402
+        ],
+        "FallItemIndex": [
+          "Red Grass",
+          "Green Grass",
+          "Blue Magic Grass",
+          "Red Magic Grass",
+          281,
+          406,
+          410,
+          420,
+          408
+        ],
+        "WinterItemIndex": [
+          "White Grass",
+          283,
+          412,
+          418
+        ],
+        "UniqueAreaID": "Summit",
+        "MapName": "Custom_HM_MountainSummit",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": null,
+        "SummerItemIndex": [
+          "White Flower"
+        ],
+        "FallItemIndex": null,
+        "WinterItemIndex": null,
+        "UniqueAreaID": "Summit White Flower",
+        "MapName": "Custom_HM_MountainSummit",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "19,16/19,16"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 2350,
+          "EndTime": 2500,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [
+            "Summer"
+          ],
+          "Days": [],
+          "WeatherYesterday": [
+            "Rain"
+          ],
+          "WeatherToday": [
+            "Wind"
+          ],
+          "WeatherTomorrow": [
+            "Sun"
+          ],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          "Orange Grass",
+          "Yellow Grass"
+        ],
+        "SummerItemIndex": [
+          "Purple Grass"
+        ],
+        "FallItemIndex": [
+          "Indigo Grass"
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Mineral Town beach",
+        "MapName": "Custom_HM_MineralBeach",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "0,15/8,21"
+        ],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          "Orange Grass",
+          "Yellow Grass"
+        ],
+        "SummerItemIndex": [
+          "Purple Grass"
+        ],
+        "FallItemIndex": [
+          "Indigo Grass"
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Mineral TidePool",
+        "MapName": "Custom_HM_MineralTidePool",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          "Blue Grass",
+          "Moondrop",
+          16,
+          20,
+          22,
+          18
+        ],
+        "SummerItemIndex": [
+          "Green Grass",
+          "Blue Grass",
+          "Red Grass",
+          "Pink Cat",
+          396,
+          398,
+          402
+        ],
+        "FallItemIndex": [
+          "Red Grass",
+          "Green Grass",
+          "Blue Magic Grass",
+          "Red Magic Grass",
+          281,
+          406,
+          410,
+          420,
+          408
+        ],
+        "WinterItemIndex": [
+          "White Grass",
+          283,
+          412,
+          418
+        ],
+        "UniqueAreaID": "Tree forage",
+        "MapName": "Custom_HM_MineralTown",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "115,68/146,90"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": null,
+        "SummerItemIndex": null,
+        "FallItemIndex": [
+          "Harvest Matsutake",
+          "Poisonous Mushroom"
+        ],
+        "WinterItemIndex": [
+          "White Flower"
+        ],
+        "UniqueAreaID": "Church graveyard",
+        "MapName": "Custom_HM_MineralTown",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "13,10/30,16",
+          "16,16/18,37"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [
+            "Rain"
+          ],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          169
+        ],
+        "SummerItemIndex": [
+          169
+        ],
+        "FallItemIndex": [
+          169
+        ],
+        "WinterItemIndex": [
+          169
+        ],
+        "UniqueAreaID": "Mineral Town Beach Driftwood Spawns",
+        "MapName": "Custom_HM_MineralBeach",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [
+            "Rain",
+            "Storm"
+          ],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      }
+    ],
+    "PercentExtraSpawnsPerForagingLevel": 0,
+    "SpringItemIndex": [],
+    "SummerItemIndex": [],
+    "FallItemIndex": [],
+    "WinterItemIndex": [],
+    "CustomTileIndex": []
+  },
+  "Large_Object_Spawn_Settings": {
+    "Areas": [],
+    "CustomTileIndex": []
+  },
+  "Ore_Spawn_Settings": {
+    "Areas": [],
+    "PercentExtraSpawnsPerMiningLevel": 0,
+    "MiningLevelRequired": {},
+    "StartingSpawnChance": {},
+    "LevelTenSpawnChance": {},
+    "CustomTileIndex": []
+  },
+  "Monster_Spawn_Settings": {
+    "Areas": [
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Rock Crab",
+            "Settings": {
+              "HP": 3,
+              "Damage": 1,
+              "Loot": [],
+              "EXP": 1
+            }
+          },
+          {
+            "MonsterName": "Rock Crab",
+            "Settings": {
+              "HP": 3,
+              "Damage": 1,
+              "Loot": [
+                "Crab"
+              ],
+              "EXP": 1
+            }
+          }
+        ],
+        "UniqueAreaID": "Mineral town Beach Crabs",
+        "MapName": "Custom_HM_MineralBeach",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "Diggable",
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [
+          "Stone",
+          "Wood"
+        ],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Rock Crab",
+            "Settings": {
+              "HP": 3,
+              "Damage": 1,
+              "Loot": [],
+              "EXP": 1
+            }
+          },
+          {
+            "MonsterName": "Rock Crab",
+            "Settings": {
+              "HP": 3,
+              "Damage": 1,
+              "Loot": [
+                "Crab"
+              ],
+              "EXP": 1
+            }
+          }
+        ],
+        "UniqueAreaID": "Mineral TidePool Crab",
+        "MapName": "Custom_HM_MineralTidePool",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "Diggable",
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [
+          "Stone",
+          "Wood"
+        ],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      }
+    ],
+    "CustomTileIndex": []
+  },
+  "QuarryTileIndex": [],
+  "File_Conditions": {
+    "FarmTypes": [],
+    "FarmerNames": [],
+    "SaveFileNames": [],
+    "OtherMods": {}
+  }
+}

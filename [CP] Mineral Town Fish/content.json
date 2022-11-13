@@ -1,0 +1,2745 @@
+{
+   "Format": "1.23",
+   "Changes": [
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectContextTags",
+         "Entries": {
+            "Amur Minnow": "fish_amur_minnow",
+            "Bighead": "fish_bighead",
+            "Bitterling": "fish_bitterling",
+            "Black Bass": "fish_black_bass",
+            "Blowfish": "fish_blowfish",
+            "Bluegill": "fish_bluegill",
+            "Bonito": "fish_bonito",
+            "Brown Hakeling": "fish_brown_hakeling",
+            "Cherry Salmon": "fish_cherry_salmon",
+            "Cod": "fish_cod",
+            "Filefish": "fish_filefish",
+            "Fluke": "fish_fluke",
+            "Golden Carp": "fish_golden_carp",
+            "Greenling": "fish_greenling",
+            "Huchen": "fish_huchen",
+            "Kelp Bass": "fish_kelp_bass",
+            "Lake Smelt": "fish_lake_smelt",
+            "Blackfin Monkfish": "fish_blackfin_monkfish",
+            "Mountain Trout": "fish_mountain_trout",
+            "Needlefish": "fish_needlefish",
+            "Pigfish": "fish_pigfish",
+            "Roach": "fish_roach",
+            "Rocky Trout": "fish_rocky_trout",
+            "Saury Pike": "fish_saury_pike",
+            "Scad": "fish_scad",
+            "Silver Carp": "fish_silver_carp",
+            "Snakehead": "fish_snakehead",
+            "Whitefish": "fish_whitefish",
+            "Yellowtail": "fish_yellowtail",
+         }
+      },
+      // Creates Amur Minnow fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Amur Minnow.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 0,
+            "Y": 1600,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2400": "Amur Minnow/100/5/Fish -4/Amur Minnow/A small freshwater fish. Isn't it cute?",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2400": "Amur Minnow/50/smooth/5/9/600 2600/-1/both/-1/1/.8/.1/0",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2400": "720/fish"
+         },
+         "TranslationKey": "object.amurminnow-fish",
+      },
+      // Creates Bighead fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Bighead.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 16,
+            "Y": 1600,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2401": "Bighead/100/5/Fish -4/Bighead/A common fish. Very easy to farm on a large scale.",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2401": "Bighead/45/sinker/24/57/600 2600/-1/both/-1/1/.1/.1/0",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2401": "721/fish"
+         },
+         "TranslationKey": "object.bighead-fish",
+      },
+      // Creates Bitterling fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Bitterling.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 32,
+            "Y": 1600,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2402": "Bitterling/35/10/Fish -4/Bitterling/A pretty looking fish. Not worth too much though.",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2402": "Bitterling/20/mixed/3/4/600 2600/-1/both/-1/1/.45/.1/0",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2402": "722/fish"
+         },
+         "TranslationKey": "object.bitterling-fish",
+      },
+      // Creates Black Bass fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Black Bass.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 48,
+            "Y": 1600,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2403": "Black Bass/55/10/Fish -4/Black Bass/A strong fish, often caught for sport.",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2403": "Black Bass/60/smooth/20/24/600 2600/-1/both/-1/1/.8/.1/0",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2403": "723/fish"
+         },
+         "TranslationKey": "object.blackbass-fish",
+      },
+      // Creates Blowfish fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Blowfish.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 64,
+            "Y": 1600,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2404": "Blowfish/220/50/Fish -4/Blowfish/A cousin of the Pufferfish that prefers cold temperatures.",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2404": "Blowfish/60/floater/10/22/2100 2600/-1/both/-1/1/.8/.1/2",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2404": "724/fish"
+         },
+         "TranslationKey": "object.blowfish-fish",
+      },
+      // Creates Bluegill fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Bluegill.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 80,
+            "Y": 1600,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2405": "Bluegill/30/8/Fish -4/Bluegill/A small fish packed with color!",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2405": "Bluegill/25/dart/9/10/900 1600/-1/both/-1/1/.25/.1/0",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2405": "725/fish"
+         },
+         "TranslationKey": "object.bluegill-fish",
+      },
+      // Creates Bonito fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Bonito.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 96,
+            "Y": 1600,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2406": "Bonito/100/10/Fish -4/Bonito/Related to the Tuna. Tastes great fried!",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2406": "Bonito/40/smooth/27/30/1400 2600/-1/rainy/-1/1/.2/.1/1",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2406": "726/fish"
+         },
+         "TranslationKey": "object.bonito-fish",
+      },
+      // Creates Brown Hakeling fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Brown Hakeling.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 112,
+            "Y": 1600,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2407": "Brown Hakeling/100/10/Fish -4/Brown Hakeling/A ferociously colored fish.",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2407": "Brown Hakeling/50/sinker/4/6/800 1800/-1/rainy/-1/1/.2/.1/0",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2407": "727/fish"
+         },
+         "TranslationKey": "object.brownhakeling-fish",
+      },
+      // Creates Cherry Salmon fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Cherry Salmon.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 128,
+            "Y": 1600,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2408": "Cherry Salmon/85/10/Fish -4/Cherry Salmon/A species of salmon with a satisfying red hue.",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2408": "Cherry Salmon/45/smooth/14/20/1600 2600/-1/sunny/-1/1/.2/.1/0",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2408": "728/fish"
+         },
+         "TranslationKey": "object.cherrysalmon-fish",
+      },
+      // Creates Cod fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Cod.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 144,
+            "Y": 1600,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2409": "Cod/70/20/Fish -4/Cod/Nutritious AND flavorful!",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2409": "Cod/45/mixed/40/80/600 1600/-1/both/-1/1/.2/.1/2",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2409": "729/fish"
+         },
+         "TranslationKey": "object.cod-fish",
+      },
+      // Creates Filefish fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Filefish.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 160,
+            "Y": 1600,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2410": "Filefish/55/10/Fish -4/Filefish/A strange looking creature also known as a foolfish.",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2410": "Filefish/50/dart/24/43/600 2600/-1/both/-1/1/.2/.1/0",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2410": "730/fish"
+         },
+         "TranslationKey": "object.filefish-fish",
+      },
+      // Creates Fluke fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Fluke.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 176,
+            "Y": 1600,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2411": "Fluke/100/10/Fish -4/Fluke/A flounder with a ....twist?",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2411": "Fluke/55/sinker/15/20/600 1600/-1/rainy/-1/1/.2/.1/0",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2411": "731/fish"
+         },
+         "TranslationKey": "object.fluke-fish",
+      },
+      // Creates Golden Carp fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Golden Carp.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 192,
+            "Y": 1600,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2412": "Golden Carp/600/30/Fish -4/Golden Carp/A rare breed of carp that's almost mythical in nature.",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2412": "Golden Carp/85/dart/20/48/1600 2600/-1/rainy/-1/1/.2/.1/8",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2412": "732/fish"
+         },
+         "TranslationKey": "object.goldencarp-fish",
+      },
+      // Creates Greenling fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Greenling.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 208,
+            "Y": 1600,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2413": "Greenling/75/10/Fish -4/Greenling/A solitary and elusive fish that loves to hide amongst the coral.",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2413": "Greenling/65/smooth/24/38/900 1700/-1/both/-1/1/.2/.1/2",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2413": "733/fish"
+         },
+         "TranslationKey": "object.greenling-fish",
+      },
+      // Creates Huchen fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Huchen.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 224,
+            "Y": 1600,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2414": "Huchen/125/10/Fish -4/Huchen/Mystifyingly colorful...",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2414": "Huchen/55/mixed/60/80/600 2600/-1/rainy/-1/1/.2/.1/0",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2414": "734/fish"
+         },
+         "TranslationKey": "object.huchen-fish",
+      },
+      // Creates Kelp Bass fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Kelp Bass.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 240,
+            "Y": 1600,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2415": "Kelp Bass/70/10/Fish -4/Kelp Bass/They don't look imposing but these are quite ferocious hunters.",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2415": "Kelp Bass/30/mixed/25/28/1000 2000/-1/sunny/-1/1/.2/.1/0",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2415": "735/fish"
+         },
+         "TranslationKey": "object.kelpbass-fish",
+      },
+      // Creates Lake Smelt fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Lake Smelt.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 256,
+            "Y": 1600,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2416": "Lake Smelt/30/10/Fish -4/Lake Smelt/Whoever smelt it...dealt it.....",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2416": "Lake Smelt/20/smooth/5/6/600 2600/-1/both/-1/1/.2/.1/0",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2415": "736/fish"
+         },
+         "TranslationKey": "object.lakesmelt-fish",
+      },
+      // Creates Blackfin Monkfish fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Blackfin Monkfish.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 272,
+            "Y": 1600,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2417": "Blackfin Monkfish/250/25/Fish -4/Blackfin Monkfish/Yikes. Maybe this should be thrown back....",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2417": "Blackfin Monkfish/75/sinker/39/55/1800 2600/-1/rainy/-1/1/.2/.1/5",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2417": "737/fish"
+         },
+         "TranslationKey": "object.blackfinmonkfish-fish",
+      },
+      // Creates Mountain Trout fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Mountain Trout.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 288,
+            "Y": 1600,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2418": "Mountain Trout/40/10/Fish -4/Mountain Trout/These trout don't actually exclusively live in the mountains.",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2418": "Mountain Trout/50/dart/10/26/600 1400/-1/both/-1/1/.2/.1/0",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2418": "738/fish"
+         },
+         "TranslationKey": "object.mountaintrout-fish",
+      },
+      // Creates Needlefish fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Needlefish.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 304,
+            "Y": 1600,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2419": "Needlefish/45/5/Fish -4/Needlefish/Be careful, these can fly through the air like projectiles.",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2419": "Needlefish/55/dart/5/35/600 1600/-1/both/-1/1/.2/.1/0",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2419": "739/fish"
+         },
+         "TranslationKey": "object.needlefish-fish",
+      },
+      // Creates Pigfish fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Pigfish.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 320,
+            "Y": 1600,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2420": "Pigfish/450/50/Fish -4/Pigfish/Um, excuse me. What are you doing here?",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2420": "Pigfish/85/sinker/53/100/2000 2600/-1/both/-1/1/.2/.1/8",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2420": "740/fish"
+         },
+         "TranslationKey": "object.pigfish-fish",
+      },
+      // Creates Roach fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Roach.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 336,
+            "Y": 1600,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2421": "Roach/35/10/Fish -4/Roach/Common and adaptable.",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2421": "Roach/25/smooth/14/20/600 2600/-1/sunny/-1/1/.2/.1/0",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2421": "741/fish"
+         },
+         "TranslationKey": "object.roach-fish",
+      },
+      // Creates Rocky Trout fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Rocky Trout.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 352,
+            "Y": 1600,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2422": "Rocky Trout/55/10/Fish -4/Rocky Trout/A common, unexemplary fish...",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2422": "Rocky Trout/45/mixed/12/20/600 1400/-1/both/-1/1/.2/.1/0",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2422": "742/fish"
+         },
+         "TranslationKey": "object.rockytrout-fish",
+      },
+      // Creates Saury Pike fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Saury Pike.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 368,
+            "Y": 1600,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2423": "Saury Pike/80/10/Fish -4/Saury Pike/Tiny, but has a fatty rich taste.",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2423": "Saury Pike/65/mixed/20/48/600 2600/-1/rainy/-1/1/.2/.1/0",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2423": "743/fish"
+         },
+         "TranslationKey": "object.saurypike-fish",
+      },
+      // Creates Scad fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Scad.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 0,
+            "Y": 1616,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2424": "Scad/55/10/Fish -4/Scad/A subtropical fish often used as bait.",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2424": "Scad/45/dart/15/18/1600 2600/-1/both/-1/1/.2/.1/0",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2424": "744/fish"
+         },
+         "TranslationKey": "object.scad-fish",
+      },
+      // Creates Silver Carp fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Silver Carp.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 16,
+            "Y": 1616,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2425": "Silver Carp/550/20/Fish -4/Silver Carp/Not as glamorous as its gold cousin, but still a sight to behold.",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2425": "Silver Carp/85/mixed/20/48/600 1400/-1/both/-1/1/.2/.1/6",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2425": "745/fish"
+         },
+         "TranslationKey": "object.silvercarp-fish",
+      },
+      // Creates Snakehead fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Snakehead.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 32,
+            "Y": 1616,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2426": "Snakehead/75/10/Fish -4/Snakehead/Now that you mention it...it does bear an uncanny resemblance to a snake.",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2426": "Snakehead/60/smooth/12/35/1000 2000/-1/both/-1/1/.2/.1/0",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2426": "746/fish"
+         },
+         "TranslationKey": "object.snakehead-fish",
+      },
+      // Creates Whitefish fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Whitefish.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 48,
+            "Y": 1616,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2427": "Whitefish/75/10/Fish -4/Whitefish/A popular fish used for dishes with a white creme sauce.",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2427": "Whitefish/45/mixed/10/12/600 2600/-1/sunny/-1/1/.2/.1/0",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2427": "747/fish"
+         },
+         "TranslationKey": "object.whitefish-fish",
+      },
+      // Creates Yellowtail fish for Mineral Town
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/Fish/Yellowtail.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 64,
+            "Y": 1616,
+            "Width": 16,
+            "Height": 16
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "2428": "Yellowtail/100/10/Fish -4/Yellowtail/Many fish go by the name Yellowtail. I wonder which this could be?",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+         "Entries": {
+            "2428": "Yellowtail/75/mixed/20/25/600 1400/-1/rainy/-1/1/.2/.1/0",
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/AquariumFish",
+         "Entries": {
+            "2428": "748/fish"
+         },
+      },
+      {
+         "Action": "EditImage",
+         "Target": "LooseSprites/AquariumFish",
+         "FromFile": "assets/Fish/MineralAquariumFish.png",
+         "ToArea": {
+            "X": 0,
+            "Y": 1728,
+            "Width": 480,
+            "Height": 96
+         },
+         "TranslationKey": "object.yellowtail-fish",
+      },
+      // Fish Location Data
+      {
+         "Action": "EditData",
+         "Target": "Data/Locations",
+         "Entries": {
+            "Custom_HM_MineralBeach": "372 .9 718 .1 719 .3 723 .3/372 .9 394 .5 718 .1 719 .3 723 .3/372 .9 718 .1 719 .3 723 .3/372 .4 392 .8 718 .05 719 .2 723 .2/130 -1 131 -1 145 -1 147 -1 150 -1 158 -1 2412 -1 2416 -1 2418 -1 2419 -1 2421 -1 2423 -1 267 -1 704 -1 837 -1/130 -1 147 -1 150 -1 2405 -1 2416 -1 2419 -1 2423 -1 2427 -1 267 -1 704 -1 837 -1/130 -1 150 -1 158 -1 2405 -1 2410 -1 2414 -1 2416 -1 2422 -1 2423 -1 267 -1 704 -1 837 -1/130 -1 150 -1 164 -1 2403 -1 2408 -1 2409 -1 2410 -1 2414 -1 2416 -1 2419 -1 2421 -1 2423 -1 2427 -1 267 -1 837 -1/384 .08 589 .09 102 .15 390 .25 330 1",
+            "Custom_HM_MineralTown": "18 .9/402 .9/410 .6/418 .7 414 .1 283 .5/2402 -1 2403 -1 2404 -1 2406 -1 2411 -1 2420 -1 2424 -1 2426 -1/148 -1 2401 -1 2402 -1 2403 -1 2404 -1 2406 -1 2411 -1 2424 -1 2425 -1 2426 -1/148 -1 2401 -1 2402 -1 2403 -1 2404 -1 2411 -1 2413 -1 2420 -1 2424 -1 2425 -1 2426 -1/2401 -1 2402 -1 2403 -1 2404 -1 2406 -1 2411 -1 2413 -1 2415 -1 2424 -1 2426 -1/378 .2 110 .2 583 .1 102 .2 390 .25 330 1",
+            "Custom_HM_GoddessHill": "16 .9 22 .9/396 .6 402 .9/404 .9 410 .9/418 .9 414 .9 283 .5/142 -1 2403 -1 2404 -1 2411 -1 2417 -1 2424 -1 2426 -1/2404 -1 2407 -1 2411 -1 2417 -1 2424 -1 2425 -1 2426 -1/2404 -1 2407 -1 2411 -1 2413 -1 2417 -1 2424 -1 2425 -1 2426 -1/2403 -1 2404 -1 2411 -1 2413 -1 2415 -1 2424 -1 2426 -1/390 .25 330 1",
+            "Custom_HM_MountainLake": "16 .9 22 .9/396 .6 402 .9/404 .9 410 .9/418 .9 414 .9 283 .5/142 -1 2403 -1 2404 -1 2411 -1 2417 -1 2424 -1 2426 -1/2404 -1 2407 -1 2411 -1 2417 -1 2424 -1 2425 -1 2426 -1/2404 -1 2407 -1 2411 -1 2413 -1 2417 -1 2424 -1 2425 -1 2426 -1/2403 -1 2404 -1 2411 -1 2413 -1 2415 -1 2424 -1 2426 -1/378 .08 579 .1 588 .1 102 .15 390 .25 330 1",
+            "Custom_HM_MineralTownEntrance": "18 .9/402 .9/410 .6/418 .7 414 .1 283 .5/2402 -1 2403 -1 2404 -1 2406 -1 2411 -1 2420 -1 2424 -1 2426 -1/148 -1 2401 -1 2402 -1 2403 -1 2404 -1 2406 -1 2411 -1 2424 -1 2425 -1 2426 -1/148 -1 2401 -1 2402 -1 2403 -1 2404 -1 2411 -1 2413 -1 2420 -1 2424 -1 2425 -1 2426 -1/2401 -1 2402 -1 2403 -1 2404 -1 2406 -1 2411 -1 2413 -1 2415 -1 2424 -1 2426 -1/378 .2 110 .2 583 .1 102 .2 390 .25 330 1",
+            "Custom_HM_MineralTidePool": "372 .9 718 .1 719 .3 723 .3/372 .9 394 .5 718 .1 719 .3 723 .3/372 .9 718 .1 719 .3 723 .3/372 .4 392 .8 718 .05 719 .2 723 .2/130 -1 131 -1 145 -1 147 -1 150 -1 158 -1 2412 -1 2416 -1 2418 -1 2419 -1 2421 -1 2423 -1 267 -1 704 -1 837 -1/130 -1 147 -1 150 -1 2405 -1 2416 -1 2419 -1 2423 -1 2427 -1 267 -1 704 -1 837 -1/130 -1 150 -1 158 -1 2405 -1 2410 -1 2414 -1 2416 -1 2422 -1 2423 -1 267 -1 704 -1 837 -1/130 -1 150 -1 164 -1 2403 -1 2408 -1 2409 -1 2410 -1 2414 -1 2416 -1 2419 -1 2421 -1 2423 -1 2427 -1 267 -1 837 -1/384 .08 589 .09 102 .15 390 .25 330 1",
+         },
+      },
+      //Fishpond
+      {
+         "Action": "EditData",
+         "Target": "Data/FishPondData",
+         "Entries": {
+            // Amur Minnow
+            "fish_amur_minnow": {
+               "RequiredTags": [
+                  "fish_amur_minnow"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+            // Bighead
+            "fish_bighead": {
+               "RequiredTags": [
+                  "fish_bighead"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+            // Bitterling
+            "fish_bitterling": {
+               "RequiredTags": [
+                  "fish_bitterling"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+            // Blowfish
+            "fish_blowfish": {
+               "RequiredTags": [
+                  "fish_blowfish"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+            // Bluegill
+            "fish_bluegill": {
+               "RequiredTags": [
+                  "fish_bluegill"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+            // Bonito
+            "fish_bonito": {
+               "RequiredTags": [
+                  "fish_bonito"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+            // Brown Hakeling
+            "fish_brown_hakeling": {
+               "RequiredTags": [
+                  "fish_brown_hakeling"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+            // Cherry Salmon
+            "fish_cherry_salmon": {
+               "RequiredTags": [
+                  "fish_cherry_salmon"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+            // Cod
+            "fish_cod": {
+               "RequiredTags": [
+                  "fish_cod"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+            // Filefish
+            "fish_filefish": {
+               "RequiredTags": [
+                  "fish_filefish"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+            // Fluke
+            "fish_fluke": {
+               "RequiredTags": [
+                  "fish_fluke"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+            // Golden Carp
+            "fish_golden_carp": {
+               "RequiredTags": [
+                  "fish_golden_carp"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+            // Greenling
+            "fish_greenling": {
+               "RequiredTags": [
+                  "fish_greenling"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+            // Huchen
+            "fish_huchen": {
+               "RequiredTags": [
+                  "fish_huchen"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+            // Kelp Bass
+            "fish_kelp_bass": {
+               "RequiredTags": [
+                  "fish_kelp_bass"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+            // Lake Smelt
+            "fish_lake_smelt": {
+               "RequiredTags": [
+                  "fish_lake_smelt"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+            // Monkfish
+            "fish_blackfin_monkfish": {
+               "RequiredTags": [
+                  "fish_blackfin_monkfish"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+            // Mountain Trout
+            "fish_mountain_trout": {
+               "RequiredTags": [
+                  "fish_mountain_trout"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+            // Needlefish
+            "fish_needlefish": {
+               "RequiredTags": [
+                  "fish_needlefish"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+            // Pigfish
+            "fish_pigfish": {
+               "RequiredTags": [
+                  "fish_pigfish"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+            // Roach
+            "fish_roach": {
+               "RequiredTags": [
+                  "fish_roach"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+            // Rocky Trout
+            "fish_rocky_trout": {
+               "RequiredTags": [
+                  "fish_rocky_trout"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+            // Saury Pike
+            "fish_saury_pike": {
+               "RequiredTags": [
+                  "fish_saury_pike"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+            // Scad
+            "fish_scad": {
+               "RequiredTags": [
+                  "fish_scad"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+            // Silver Carp
+            "fish_silver_carp": {
+               "RequiredTags": [
+                  "fish_silver_carp"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+            // Snakehead
+            "fish_snakehead": {
+               "RequiredTags": [
+                  "fish_snakehead"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+            // Whitefish
+            "fish_whitefish": {
+               "RequiredTags": [
+                  "fish_whitefish"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+            // Yellowtail
+            "fish_yellowtail": {
+               "RequiredTags": [
+                  "fish_yellowtail"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+            // Black Bass
+            "fish_black_bass": {
+               "RequiredTags": [
+                  "fish_black_bass"
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 10,
+                     "Chance": 0.40,
+                     "ItemID": 66,
+                     "MinQuantity": 4,
+                     "MaxQuantity": 8
+                  },
+                  {
+                     "RequiredPopulation": 6,
+                     "Chance": 0.45,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 2
+                  },
+                  {
+                     "RequiredPopulation": 3,
+                     "Chance": 0.50,
+                     "ItemID": 66,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  },
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.70,
+                     "ItemID": 774,
+                     "MinQuantity": 5,
+                     "MaxQuantity": 8
+                  }
+               ],
+               "PopulationGates": {
+                  "2": [
+                     "176 2"
+                  ],
+                  "4": [
+                     "296 2"
+                  ],
+                  "8": [
+                     "66 2"
+                  ],
+               },
+            },
+         },
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/FishPondData",
+         "MoveEntries": [
+            {
+               "ID": "fish_amur_minnow",
+               "ToPosition": "Top"
+            },
+            {
+               "ID": "fish_bighead",
+               "AfterID": "fish_amur_minnow"
+            },
+            {
+               "ID": "fish_bitterling",
+               "AfterID": "fish_bighead"
+            },
+            {
+               "ID": "fish_black_bass",
+               "AfterID": "fish_bitterling"
+            },
+            {
+               "ID": "fish_blowfish",
+               "AfterID": "fish_black_bass"
+            },
+            {
+               "ID": "fish_bluegill",
+               "AfterID": "fish_blowfish"
+            },
+            {
+               "ID": "fish_bonito",
+               "AfterID": "fish_bluegill"
+            },
+            {
+               "ID": "fish_brown_hakeling",
+               "AfterID": "fish_bonito"
+            },
+            {
+               "ID": "fish_cherry_salmon",
+               "AfterID": "fish_brown_hakeling"
+            },
+            {
+               "ID": "fish_cod",
+               "AfterID": "fish_cherry_salmon"
+            },
+            {
+               "ID": "fish_filefish",
+               "AfterID": "fish_cod"
+            },
+            {
+               "ID": "fish_fluke",
+               "AfterID": "fish_filefish"
+            },
+            {
+               "ID": "fish_golden_carp",
+               "AfterID": "fish_fluke"
+            },
+            {
+               "ID": "fish_greenling",
+               "AfterID": "fish_golden_carp"
+            },
+            {
+               "ID": "fish_huchen",
+               "AfterID": "fish_greenling"
+            },
+            {
+               "ID": "fish_kelp_bass",
+               "AfterID": "fish_huchen"
+            },
+            {
+               "ID": "fish_lake_smelt",
+               "AfterID": "fish_kelp_bass"
+            },
+            {
+               "ID": "fish_blackfin_monkfish",
+               "AfterID": "fish_lake_smelt"
+            },
+            {
+               "ID": "fish_mountain_trout",
+               "AfterID": "fish_blackfin_monkfish"
+            },
+            {
+               "ID": "fish_needlefish",
+               "AfterID": "fish_mountain_trout"
+            },
+            {
+               "ID": "fish_pigfish",
+               "AfterID": "fish_needlefish"
+            },
+            {
+               "ID": "fish_roach",
+               "AfterID": "fish_pigfish"
+            },
+            {
+               "ID": "fish_rocky_trout",
+               "AfterID": "fish_roach"
+            },
+            {
+               "ID": "fish_saury_pike",
+               "AfterID": "fish_rocky_trout"
+            },
+            {
+               "ID": "fish_scad",
+               "AfterID": "fish_saury_pike"
+            },
+            {
+               "ID": "fish_silver_carp",
+               "AfterID": "fish_scad"
+            },
+            {
+               "ID": "fish_snakehead",
+               "AfterID": "fish_silver_carp"
+            },
+            {
+               "ID": "fish_whitefish",
+               "AfterID": "fish_snakehead"
+            },
+            {
+               "ID": "fish_yellowtail",
+               "AfterID": "fish_whitefish"
+            }
+         ]
+      }
+   ]
+}

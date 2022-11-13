@@ -1,0 +1,40 @@
+{
+  /*********
+  ** Mod Name
+  *********/
+"Name": "Mineral Town - Forage Settings",
+
+  /*********
+  ** Mod Author
+  *********/
+  "Author": "Mineral Town Architects",
+
+  /*********
+  ** Current Version
+  *********/
+  "Version": "1.0.3",
+
+  /*********
+  ** Content Pack Description
+  *********/
+  "Description": "Adds custom forage to Mineral Town.",
+
+  /*********
+  ** Unique Manifest ID for Content Pack
+  *********/
+  "UniqueID": "MineralTownArchitects.MTFTM",
+
+  /*********
+  ** Update Keys (Currently only on Nexus)
+  *********/
+  "UpdateKeys": [ "Nexus:" ],
+
+  /*********
+  ** Framework Manifest ID
+  *********/
+  "ContentPackFor":
+  {
+    "UniqueID": "Esca.FarmTypeManager",
+    "MinimumVersion": "1.4.4"
+  },
+}

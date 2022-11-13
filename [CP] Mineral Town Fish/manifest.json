@@ -1,0 +1,11 @@
+{
+  "Name": "Mineral Town Fish",
+  "Author": "Mineral Town Architects",
+  "Version": "1.0.3",
+  "Description": "Fish inspired from Harvest Moon: Friends of Mineral Town",
+  "UniqueID": "MineralTownArchitects.MineralTownFish",
+  "UpdateKeys": [ "Nexus:" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

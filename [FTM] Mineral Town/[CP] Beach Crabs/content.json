@@ -1,0 +1,15 @@
+{
+   "Format": "1.20.0",
+   "Changes": [
+	
+      {
+			"Action": "Load",
+			"Target": "Characters/Monsters/Rock Crab",
+			"FromFile": "assets/Rock Crab_{{season}}.png",
+            "Update": "OnLocationChange",
+			"When": {
+				"LocationName": "Custom_MineralBeach",
+			}
+		},				
+    ]
+}

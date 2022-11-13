@@ -1,0 +1,14 @@
+{
+    "Name": "Mineral Town - Shop Tile Framework",
+    "Author": "Mineral Town Architects",
+    "Version": "1.0.3",
+    "Description": "Adds shops to Mineral Town.",
+    "UniqueID": "MineralTownArchitects.MTSTF",
+    "UpdateKeys": [ "Nexus:" ],
+    "ContentPackFor":
+    {
+        "UniqueID": "Cherry.ShopTileFramework",
+        "MinimumVersion": "1.0.1"
+    },
+    "MinimumApiVersion": "2.0",
+}

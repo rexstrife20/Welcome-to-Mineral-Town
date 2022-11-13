@@ -1,0 +1,340 @@
+{
+	"Shops": [
+		//------------
+		//General Store
+		//------------
+		{
+			"ShopName": "MTGeneralStore",
+			"StoreCurrency": "Money",
+			"CategoriesToSellHere": [ -7 ],
+			"PortraitPath": "assets/JeffShop.png",
+			"Quote": "Um...hello there. Did you need something? If you want seeds, they are over there.",
+			"ClosedMessage": "Sorry, but we're closed right now...",
+			"ShopPrice": -1,
+			"DefaultSellPriceMultiplier": 0.9,
+			"When": [ 
+				"NPCAt Jeff 10 25"
+			],
+			"LocalizedQuote": {
+				//remove the "//" from your language
+				//"es": "PLACEHOLDER",
+				//"ko": "PLACEHOLDER",
+				//"de": "PLACEHOLDER",
+				//"fr": "PLACEHOLDER",
+				//"hu": "PLACEHOLDER",
+				//"it": "PLACEHOLDER",
+				//"ja": "PLACEHOLDER",
+				//"pt": "PLACEHOLDER",
+				//"ru": "PLACEHOLDER",
+				//"tr": "PLACEHOLDER",
+				//"zh": "PLACEHOLDER",
+			},
+			"LocalizedClosedMessage": {
+				//remove the "//" from your language
+				//"es": "PLACEHOLDER",
+				//"ko": "PLACEHOLDER",
+				//"de": "PLACEHOLDER",
+				//"fr": "PLACEHOLDER",
+				//"hu": "PLACEHOLDER",
+				//"it": "PLACEHOLDER",
+				//"ja": "PLACEHOLDER",
+				//"pt": "PLACEHOLDER",
+				//"ru": "PLACEHOLDER",
+				//"tr": "PLACEHOLDER",
+				//"zh": "PLACEHOLDER",
+			},
+			//Original Items --> Bread, Rice Balls(Unmilled Rice), Curry Powder, Wheat Flour, Oil, Chocolate, Muffin Mix (Dango Flour)
+			"ItemStocks": [
+				{
+					"ItemType": "Object",
+					"IsRecipe": "true",
+					"StockPrice": 1250,
+					"ItemNames": [
+					  "Warp Totem: Mineral Town"
+					]
+				},
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"Bread",
+						"Unmilled Rice",
+						"Harvest Curry Powder",
+						"Wheat Flour",
+						"Oil",
+						"Dark Chocolate",
+						"Mineral Salt",
+						"Miso",
+						"Salted Butter"
+					],
+					"Stock": 2147483647
+				}
+			]
+		},
+
+		//------------
+		//Seed Store
+		//------------
+		{
+			"ShopName": "MTSeedStore",
+			"StoreCurrency": "Money",
+			"CategoriesToSellHere": [ -17 ],
+			"PortraitPath": "assets/JeffShop.png",
+			"Quote": "Um...hello there. Did you need something?",
+			"ClosedMessage": "Sorry, but we're closed right now...",
+			"ShopPrice": -1,
+			"DefaultSellPriceMultiplier": 0.75,
+			"When": [ 
+				"NPCAt Jeff 10 25" 
+			],
+			"LocalizedQuote": {
+				//remove the "//" from your language
+				//"es": "PLACEHOLDER",
+				//"ko": "PLACEHOLDER",
+				//"de": "PLACEHOLDER",
+				//"fr": "PLACEHOLDER",
+				//"hu": "PLACEHOLDER",
+				//"it": "PLACEHOLDER",
+				//"ja": "PLACEHOLDER",
+				//"pt": "PLACEHOLDER",
+				//"ru": "PLACEHOLDER",
+				//"tr": "PLACEHOLDER",
+				//"zh": "PLACEHOLDER",
+			},
+			"LocalizedClosedMessage": {
+				//remove the "//" from your language
+				//"es": "PLACEHOLDER",
+				//"ko": "PLACEHOLDER",
+				//"de": "PLACEHOLDER",
+				//"fr": "PLACEHOLDER",
+				//"hu": "PLACEHOLDER",
+				//"it": "PLACEHOLDER",
+				//"ja": "PLACEHOLDER",
+				//"pt": "PLACEHOLDER",
+				//"ru": "PLACEHOLDER",
+				//"tr": "PLACEHOLDER",
+				//"zh": "PLACEHOLDER",
+			},
+			"ItemStocks": [
+				//Spring Jeff
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"Tulip Bulb",
+						"Kale Seeds",
+						"Jazz Seeds",
+						"Rice Shoot",
+						"Potato Seeds",
+						"Cauliflower Seeds",
+						"Garlic Seeds",
+						"Bean Starter",
+						"Parsnip Seeds"
+					],
+					"Stock": 2147483647,
+					"When": [ "!z spring" ]
+				},
+				//Summer Jeff
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"Corn Seeds",
+						"Blueberry Seeds",
+						"Radish Seeds",
+						"Hops Starter",
+						"Pepper Seeds",
+						"Melon Seeds",
+						"Red Cabbage Seeds",
+						"Tomato Seeds"
+					],
+					"Stock": 2147483647,
+					"When": [ "!z summer" ]
+				},
+				//Fall Jeff
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"Yam Seeds",
+						"Fairy Seeds",
+						"Artichoke Seeds",
+						"Cranberry Seeds",
+						"Bok Choy Seeds",
+						"Eggplant Starter",
+						"Pumpkin Seeds"
+					],
+					"Stock": 2147483647,
+					"When": [ "!z fall" ]
+				},
+				//Winter Jeff
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"Mixed Seeds"
+					],
+					"Stock": 2147483647,
+					"StockPrice": 100,
+					"When": [ "!z winter" ]
+				}
+			]
+		},
+		//------------
+		//Bebsi Cola Fridge   
+		//------------
+		{
+			"ShopName": "BebsiFridge",
+			"StoreCurrency": "Money",
+			"CategoriesToSell": [ -7 ],
+			"DefaultSellPriceMultiplier": 0.8,
+			"MaxNumItemsSoldInStore": 2147483647,
+			"ShopPrice": -1,
+			"ItemStocks": [
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"Bebsi Cola"
+					],
+					"Stock": 2147483647
+				}
+			]
+		},
+		//------------
+		//Kai Shop
+		//------------
+		{
+			"ShopName": "MTSnackShack",
+			"StoreCurrency": "Money",
+			"PortraitPath": "assets/KaiShop.png",
+			"Quote": "Hey bud! What can I get for you?",
+			"ClosedMessage": "Closed",
+			"ShopPrice": -1,
+			"MaxNumItemsSoldInStore": 2147483647,
+			"DefaultSellPriceMultiplier": 1,
+			"PriceMultiplierWhen": {
+				"0.6": [ "NPCAt Kai 9 6" ]
+			},
+			"LocalizedQuote": {
+				//remove the "//" from your language
+				//"es": "PLACEHOLDER",
+				//"ko": "PLACEHOLDER",
+				//"de": "PLACEHOLDER",
+				//"fr": "PLACEHOLDER",
+				//"hu": "PLACEHOLDER",
+				//"it": "PLACEHOLDER",
+				//"ja": "PLACEHOLDER",
+				//"pt": "PLACEHOLDER",
+				//"ru": "PLACEHOLDER",
+				//"tr": "PLACEHOLDER",
+				//"zh": "PLACEHOLDER",
+			},
+			"LocalizedClosedMessage": {
+				//remove the "//" from your language
+				//"es": "PLACEHOLDER",
+				//"ko": "PLACEHOLDER",
+				//"de": "PLACEHOLDER",
+				//"fr": "PLACEHOLDER",
+				//"hu": "PLACEHOLDER",
+				//"it": "PLACEHOLDER",
+				//"ja": "PLACEHOLDER",
+				//"pt": "PLACEHOLDER",
+				//"ru": "PLACEHOLDER",
+				//"tr": "PLACEHOLDER",
+				//"zh": "PLACEHOLDER",
+			},
+			"ItemStocks": [
+				//Food
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"Baked Corn",
+						"Spaghetti",
+						"Pizza",
+						"Snow Cone"
+					],
+					"Stock": 2147483647
+				}
+			]
+		},
+		//------------
+		//Crono Shop
+		//------------
+		{
+			"ShopName": "MTAdventurer'sGuild",
+			"StoreCurrency": "Money",
+			"CategoriesToSellHere": [ -28, -96, -98 ],
+			"PortraitPath": "assets/CronoShop.png",
+			"Quote": "......",
+			"MaxNumItemsSoldInStore": 10,
+			"ShopPrice": -1,
+			"DefaultSellPriceMultiplier": 1.0,
+			"LocalizedQuote": {
+				//remove the "//" from your language
+				//"es": "PLACEHOLDER",
+				//"ko": "PLACEHOLDER",
+				//"de": "PLACEHOLDER",
+				//"fr": "PLACEHOLDER",
+				//"hu": "PLACEHOLDER",
+				//"it": "PLACEHOLDER",
+				//"ja": "PLACEHOLDER",
+				//"pt": "PLACEHOLDER",
+				//"ru": "PLACEHOLDER",
+				//"tr": "PLACEHOLDER",
+				//"zh": "PLACEHOLDER",
+			},
+			"ItemStocks": [
+				//Weapons
+				{
+					"ItemType": "Weapon",
+					"ItemNames": [
+						"Masamune"
+					],
+					"Stock": 1
+				}
+			]
+		},
+		//------------
+		//Doug Shop
+		//------------
+		{
+			"ShopName": "MTMoonlightInn",
+			"StoreCurrency": "Money",
+			"CategoriesToSellHere": [ -25, -75, -79 ],
+			"PortraitPath": "assets/DougShop.png",
+			"Quote": "Well howdy there. What can we cook up for you today?",
+			"ClosedMessage": "Closed",
+			"MaxNumItemsSoldInStore": 2147483647,
+			"ShopPrice": -1,
+			"DefaultSellPriceMultiplier": 1.0,
+			"When": [ 
+				"NPCAt Doug 14 6" 
+			],
+			"LocalizedQuote": {
+				//remove the "//" from your language
+				//"es": "PLACEHOLDER",
+				//"ko": "PLACEHOLDER",
+				//"de": "PLACEHOLDER",
+				//"fr": "PLACEHOLDER",
+				//"hu": "PLACEHOLDER",
+				//"it": "PLACEHOLDER",
+				//"ja": "PLACEHOLDER",
+				//"pt": "PLACEHOLDER",
+				//"ru": "PLACEHOLDER",
+				//"tr": "PLACEHOLDER",
+				//"zh": "PLACEHOLDER",
+			},
+
+			"ItemStocks": [
+				//Food
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"Daily Special",
+						"Harvest Apple Pie",
+						"Harvest Cheesecake",
+						"Salad",
+						"Cookies"
+					],
+					"Stock": 2147483647
+				}
+			]
+		}
+
+	]
+  }

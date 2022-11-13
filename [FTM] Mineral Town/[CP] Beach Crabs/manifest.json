@@ -1,0 +1,12 @@
+{
+    "Name": "Mineral Town -  SmolHooman's Beach Crabs",
+    "Author": "Mineral Town Architects & credit of SmolHooman",
+    "Version": "1.0.5",
+    "Description": "Retextures the rock crabs in the beach.",
+    "UniqueID": "MineralTownArchitects.BeachCrabs",
+    "MinimumApiVersion": "0.1",
+	"UpdateKeys": [ "Nexus:???" ],	
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
