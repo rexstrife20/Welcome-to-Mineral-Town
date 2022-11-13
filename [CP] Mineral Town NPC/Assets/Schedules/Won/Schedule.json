@@ -1,0 +1,16 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Won Schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Won ",
+      "Entries": {
+        "spring": "0 Custom_HM_ZackHouse 17 8 3 Won_sleep/610 Custom_HM_ZackHouse 16 8 3/1100 Custom_HM_ZackHouse 16 8 2 Won_reading/1400 Custom_HM_ZackHouse 16 8 3/1800 Custom_HM_ZackHouse 10 9 2/2300 Custom_HM_ZackHouse 17 8 3 Won_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring"
+      },
+    },
+  ],
+}

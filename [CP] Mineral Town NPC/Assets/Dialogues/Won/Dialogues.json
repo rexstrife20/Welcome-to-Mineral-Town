@@ -1,0 +1,58 @@
+{
+  "Changes": [
+    {
+      "LogName": "Won dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Won",
+      "Entries": {
+        //INTRODUCTION
+        "Introduction": "Why hello there! You're a new face!#b#I am Won by name, merchant of Gotoro at your service. If there is anything, and I mean anything, that you need then you come to me and we'll make it happen!#$b#I can already tell that we will have a beautiful relationship, don't you agree?$h",
+        "danceRejection": "No thanks @. I must speak to this Pierre to scope out his business.",
+        "divorced": "",
+        "breakUp": "",
+        //STARTING DIALOGUE
+        "Mon": "Since coming here to the valleys, I've been staying with my good friend Zack. Stop in anytime to say hello, and perhaps grab one or two of my limited edition rarities from Gotoro herself?",
+        "Tue": "Just you wait. It may not seem like it right now, but one day the name Won will be known throughout Gotoro and Ferngill alike!#$b#Won-mart, Won Supercenter, Won Emporium, the sky's the limit dear farmer!$h",
+        "Wed": "Pierre, Morris, Jeff. None of these men can hold a candle to my entrepreneurial prowess.#$b#Give me but one year and they will all be ran out of the valley.$h",
+        "Thu": "Have you ever been to Gotoro @?#$b#It's a beautiful place….$s",
+        "Fri": "Fridays are my busiest days! Unless you plan on helping or buying, please stand aside so I can work my magic!",
+        "Sat": "If it isn't my friend @!$h#$b#If you ever find any rarities or treasures of exemplary worth, please send them my way!#$e#Or let them rot on that Gunther's shelves. Your choice!",
+        "Sun": "Sorry @. I cannot talk right now. I have an important letter to send out",
+        // SPECIFIC DAY
+        "spring_12": "Can I interest you in one of my patented\"Won O'Tronic Eggradar 9000's\"? True, they haven't exactly hit production yet, but egg hunts are won through risks!", // Day before the Egg Festival
+        "spring_23": "My young sister would love the Flower Dance. If only she could join me!$h", // Day before the Flower Dance
+        "summer_10": "A Luau? I'm not familiar with this sort of event. Perhaps I will stay home.", // Day before the Luau
+        "summer_27": "Even in my home country did I hear of the Midnight Jellies.#$b#I never would have guessed that their dance takes place in such a small town.", // Day before the Midnight Jellies
+        "fall_15": "Perhaps I shall setup my own stand tomorrow right in front of Pierre's. The look on his face would be absolutely priceless!$h", // Day before the Stardew Fair
+        "fall_26": "We don't have Spirit's Eve where I come from.#$b#Is it truly as frightening as they claim?", // Day before Spirit's Eve
+        "winter_7": "Why would one fish out in the bitter cold for sport?#$b#Doesn't sound like much of a fun time to me.", // Day before the Ice Festival
+        "winter_24": "You'll never guess what I have gotten for my Winter Star giftee.#$b#It's exclusive coupons for my wares!$h", // Day before Winter Star
+        //2 Heart
+        "Mon2": "Tell me truly, @. Have you ever seen finer wares than mine in all of the Republic.?",
+        "Tue2": "Zack has been very welcoming to me.#$b$I plan to repay his kindness tenfold as soon as I am able.",
+        "Wed2": "Compared to home, Mineral Town is very slow-going. Being from the city, I'm sure you understand as well.",
+        "Thu2": "Ah, @. It is my pleasure to see you, as always.#$b#Do you have any adventurous tales to tell me?",
+        "Fri2": "At first, it was awkward when everyone found out I was from the empire.#$b#Some people were uncomfortable at first, but everyone came around rather quickly!$h",
+        "Sat2": "The weekend is finally here. Perhaps you'll now get the free time to browse through my wares?#$b#I guarantee you'll find something you like.$h",
+        "Sun2": "The chapel is a strange place to me.#$b#Some in the Gotoro Empire worship Yoba. But I have never heard of this Harvest Goddess before.",
+        //4 Heart
+        "Mon4": "Did you know that some of the artifacts in the Pelican Town museum are Gotoran in nature?",
+        "Tue4": "Mineral Town is not the center of commerce that I had hoped it would be.#$b#But I will change that, believe you me.",
+        "Wed4": "I dislike cheapskates and misers. I prefer when honored customers gladly pay, no matter how high the price.",
+        "Thu4": "Zack is a kind man, not only letting me live under his roof, but also for carrying my letters in lieu of an actual postal service.",
+        "Fri4": "It is great to see you today, as always.#$b#Tell me, how does business fare on your farm?#$b#I can tell, you will soon be rich beyond your wildest dreams.",
+        "Sat4": "I once received a letter from someone only addressed as Qi.#$b#I'll be honest with you, @, they truly sounded like an absolute lunatic.#$b#Wait….how did they know where I live?",
+        "Sun4": "I hope you get the chance to meet my little sister some day.#$b#She would very much like to come to your farm to see the animals!$h",
+        //6 Heart
+        "Mon6": "I was surprised to see that your library here carry's a surprising number of Gotoran texts.#$b#Basil must be a well traveled fellow.",
+        "Tue6": "I never pictured myself living on a beach. Now that I do, I admit that it's not too bad!",
+        "Wed6": "Perhaps I'll purchase the shed back behind the clinic to turn into my Won's EmporiumMart.#$b#Although….I may need a slight expansion on the square footage…",
+        "Thu6": "I've received news that my parents health is doing well.#$b#Though I'd rather see them in person, I'll except this news until I can reunite with them once more.",
+        "Sat6": "I hear that Pelican Town has a resident wizard.#$b#I wonder… could be perhaps get me home?",
+        "Sun6": "I appreciate you coming to speak with me so often, @.$h#$b#Just don't forget to tell all of your friends to stop by and see my unique wares!$h",
+	//LOCATION DIALOGUE
+	"Resort": "I've got an idea for a new stand here.....#$b#OH! Don't mind me!#$b#Go, enjoy yourself, @!$h",
+      },
+    },
+  ],
+}

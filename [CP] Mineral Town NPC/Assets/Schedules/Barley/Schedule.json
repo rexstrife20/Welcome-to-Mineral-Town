@@ -1,0 +1,16 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Barley Schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Barley",
+      "Entries": {
+        "spring": "0 Custom_HM_YodelSecFloor 1 10 1 Barley_sleep/610 Custom_HM_YodelInterior 2 5 0/810 Custom_HM_YodelInterior 5 13 1/1800 Custom_HM_YodelInterior 12 7 2/2100 Custom_HM_YodelSecFloor 1 10 1 Barley_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring"
+      },
+    },
+  ],
+}

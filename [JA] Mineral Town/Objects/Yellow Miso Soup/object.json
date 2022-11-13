@@ -1,0 +1,70 @@
+{
+  "Name": "Yellow Miso Soup",
+  "Description": "A deliciously earthy flavor!",
+  "Category": "Cooking",
+  "Edibility": 100,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 80,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Miso",
+        "Count": 1
+      },
+      {
+        "Object": "Mineral Salt",
+        "Count": 1
+      },
+      {
+        "Object": "Bamboo Shoot",
+        "Count": 1
+      },
+      {
+        "Object": "Common Mushroom",
+        "Count": 1
+      },
+    
+      ],
+      "CanPurchase": false,
+
+    },
+  "GiftTastes": {
+      "Love": [ "Saibara", "Barley", "Ann", "Thomas" ],
+      "Like": [ "Cliff", "Karen", "Gotz", "Carter", "Ellen", "Duke", "Jeff" ],
+      "Dislike": [ "Kai", "Stu"],
+      "Hate": [ "" ]
+      },
+      "NameLocalization":
+      { 
+        //remove the "//" from your language
+          //"es": "PLACEHOLDER",
+          //"ko": "PLACEHOLDER",
+          //"de": "PLACEHOLDER",
+          //"fr": "PLACEHOLDER",
+          //"hu": "PLACEHOLDER",
+          //"it": "PLACEHOLDER",
+          //"ja": "PLACEHOLDER",
+          //"pt": "PLACEHOLDER",
+          //"ru": "PLACEHOLDER",
+          //"tr": "PLACEHOLDER",
+          //"zh": "PLACEHOLDER",
+      },
+      "DescriptionLocalization":
+      {
+        //remove the "//" from your language      
+          //"es": "PLACEHOLDER",
+          //"ko": "PLACEHOLDER",
+          //"de": "PLACEHOLDER",
+          //"fr": "PLACEHOLDER",
+          //"hu": "PLACEHOLDER",
+          //"it": "PLACEHOLDER",
+          //"ja": "PLACEHOLDER",
+          //"pt": "PLACEHOLDER",
+          //"ru": "PLACEHOLDER",
+          //"tr": "PLACEHOLDER",
+          //"zh": "PLACEHOLDER",
+      }
+  }

@@ -1,0 +1,58 @@
+{ // Dialogues
+  "Changes": [
+    {
+      "LogName": "Gray dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Gray",
+      "Entries": {
+        //INTRODUCTION
+        "Introduction": "I don’t think I’ve seen you around here before. So you’re @, right? Welcome to the boonies. The name’s Gray.",
+        "danceRejection": "Not a chance.",
+        "divorced": "Don't talk to me.$a",
+        "breakUp": "I guess this was inevitable, wasn't it?",
+        //STARTING DIALOGUE
+        "Mon": "\"Work, work, work\". That's all I ever get asked to do around here.",
+        "Tue": "So, you really moved from the city to here in the valley by choice @?#$b#You've gotta be insane. This place is like a prison.",
+        "Wed": "%Gray stomps past you in a foul-looking mood.",
+        "Thu": "Hey.#$b#Is that enough for you?",
+        "Fri": "Another day of not being good enough. What a treat!#$b#What? Don't give me that look!$a",
+        "Sat": "Saturdays are my only day without grandpa breathing down my neck. So please, don't waste my precious time.",
+        "Sun": "Maybe my grandpa will get off my back on Sundays if I'm attending church. Gotta make the Goddess good for something, right?",
+        // SPECIFIC DAY
+        "spring_12": "I'm not a huge fan of the Egg Festival, to be honest.#$b#But, if it gets me out of work for the day, I'll take it.", // Day before the Egg Festival
+        "spring_23": "I've never been much of a dancer. Not that I wouldn't take the oppurtunity if the right person asked....", // Day before the Flower Dance
+        "summer_10": "My grandpa doesn't give me a ton of oppurtunities to relax, so I'll definitely be taking advantage of the Luau tomorrow.", // Day before the Luau
+        "summer_27": "I hear the midnight jellies are almost magical to view.", // Day before the Midnight Jellies
+        "fall_15": "I want to make something really cool to show off at the fair.#$b#Probably should've figured that out sooner though, shouldn't I?", // Day before the Stardew Fair
+        "fall_26": "If you could see the kinds of weapons I can make, you wouldn't be afraid of anything Spirit's Eve could throw at you.#$b#That's a promise.", // Day before Spirit's Eve
+        "winter_7": "Why do people keep talking about the Ice Festival like it's an actual important holiday?#$b#Does anybody actually care?", // Day before the Ice Festival
+        "winter_24": "I remember the Winter Star growing up. It felt so....enchanting.", // Day before Winter Star
+        //2 Heart
+        "Mon2": "Can I help you?",
+        "Tue2": "I like Mineral Town enough I suppose.#$b#I just wish I had more oppurtunities to enjoy anything about it.",
+        "Wed2": "Listen, I don't want to take it out on you, but I'm in a bad mood right now.",
+        "Thu2": "Clint was an apprentice of my grandpa before I came back into town.#$b#Surpisingly, it didn't last very long.#$b#The guy doesn't seem to have much spine.",
+        "Fri2": "I hate it around here. There's nothing to do. Don't you think so too?",
+        "Sat2": "You lived in Zuzu City too, right?#$b#Then you must understand why I'm not happy about coming back to a backwater town like this.",
+        "Sun2": "Oh... do you have some business with me?#$b#You work pretty hard for someone who lives on their own, @.",
+        //4 Heart
+        "Mon4": "Work has a way of totally throwing you off your whole day when things don't go right, doesn't it?",
+        "Tue4": "I can hardly keep my eyes open, I'm gonna sleep well tonight, that's for sure.",
+        "Wed4": "Oh, hello, @. What's it like living on %farm? Seeing how hard you work makes me feel like I've gotta step up my game.",
+        "Thu4": "I just get so bored in this town. I want to go back to the city!",
+        "Fri4": "It'd be really cool if you bought one of my creations someday.",
+        "Sat4": "Mary's like a never-ending source of good book recommendations.#$b#If I were half as smart as her, I'd be off to university so fast your head would spin.",
+        "Sun4": "No matter what I do, Grandpa always criticizes me. I can't stand it.$s#$e#Come to think of it, how old is Grandpa, anyway? I can't believe he's still spry as a spring chicken.#$b#What's his secret?",
+        //6 Heart
+        "Mon6": "Y'know, I kinda enjoy gardening and flowers.#$b#Most people are surprised when they hear that.$h",
+        "Tue6": "Seeing everything you do gives me the motivation to give it my all too.$l#$b#Not that farming and smithing are anything alike.$h",
+        "Wed6": "%Gray lets out a loud yawn as he trudges past you.",
+        "Thu6": "I used to be pretty big into horseback riding.#$b#Then I had a bad accident one day. Haven't been able to get back on one since.$s",
+        "Sat6": "You're amazing, @.#$b#Even though you live alone, you never get discouraged. I just think that's cool as heck.$h",
+        "Sun6": "Oh, @. Isn't there like, a never-ending list of chores to do around a farm?#$b#It sounds hard. And you're not lonely?",
+	//LOCATION DIALOGUE
+	"Resort": "It's nice to take a break once in awhile.$h#$b#Even my grandpa calms down for a bit when he's here.$h",
+      },
+    },
+  ],
+}

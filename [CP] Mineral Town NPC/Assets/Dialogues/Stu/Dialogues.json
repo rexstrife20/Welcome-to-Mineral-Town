@@ -1,0 +1,71 @@
+{
+  "Changes": [
+    {
+      "LogName": "Stu dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Stu",
+      "Entries": {
+        //INTRODUCTION
+        "Introduction": "Woah, a new guy!^Woah, a new girl! My name's Stu, what's yours?#$b#@? What a weird name!$h",
+        //STARTING DIALOGUE
+        "Mon": "I'm trying to think of a prank to play on my sister….Do you have any ideas?",
+        "Tue": "Ms. Mary has been trying to teach me how to read.#$b#I'm getting better and better each day!$h",
+        "Wed": "Did you know that if you rearrange the letters in \"Pelican Town\" you get \"Let Panic Own\"?#$e#That's cool right?$h",
+        "Thu": "I had a pen pal over in Gotoro…..I wonder how he's doing…$s",
+        "Fri": "Hey, wanna come check out my bug collection?",
+        "Sat": "I almost missed Dangerously Funny's new episode this morning!#$b#Why do cartoons have to start so early?$4",
+        "Sun": "Vincent bet me ten dollars the other day that I couldn't eat a bug!#$b#Easiest ten bucks ever!$h",
+        // SPECIFIC DAY
+        "spring_12": "I'm gonna win the egg hunt tomorrow, just you wait!$h", // Day before the Egg Festival
+        "spring_23": "Bleh. Flowers AND dancing? Those are like the two most boring things.", // Day before the Flower Dance
+        "summer_10": "%Bugs begin to fall out of Stu's pockets as he rushes past.#$b#What? These aren't for the Luau….", // Day before the Luau
+        "summer_27": "Last year, I tried to stay up late enough to see the jellies. But I fell asleep!$h", // Day before the Midnight Jellies
+        "fall_15": "I'm gonna go win the slingshot game tomorrow and buy all the prizes for myself!$h", // Day before the Stardew Fair
+        "fall_26": "Hey @, are the monsters at Spirits Eve actually real?$4", // Day before Spirit's Eve
+        "winter_7": "Wow, the ice festival. How exciting…$4", // Day before the Ice Festival
+        "winter_24": "I CAN'T WAIT FOR PRESENTS!$h", // Day before Winter Star
+        //2 Heart
+        "Mon2": "Do you have any cool animals on your farm?#$b#Not the normal boring stuff, I'm talking dinosaurs!$h",
+        "Tue2": "I want to go look for monsters in the mines!#$b#Elli and Grandma won't let me though…$s",
+        "Wed2": "I wish there were more kids my age in town. Mei's pretty cool but it gets boring sometimes.$s",
+        "Thu2": "I kinda just wanna watch TV today. But my sister said it's bad for your eyes.",
+        "Fri2": "Journey of the Praire King is so cool! I wanna get the high score!$h",
+        "Sat2": "Sorry, I can't talk right now. I've gotta help grandma with chores before I can go play!",
+        "Sun2": "I'm planning a real big prank to pull on my sister! Don't tell Elli!$h",
+        //4 Heart
+        "Mon4": "One time, I tried to play a prank on Mei. But she got sad and cried a lot….#$b#I felt really bad…$s",
+        "Tue4": "Vincent is so lucky that he has a big brother! Elli is so lame!",
+        "Wed4": "I hope I get to see a Harvest Sprite some day!",
+        "Thu4": "My sister told me that magic isn't real.#$b#What do you think Mr. @^What do you think Ms. @?",
+        "Fri4": "I don't know what I should do today. What do you like to do?",
+        "Sat4": "I wanna come up with my own theme song. Will you help me @?",
+        "Sun4": "Mr. Carter is pretty cool. Setting up the church is kinda boring though.#$b#Especially since I have to wake up so early.$s",
+        //6 Heart
+        "Mon6": "Did you know that Vincent's brother Sam is in a band?$#b#Isnt that so cool?$h",
+        "Tue6": "Do you watch anime @?#$b#My favorite is \"Highschool Hero\". They're so cool! I wish I had super powers.$h",
+        "Wed6": "Who do you think would win in a fight, a Junimo or a Harvest Sprite?",
+        "Thu6": "I've almost got enough money saved up to buy the new Junimo Kart!$h#$b#I bet I'd destroy you at it!$h",
+        "Sat6": "I just want to play video games today but grandma said that playing them will rot my brain.$s",
+        "Sun6": "Hi @! You haven't seen a red magic chicken running around, have you?#$b#I heard people have seen it around town and I wanna catch it!$h",
+        //8 Heart
+        "Mon8": "Hey @. I'm kinda busy today. I've been trying to help out Elli a lot more.#$b#Why? Because I'm almost a grown up!$h",
+        "Tue8": "Elli loves butterflies, so I caught a bunch yesterday and put them in her room!$h",
+        "Wed8": "Who would win in a fight, a robot samurai or an alien wizard pirate?#$b#Vincent thinks it's the robot samurai but that's just stupid!",
+        "Thu8": "%Stu is trying to figure out how to whistle. It's not going particularly well.",
+        "Fri8": "Mei doesn't have a mom or dad either. I feel sad for her but at least I'm not the only one…$s",
+        "Sat8": "Man, this town can be so boring sometimes. Why can't The Valleys have anyone cool like a cowboy, ninja, pirate, or even a wizard.$4",
+        "Sun8": "I worry about grandma sometimes.$s#$b#But I know that you, Elli, and the doctor are always there to help her out!$h#$b#Thanks so much @!$h",
+        //10 Heart
+        "Mon10": "I want to join the Adventurer's Guild when I get older. Can you tell them all about me @?$#e#Pretty please?$h",
+        "Tue10": "Do you have any cool video games at home farmer @? I want to play multiplayer with someone but Mei doesn't like the same games as me.",
+        "Wed10": "Don't tell anyone this, but I think Mei is actually my best friend.#$b#Even if she's a girl, she's still pretty cool!$h",
+        "Thu10": "I watched a scary movie the other night….#$b#I might need to sleep in by Elli tonight….$4",
+        "Fri10": "I wanna try helping grandma up to Goddess Hill this week! She always says how much she loves it up there!$h",
+        "Sat10": "What do you normally do on the weekends farmer @?#$b#Lemme know if you ever need help, I'm getting super strong!$h",
+        "Sun10": "Wanna see me run to Pelican Town and back?#$b#Wanna see me do it again?$h",
+	//LOCATION DIALOGUE
+	"Resort": "I wanna go find some rock crabs!$h#$b#Do you think nanna would let me take one home?$h",
+      },
+    },
+  ],
+}

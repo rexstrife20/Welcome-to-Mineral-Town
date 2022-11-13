@@ -1,0 +1,67 @@
+{
+  "Name": "Spicy Ketchup",
+  "Description": "Ketchup with a little extra ZING!",
+  "Category": "Cooking",
+  "Edibility": 80,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 80,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 256,
+        "Count": 1
+      },
+      {
+        "Object": 399,
+        "Count": 1
+      },
+      {
+        "Object": "Hot Pepper",
+        "Count": 1
+      }
+
+    
+      ],
+      "CanPurchase": false,
+
+    },
+  "GiftTastes": {
+      "Love": [ ],
+      "Like": [ ],
+      "Dislike": [ ],
+      "Hate": [ ]
+    },
+    "NameLocalization":
+    { 
+      //remove the "//" from your language
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+    },
+    "DescriptionLocalization":
+    {
+      //remove the "//" from your language      
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+    }
+}

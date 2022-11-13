@@ -1,0 +1,46 @@
+{
+  "Name": "Bebsi Cola",
+  "Description": "Refreshing and comes in a beautiful red can.",
+  "Category": "Junk",
+  "Edibility": 5,
+  "EdibleIsDrink": true,
+  "EdibleBuffs": null,
+  "Price": 30,
+  "IsColored": false,
+  "CanPurchase": true,
+  "PurchaseFrom": "",
+  "PurchasePrice": 800,
+  "GiftTastes": {
+    "Love": [ "" ],
+  },
+  "NameLocalization":
+  { 
+    //remove the "//" from your language
+      //"es": "PLACEHOLDER",
+      //"ko": "PLACEHOLDER",
+      //"de": "PLACEHOLDER",
+      //"fr": "PLACEHOLDER",
+      //"hu": "PLACEHOLDER",
+      //"it": "PLACEHOLDER",
+      //"ja": "PLACEHOLDER",
+      //"pt": "PLACEHOLDER",
+      //"ru": "PLACEHOLDER",
+      //"tr": "PLACEHOLDER",
+      //"zh": "PLACEHOLDER",
+  },
+  "DescriptionLocalization":
+  {
+    //remove the "//" from your language      
+      //"es": "PLACEHOLDER",
+      //"ko": "PLACEHOLDER",
+      //"de": "PLACEHOLDER",
+      //"fr": "PLACEHOLDER",
+      //"hu": "PLACEHOLDER",
+      //"it": "PLACEHOLDER",
+      //"ja": "PLACEHOLDER",
+      //"pt": "PLACEHOLDER",
+      //"ru": "PLACEHOLDER",
+      //"tr": "PLACEHOLDER",
+      //"zh": "PLACEHOLDER",
+  }
+}

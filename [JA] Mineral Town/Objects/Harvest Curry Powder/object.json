@@ -1,0 +1,47 @@
+{
+  "Name": "Harvest Curry Powder",
+  "Description": "Used in cooking spicy dishes.",
+  "Category": "Cooking",
+  "Edibility": -300,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 80,
+  "IsColored": false,
+  "CanPurchase": true,
+  "PurchaseFrom": "Jeff",
+  "PurchasePrice": 100,
+  "GiftTastes": {
+    "Love": [ "" ],
+    "Dislike": [ "" ],
+  },
+  "NameLocalization":
+  { 
+    //remove the "//" from your language
+      //"es": "PLACEHOLDER",
+      //"ko": "PLACEHOLDER",
+      //"de": "PLACEHOLDER",
+      //"fr": "PLACEHOLDER",
+      //"hu": "PLACEHOLDER",
+      //"it": "PLACEHOLDER",
+      //"ja": "PLACEHOLDER",
+      //"pt": "PLACEHOLDER",
+      //"ru": "PLACEHOLDER",
+      //"tr": "PLACEHOLDER",
+      //"zh": "PLACEHOLDER",
+  },
+  "DescriptionLocalization":
+  {
+    //remove the "//" from your language      
+      //"es": "PLACEHOLDER",
+      //"ko": "PLACEHOLDER",
+      //"de": "PLACEHOLDER",
+      //"fr": "PLACEHOLDER",
+      //"hu": "PLACEHOLDER",
+      //"it": "PLACEHOLDER",
+      //"ja": "PLACEHOLDER",
+      //"pt": "PLACEHOLDER",
+      //"ru": "PLACEHOLDER",
+      //"tr": "PLACEHOLDER",
+      //"zh": "PLACEHOLDER",
+  }
+}

@@ -1,0 +1,72 @@
+{ // Dialogues
+  "Changes": [
+    {
+      "LogName": "Duke dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Duke",
+      "Entries": {
+        //INTRODUCTION
+        "Introduction": "Well well, if it isn't @. The mayor told me you rolled into town. The name's Duke, owner of Aja Winery. I'd like to officially welcome you to Mineral Town.#$b#You should stop by sometime and take a quick tour of the facility. Who knows, maybe I can even entice you into coming to work for me!$h",
+        "Custom_HM_Inn": "I work hard each and every day you know! A man can’t be blamed for drinking a little bit!",
+        //STARTING DIALOGUE
+        "Mon": "If you ever find anyone looking for a new line of work, be sure to send them my way!",
+        "Tue": "My wife says that I owe our daughter an apology. But I don't buy that crap, all I was trying to do was secure Aja a future.$a#$b#Who can fault a father for that?$s",
+        "Wed": "Aja Winery is the number one wine producer in the Ferngill Republic. That may sound crazy, since Mineral Town is such a secluded place, but the soil here is perfect for growing healthy product.",
+        "Thu": "Did you ever run into a girl named Aja in the city?#$e#Sorry, that's a silly question. There's thousands of people who live there.",
+        "Fri": "Always time for a good drink after the work week is done. You should try out some of our fine products!$h",
+        "Sat": "Even I deserve a day off once in awhile, wouldn't you agree @?",
+        "Sun": "The weekend comes and goes way too fast for my liking. But, success requires dedication, so time to get back into business mode.",
+        // SPECIFIC DAY
+        "spring_12": "We're sending a few bottles of our famous Aja Chardonnay to Pelican Town for the festival tomorrow. You should try some and let me know what you think!", // Day before the Egg Festival
+        "spring_23": "When Aja was little, we used to do our own father-daughter Flower Dance.#$b#Nevermind, I shouldn't have said anything.$s", // Day before the Flower Dance
+        "summer_10": "Do you think a bottle of top shelf Aja Cabarnet would be good to throw in the pot for the Luau?#$b#On second thought, there are children there. I suppose that's out of the question then!$h", // Day before the Luau
+        "summer_27": "Manna really wants to head down to see the jellyfish tomorrow. I'd prefer to stay and take care of business here, but she really hasn't given me the choice.", // Day before the Midnight Jellies
+        "fall_15": "I'll be bringing cases of our finest wines tomorrow. Remember, you get a discount for buying in bulk!$h", // Day before the Stardew Fair
+        "fall_26": "I'm not big into Spirit's Eve. Once, in my younger days, I got stuck in the hedge maze for over two hours. Thomas and Lewis themselves had to come in to find me!", // Day before Spirit's Eve
+        "winter_7": "I'm not a fan of the cold, so you won't see me hanging around for the Ice Festival. You may run into the wife though!", // Day before the Ice Festival
+        "winter_24": "I got a new flat-screen and a case of Aja Pinot Noir for my gift recipient this year.#$b#I hope that's not too over the top.", // Day before Winter Star
+        //2 Heart
+        "Mon2": "Mineral Town is a pleasant enough little village. The hustle and bustle of the city is no good for growing crops of any kind, believe you me!",
+        "Tue2": "Hey there, @. If you want to buy something to drink, the house is thataway.#$b#Oh, and if you DO end up going there, could you please keep Manna company for awhile? Please and thanks.$h",
+        "Wed2": "Hope you've gotten used to how much of a chatterbox Manna is.$h#$b#If you can tune out the petty stuff, listening to her should give you a solid sense of the town dynamics.",
+        "Thu2": "The human brain is simple, you know. Simple to trick, at least. If you convince yourself that something is good for you, you won't get sick from it.",
+        "Fri2": "Hey, @. Fancy having a glass of my favorite libation with me sometime?",
+        "Sat2": "I don't really go to the Inn because I particularly crave their food - I just like talking with the regulars.",
+        "Sun2": "I don't really take a rest day on Sundays. Gotta keep at the forefront of my business endeavors after all!",
+        //4 Heart
+        "Mon4": "The secret to success in the world of business is innovation.#$b#Gotta keep ahead of the competition.$h",
+        "Tue4": "On days like today, when that afternoon sun is high in the sky, my mind always seems to wander until I'm darnn near slack-jawed.",
+        "Wed4": "I've been trying to think of ways to expand the business. Would help a lot if I had an employee or two, if you know what I mean!$h",
+        "Thu4": "I think it's high time my daughter grew up and came back to town where her future is.#$b#Don't you agree?",
+        "Fri4": "I'm thinking of expanding out from wine.#$b#What do you grow on the farm?#$b#I need some inspiration.",
+        "Sat4": "Whenever I try and talk with Manna, it's obvious she just wants to get out of here and go see her girl friends.#$b#It's fine by me, I've got more productive things to do anyways.$s",
+        "Sun4": "On Sundays, Manna and I would take our daughter to service in the morning at the chapel.#$b#Those we're different times under different circumstances.$s",
+        //6 Heart
+        "Mon6": "I could really use a hand around the winery sometimes.#$b#I can't grow the business if I'm the only one running things.",
+        "Tue6": "The product made from the cherry blossoms here in Mineral Town is unlike any other I've ever tasted.#$b#All thanks to the Goddess, I'd wager!$h",
+        "Wed6": "Sometimes it feels like Manna and I live separate lives.$s",
+        "Thu6": "How are things in Pelican Town?#$b#Say, if you find a good spot for a vineyard, be sure to let me know.#$b#I'll make it worth your while!",
+        "Sat6": "Starting a winery was never actually my dream.#$b#But, once we found out we were having Aja, I had to start working here to make ends meet.#$b#A couple decades of that and now I own the place.#$b#Life is funny that way.",
+        "Sun6": "I really lucked out with having the Moonlight Inn right down the block from us.#$b#They sell a good amount of our product. So, when their business grows, so does ours!$h",
+        //8 Heart
+        "Mon8": "Hey, you'll never guess what happened.#$b#Almost out of the blue, Aja started sending us letters.#$b#Maybe this is opening the door for us to make amends.",
+        "Tue8": "There's a purity to the air here in The Valleys that is unmatched.#$b#Maybe that's part of what's helped my product grow so full of flavor.",
+        "Wed8": "Manna and I had the longest talk together that we've had in quite some time the other night.#$b#It wasn't about anything in particular, but it was nice to just sit down together for once.",
+        "Thu8": "I hope Zack's ready for an increase in business. I've just started up some contracts to ship our product out.#$b#Business couldn't be better!",
+        "Fri8": "One day, after I've made my millions, don't think I'll forget about you back here and all you've done for me.$h",
+        "Sat8": "I want to start being more philanthropic with my money.#$b#I need you to find me some good causes and have them submitted on my desk by Monday.#$b#Please.$h",
+        "Sun8": "Manna and I are gonna take some time to take a walk up to Goddess Hill today.#$b#It'll be a bit awkward, but I'm looking forward to it.",
+        //10 Heart
+        "Mon10": "My daughter has been writing more and more often.#$b#I feel that good changes are right around the corner.",
+        "Tue10": "Despite having to reconfigure my life shortly after getting married, I'm pretty glad we ended up in Mineral Town.",
+        "Wed10": "Hey, @.#$b#By the sounds of how things are going, you may just get to meet Aja very soon.#$b#You two would get along great, I can just tell.",
+        "Thu10": "How would you feel about Aja Winery sponsoring your farm?#$b#We could put a big banner up right along the front. You can't tell me that isn't a genius idea!$h",
+        "Fri10": "It's tough trying to remember what matters when you want for nothing.#$b#Maybe losing my connection with my daughter is the wake up call I needed in my life.",
+        "Sat10": "The wine press is down again. I wonder bet that's something Saibara and his grandson could hammer out real quick.",
+        "Sun10": "One of these days, I'm gonna close shop for a spell to go visit my daughter in the city.#$b#If given the chance, I'm sure I can make things right.",
+	      //LOCATIONAL DIALOGUE
+	      "Resort": "Hmmmm....perhaps I should build a resort myself back in Mineral Town....food for thought!$h",
+      },
+    },
+  ],
+}

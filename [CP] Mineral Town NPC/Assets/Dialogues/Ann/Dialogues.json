@@ -1,0 +1,60 @@
+{
+    "Changes": [
+        {
+            "LogName": "Ann dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Ann",
+            "Entries": {
+                //INTRODUCTION
+                "Introduction": "Hey there! I've never seen you around here before. My name is Ann. I help my dad run the Moonlight Inn. You should stop in sometime!",
+                "danceRejection": "Ah! Sorry, I think I'm gonna sit this one out.",
+                "divorced": "Sorry, but I'm busy right now.$s",
+                "breakUp": "Oh! Wait, are you being serious right now? I thought things were going well....$s#$b#I guess thanks for at least being honest with me...$s",
+                //STARTING DIALOGUE
+                "Mon": "I can relax on Mondays since we don't have too many customers.",
+                "Tue": "The town gets a lot of visitors that come to see the cherry blossoms!.#$b#Not many stay in the Inn though....$s",
+                "Wed": "I don't mind cleaning, but there just so much work left to do.#$b#I wish we could hire more help.$s#$b#Think about it! You could be cleaning right here along with me!$h",
+                "Thu": "Have you tried my dad's cooking yet? He's the best chef in the valley!$h#$b#Me? Well, I'm a close second.$l",
+                "Fri": "Welcome to Moonlight Inn, we have some vacancies.#$b#Do you want to stay over the weekend$h?",
+                "Sat": "Hey, thanks for stopping in! The inn's been lively today.$h#$b#If you want to order something, just talk to my father.$h",
+                "Sun": "Hey @, do you cook? We can trade recipes if you do!",
+                // SPECIFIC DAY
+                "spring_12": "Pelican Town doesn't have an inn so we get to take in any travelers for the Egg Festival!$h#$b#Or maybe they come for my eggxemplary service!$h", // Day before the Egg Festival
+                "spring_23": "I'm not huge into fancy dresses, but everyone has such a great time at the Flower Dance every year that I can make an exception!", // Day before the Flower Dance
+                "summer_10": "Oooh, that's right, the Luau's tomorrow. Maybe I'll have to stop by your neck of the woods tomorrow and try out what you guys cook up!$h", // Day before the Luau
+                "summer_27": "I saw the Midnight Jellies at the Pelican Town beach once with my mother. That was way back when I was just a little girl. I'm not sure I'm ready to go quite yet, but I'll try.$s", // Day before the Midnight Jellies
+                "fall_15": "Each year, me and my dad cook up something to feed the out of towners that come in for the fair.#$b#Hey, it's free advertisement right?$h", // Day before the Stardew Fair
+                "fall_26": "You carving any Jack-O-Lanterns for Spirit's Eve? You better believe I am!$h", // Day before Spirit's Eve
+                "winter_7": "I've never been to the Ice Festival before. I hear they have ice sculptures?#$b#I guess that's pretty neat!", // Day before the Ice Festival
+                "winter_24": "We used to set up the Inn to have a Winter Star party every year, but it ended up getting difficult with more and more people moving into The Valleys. Maybe we should start something like that up again?", // Day before Winter Star
+                //2 Heart
+                "Mon2": "My father is the best cook in Mineral Town! You can ask anyone!$h",
+                "Tue2": "Hey @. You hungry?#$b#I'm trying to come up with some new recipes. Mind being my guinea pig?$h",
+                "Wed2": "It's Wednesday, you know what that means?#$b#Nothing, absolutely nothing!$h",
+                "Thu2": "I always feel like I'm caught up with work during the week.#$b#Then it gets to the weekend and I have a giant list of things to do$s",
+                "Fri2": "Another day, another customer to take care of!#$b#I hope the Inn gets busy tonight ...",
+                "Sat2": "How's your weekend going @? Planning on stopping by the Inn at all?#$e#I'll make you up something special!$h",
+                "Sun2": "Whew. I sure am beat after this weekend. I think I might put off cleaning until tomorrow.",
+                //4 Heart
+                "Mon4": "Hey @. How are things over in Pelican Town? Next time you run into Leah, tell her she needs to stop by!",
+                "Tue4": "Karen's a lot of fun to be around....well usually.#$#Sometimes she makes me worry about her....$s",
+                "Wed4": "Are you going to Zuzu City anytime soon? I've been thinking of heading that way soon. Haven't been there in years.",
+                "Thu4": "My dad really wants me to take off from work this Friday. But what would I even do?$s#$b#I'd probably just end up here at the Moonlight Inn anyways, not much else going on.",
+                "Fri4": "Do you know any hard workers in Pelican Town who want to bartend?#$b$I'd steal Emily from the Stardrop Saloon, but Gus is way too nice.$h",
+                "Sat4": "I wish Mary would come by the Inn more often. She's actually really fun to be around!#$b#Especially after a drink!$h",
+                "Sun4": "I keep telling my dad that we need to come up with a brunch menu. That would get all the middle age mothers in The Valleys to come flocking in!$h",
+                //6 Heart
+                "Mon6": "Hey there @. I think I might head up to Goddess Hill for a nature walk soon. Have you ever gone?",
+                "Tue6": "Have you ever wanted to travel? Where would you go if you did?",
+                "Wed6": "It's weird having some time off. I went for a long run yesterday.$#b#Let me tell you, not used to that!$h",
+                "Thu6": "Y'know, I've been thinking of taking up painting. I used to be pretty good at it.#$b#When I was twelve....$h",
+                "Fri6": "Does the inn seem busier to you? Maybe it's just that people seem to be getting more lively.$hMaybe it's because of you @.$l",
+                "Sat6": "Cliff's started helping out a lot more. Not with customers, but he helps pick up my slack with overnight stocking on the weekends!",
+                "Sun6": "Whew. Another long weekend. I sure am beat @!",
+		//LOCATION DIALOGUE
+	    "Resort": "Wow, the sunshine out here is amazing! Maybe my dad was right about taking time off now and then!$h",
+        "Custom_HM_Inn": "Welcome to the Moonlight Inn @! Can I get you something?#$b#Or did you just come to see me?$h",
+            },
+        },
+    ],
+}

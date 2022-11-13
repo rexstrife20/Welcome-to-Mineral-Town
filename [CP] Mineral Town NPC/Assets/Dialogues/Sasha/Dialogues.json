@@ -1,0 +1,71 @@
+{
+    "Changes": [
+        {
+            "LogName": "Sasha dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sasha",
+            "Entries": {
+                //INTRODUCTION
+                "Introduction": "You're @, right? Not a very difficult guess, we don't get all that many new faces here in Mineral Town. My name's Sasha, it's very nice to meet you!#$b#I manage the general store here in town with my husband, Jeff, and our daughter, Karen. I'm sure we'll be seeing each other again soon!$h",
+                //STARTING DIALOGUE
+                "Mon": "Sometimes l head over your way to check out Joja Mart and Pierre's place. Need to scout out the competition!$h",
+                "Tue": "We were thinking of moving to Pelican Town for quite awhile after Karen went off to college.#$b#When she came back so soon, those plans had to be put on hold.",
+                "Wed": "Sometimes I wonder what it must be like to live Manna's life. All that money and free time sounds truly divine!",
+                "Thu": "Me and the ladies have been talking about starting a fund for the poor homeless man over in Pelican Town. I'm going to call Jodi and see if the girls over there want to join in as well.",
+                "Fri": "I tried to suggest we do something as a family today. Karen didn't seem interested and Jeff never has much of a stance on anything.#$b#Guess it'll be me and the ladies again.",
+                "Sat": "Yoba bless Ann. I don't know what we would do without her. I think she's the only reason Karen gets home safe after being at the Moonlight Inn all weekend….$s",
+                "Sun": "\"Somebody\" threw up on the porch again last night.$a",
+                // SPECIFIC DAY
+                "spring_12": "I'm too old to really get into the Egg Festival anymore.#$b#But I'll always take the opportunity to get together with the ladies!$h", // Day before the Egg Festival
+                "spring_23": "I remember the first year Jeff asked my to the Flower Dance.#$b#He was quite the charmer!$h", // Day before the Flower Dance
+                "summer_10": "Going to the Luau tomorrow, @?#$b#They need more excuses to hold festivals on the beach.$h", // Day before the Luau
+                "summer_27": "Oh, I've always loved the Midnight Jellies.#$b#Lillia and I would always sneak out at night to go see them when we were young.", // Day before the Midnight Jellies
+                "fall_15": "I've told my husband a dozen times that he needs to setup a stall during the fair to compete with Pierre.#$b#One of these years I'm sure he'll listen to me.", // Day before the Stardew Fair
+                "fall_26": "When I was younger, I used to love picking out a costume for Spirit's Eve.#$b#Now that I'm older, I go for the punch.$h ", // Day before Spirit's Eve
+                "winter_7": "The Ice Festival is so magical.$h#$b#Do make sure to enjoy yourself dear.", // Day before the Ice Festival
+                "winter_24": "There's just something undeniably heartwarming about the Winter Star.#$b#I just turn into a child again every time I think about it.$h", // Day before Winter Star
+                //2 Heart
+                "Mon2": "I'm glad my daughter and Ann are getting along so well.#$b#When Karen first moved back to town, I thought it might be a little awkward for her to open up to anyone.",
+                "Tue2": "That Won is a bit of an oddball.#$b#But I must admit, some of the wares he gets in from Gotoro are stunning and unlike anything I've seen before.",
+                "Wed2": "I enjoy my work at the store quite a bit. Finding a job that you enjoy is the secret to a happy life.$h",
+                "Thu2": "My husband insists that he can tell when heavy rain or snow is coming because his heartburn will act up.#$b#Now, I've never had heartburn in my life, so I'm a tad dubious about the climate connection, but if he says so.$h",
+                "Fri2": "I love getting together with Manna and Anna, but there's just something more down-to-earth about Lillia that's kept us close friends for all these years.$h",
+                "Sat2": "Stu is such a rambunctious little troublemaker.$h#$b#He sure enjoys his pranks.#$b#Poor Ellen has a hard time keeping up.$s#$b#Well, I suppose that's better than him saying cooped up in his room all day. Getting out and about is good for kids.$h",
+                "Sun2": "A perk of owning the town's general store is that I never have to do any personal grocery shopping.#$b#It saves us a lot of time and money!$h",
+                //4 Heart
+                "Mon4": "What do you think, @. Should I cook dinner myself tonight, or go pick up something from the Moonlight Inn?#$b#Gotta support local business after all!$h",
+                "Tue4": "We're lucky to have Karen here to lean on when it comes to the store. And what a big help she is!$h",
+                "Wed4": "Lillia has always been frail, the poor thing.$s#$b#Back when the doctor first came to town to examine her... he made it very clear that an active lifestyle was just not in the cards for her.#$b#A shame, right?$s",
+                "Thu4": "I was so happy to see Ellen getting around when she first got that chair.#$b#Maybe we could all fundraise to get something to help out Lillia as well.",
+                "Fri4": "It's so sweet to see May grow up into such a responsible young lady.$h#$b#It's great that Stu has someone watching over him to keep him reigned in.",
+                "Sat4": "My husband is a sweet soul, but sometimes I wish he could be a little more rigid when it comes to business.#$b#We can't afford to just give the store away.",
+                "Sun4": "Hello @.$h#$b#What brings you to Mineral Town today?#$b#Don't tell me it's just so you could come see me.&h",
+                //6 Heart
+                "Mon6": "My husband can't seem to stop letting customers make their purchases on a tab. I swear, we're not a soup kitchen...$a#$b#Still, his inclination to be so kind and trusting is one of the many reasons why I fell in love with him.$l",
+                "Tue6": "Don't tell her I told you this, but Karen has had a really difficult time transitioning back from college.#$b#She hasn't come back from the wild side at all…..she could really use a friend like you right now.$s",
+                "Wed6": "These girls in Mineral Town are a handful.#$b#Ann is my daughter's best friend but doesn't get along with my best friend's daughter.#$b#It's enough to make your head spin.",
+                "Thu6": "It's been so nice to have Mr. Carter in town since he moved here.#$b#He does a great job of keeping all of us in town grounded.",
+                "Sat6": "Now, Lillia and I have been best friends for ages. When I heard her prognosis, I nearly fainted, but she just smiled.$s#$b#I told myself, right then and there that I would have to do all the things that she couldn't.#$e#For her sake.",
+                "Sun6": "Lillia's husband is a good man but when an idea gets into his head, he becomes fixated on it.#$b#Where has he gone to? Goodness! He really ought to come back home soon. Poor Lillia has been left waiting and waiting...$s",
+                //8 Heart
+                "Mon8": "It can be tough sometimes, being such good friends with Caroline.#$b#Our husbands are direct competitors after all.",
+                "Tue8": "One day, when we're able to retire the store over to Karen, I'd love to have Mr. Gotz make us a log cabin over in Cindersap Forest.",
+                "Wed8": "Sometimes, I can't help but wonder if Mr. Zack doesn't think of Lillia as more than just a friend.",
+                "Thu8": "Jeff is so sure that Karen will inherit the store once he retires.#$b#But despite what she says, I'm not truly convinced that it's what SHE wants.",
+                "Fri8": "Did you know that Joja Mart tried to buy us out once?#$b#The sum they offered was beyond belief, but this place means more to us than just a paycheck. It's our legacy.",
+                "Sat8": "I've been trying to convince Jeff to shut down the store for a few days so we can all take a family vacation.#$b#I think we could all benefit from one at this point.",
+                "Sun8": "I hope you're taking care of yourself, @.#$b#Running that farm of yours on your own must be exhausting.",
+                //10 Heart
+                "Mon10": "How's the farm coming along, @?#$b#If you could go back to the city and Joja, do you think you'd still choose to move out here to the farm?#$b#You seem to fit in so naturally here.$h",
+                "Tue10": "Thanks for being a friend to Karen. I know she really looks up to you.#$b#And who could blame her?",
+                "Wed10": "The store has been doing much better lately, I should be able to set aside some money for us to take a family trip now!$h",
+                "Thu10": "I want to go see a stage production in the city sometime.#$b#Say, I wonder if Anna's daughters play will ever be on the big stage.$h",
+                "Fri10": "When I get together with the ladies, you'd be surprised how often you come up in conversation.#$b#Only good things of course! We all really appreciate all you've done for the town.$h",
+                "Sat10": "I'm trying to think of ways to expand the store to give us an edge.#$b#What do you think, @? Is there an untapped market here in The Valleys?",
+                "Sun10": "You seem like you've been taking good care of yourself.$h#$b#I can say for certain, that I think you've inspired many of us to do the same!$h",
+		//LOCATION DIALOGUE
+		"Resort": "Oh, hello dear.$h#$b#I hope you're having yourself a great time! I know I sure am$h",
+            }
+        }
+    ]
+}

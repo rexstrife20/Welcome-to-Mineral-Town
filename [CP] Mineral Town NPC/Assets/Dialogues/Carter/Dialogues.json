@@ -1,0 +1,71 @@
+{ // Dialogues
+    "Changes": [
+        {
+            "LogName": "Carter dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Carter",
+            "Entries": {
+                //INTRODUCTION
+                "Introduction": "Why hello there, and who might you be?#$b#@? Well @, it's a pleasure to meet you on a blessed day like today. I fear I cannot stay to talk.#$e#I'm sure we'll get the chance to speak further soon. May the Goddess's blessings be with you!$h",
+                //STARTING DIALOGUE
+                "Mon": "The weekend is over. Time once again to work our hardest in the light of the Goddess. With that, I suppose I'd best be off!",
+                "Tue": "Tales tell of small creatures known as Harvest Sprites that carry messages of the Goddess. Whether they are true or simply metaphorical, who can say for certain?",
+                "Wed": "Hello there @. A fine day we're having today, is it not? Always important to remember to be grateful for days such as this.#$b#I'm sure that, as a farmer, you know this better than even I do!$h",
+                "Thu": "Good day @. If you see Stu and Mei today, please ensure that that boy isn't dragging them into trouble once again. Not only would I appreciate it, but I'm sure it would put Ellen and Barleys minds to rest as well.",
+                "Fri": "Hello @! We have been blessed with a beautiful day indeed.$h",
+                "Sat": "On Saturdays Stu and Mei come to help setup the church for service on Sunday. It's a pleasure to see kids with a strong work ethic these days.",
+                "Sun": "Don't forget to give your thanks today. Whether it be to the Goddess or Yoba, it's important that we humble ourselves on occasion to keep us on the right path.",
+                // SPECIFIC DAY
+                "spring_12": "Ah, the Egg Festival. The first time each year when people from all across The Valleys can get together to enjoy eachothers company.$h#$e#Stu and Mei have been talking about it nonstop.$h", // Day before the Egg Festival
+                "spring_23": "The Flower Dance is quite the sight to behold!#$b#I just wish more people understood its importance to the Harvest Goddess$h#$e#At least they understand the spirit of the event.$h", // Day before the Flower Dance
+                "summer_10": "Are you attending the Luau tomorrow @? I'm not much of a cook or connoisseur myself, but I always enjoy how it never tastes quite the same.", // Day before the Luau
+                "summer_27": "The Dance of the Midnight Jellies. What a beautiful time of quiet introspection.", // Day before the Midnight Jellies
+                "fall_15": "Are you excited for the fair? I can't wait to hit the slingshot booth. Believe it or not, they used to call me \"Eagle Eyes\" back in seminary!", // Day before the Stardew Fair
+                "fall_26": "I'll be honest, I'm not a huge fan of Marlon bringing actual monsters in as attractions for the Spirit's Eve festival.$s#$b#Doesn't it just seem a bit excessive?", // Day before Spirit's Eve
+                "winter_7": "I'm not usually one to attend the Ice Festival. It's nice to see everyone when I can, but that's a long walk to watch others ice fish and ice sculpt.", // Day before the Ice Festival
+                "winter_24": "Ah, the Feast of the Winter Star. It's the perfect time to reflect on how thankful we are for those around us.#$b#Is there anyone in particular that impacted you this year?$h", // Day before Winter Star
+                //2 Heart
+                "Mon2": "Shall I tell you why I do so little spiritual outreach in this town? Because the townspeople live according to the Goddess' teachings without even realizing it. There is nothing for me to teach.",
+                "Tue2": "Ah, welcome @.#$b#How might I serve you on a fine day like today?#$b#If there is any way in which I can help you, you need only ask.",
+                "Wed2": "Watching the children slowly learn responsibility has been heartwarming.#$b#Although, we must still abide their antics now and then.#$b#We must let children still be children after all!$h",
+                "Thu2": "To see how the community banded together to help Ellen achieve some sense of independence has been such a pleasure.#$b#There was once a time in which she would've been confined to her own home entirely. But those days are no longer.$h",
+                "Fri2": "Everyone says graveyards are eerie, but I beg to differ.#$b#They are places where people leave their treasured memories of days long past...",
+                "Sat2": "I like to think of the doctor as a sort of companion here in this valley. For, to truly be able to consider oneself \"healthy\", one must be balanced in both body and soul.#$b#One simply cannot thrive without the other.",
+                "Sun2": "Ah, perfect timing. Might you stay long enough to listen to a parable of mine? I'll warn you--it may get a little long.#$e#Once upon a time, in a land not unlike our own, there was a normal family. The kind one would find anywhere. A father, mother, and their juvenile son all lived together in blissful harmony.#$b#One day, the mother succumbed to a virulent illness and suddenly passed away.$s#$b#As the grief stricken father stood over this late wife, the little boy came up to him and asked: \"What happened to Mom?\" The boy curiously peered at his dearly departed mother's unblinking face.#$b#The father, unsure what to say, desperately explained that she had fallen into a deep sleep.#$b#Upon hearing that, the boy was greatly troubled.$s#$b#He told his father: \"Then please, Dad. Use all of my allowance and buy a big alarm clock to wake her up.\"#$b#What do you think of that, @?#$b#That was when the father learned that the diluted words adult use to avoid speaking of death...hold neither power over nor meaning to children.#$b#Think on that. I bid you a blessed day$h.",
+                //4 Heart
+                "Mon4": "Sometimes it pains me to realize how many families in Mineral Town are broken.$s#$b#I know that everything happens for a reason, it's just that sometimes I can't seem to wrap my head around that reason.$s",
+                "Tue4": "Have you been up to Goddess Hill before?#$b#Not to prattle on unduly, but please keep some sort of reverence in your heart when you ascend up there.#$b#It is a holy place that deserves our respect. Sorry, I do not mean to chide you.",
+                "Wed4": "When I first came to Mineral Town, my predecessor asked me \"What would you say is the reason that the church exists?\".#$b#I still ponder that question to this day. The answer seems so obvious that it simply cannot be the first that comes to mind.",
+                "Thu4": "Sometimes, I think that there are simply things that we are better off not knowing.#$b#Wouldn't you agree, @?",
+                "Fri4": "Don't take this the wrong way, but there's something about Lillia's presence that is oddly soothing.#$b#Perhaps it is simply her kind spirit, but I cannot help but wonder….",
+                "Sat4": "What exactly IS a Junimo, I wonder.#$b#The Harvest Sprites have made themselves known in this valley, although subtly, for years now.#$b#Yet these Junimo seemed to have only appeared much more recently. It's quite intriguing, don't you agree?",
+                "Sun4": "Ah, another Sunday. Tell me, have you been enjoying church service as of late?#$b#Mei and Stu have been working extra hard to make each one a special event.",
+                //6 Heart
+                "Mon6": "Top of the week to you, @. If there is any way in which I may assist you this week, you need only ask.",
+                "Tue6": "Have you met the Nature Sprites yet?#$b#They don't often reveal themselves. Only those pure of heart and earnest in spirit are able to see them.",
+                "Wed6": "If you come across a curious creature known as a Kappa, be sure to offer him a fresh cucumber.#$b#As to why it soothes him, who am I to say?#$b#Some things just simply are.",
+                "Thu6": "Be careful @. The mines are a dark and treacherous place.#$b#Just being near them fills me with horrible dread.$s",
+                "Sat6": "Believe it or not, I'm my younger years I fancied that I'd join the adventurer's guild.#$b#I don't much look the part, do I?#$b#I decided that I had a different calling in life. And now here I am!$h",
+                "Sun6": "I love my congregation. But the solitude of being in the chapel unaccompanied truly puts my heart at peace.",
+                //8 Heart
+                "Mon8": "Do you ever wonder how your life would look had you not taken a chance and followed in your grandfather's footsteps?#$b#I'd wager that your life would be unrecognizable from what it is today.#$b#Fate is truly a fickle mistress like that.",
+                "Tue8": "You're a natural leader, did you know that? I think it's because you say little and are always there to listen.#$b#Not everyone has to take center stage to inspire.",
+                "Wed8": "That Cliff is a poor lost soul. But he seems to be doing better as of late. I'm glad our services here have taken a load off of his heart.",
+                "Thu8": "Ah, why hello there @!#$b#To what do I owe the pleasure today?$h",
+                "Fri8": "Do you know what I've always wanted to try? Hangliding!$h#$b#Something about it look so freeing for mind and body.#$b#If ever the opportunity arises, I'll be sure to extend an invitation.$h",
+                "Sat8": "There's a strange force that emanates from Cindersap Forest. Something not quite human, yet not malicious per se.#$b#Have you experienced anything similar?",
+                "Sun8": "There's something special about this valley, wouldn't you agree?#$b#The pull to come settle my roots here was far too strong to simply have been happenstance.",
+                //10 Heart
+                "Mon10": "If you ever find yourself in a bind or feel that you have lost your way, you need but turn to the Goddess.#$b#Remember, @, she is here to light our paths, whether we acknowledge it or not.",
+                "Tue10": "Tell me, @, what would you consider your greatest accomplishment?#$b#You can tell a lot about a person, not by their accomplishment, but by which one holds truest in their heart.",
+                "Wed10": "I've been thinking about branching out to preach the Goddess's word to Pelican Town and Forget-Me-Not Valley. What do you think about that?",
+                "Thu10": "Be careful when nearing the mine by the spa.#$b#I know it's closed off for now, but I've heard odd noises emanating from it.$s",
+                "Fri10": "We've started a fund to help Linus find more permanent residence.#$b#Nobody should have to experience need as he does on a daily basis.#$b#Come to think of it, there's a man in Forget-Me-Not Valley in much of the same predicament.",
+                "Sat10": "If there's one thing I truly want, it's for the people of Mineral Town to be well and live prosperous lives.#$b#I'm beginning to think that your arrival might be a part of the answers to my prayers.$h",
+                "Sun10": "Greetings, @. Say, what would you think about guest speaking at congregation one of these days?#$b#You seem to have a fountain of experience that would be invaluable to share with others.",
+		//LOCATION DIALOGUE
+		"Resort": "This resort is invigorating for both the body and the soul.#$b#I cannot recommend it enough.$h",
+            },
+        },
+    ],
+}

@@ -1,0 +1,16 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Lillia Schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Lillia ",
+      "Entries": {
+        "spring": "0 Custom_HM_PoultrySecFloor 16 11 3 Lillia_sleep/610 Custom_HM_PoultryInterior 10 5 2/810 Custom_HM_PoultryInterior 17 12 3/1800 Custom_HM_PoultryInterior 11 5 2/2100 Custom_HM_PoultrySecFloor 16 11 3 Lillia_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring"
+      },
+    },
+  ],
+}

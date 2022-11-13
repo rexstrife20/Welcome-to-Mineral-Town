@@ -1,0 +1,71 @@
+{
+    "Changes": [
+        {
+            "LogName": "Anna dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Anna",
+            "Entries": {
+                //INTRODUCTION
+                "Introduction": "Oh! Well hello there, I don't believe we've ever met before? My name is Anna, I live over by the library with my husband Basil and daughter Mary. Not that I share the same fondness of books as they do.....#$b#Oh! Sorry I'm keeping you aren't I? What was your name again? @?#$b#Well it's very nice to meet you @!$h",
+                //STARTING DIALOGUE
+                "Mon": "I wonder if the ladies have any interesting stories from over the weekend? Sasha usually has something interesting.....#$b#Oh! Don't mind me muttering to myself!$h",
+                "Tue": "My daughter takes after my husband so much. I'm very proud of her, but sometimes I wish she'd be a little more social like her mother.",
+                "Wed": "Basil took off again this morning without touching his breakfast.$s#$b#That man needs to get his nose out of the dirt and join us in the real world once in a while.",
+                "Thu": "Sorry, I've gotta have a talk with Manna as soon as I can. It's very important!",
+                "Fri": "I wanted to take Mary to Zuzu City to do some shopping today, but she just didn't seem even slightly interested.$s",
+                "Sat": "Me and the ladies are trying to think of somewhere to go for dinner. Any recommendations?#$b#I heard the Stardrop Saloon is excellent but way too packed on the weekend.#$b#The three of us wouldn't even have spots to stand!$h",
+                "Sun": "Sundays are so relaxing. Even my husband takes them off from his research and study to come and spend the whole day with Mary and I.$h",
+                // SPECIFIC DAY
+                "spring_12": "I haven't decided if I'm going to the Egg Festival yet. I'll ask the ladies to see what they have in mind.", // Day before the Egg Festival
+                "spring_23": "Oh, I just love seeing the girls in their Flower Dance dresses every year. Mary has grown into such a beautiful young woman!$h", // Day before the Flower Dance
+                "summer_10": "You know, you can tell a lot about a person by what they decide to bring for the potluck. What will you be bringing this year?", // Day before the Luau
+                "summer_27": "If my husband researched jellyfish instead of plants, then I might actually find it interesting.#$b#Oops, did I say that out loud?", // Day before the Midnight Jellies
+                "fall_15": "The Stardew Fair is always as good of a reason as any to go visit Jodi and Caroline.#$e#Gotta catch up with my gal pals!$h", // Day before the Stardew Fair
+                "fall_26": "I used to love Spirit's Eve as a girl. Now, even just the thought of all that candy gives me gut rot!", // Day before Spirit's Eve
+                "winter_7": "I always love going to see the ice sculptures. That Leah has some real talent!$h#$b#Come to think of it, I should see if she'd sell me one of her pieces sometime.", // Day before the Ice Festival
+                "winter_24": "No matter how old I get, there's always just something so magical about the Feast of the Winter Star.", // Day before Winter Star
+                //2 Heart
+                "Mon2": "Have you read any of Basil’s books? There are dozens in the library. He says that the books about this town are more popular than the ones about plants.#$b# I bet he wishes it were the other way around!$h",
+                "Tue2": "Sometimes the three of us will go take a hike up Goddess Hill.#$b#I must say, in those moments, I sometimes understand my husband's obsession with nature.$h",
+                "Wed2": "Oh, pardon me @. I need to go speak with Sasha as soon as I can#$b#She won't believe this....",
+                "Thu2": "How are you today @?",
+                "Fri2": "Oh, why hello there. Always good to see you @.",
+                "Sat2": "I'm happy Ellen got that wheelchair. It's great to see her be able to get around town!$h",
+                "Sun2": "So much to get done this coming week!$s#$b#Sorry @, it'll have to wait for now!",
+                //4 Heart
+                "Mon4": "What should I do when I get home? Even if Basil ends up being around, he'll no doubt be focused on work.#$b#What a bore.",
+                "Tue4": "In the afternoon, all the wives in town gather at the Plaza to gossip about this and that. I truly look forward to catching up with everyone. Basil on the other hand... He only talks about plants.$s",
+                "Wed4": "Sasha's husband always seems so exhausted, yet Sasha herself is completely unflappable. I imagine it's hard work running a business.",
+                "Thu4": "Don't get me wrong, I love going up to Goddess Hill as much as the next person. But Basil is so hooked on it that it's really begun to lose its luster.#$b#Maybe I should say something, but I hate the thought of hurting his feelings.$s",
+                "Fri4": "Have you heard about Lillia's husband, Rod? He went to find a desert flower that only blooms once every ten years to cure what ails Lillia. Honestly, I'm a little jealous Lillia has such a devoted husband, but she's been very lonely without him.#$e#Perhaps I shouldn't have told him about that flower...$s",
+                "Sat4": "My husband is always sneaking off to the Inn for evening libations.#$b#Bit of a freewheeling sort of man, isn't he?",
+                "Sun4": "Eggs.....Milk.....Curry Spice.....#$b#Ooops! Sorry there @. I forgot to write down a few things that Mary needed me to grab while I'm out, so I can't be distracted right now!",
+                //6 Heart
+                "Mon6": "Oh, why hello dear. Don't mind me, I'm just trying to think of meal prepping ideas for the week.#$b#It saves me so much time!$h",
+                "Tue6": "My daughter, Mary, got valedictorian three years in a row!$h#$b#She's probably more intelligent then myself and her father combined.",
+                "Wed6": "I should try convincing Basil to go to Cindersap Forest more often.#$b#Then at least I can tag along to Pelican Town for a change of scenery.",
+                "Thu6": "When we go to Goddess Hill as a family, I have to admit that there's something mystifying about the place.#$b#Have you noticed anything like that?",
+                "Sat6": "If I convince my husband that Ginger Island is the place to go for interesting flora, do you think he'll plan a family trip there?#$b#That would be wonderful, don't you agree, @?$h",
+                "Sun6": "When I was growing up, I never thought I'd be a housewife living in a library.#$b#Not that I regret any decisions. Life just has a funny way about it like that.#$b#I'm sure you can agree, being thrown into farming and all.",
+                //8 Heart
+                "Mon8": "I know I complain about my husband sometimes, but then I just think about Jodi and Lillias's positions and I really begin to cherish what I've got.",
+                "Tue8": "I strongly appreciate Joja Marts' low prices.#$b#If they decide to open up a location here in Mineral Town, they'll have my support!",
+                "Wed8": "Us ladies should go on a shopping trip over in Zuzu City.#$b#I'm a city girl myself, if you didn't know. Sometimes, the solitude out here gets a little....deafening.",
+                "Thu8": "Mary's been applying to colleges in the city.#$b#Maybe I should apply as well. We could be roommates!$h",
+                "Fri8": "I don't really know what to do with myself today, @.#$b#Do you have any recommendations?#$b#Maybe you can take be monster slaying in the mines with you!$h",
+                "Sat8": "I've been forcing myself to try and get more into my husband's research.#$b#Now that I've given it a chance, it really is pretty interesting stuff!$h#$b#I have to say, I'm extremely proud of him.$h",
+                "Sun8": "Oh, hello there dear. I've noticed that you've been helping out around the town more often than usual lately.#$b#On behalf of everyone, I just want to thank you!$h#$b#You truly are a peach!$h'",
+                //10 Heart
+                "Mon10": "Having a husband that's a published author is something most wives could only imagine.#$b#And to think, my daughter wants to follow that same path!#$b#Soon, we'll have two celebrities in the family!$h",
+                "Tue10": "I've been taking the time to organize all the books in the library.#$b#Some of them seem really interesting, perhaps I'll crack one of them open sometime!",
+                "Wed10": "The ladies run a fitness group over in Pelican Town once a week.#$b#I considered joining, but maybe I should start one of our own here in Mineral Town.#$b#That would surely give me plenty to do with my time!$h",
+                "Thu10": "The food at the Moonlight Inn truly is top tier.#$b#Now, if only I can convince Doug to give up his recipes.",
+                "Fri10": "I hear they're planning on making a new road to Forget-Me-Not Valley soon!#$b#That should give my day some variety!$h",
+                "Sat10": "Know what, @? I really respect you for uprooting and coming here to take care of the old farm.#$b#I'm sure it wasn't the first thing that came to mind for a career, but you've made the most of it. And it's certainly paid off!$h",
+                "Sun10": "My husband asked me the other day if we could go on a date night.$l#$b#He truly is still just as sweet as the man I once married.$l",
+		        //LOCATION DIALOGUE
+		        "Resort": "Oh things on Ginger Island are simply divine!$h#$b#Are you enjoying yourself dead? I know it's very different here from the city or Pelican Town, but you truly fit in like a natural!$",
+            },
+        },
+    ],
+}

@@ -1,0 +1,16 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Stu Schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Stu ",
+      "Entries": {
+        "spring": "0 Custom_HM_EllenHouse 15 5 1 Stu_sleep/610 Custom_HM_EllenHouse 19 14 2/810 Custom_HM_MineralTown 85 67 1/1100 Custom_HM_MineralTown 128 81 1 Stu_play/1400 Custom_HM_EllenHouse 20 15 3/1800 Custom_HM_EllenHouse 19 6 3 Stu_play/2100 Custom_HM_EllenHouse 15 5 1 Stu_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring"
+      },
+    },
+  ],
+}

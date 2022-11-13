@@ -1,0 +1,62 @@
+{
+  "Name": "Stew",
+  "Description": "So simple, anyone could make it.",
+  "Category": "Cooking",
+  "Edibility": 95,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 80,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 246,
+        "Count": 1
+      },
+      {
+        "Object": -6,
+        "Count": 1
+      },
+    
+      ],
+      "CanPurchase": false,
+
+    },
+  "GiftTastes": {
+      "Love": [ "Stu", "Carter" ],
+      "Like": [ "Saibara", "Popuri", "Harris", "Cliff", "Ann", "Doctor", "Gray", "Ellen", "May", "Jeff" ],
+      "Dislike": [ ""],
+      "Hate": [ "Rick" ]
+    },
+    "NameLocalization":
+    { 
+      //remove the "//" from your language
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+    },
+    "DescriptionLocalization":
+    {
+      //remove the "//" from your language      
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+    }
+}

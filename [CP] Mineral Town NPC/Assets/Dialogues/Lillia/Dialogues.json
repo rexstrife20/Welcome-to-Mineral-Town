@@ -1,0 +1,71 @@
+{ // Dialogues
+    "Changes": [
+        {
+            "LogName": "Lillia dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lillia",
+            "Entries": {
+                //INTRODUCTION
+                "Introduction": "Oh, well hello there @. I've heard so much about you. I wish I could've been there to welcome you into town, but I'm afraid I'm a bit week today.#$b#But nevermind that, my name is Lillia, it's a pleasure to meet you. If there's any way I can make your experience here in Mineral Town a good one, don't hesitate to let me know.$h",
+                //Generic
+                "Mon": "Why hello there @. I hope your week is starting off on the right foot! Remember now, don't be a stranger!$h",
+                "Tue": "I heard that Pelican Town has a resident wizard living among you. What a unique career path in this day and age!$h",
+                "Wed": "Sometimes I wish Popuri would help out a bit more around the farm. Rick's already got so much on his shoulders.$s",
+                "Thu": "I do hope Rick isn't causing you too much trouble. He can be a bit intimidating towards newcomers, but his heart is in the right place.",
+                "Fri": "One day, I hope you get a chance to meet my husband, Rod. He left a year ago to find a cure for my.....condition.#$e#He sends us letters now and then, but it just isn't the same without him around.$s",
+                "Sat": "You haven't noticed anything strange up on Goddess Hill have you?",
+                "Sun": "Sorry....today's just....not a good time.$s",
+                // SPECIFIC DAY
+                "spring_12": "Oh hello dear. Are you looking forward to the Egg Festival? Rick and Popuri have put in so much work to help supply the eggs!", // Day before the Egg Festival
+                "spring_23": "Rod and I actually first met at the Flower Dance many years ago.#$b#He was so nervous to ask me to dance, I simply couldn't say no.$h", // Day before the Flower Dance
+                "summer_10": "I'd love to go to the Luau tomorrow.#$b#But with it being on the far end of Pelican Town, I'm not sure I'm up for the journey I'm afraid.$s", // Day before the Luau
+                "summer_27": "The midnight jellies are so entrancing. I can feel a boost in energy whenever they float into town.", // Day before the Midnight Jellies
+                "fall_15": "The Stardew Fair is such a fun celebration.#$b#Even if I can't make it, I strongly urge you to go!", // Day before the Stardew Fair
+                "fall_26": "I'm not a huge fan of Marlon bringing monsters into town for Spirit's Eve. I always urge Popuri to be careful.$a", // Day before Spirit's Eve
+                "winter_7": "The Ice Festival is fun. Or so they say, I've never been.", // Day before the Ice Festival
+                "winter_24": "I must admit, Mayor Lewis really goes all out for the Winter Star celebration.#$b#I wouldn't say no if you bring me back some of the desserts afterwords.$h", // Day before Winter Star
+                //2 Heart
+                "Mon2": "Goodness, whatever shall I do to pass the time today?",
+                "Tue2": "Sorry, not feeling my best today, @.#$b#Normally I'd love to talk but… I just don't have the energy at the moment.#$b#I apologize.$s",
+                "Wed2": "It's great to see you today, @.#$b#I am feeling quite a bit better than yesterday, thanks for checking up on me.$h",
+                "Thu2": "If I was ever reborn, I would wish to be as healthy and energetic as you are, @!$h",
+                "Fri2": "Sasha and I have been friends for a long time. She's such a dear to take so much time to come visit me every week.",
+                "Sat2": "Zack is such a dear to help me out as much as he does.#$b#Shows how deep his friendship with my husband goes.$h",
+                "Sun2": "I try to make it to the chapel every once in awhile.#$b#It's just a bit…. awkward to be there. If that makes sense?",
+                //4 Heart
+                "Mon4": "Zack does so much to help out our family. He's a truly sweet man to his core.",
+                "Tue4": "Those chickens laid a huge number of eggs, all of which hatched into more chickens than we knew what to do with.#$b#Soon, we had so many that we decided we might as well start our own chicken farm.$h",
+                "Wed4": "I haven't been up on Goddess Hill for quite some time.#$b#Maybe it's time for me to make a return there.",
+                "Thu4": "My son and daughter do so much to keep this place running. I'm very proud of them both.",
+                "Fri4": "My husband is out and about right now. He left to see if he could find medicine to cure my condition.#$b#Not that I particularly wanted him to leave...$s#$b#I don't need a cure so much as I need him by my side.$s",
+                "Sat4": "What do you like to do on weekends, @?#$b#Allow me to live vicariously through you now and then.",
+                "Sun4": "My husband has been gone for quite some time. Sad to say, I hear from him less and less as time goes on.$s",
+                //6 Heart
+                "Mon6": "Before opening PoPoultry, I did something a bit….different for work.",
+                "Tue6": "Thanks for sharing all your stories with me.#$b#Perhaps I'll have to share mine with you sometime.",
+                "Wed6": "My children, Sasha, Elli and the doctor have all done so much for me.#$b#Please, help me brainstorm a way to repay them.",
+                "Thu6": "I wish Rod would come back already.$s#$b#Not for me, but for Rick. His youth is being wasted while he tries and fill his father's shoes.$s",
+                "Sat6": "It's sad to grow more and more distant from the other ladies in town.#$b#Sasha stops by when she can, but I understand that everyone is so busy these days.",
+                "Sun6": "Elli is so kind to me whenever I stop by the clinic.#$b#She goes above and beyond regular patient care.",
+                //8 Heart
+                "Mon8": "Despite everything, I do truly appreciate how my life has turned out.#$b#I have the two most loving and supportive children a mother could ever ask for after all.$h",
+                "Tue8": "Have you seen the Harvest Sprites?#$b#They don't show themselves to just anyone. I knew there was something special about you.$h",
+                "Wed8": "Oh, Popuri. I know she wants to help out more like her brother does.#$b#He's just too much of a perfectionist to accept her help.",
+                "Thu8": "Popuri was going on about seeing strangely colored chickens running about in the coops.#$b#That's quite impossible…wouldn't you agree?$h",
+                "Fri8": "Sasha said she wanted to make plans for a girls night soon.#$b#I'm so excited! I haven't been to one of those in many, many years.",
+                "Sat8": "Both of my children have such good hearts, even if they express it in polar opposite ways.#$b#They make me a proud mother.",
+                "Sun8": "I do miss Rod. But I have to accept that he will return when the time is right.#$b#I just know it's true.",
+                //10 Heart
+                "Mon10": "Hello dear. I've heard a rumor that Marnie's ranch has found a way to acquire blue chickens….any idea how that's possible?",
+                "Tue10": "There's a wizard in Pelican Town that the people seem to be wary of.#$b#He's a good man. We've known each other for….quite some time.",
+                "Wed10": "Tell me truly, how old do you think I am?#$b#I guarantee that the truth will surprise you.#$b#Perhaps that's best discussed some other time.",
+                "Thu10": "One of these days, I'll have Popuri help me over to the spa.#$b#I haven't gone since my husband left, but those waters do wonders for my pain.",
+                "Fri10": "I've heard how well you treat %farm.#$b#I'm very grateful, all of us here have some great memories of your grandfather and that farm.",
+                "Sat10": "The weekend is here once again.#$b#Thank you for spending this small portion of it with me.",
+                "Sun10": "I will be having a talk with Rick about how he and Kai have been acting towards one another.#$b#There's no reason to let such animosity take root in your heart for no reason.",
+		//LOCATION DIALOGUE
+		"Resort": "Getting here was a bit of a struggle, but now that I'm here, this sunshine feels spectacular!$h",
+            },
+        },
+    ],
+}

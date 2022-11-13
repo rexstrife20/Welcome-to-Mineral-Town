@@ -1,0 +1,48 @@
+{
+    "Name": "Yellow Grass",
+    "Description": "A type of wild grass found on springtime beaches.",
+    "Category": "Flower",
+    "Edibility": 10,
+    "Price": 40,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+    "Love": [],
+    "Like": [ "Basil", "Doctor", "Mary"],
+    "Dislike": [ "Saibara", "Elli", "Lillia", "Cliff", "Thomas", "Zack", "Gotz", "Karen", "Manna", "Carter", "Anna", "Rick", "Gray", "Doug", "Ellen", "May", "Duke", "Jeff" ],
+    "Hate": [ "Barley", "Popuri", "Kai", "Stu" ]
+
+    },
+  
+        "NameLocalization":
+      { 
+        //remove the "//" from your language
+          //"es": "PLACEHOLDER",
+          //"ko": "PLACEHOLDER",
+          //"de": "PLACEHOLDER",
+          //"fr": "PLACEHOLDER",
+          //"hu": "PLACEHOLDER",
+          //"it": "PLACEHOLDER",
+          //"ja": "PLACEHOLDER",
+          //"pt": "PLACEHOLDER",
+          //"ru": "PLACEHOLDER",
+          //"tr": "PLACEHOLDER",
+          //"zh": "PLACEHOLDER",
+      },
+      "DescriptionLocalization":
+      {
+        //remove the "//" from your language      
+          //"es": "PLACEHOLDER",
+          //"ko": "PLACEHOLDER",
+          //"de": "PLACEHOLDER",
+          //"fr": "PLACEHOLDER",
+          //"hu": "PLACEHOLDER",
+          //"it": "PLACEHOLDER",
+          //"ja": "PLACEHOLDER",
+          //"pt": "PLACEHOLDER",
+          //"ru": "PLACEHOLDER",
+          //"tr": "PLACEHOLDER",
+          //"zh": "PLACEHOLDER",
+      }
+  }

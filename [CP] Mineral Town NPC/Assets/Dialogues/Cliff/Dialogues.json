@@ -1,0 +1,58 @@
+{
+    "Changes": [
+        {
+            "LogName": "Cliff dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Cliff",
+            "Entries": {
+                //INTRODUCTION
+                "Introduction": "So you're @, aren't you?#$b#My name's Cliff. I'm new around here just like you, so don't be a stranger!$h",
+                "danceRejection": "I'm not familiar with this dance. Sorry.$s",
+                "divorced": "Now what do you want? Can't you see I'm busy? $a",
+                "breakUp": "I - I understand. Thanks for all the memories @.$s#$b#I guess I'll be seeing you around.$s",
+                //STARTING DIALOGUE
+                "Mon": "What's it like living in Pelican Town?#$b#Must be pretty dull if you'd rather come all the way out here.",
+                "Tue": "I wanted to catch a bus over to Zuzu City today to spend some time somewhere a little more exciting.#$b#Then I realized I'm broke…$s",
+                "Wed": "I always intend to help Doug and Ann out more but...$s",
+                "Thu": "You ever just get the urge to pack up and go somewhere new?#$b#I guess that's how you ended up with a farm huh?",
+                "Fri": "Tonight I'm gonna help Ann restock over at the Moonlight Inn so she can focus on bartending.",
+                "Sat": "The inn gets a little too packed on the weekends for my tastes.",
+                "Sun": "...$s",
+                // SPECIFIC DAY
+                "spring_12": "I've traveled my fair share and Pelican Town is the only place that has a day dedicated solely to eggs.", // Day before the Egg Festival
+                "spring_23": "I really want to ask her to dance tomorrow, but I don't even know how to.$s#$b$Hey @, any dancing secrets you can pass on to me?", // Day before the Flower Dance
+                "summer_10": "%Cliff's stomach gives out a piercingly audible growl.#$b#I already can't stop thinking about all the food that's going to be at the Luau. I don't even care what they put into the soup!$h", // Day before the Luau
+                "summer_27": "I'm still the new guy around here, so the Dance of the Midnight Jellies still blows my mind.#$b#How do they end up at that same dock every year?", // Day before the Midnight Jellies
+                "fall_15": "I've been around to a few different fairs over the past couple of years. I've heard really good things about the one in Pelican Town. Have you gone before @?", // Day before the Stardew Fair
+                "fall_26": "I used to spend a lot of my nights in a tent outdoors before I came to Mineral Town. I can tell you one thing, the sounds you hear at night sometimes are way more terrifying than anything Spirit's Eve ever turns out.", // Day before Spirit's Eve
+                "winter_7": "Carter said I should participate in the ice fishing tomorrow. I suppose I've had to do a lot of it to get through the winters.", // Day before the Ice Festival
+                "winter_24": "What do you think Ann would like for a Winter Star gift?#$b#Oh, why?#$b#She's been such a great host is all.$l", // Day before Winter Star
+                //2 Heart
+                "Mon2": "Hey there @. You should swing by the Moonlight Inn to visit every now and then!",
+                "Tue2": "I have an urge to go fishing all day tomorrow.#$b#It's really relaxing, wouldn't you agree?",
+                "Wed2": "I hear there's a man in Pelican Town who lives out in a tent?#$b#I'll be honest, staying at the Moonlight Inn with Doug and Ann is great, but sometimes I miss the nights under the stars.",
+                "Thu2": "Have you been to Cindersap Forest? I hear there's some odd things that happen around there.#$b#I hear Goddess Hill can get weird too.",
+                "Fri2": "I hope everyone in town doesn't think I'm a freeloader...$s",
+                "Sat2": "Well hey there farmer. I hope you're having a great weekend! Don't forget to take time for yourself every now and then.#$b#I know I always have to talk Ann into taking a breather now and then.$h",
+                "Sun2": "...I'm not sure if I should....hmmm.$s",
+                //4 Heart
+                "Mon4": "Hmmm....oh, hey @.#$b#Sorry, I didn't mean to ignore you. I've just got a lot on my mind right now...$s",
+                "Tue4": "Carter's a really good guy. Aside from Ann, he's probably the closest I have to a friend here in Mineral Town.#$b#He's pretty new himself, so it's nice to have that in common.",
+                "Wed4": "When I first moved here, Zack reached out to me and took me fishing.#$b#I have to admit, it was nice to have someone take me under their wing for a bit.",
+                "Thu4": "If you ever need any help around the farm, don't hesitate to ask.#$b#I've been trying to look for ways to be able to contribute.",
+                "Fri4": "Was it scary for you, moving from the city to a small town like this?#$b#I can only imagine that you needed some time to adjust to such a slow pace, right?",
+                "Sat4": "Kai is an interesting guy. He's a newbie here too, and I have to say, I appreciate his laid back attitude sometimes.#$b#Maybe, if I spend some time with him, some of that will rub off on me.",
+                "Sun4": "Ann's such a hard worker that it's impressive.#$b#I just worry sometimes that she isn't taking enough time out to live her own life, y'know?",
+                //6 Heart
+                "Mon6": "How are things over in Pelican Town?#$b#I've been thinking of spending some time camping out in Cindersap Forest.#$b#It would be a nice change of scenery, I think.",
+                "Tue6": "I've considered joining the Adventurer's Guild. Do you think I'd be any good at it?#$b#Some people have said that I give off \"Protagonist Vibes\". Whatever that means.",
+                "Wed6": "I know I spend a lot of time in the chapel.#$b#I'm just...going through some stuff.$s#$b#Sorry, I hope that doesn't make you worry.$s",
+                "Thu6": "Helping Ann at the inn has at least made me a bit more sociable I guess.#$b#It's nice to feel like you're wanted.",
+                "Sat6": "What are you up to this weekend?#$b#If you come across a sign of adventure, be sure to come take me with okay?",
+                "Sun6": "It's nice to know that I have some sort of support system here in Mineral Town.#$b#As long as I've got you and Ann, I can handle what life throws at me.$h",
+		//LOCATION DIALOGUE
+		"Resort": "I want to go checkout the volcano up north.#$b#What do you think, @? Up for a little adventure?",
+            }
+        }
+    ]
+}

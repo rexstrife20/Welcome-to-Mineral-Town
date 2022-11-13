@@ -1,0 +1,47 @@
+{
+    "Name": "Red Magic Grass",
+    "Description": "An incredibly rare crimson flower found only near Goddess Hill.",
+    "Category": "Flower",
+    "Edibility": 10,
+    "Price": 350,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+    "Love": [ "Elli", "Lillia", "Sasha", "Doctor" ],
+    "Like": [ "Harris", "Basil", "Karen", "Rick", "Ellen" ],
+    "Dislike": [ "Anna", "Doug" ],
+    "Hate": []
+    },
+  
+        "NameLocalization":
+      { 
+        //remove the "//" from your language
+          //"es": "PLACEHOLDER",
+          //"ko": "PLACEHOLDER",
+          //"de": "PLACEHOLDER",
+          //"fr": "PLACEHOLDER",
+          //"hu": "PLACEHOLDER",
+          //"it": "PLACEHOLDER",
+          //"ja": "PLACEHOLDER",
+          //"pt": "PLACEHOLDER",
+          //"ru": "PLACEHOLDER",
+          //"tr": "PLACEHOLDER",
+          //"zh": "PLACEHOLDER",
+      },
+      "DescriptionLocalization":
+      {
+        //remove the "//" from your language      
+          //"es": "PLACEHOLDER",
+          //"ko": "PLACEHOLDER",
+          //"de": "PLACEHOLDER",
+          //"fr": "PLACEHOLDER",
+          //"hu": "PLACEHOLDER",
+          //"it": "PLACEHOLDER",
+          //"ja": "PLACEHOLDER",
+          //"pt": "PLACEHOLDER",
+          //"ru": "PLACEHOLDER",
+          //"tr": "PLACEHOLDER",
+          //"zh": "PLACEHOLDER",
+      }
+  }

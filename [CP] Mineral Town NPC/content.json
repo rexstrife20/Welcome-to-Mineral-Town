@@ -1,0 +1,17 @@
+{
+  "Format": "1.25.0",
+  "Changes": [
+    {
+      "Action": "Include",
+      "FromFile": "Data/NPCData.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Data/Events.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Data/EventsBlank.json"
+    },
+  ]
+}

@@ -1,0 +1,68 @@
+{
+    "Name": "Harvest Pudding",
+    "Description": "A festive dessert come Spirit's Eve",
+    "Category": "Cooking",
+    "Edibility": 175,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 80,
+    "IsColored": false,
+    "Recipe": {
+      "ResultCount": 1,
+      "Ingredients": [
+        {
+          "Object": -5,
+          "Count": 1,
+        },
+        {
+          "Object": -6,
+          "Count": 1,
+        },
+        {
+            "Object": "Salted Butter",
+            "Count": 1,
+        },
+        {
+          "Object": "Pumpkin",
+          "Count": 1,
+      },
+
+        
+      ],
+      "CanPurchase": true,
+      "PurchaseFrom": "",    "PurchasePrice": 800,
+    },
+  "GiftTastes": {
+      "Love": [""],
+    },  
+    "NameLocalization":
+    { 
+      //remove the "//" from your language
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+    },
+    "DescriptionLocalization":
+    {
+      //remove the "//" from your language      
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+  }
+}

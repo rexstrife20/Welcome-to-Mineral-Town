@@ -1,0 +1,46 @@
+{
+  "Name": "Snowcone",
+  "Description": "Deliciously refreshing.",
+  "Category": "Cooking",
+  "Edibility": 80,
+  "EdibleIsDrink": false,
+  "Price": 250,
+  "IsColored": false,
+  "CanPurchase": true,
+  "PurchaseFrom": "KaiShop",
+  "PurchasePrice": 250,
+  "GiftTastes": {
+    "Love": [ "" ],
+    "Dislike": [ "" ],
+  },
+  "NameLocalization":
+  { 
+    //remove the "//" from your language
+      //"es": "PLACEHOLDER",
+      //"ko": "PLACEHOLDER",
+      //"de": "PLACEHOLDER",
+      //"fr": "PLACEHOLDER",
+      //"hu": "PLACEHOLDER",
+      //"it": "PLACEHOLDER",
+      //"ja": "PLACEHOLDER",
+      //"pt": "PLACEHOLDER",
+      //"ru": "PLACEHOLDER",
+      //"tr": "PLACEHOLDER",
+      //"zh": "PLACEHOLDER",
+  },
+  "DescriptionLocalization":
+  {
+    //remove the "//" from your language      
+      //"es": "PLACEHOLDER",
+      //"ko": "PLACEHOLDER",
+      //"de": "PLACEHOLDER",
+      //"fr": "PLACEHOLDER",
+      //"hu": "PLACEHOLDER",
+      //"it": "PLACEHOLDER",
+      //"ja": "PLACEHOLDER",
+      //"pt": "PLACEHOLDER",
+      //"ru": "PLACEHOLDER",
+      //"tr": "PLACEHOLDER",
+      //"zh": "PLACEHOLDER",
+  }
+}

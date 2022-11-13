@@ -1,0 +1,16 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Doctor Schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Doctor",
+      "Entries": {
+        "spring": "0 Custom_HM_DoctorHouseInterior 15 6 3 Doctor_sleep/700 Custom_HM_HospitalFirstFloor 20 5 2/1000 Custom_HM_HospitalFirstFloor 14 5 0/1200 Custom_HM_HospitalFirstFloor 26 6 2/1700 Custom_HM_DoctorHouseInterior 13 14 2/2200 Custom_HM_DoctorHouseInterior 15 6 3 Doctor_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring"
+      },
+    },
+  ],
+}

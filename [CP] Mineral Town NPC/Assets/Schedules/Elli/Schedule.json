@@ -1,0 +1,16 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Elli Schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Elli",
+      "Entries": {
+        "spring": "0 Custom_HM_EllenHouse 6 5 1 Elli_sleep/610 Custom_HM_EllenHouse 11 14 2/810 Custom_HM_HospitalFirstFloor 10 7 2/1200 Custom_HM_MineralTown 29 60 2/1300 Custom_HM_HospitalFirstFloor 10 7 2/1700 Custom_HM_EllenHouse 18 15 2/2100 Custom_HM_EllenHouse 6 5 1 Elli_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring"
+      },
+    },
+  ],
+}

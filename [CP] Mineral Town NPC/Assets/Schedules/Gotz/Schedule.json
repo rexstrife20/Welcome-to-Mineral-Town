@@ -1,0 +1,16 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Gotz Schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Gotz",
+      "Entries": {
+        "spring": "0 Custom_HM_WoodCutterInterior 18 5 1 Gotz_sleep/610 Custom_HM_MountainLake 50 26 3/810 Custom_HM_WoodCutter 38 11 3/1200 Custom_HM_WoodCutterInterior 4 8 1 Gotz_work/1500 Custom_HM_WoodCutterInterior 4 10 1/1800 Custom_HM_MountainLake 50 26 3/2100 Custom_HM_WoodCutterInterior 18 5 1 Gotz_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring"
+      },
+    },
+  ],
+}

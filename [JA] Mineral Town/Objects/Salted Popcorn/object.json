@@ -1,0 +1,62 @@
+{
+  "Name": "Salted Popcorn",
+  "Description": "Maybe we should pop on a flick?",
+  "Category": "Cooking",
+  "Edibility": 36,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 80,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 270,
+        "Count": 1
+      },
+      {
+        "Object": "Salted Butter",
+        "Count": 1
+      },
+    
+      ],
+      "CanPurchase": false,
+
+    },
+  "GiftTastes": {
+      "Love": [ "Stu", "Karen", "Rick" ],
+      "Like": [ "Elli", "Popuri", "Cliff", "Basil", "Ann", "Kai", "Doctor", "Anna", "Gray", "Duke", "May" ],
+      "Dislike": [ "Saibara", "Barley", "Ellen", ],
+      "Hate": [ "" ]
+    },  
+    "NameLocalization":
+    { 
+      //remove the "//" from your language
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+    },
+    "DescriptionLocalization":
+    {
+      //remove the "//" from your language      
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+    }
+}

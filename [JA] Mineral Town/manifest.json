@@ -1,0 +1,39 @@
+{
+    /*********
+    ** Mod Name
+    *********/
+	"Name": "Mineral Town - JSON Assets",
+
+    /*********
+    ** Mod Author
+    *********/
+    "Author": "Mineral Town Architects",
+
+    /*********
+    ** Current Version
+    *********/
+    "Version": "1.0.3",
+
+    /*********
+    ** Content Pack Description
+    *********/
+    "Description": "Adds custom items to Mineral Town.",
+
+    /*********
+    ** Unique Manifest ID for Content Pack
+    *********/
+    "UniqueID": "MineralTownArchitects.MTJA",
+
+    /*********
+    ** Update Keys (Currently only on Nexus)
+    *********/
+    "UpdateKeys": [ "Nexus:" ],
+
+    /*********
+    ** Framework Manifest ID
+    *********/
+    "ContentPackFor":
+    {
+        "UniqueID": "spacechase0.JsonAssets"
+    },
+}

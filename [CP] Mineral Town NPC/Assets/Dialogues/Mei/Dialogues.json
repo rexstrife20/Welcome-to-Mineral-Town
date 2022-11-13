@@ -1,0 +1,71 @@
+{ // Dialogues
+    "Changes": [
+        {
+            "LogName": "Mei dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Mei",
+            "Entries": {
+                //INTRODUCTION
+                "Introduction": "I've never seen you around here before! My name is Mei, what's yours?$h#$b#@? Well nice to meet you Mr. @!^Well nice to meet you Ms. @!",
+                //STARTING DIALOGUE
+                "Mon": "%May let's out a huge yawn.#$b#Oh, hi @. I think I stayed up too late past my bedtime….",
+                "Tue": "Jas's aunt Marnie said she's going to teach us how to ride horses when we get bigger!$h",
+                "Wed": "I love living on the ranch. Being able to play with all the animals every day is the best!$h",
+                "Thu": "I like playing with Stu, but sometimes I really wish Jas lived here in Mineral Town.",
+                "Fri": "Grandpa says he’s too busy and too old to play with me.$s",
+                "Sat": "Tomorrow me and Stu are going to go help Mr. Carter at the church. He always lets me decorate!$h",
+                "Sun": "When Stu and Vincent get together they always make a huge mess.#$e#Boys sure are weird.",
+                // SPECIFIC DAY
+                "spring_12": "Eggs! Eggs! Eggs!$h", // Day before the Egg Festival
+                "spring_23": "Grandpa said he's going to find my mom's old flower dress from when she was a little girl!", // Day before the Flower Dance
+                "summer_10": "I never eat the soup at the Luau. I'm always scared of what the boys are gonna put into it.", // Day before the Luau
+                "summer_27": "The jellies are so pretty!$h#$b#I wish they came more than once a year.", // Day before the Midnight Jellies
+                "fall_15": "Which fair games are your favorite @? I like to spin the big wheel when grandpa lets me have some money!$h", // Day before the Stardew Fair
+                "fall_26": "I-I'm not too scared to go to Spirit's Eve.....Did Stu tell you that?$s", // Day before Spirit's Eve
+                "winter_7": "Everything at the Ice Festival is so pretty!#$b#All of that fresh snow sparkles in the sunlight.$h", // Day before the Ice Festival
+                "winter_24": "I hope Stu doesn't give me a present with bugs in it....again.$4", // Day before Winter Star
+                //2 Heart
+                "Mon2": "“I like Stu. But sometimes I hate him too.#$b#I don’t know why.$4”",
+                "Tue2": "I hope we can go to the Moonlight Inn for lunch again soon. Mr. Doug is such a great cook!$h",
+                "Wed2": "Stu's older sister is so nice. She's really pretty too!",
+                "Thu2": "Ms. Ellen is so sweet. She always gives me a homemade treat when I go over with Stu.",
+                "Fri2": "My grandpa Barley is the best grandpa ever!$h#$b#I still miss my mom sometimes.$s",
+                "Sat2": "I love helping grandpa take care of all the animals!$h",
+                "Sun2": "Mr. Carter lets me and Stu help out at the church on Sundays.#$e#Well....I help out. Stu really just kinda makes a big mess that I have to clean.$4",
+                //4 Heart
+                "Mon4": "Sometimes I see little men in pointy hats running around in the woods.#$b#My grandpa says they aren't real…but you believe me, don't you @?$s",
+                "Tue4": "I want to go to the beach! You can find all sorts of cool stuff buried in the sand!$h",
+                "Wed4": "Stu picks on his sister soooooo much.#$b#Sometimes I kinda feel bad for her.",
+                "Thu4": "Mr. Carter is so nice!$h#$b#He lets us decorate the chapel however we want to every weekend!$h",
+                "Fri4": "Sometimes Stu picks on me.$s#$b#I don't get it, I thought we were friends…$s",
+                "Sat4": "Can I come to your farm sometime? I want to see all of the animals!$h",
+                "Sun4": "Stu always wants to go adventuring in the woods. But I've heard some scary sounds coming from there before.$4",
+                //6 Heart
+                "Mon6": "Hi, @. Are you doing anything fun today?#$b#We're gonna go see if we can find the Kappa!",
+                "Tue6": "We tried looking for the Kappa, but we couldn't find him anywhere.#$b#Do you think he really exists, @?",
+                "Wed6": "I saw a picture of a dust sprite in one of the books I got from the library.#$b#They're actually kinda cute.$h",
+                "Thu6": "I want to go see Jas soon.#$b#Stu just wants to play with bugs and dirt. Jas actually does fun stuff sometimes.",
+                "Sat6": "Grandpa talks to me about a bunch of things.#$b#I get kinda sleepy when I listen to him sometimes, though.$4",
+                "Sun6": "Work, work, work. Adults are always so busy working.#$b#But then how come Carter has time to play with me?",
+                //8 Heart
+                "Mon8": "Whenever my grandpa has to go to the clinic to see the doctor, Miss Elli gives me a treat!$h#$b#She's so nice, I wish I had a sister.",
+                "Tue8": "I'll be big enough to run the ranch on my own one day!#$b#And I just grew half an inch, so that time will be soon!$h",
+                "Wed8": "I heard there's a field of flowers somewhere way up on Goddess Hill.#$b#But I can't go see 'cuz Grandpa says it's dangerous.$s",
+                "Thu8": "I know I've seen the little men running around in the forest, I promise!#$b#You've seen them too, haven't you, @?#$b#Nobody believes me, not even Stu.$s",
+                "Fri8": "Whenever I mention Mommy to Grandpa, he gets all quiet. When Grandpa looks sad or gets angry, it makes me wanna cry too.$s#$b#But then Grandpa always tells me that I’m a good girl.",
+                "Sat8": "Grandpa seems to be moving slower than usual....#$b#Wait, what's going to happen to me if something happens to him?$s",
+                "Sun8": "Mister Carter says that my mom might come back one day.#$b#But, he also always says that I should appreciate what I have now and to live life to the fullest.#$b#But, I'll be honest, I don't really know what he means.$4",
+                //10 Heart
+                "Mon10": "Sometimes, people spell my name May.#$b#It kinda bugs me.#$b#I'm M-E-I Mei, not M-A-Y May!$a",
+                "Tue10": "I love the animals here.$h#$b#You do too, huh?#$b#Grandpa talks with the animals a lot. I wonder if I'll be able to talk with them when I get bigger too?$h",
+                "Wed10": "Mister Doug's cooking is so yummy!#$b#I can't wait to eat at the inn again.$h",
+                "Thu10": "I keep getting taller and taller, and my grandpa gets shorter and shorter.#$b#One day, I bet I'll be twice as tall as he is!$h",
+                "Fri10": "How many horses do you have, @?#$b#I want to learn how to ride them, just like grandpa used to do when he was little!$h",
+                "Sat10": "Sometimes, my grandpa takes me out to the lighthouse.#$b#It's so fun to see all the little fishies swimming around the pretty coral.",
+                "Sun10": "What's it like in Zuzu City?$4#$b#Every year grandpa says we'll go see it, but it hasn't happened yet.$s",
+		//LOCATION DIALOGUE
+		"Resort": "Yay!$h#$b#Come build a sandcastle with me, @!$h",
+            },
+        },
+    ],
+}

@@ -1,0 +1,57 @@
+{
+	"Name": "Warp Totem: Mineral Town",
+  "Price": 1250,
+	"Description": "Warp directly to Mineral Town. Consumed on use.",
+	"Category": "Crafting",
+	"CanPurchase": true,
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 709,
+            "Count": 2,
+        },
+        {
+            "Object": "Black Bass",
+            "Count": 1,
+        },
+        {
+            "Object": "Harvest Curry Powder",
+            "Count": 3,
+        },
+        ],
+        "CanPurchase": false,
+    },
+
+    "NameLocalization":
+    {
+    	//remove the "//" from your language
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+    },
+    "DescriptionLocalization":
+    {
+    	//remove the "//" from your language
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+    }
+}

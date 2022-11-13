@@ -1,0 +1,71 @@
+{ // Dialogues
+    "Changes": [
+        {
+            "LogName": "Manna dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Manna",
+            "Entries": {
+                //INTRODUCTION
+                "Introduction": "Oh! Why hello there! You must be the new farmer over in Pelican Town that everyone's been abuzz about! I must say that you look nothing like I imagined!#$b#Oh, where are my manners, I'm Manna. My husband Duke and I run the winery here in town. I have to go meet up with the ladies.#$b#They'll be so jealous that I met up with you first!$h",
+                //STARTING DIALOGUE
+                "Mon": "Mondays are always extra dull around here. But I'm sure that's the same no matter where you go.",
+                "Tue": "Let me know if you ever head out to Zuzu City. My daughter Aja lives there and I'd be very grateful if you could take her a few things from me.",
+                "Wed": "My husbands a very dedicated worker and masterful businessman. It's just unfortunate that sometimes that seems like all he's able to talk or think about.$s",
+                "Thu": "Some say that Mayor Thomas is a bit corrupt. They must not have heard even HALF of the things I've heard about Mayor Lewis!#$b#Now there's a true scoundrel!$a",
+                "Fri": "Sasha tells me about Karen's….escapades sometimes. It truly breaks my heart to hear about the trouble that girl gets into…..$s",
+                "Sat": "Did I tell you that Aja made Zuzu University's Deans List last semester? I'm so proud of her!$h#$b#I know Duke is too…..I wish those two could just make amends.$s",
+                "Sun": "Why hello there @. What's the scoop from this weekend?",
+                // SPECIFIC DAY
+                "spring_12": "Oh, I simply cannot get enough of the Egg Festival.#$b#Except for when Abigail - that's Pierre's daughter if you didn't know - wins the egg hunt versus all the children.#$b#For Pete's sake, just let the little ones win for once!", // Day before the Egg Festival
+                "spring_23": "I remember when my husband was fun enough to ask me to the Flower Dance.#$b#Those days are certainly long gone by now, unfortunately.", // Day before the Flower Dance
+                "summer_10": "The Luau is just another reason to hit the beach with the ladies!", // Day before the Luau
+                "summer_27": "The Midnight Jellies are one of the few rare things that can even soften Duke up.", // Day before the Midnight Jellies
+                "fall_15": "Oh, @, aren't you just excited as all get out for the fair tomorrow?#$b#Wait, don't answer, I can already tell by the look on your face!$h", // Day before the Stardew Fair
+                "fall_26": "I've got all my costumes saved from every Spirit's Eve I can remember.#$b#Not that I'd rewear them of course, but they're fun to dig through for ideas.", // Day before Spirit's Eve
+                "winter_7": "I simply must convince Duke to buy one of the ice sculptures this year.", // Day before the Ice Festival
+                "winter_24": "Winter Star would be a fantastic holiday if my husband weren't such a grinch lately.", // Day before Winter Star
+                //2 Heart
+                "Mon2": "I know I don't talk to you much, @, so it might be weird bringing this up, but... my daughter left me and this town behind, you know.#$b# Poof, just like that.$s#$b#And to top it all of, Duke goes out drinking every night, leaving me all alone.$s",
+                "Tue2": "How has the farm been, @?#$b#Have you been getting along just fine?#$b#How are the animals?#$b#Oh, sorry, I'm talking your ear off, aren't I?",
+                "Wed2": "Barley has it hard, you know.#$b#To this very day, he hasn't seen hide nor hair of Joanna.$s",
+                "Thu2": "Barley is a good man for taking in his granddaughter without a second thought.#$b#But, I worry with a man of his age. What happens when he can't take care of himself? Will May have to take care of him? What happens to her?#$b#Oh dear, now my thoughts are racing.",
+                "Fri2": "To be honest, I've been lonely. That's why I try to talk to people as much as I can, just to take my mind off it.$s#$b#But the pain of not having your child around... It really can't be expressed in words.$s#$b#If she'd gone off to be someone's bride, that would be one thing, but...$s#$b#Oh, speaking of which, you came here on your own too, right @? Why'd you do that, anyway?",
+                "Sat2": "Sorry if my husband comes off as a rude oaf sometimes.#$b#He's really a nice guy deep DEEP down.",
+                "Sun2": "The first time Carter held services, I could tell he was very nervous.#$b#Not that he showed it in particular, I'm just pretty good at picking up on things like that.#$b#I'm just able to read people like that!$h",
+                //4 Heart
+                "Mon4": "Oh, @, can you take a message to Jodi for me when you get back to Pelican Town?#$b#What? I can't tell you, don't be absurd!$h#$b#No, I need you to take a written note in secret to her.#$b#Oh, you know what, maybe I should just take it myself.#$b#Thanks anyways, @!$h",
+                "Tue4": "Doesn't it feel like the days fly by? I swear, I blink and suddenly there's no time for me to have a nice leisurely chat with Duke.",
+                "Wed4": "Oh, @! Question: do you talk to Kai a lot?#$b#When he first came to this town, he was just a teenager, you know. He had Gotz—that's the old carpenter who lives on the mountain, just so you know—build him a small house. And it went, smack dab in the middle of the beach.#$b#And then, the very next day—get this—Kai painted the house this tacky white color! We all thought he was SO odd.#$b#There was a big stir when Carter came to town too, but Kai's way of talking really got under the other men's skin. If I said so much as a single kind word about Kai, I'd never hear the end of it from Duke!#$e#I tell you, men take pride in the most meaningless things... Who cares how someone talks?",
+                "Thu4": "There's been some really odd things going on around Mineral Town.#$b#Everyone agrees, there's not a one of us that hasn't seen some sort of oddity in the past month or so.#$b#Have you seen or heard anything?#$b#You must tell me if you do!",
+                "Fri4": "Speaking of farms, the youngest over at Yodel Ranch left quite a while back, just like our daughter did. Mind you, Barley is a lot older than us, and all alone, too.#$b#And to top it all off, after ten whole years, Joanna finally- Oh, that's Barley's daughter, for the record.#$b#Anyway, Joanna finally came back, but with a little girl in tow! If I were Barley, I'd have been flabbergasted!#$b#What's more, immediately after that, Joanna uproots herself once again and leaves Mineral Town in the dust!$s#$b#Here's the kicker to the whole story: that little girl Joanna brought? Our very own May.#$b#I feel so sorry for her.$s",
+                "Sat4": "Barley says that even if Joanna comes back for May, he'll refuse to let her take May away. Good for him, I say.",
+                "Sun4": "I've been trying to send letters to our daughter, but honestly, I'm not sure if she still even lives in the same apartment.#$e#I miss her more than I can express in words…$s",
+                //6 Heart
+                "Mon6": "Cliff is such a serious guy. I've decided not to pry into his past and let him speak for himself instead.#$b# It broke my heart when I heard from Carter how terribly hurt Cliff was and how often he came to Church.$s#$b#I want to try and be a surrogate mother to him. It's the least I can do. Duke told me that if Cliff says he likes the Vineyard, then he's thinking about taking him in.#$b#I'm sure Duke still loves our daughter more than anything, but... I also feel like life can't continue on the way it has been. We've stagnated. And I've had enough.$s",
+                "Tue6": "By the by, you don't know anything about Rod, do you, @?#$b#He's Lillia's husband, and the one who came to Mineral Town with that shipper, Zack. They met on the road, and when Rod heard that Zack had no relatives and no job, he offered him free room and board.#$b#After a while, Zack found work as a shipper, and the rest is history.#$b#You know, before Zack arrived, a boat would only come to town once a month. He's been a real asset to the community!$h",
+                "Wed6": "Caroline and Pierre's marriage was a bit rocky a few years ago. They've gotten better but…..oh!#$b#Oh my! I shouldn't be talking about this.#$b#Forget I said anything!",
+                "Thu6": "Listen to this, @!$h#$b#Our daughter has started contacting us once a week all on her own. Until now, it was always us trying to force some sort of communication out of her.#$b#This is all thanks to Sasha having a word with her, I'm sure.#$b#Oh, it's so good to have friends in your corner!$h",
+                "Sat6": "Lillia is so nice to Zack that he seems to have fallen head over heels for her.$h#$b#Except she's the wife of the guy who saved him. He won't give up, but he can't make a move, either.#$b#It's really quite sad.$s#$b#And Lillia, bless her heart, is so flaky that she doesn't have the first clue how Zack feels.$s#$b#Me? No, no. I could never tell her. I try not to rock the boat as much as possible, you know.",
+                "Sun6": "Have you ever noticed the way Elli looks at the doctor in such admiration?#$b#I can't help but wonder if there's a little something more going on there.",
+                //8 Heart
+                "Mon8": "Mayor Lewis and Mayor Thomas always like to pretend they have this huge rivalry with each other.#$b#In reality, I can tell that they're obviously still good friends.",
+                "Tue8": "I wish Duke was able to relax more.#$b#I know his heart is in the right place and that he's just looking out for Aja and I, but sometimes he takes the miser routine much too far.",
+                "Wed8": "The ladies and I will be taking a shopping trip to the city in a few days.#$b#Let us know if you want us to grab you anything.#$b#Actually, scratch that. I think I know your style, so I'll pick out something for you myself!$h",
+                "Thu8": "Duke has been making a concerted effort to spend more time with me, I can definitely tell.#$b#See, I knew he was still sweet underneath all of the business routine.",
+                "Fri8": "How are you, @? I have to imagine running a farm takes up most of your time.#$b#Thanks for spending some of your precious remaining time chatting with me.$h",
+                "Sat8": "This town can get a little dull sometimes.#$b#But, I've learned to live with it. Because this is our home now.",
+                "Sun8": "Thank you for all that you do, @.#$b#How you accomplish so much in such little time is completely beyond me.",
+                //10 Heart
+                "Mon10": "Seeing Stu and May running around really reminds me of Aja back when she was their age.#$b#She was quite the handful.",
+                "Tue10": "Did you know that Rick and Kai have some sort of bone to pick with one another?#$b#It would seem that Kai has taken a fancy to Rick's sister. And Ricks's not okay with that for some reason.",
+                "Wed10": "Us ladies are all planning a dinner trip to the Moonlight Inn.#$b#We can even help Lillia get out of the house!$h",
+                "Thu10": "#$b#I can't wait for the boat to Ginger Island to open back up.#$b#If that place isn't paradise, well then I simply don't know what is!",
+                "Fri10": "The weekend is here once more.#$b#I'm going to write up another letter for our daughter.#$b#Gotta give her the latest scoop after all.",
+                "Sat10": "This week seemed longer than most.#$b#What, so I say that every week?",
+                "Sun10": "Make sure you're taking care of yourself, @.#$b#It'd break my heart for anything to happen to you.$s",
+		//LOCATION DIALOGUE
+		"Resort": "This resort needs to have a weekly ladies night, wouldn't you agree?",
+            },
+        },
+    ],
+}

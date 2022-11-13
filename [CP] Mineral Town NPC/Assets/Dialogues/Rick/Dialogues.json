@@ -1,0 +1,58 @@
+{ // Dialogues
+    "Changes": [
+        {
+            "LogName": "Rick dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Rick",
+            "Entries": {
+                //INTRODUCTION
+                "Introduction": "Well hey there, you must be @ that everyone's been talking about. Welcome to Mineral Town! My name is Rick, I work down at PoPoultry with my mom and sister.#$b#If you're half as hard of a worker as I've heard you are, then we'll get along great!$h",
+                "danceRejection": "Sorry, dancing really isn't for me.",
+                "divorced": "Sorry, I'm busy right now. If you wanted me to make time for you, you should've thought about that earlier.$a",
+                "breakUp": "Of course, I must be no good. Thanks anyways @.$s",
+                //STARTING DIALOGUE
+                "Mon": "Weekends over, time to get back to work!#$e#Sorry, did that come off a little too aggressive?",
+                "Tue": "Sorry, I'd like to stay and talk today but I need to run some errands for my mother!",
+                "Wed": "I'm sure you've met my sister Popuri by now? She's very sweet, too bad that work at PoPoultry takes up most of her time!#$b#I'm sure you have lot's to do at %farm too right?'",
+                "Thu": "Man....must be nice to sit on the beach everyday....#$b#I'd probably do the same if my father didn't leave the business to us while he left to find a cure for mom.$h",
+                "Fri": "The Doc said he's getting low on my mother's medication again.$s#$b#Hey, if you wouldn't mind, could you see if Harvey is getting any in when you head back to Pelican Town?#$b#I suppose I could just give him a call couldn't I?",
+                "Sat": "Whew, thank Yoba it's the weekend. Saturdays are really the only time I can sit and relax.#$b#It's actually not so bad, sitting still gives me anxiety anyways.$h",
+                "Sun": "I think mom isn't feeling well again. She's more quiet than usual today.....$s",
+                // SPECIFIC DAY
+                "spring_12": "Man, if only you knew how much work we put in for your Town's Egg Festival! It's good advertisement though!$h", // Day before the Egg Festival
+                "spring_23": "I don't mind the Flower Dance too much. But honestly, I kinda have two left feet.", // Day before the Flower Dance
+                "summer_10": "Guess what I'm bringing to the potluck tomorrow.#$b#Yup, you guessed it, it's eggs!$h", // Day before the Luau
+                "summer_27": "Mom and dad would take us to see the Midnight Jellies when we were just kids.#$b#I'm not sure if mom's up to it these days though.$s", // Day before the Midnight Jellies
+                "fall_15": "I keep telling my mom and Popuri that we need to setup a display.#$b#That's free advertising!$h", // Day before the Stardew Fair
+                "fall_26": "Ever wonder why Spirit's Eve costumes are so expensive? Seriously, you wear them maybe once or twice.", // Day before Spirit's Eve
+                "winter_7": "Sitting out in the cold with smelly fish? Call me crazy, but that doesn't sound like a great time.", // Day before the Ice Festival
+                "winter_24": "I hope my Winter Star giftee likes what I got them. It's homemade!", // Day before Winter Star
+                //2 Heart
+                "Mon2": "Sorry, I've got a lot to do after the weekend.#$b#I promise we'll chat later!",
+                "Tue2": "Oh, hey, @. Are you finished with your chores for today, too?",
+                "Wed2": "Hey there, @. Working hard or hardly working?$h",
+                "Thu2": "If you talk to Kai at all, don't trust a word he says.#$b#All that guy cares about is himself and slacking off!$a",
+                "Fri2": "Hey there @, how's %farm looking?#$b#Say, is the place as much of a moneymaker as I imagine it is?#$b#I'm just kidding, you don't need to tell me that.$h",
+                "Sat2": "I hope you have a truly egg-celent weekend!$h#$b#Hehe….",
+                "Sun2": "Karen's such a hard worker, always helping her parents run the store and whatnot.#$b#Always good to meet another with work ethic!$h",
+                //4 Heart
+                "Mon4": "My dad? Oh, he's off looking for a cure for my mom's condition.#$b#I'm sure he'll be back before we know it. The two of you would get along great!",
+                "Tue4": "Hey, I like to kick back and relax every once in a while too, y'know...#$b#I'm not THAT much of an old man at heart.$h",
+                "Wed4": "I swear, by the time I think I'm done with my To-Do list, seven more things have popped up.$s",
+                "Thu4": "I hear Sam's a real slacker too. Maybe Kai and him should start a loser's club!$h",
+                "Fri4": "I know my sister tries to help around the place, but she doesn't really know what she's doing.#$b#Honestly, it usually just ends up making more work for me….$s",
+                "Sat4": "I'd love to kick back and relax on the weekend sometimes.#$b#When my dad was in town, we'd always take time to go to Goddess Hill or the beach. Good times!$h",
+                "Sun4": "I need to get back into going to church.#$b#I'm just usually so burnt out by Sunday that getting up that early makes me sick to my stomach.",
+                //6 Heart
+                "Mon6": "Between you and me….I'm not sure why my dad hasn't come back already.#$b#I don't think I can manage this place by myself forever…$s",
+                "Tue6": "I heard that Marnie's farm raises blue chickens now and then.#$b#How does that even work?…",
+                "Wed6": "I really need to get new glasses, they're just so expensive.#$b#Guess I'll just have to make due until dad gets back.",
+                "Thu6": "Sometimes I wish I could be more carefree. But hard work has it's payoffs too.#$b#Just gotta keep my eyes on the big picture.",
+                "Sat6": "Boy, I sure wish I could hangout on the beach all day selling ice cream.#$b#Must be nice, not having a care in the world!$h",
+                "Sun6": "I swear Popuri seems to be getting into more trouble lately.#$b#Spending time with the beach bum is really doing wonders for her maturity.$s",
+		//LOCATION DIALOGUE
+		"Resort": "Ahhhh this is great. Even if I've got work building up at home as we speak.",
+            },
+        },
+    ],
+}

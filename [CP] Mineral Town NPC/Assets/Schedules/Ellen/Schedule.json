@@ -1,0 +1,16 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Ellen Schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Ellen",
+      "Entries": {
+        "spring": "0 Custom_HM_EllenHouse 21 5 3/610 Custom_HM_EllenHouse 22 16 3/810 Custom_HM_MineralTown 79 91 2/1000 Custom_HM_EllenHouse 18 13 2 Ellen_chairsleep/1200 Custom_HM_EllenHouse 22 16 1/1300 Custom_HM_EllenHouse 16 13 2/2000 Custom_HM_EllenHouse 21 5 3 Ellen_chairsleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring"
+      },
+    },
+  ],
+}

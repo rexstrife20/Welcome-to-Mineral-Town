@@ -1,0 +1,47 @@
+{
+    "Name": "Daily Special",
+    "Description": "Changes daily but is always lovingly crafted by Doug.",
+    "Category": "Cooking",
+    "Edibility": 150,
+    "EdibleIsDrink": false,
+    "Price": 400,
+    "IsColored": false,
+      "CanPurchase": true,
+      "PurchaseFrom": "Doug",
+      "PurchasePrice": 400,
+
+  "GiftTastes": {
+      "Love": [""],
+      "Dislike": [""],
+    },
+    "NameLocalization":
+    { 
+      //remove the "//" from your language
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+    },
+    "DescriptionLocalization":
+    {
+      //remove the "//" from your language      
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",  
+    }
+}

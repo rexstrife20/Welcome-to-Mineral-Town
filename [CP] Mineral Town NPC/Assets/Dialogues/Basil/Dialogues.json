@@ -1,0 +1,71 @@
+{// Dialogues
+  "Changes": [
+    {
+      "LogName": "Basil dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Basil",
+      "Entries": {
+        //INTRODUCTION
+        "Introduction": "I don't think we've met before. I'm Basil, you may have read one of my books if you're big into botany!#$b#@ is it? Well it's a pleasure to meet you!$h",
+        //STARTING DIALOGUE
+        "Mon": "The Goddess Hill has some extraordinarily rare flora that you can't find anywhere else in the world.",
+        "Tue": "My daughter Mary can be so shy sometimes.#$b#Thanks for being patient with her.$h",
+        "Wed": "Did you know that Mineral Town is well known for its Cherry Blossoms?#$b#They're truly a sight to behold!$h",
+        "Thu": "I've got to admit, Elliot's writing is pretty good. Even if it's not really my style.",
+        "Fri": "I've gotta make sure to be home in time to cook dinner tonight or my wife will have my head!$h",
+        "Sat": "I should head over your way one of these days to trade notes with Demetrius.....",
+        "Sun": "Have you ever been to Forget-Me-Not Valley? It's a beautiful place with species of flowers you can't find anywhere else.",
+        // SPECIFIC DAY
+        "spring_12": "I don't typically go to the Egg Festival. With most people out of town for it, I get a great chance to sit out in nature and work on my writing.", // Day before the Egg Festival
+        "spring_23": "It took a lot of work to build of Mary's confidence enough to take part in the Flower Dance.#$b#I'm very proud that she overcame her fear!$h", // Day before the Flower Dance
+        "summer_10": "I have a wide collection of herb samples I could bring to the Luau. What would you recommend @?", // Day before the Luau
+        "summer_27": "Though they aren't necessarily in my wheelhouse, jellyfish are certainly some very interesting creatures. The Midnight Jellies even moreso.", // Day before the Midnight Jellies
+        "fall_15": "I usually try and help gather flowers for Evelyn to use in her fair decorations. I do know all the good spots to find them as I'm sure you know!", // Day before the Stardew Fair
+        "fall_26": "I will never understand how they erect a large hedge maze for Spirit's Eve and somehow have it all taken down by the next day.", // Day before Spirit's Eve
+        "winter_7": "Are you excited for the Ice Festival tomorrow? I'll try and make it down if I can!", // Day before the Ice Festival
+        "winter_24": "Mayor Lewis always tries to get everyone in Mineral Town to partake in the Feast of the Winter Star. He's gonna really need to expend the town if he expects all of us to attend!$h", // Day before Winter Star
+        //2 Heart
+        "Mon2": "My wife is such a saint. I didn't realize that I had tracked mud all throughout the house last night and she cleaned it without saying a word.#$b#I wish I would've known! I would've helped.$s",
+        "Tue2": "I've written three books so far. That's pretty decent, but I feel like I can double that number by next year!",
+        "Wed2": "This town has great wine. I shouldn’t partake as often as I do…",
+        "Thu2": "I can't forget to stop and grab my breakfast tomorrow. Lest Anna lock me out of the house for good!$h",
+        "Fri2": "Demetrius is a scholar and a gentleman. I really should head over to Pelican Town more often to meet with him.",
+        "Sat2": "This town has great air and great water, which means the plants are happy. It also makes for great wine!$h",
+        "Sun2": "Tell me about Cindersap Forest. I've heard it's got some unusual flora.#$b#Especially around that odd man's tower.",
+        //4 Heart
+        "Mon4": "Have you heard the tales of the Harvest Sprites?#$b#It's been said that they live up on Goddess Hill and serve the goddess herself!#$b#A fascinating story, is it not?",
+        "Tue4": "That young man Cliff has a strong connection to nature, I can tell. I suppose traveling as often as he does you learn a few things about the wilds.",
+        "Wed4": "I hear there's a man that lives in the mountains of Pelican Town. He goes by Linus I believe?#$b#Living off the land itself 24/7. Simply a fascinating thought!$h#$e#Perhaps I should indulge myself one day and follow his lead, if only for a while.",
+        "Thu4": "You may already know this, but my daughter is becoming quite the author herself!$h#$b#More fanciful than mine, sure, but a wordsmith nonetheless!$h",
+        "Fri4": "Did you know that you can sometimes find rare forage growing in the graveyard?#$b#Morbid, I know. But that makes it all the more interesting.",
+        "Sat4": "Tell me @, are you growing any interesting crops on your farm? Be sure to tell me if you do!",
+        "Sun4": "I dig up quite a wide variety of relics during the course of my research.#$b#Really makes you wonder what kind of civilizations may have once lived in The Valleys.",
+        //6 Heart
+        "Mon6": "Anna and I have been together for years now.#$b#I know she may not always find what I do interesting, but I love her for humoring me anyways!$h",
+        "Tue6": "Believe it or not, Duke seems to have quite the green thumb. Can't argue with the man's results when his business is such a success.",
+        "Wed6": "I want to visit Cindersap Forest soon but….#$b#I hear there's a lot of odd goings-ons over there lately.$s",
+        "Thu6": "Let me ask you @, do you believe in the supernatural?#$b#Between Goddess Hill, Cindersap Forest, and strange stories about the Pelican Town community center, I'm no longer too sure….",
+        "Sat6": "Well farmer @, we've come to the weekend once again. I think time is overdue for me to take a trip with the family.",
+        "Sun6": "A fun fact, belief in the Goddess here in The Valleys actually predates Yoba's presence by quite a large margin.",
+        //8 Heart
+        "Mon8": "Don't forget to give yourself a chance to stop and smell the flowers.#$b#And if you find anything interesting while you're down there, be sure to let me know!$h",
+        "Tue8": "Should I stop by on my way home and pick the wife up some roses, or is that too cliché?#$b#Perhaps a nice succulent, or a Venus flytrap?",
+        "Wed8": "I heard a traveling merchant often carries what's known as a \"rare seed\".#$b#Id love to try growing one someday but, I won't lie, the task sounds rather daunting!",
+        "Thu8": "Did I ever tell you that someone in Forget-Me-Not Valley has discovered a way to grow hybrid crops?#$b#The science behind it must be fascinating!$h",
+        "Fri8": "Sometimes I just like to travel up to the summit at sundown and watch the city lights spring to life.#$b#Do you get what I mean @?",
+        "Sat8": "Perhaps after I finish my next book I may move the family to the city for awhile. I think Anna would enjoy that.#$b#Besides, that'll just make the hunt for flora all that much more interesting!$h",
+        "Sun8": "My daughter ranked first in her class every single year!$h#$b#She really makes her old man proud!$h",
+        //10 Heart
+        "Mon10": "I've gotta say @, ever since you rolled into town things have been shaken up quite a bit.#$b#I mean that in the best way, of course!$h",
+        "Tue10": "I thought I saw a pointy little hat sticking out of the bushes the other day.#$b#Now I know I must be getting old! My eyes fail me.",
+        "Wed10": "The Valleys are a special place unlike any you'll find anywhere else.#$b#I want my next book to really show that to the world!$h",
+        "Thu10": "Have you been to Ginger Island? Perhaps a family trip there is overdue.#$b#You'll be invited as well of course!$h",
+        "Fri10": "Hey @, I may need to interview you for a future project sometime. Whenever you get a moment that is.#$b#I know life must be insanely busy for you!",
+        "Sat10": "That Gunther is an interesting man. Although he's more of a rocks kinda guy, I'd still consider him a kindred spirit.",
+        "Sun10": "Did you know that a blue feather is a traditional proposal gift in this part of the valley?#$b#The one I wear in my hat is the very same one I proposed to Anna with all those years ago.#$b#It's my most treasured possession.$h",
+	//LOCATION DIALOGUE
+	"Resort": "Am I on vacation?#$b#No, there's just some really unique varieties of flora on this island.#$b#It just so happens that it's ALSO a tropical paradise!$h",
+      },
+    },
+  ],
+}

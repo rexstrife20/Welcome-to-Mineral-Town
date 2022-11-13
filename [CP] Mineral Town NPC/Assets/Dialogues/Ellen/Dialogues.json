@@ -1,0 +1,71 @@
+{ // Dialogues
+    "Changes": [
+        {
+            "LogName": "Ellen dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Ellen",
+            "Entries": {
+                //INTRODUCTION
+                "Introduction": "Why hello there dear. You must be @. My name is Ellen, but you can call me Granny if you like.#$b#Your Grandfather was a dear friend of mine.#$b#Please take care of %farm for everyone!",
+                //STARTING DIALOGUE
+                "Mon": "Oh hello dear.$h#$b#I sure hope you're taking care of yourself!",
+                "Tue": "I don't move around much these days.$s#$b#Oh if only I were young again, none of you would be able to keep up!$h",
+                "Wed": "I don't know what that boy got into, but Stu came home caked in mud last night.$a",
+                "Thu": "You should stop by the clinic to see Elli today.#$b#She always talks about how nice it is to see you!$h",
+                "Fri": "I'm afraid these tired old bones can't keep up with the children anymore.#$b#Makes weekends quite the chore.",
+                "Sat": "Believe it or not, Evelyn and I were a handful back in the day.#$b#We could really cut a rug!$h",
+                "Sun": "Whether it be to Yoba or the Harvest Goddess, make sure to take time today to be extra thankful.",
+                // SPECIFIC DAY
+                "spring_12": "I remember one year long ago when Barley and I hit George straight in the back of the head with an egg. Sadly, turned out the thing was already hard boiled!#$b#Maybe we're to blame for why he turned out so sour!$h", // Day before the Egg Festival
+                "spring_23": "You're grandfather once asked me to dance with him for the Flower Dance. I had to think long and hard about it before I finally gave in.#$b#He could be quite the charmer back in the day!$h", // Day before the Flower Dance
+                "summer_10": "I used to love going down to Pelican Town for the Luau. Unfortunately, beaches and wheelchairs don't get along very well.$s", // Day before the Luau
+                "summer_27": "Evelyn and I had a tradition of going to see the jellies together every year. That is, until my legs started acting up.#$b#Oh, but don't feel bad for me. We had more than our fair share of wonderful times!$h", // Day before the Midnight Jellies
+                "fall_15": "I'm not sure I'll be making it to the fair tomorrow. Crowds are just too much of a pain in the rear to navigate these days.", // Day before the Stardew Fair
+                "fall_26": "Between you and me, one year on Spirit's Eve, George and your grandpa scared little Saibara so badly that he wet himself.#$b#At the time I felt sorry for him, but now I can't help but laugh!$h", // Day before Spirit's Eve
+                "winter_7": "Every year I tell Gotz he should try his hand at ice sculpting for the festival. But, he always says that his big oaf hands aren't made for that kind of craftsmanship.", // Day before the Ice Festival
+                "winter_24": "Stu's been surprisingly well behaved lately. Perhaps it has something to do with the Feast of the Winter Star tomorrow?", // Day before Winter Star
+                //2 Heart
+                "Mon2": "Why hello there dearie!#$b#Don't tell me you came all this way just to see me!$h",
+                "Tue2": "Thanks for taking care of %farm. I have a lot of fond memories of the place from back when I was your age.$h",
+                "Wed2": "Sorry dear, my legs are bothering me more than usual today.$s#$b#George swears by hot peppers for his bad legs. Doesn't make much sense to me, but I'll try anything at this point!",
+                "Thu2": "I've been taking care of the children since my daughter and her husband passed.$s#$b#Although, it's more accurate these days to say they've been taking care of me.",
+                "Fri2": "I've lived in Mineral Town all my life. I can tell you for certain, dear, that I wouldn't have had it any other way!",
+                "Sat2": "If I were your age again, I'd be out in that field right alongside you!#$b#Y'know, I used to help your grandfather with the farm work when we were kids.#$b#Why? Let an old lady keep some secrets, dear!$h",
+                "Sun2": "Have you ever been to a Sock Hop? I tell you dearie, those were the days!#$b#I'd have been dancing around you in such a flurry that you wouldn't even know what hit ya!$h",
+                //4 Heart
+                "Mon4": "I wish you could've met my husband.#$b#He would've like the cut of your jib!$h",
+                "Tue4": "It's been so wonderful watching all the girls in the town grow into such beautiful young ladies!#$b#Brings so much warmth to my heart.",
+                "Wed4": "I truly feel for poor Lillia. My body doesn't work the best, that's true.#$b#But, I'm an old lady who's had her time. She's too young to be in such poor health.$s",
+                "Thu4": "You kids are so lucky, not only do your movies have sound, but color too!",
+                "Fri4": "%Ellen digs frantically through her purse.#$b#Oh, I'm sorry dear. I seem to have misplaced those darn hearing aids again!",
+                "Sat4": "If you see Barley, tell the old coot that he still owes me five dollars!#$b#With inflation and interest….that brings it to 2,395 dollars!$h",
+                "Sun4": "Do be a dear, and let Evelyn know next time you see her that we need to get together soon.#$b#Perhaps a game of cribbage over tea.",
+                //6 Heart
+                "Mon6": "You're always running around in such a hurry. You need to sit down and enjoy the day.#$b#Here, have a hard candy and stay awhile!$h",
+                "Tue6": "Your grandfather once tried to convince me that they were raising ostriches on the farm.#$b#Could you imagine?$h#$b#Next thing you'll be trying to convince me you have a dinosaur running around the place!$h",
+                "Wed6": "The doctor is such a kind young man.#$b#I couldn't begin to thank him enough for all he's done for our family. He's truly sent by the Goddess!$h",
+                "Thu6": "This wheelchair sure has been a blessing. I used to not even be able to leave the house without being half carried.",
+                "Sat6": "You might not believe me, but Evelyn was quite the bombshell back in our younger days.#$b#What? You look a bit shocked!$h",
+                "Sun6": "I remember when your grandfather took me for my first horseback ride all those years ago.#$b#You should've seen how fearless I was back then! The Adventurer's Guild wasn't around yet, but you'd best bet I'd have been leading the charge!$h",
+                //8 Heart
+                "Mon8": "I know Stu acts the troublemaker sometimes, but he really is a sweet and helpful boy.#$b#Oh, but don't tell him I told you that, or he'll be sour with me.$h",
+                "Tue8": "My granddaughter talks so much about how sweet you've been. I must agree with her on that.",
+                "Wed8": "You may not know this, but Marlon was quite the strapping young man back in his day.#$b#Oh how his boyish good looks and fearless attitude made us girls swoon!",
+                "Thu8": "My husband was one of the most hard-working, gentle men you'd ever meet.#$b#You two would have most certainly gotten along.",
+                "Fri8": "I miss my daughter more than you could ever know, and her husband too.$s#$b#I just thank the Goddess that they did such a fine job raising their children in the short time they had, bless their souls.",
+                "Sat8": "Sometimes I wonder what could've been if I hadn't met Earl and your grandfather hadn't met your grandmother.#$b#But I'm happy with how my life turned out and for all the blessings I've received, one of which was being able to call him a friend to the very end.",
+                "Sun8": "You may call me crazy, but when I was a young girl I would see the Harvest Sprites off running and playing in the forest.#$b#I'm sticking to my story and won't hear a word about it!",
+                //10 Heart
+                "Mon10": "Have you ever heard the tale of the Harvest Goddess and the Witch Princess? No?#$b#It's quite the long story, but I promise I'll tell it one day.",
+                "Tue10": "I remember when Doug's father first opened the Moonlight Bar. It was much smaller back then, but boy did it get us into all sorts of trouble!",
+                "Wed10": "I have some friends down in Forget-Me-Not Valley. Maybe I should pay them a visit soon.#$b#You'll have to come with me when I do!$h",
+                "Thu10": "Thank you for always taking the time to listen to my stories, @.#$b#This old lady is happy to consider you a friend through-and-through!$h",
+                "Fri10": "There used to be a man named Chuu who lived in town over with Gotz.#$b#He truly was a bit of an odd duck. Right up until he took off and left town, never to be seen again.",
+                "Sat10": "Can you believe that Mineral Town used to be even smaller and more secluded than it is today?#$b#Although, I'd personally call it quaint and peaceful myself.#$b#Strangely enough, the spa has always been there without anyone attending to it….",
+                "Sun10": "Seeing the housewives gossiping in the town square really takes me back to the old days!$h",
+		//LOCATION DIALOGUE
+		"Resort": "Oh hello, dear.$h#$b#The good Doctor made sure that this wheelchair could function in the sand.$h#$b#It's a bumpy ride, but servicable.",
+            },
+        },
+    ],
+}

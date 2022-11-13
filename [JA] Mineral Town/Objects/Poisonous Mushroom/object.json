@@ -1,0 +1,44 @@
+{
+    "Name": "Poisonous Mushroom",
+    "Description": "Highly recommended to never be eaten.",
+    "Category": "Fruit",
+    "Edibility": -50,
+    "Price": 55,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+    "Universal_Hate": []
+    },
+  
+        "NameLocalization":
+      { 
+        //remove the "//" from your language
+          //"es": "PLACEHOLDER",
+          //"ko": "PLACEHOLDER",
+          //"de": "PLACEHOLDER",
+          //"fr": "PLACEHOLDER",
+          //"hu": "PLACEHOLDER",
+          //"it": "PLACEHOLDER",
+          //"ja": "PLACEHOLDER",
+          //"pt": "PLACEHOLDER",
+          //"ru": "PLACEHOLDER",
+          //"tr": "PLACEHOLDER",
+          //"zh": "PLACEHOLDER",
+      },
+      "DescriptionLocalization":
+      {
+        //remove the "//" from your language      
+          //"es": "PLACEHOLDER",
+          //"ko": "PLACEHOLDER",
+          //"de": "PLACEHOLDER",
+          //"fr": "PLACEHOLDER",
+          //"hu": "PLACEHOLDER",
+          //"it": "PLACEHOLDER",
+          //"ja": "PLACEHOLDER",
+          //"pt": "PLACEHOLDER",
+          //"ru": "PLACEHOLDER",
+          //"tr": "PLACEHOLDER",
+          //"zh": "PLACEHOLDER",
+      }
+  }

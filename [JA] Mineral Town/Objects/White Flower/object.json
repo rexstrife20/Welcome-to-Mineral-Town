@@ -1,0 +1,47 @@
+{
+    "Name": "White Flower",
+    "Description": "It's a white flower, what more do you want?",
+    "Category": "Flower",
+    "Edibility": 5,
+    "Price": 60,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+    "Love": [ ],
+    "Like": [ ],
+    "Dislike": [ ],
+    "Hate": [ ]
+    },
+  
+        "NameLocalization":
+      { 
+        //remove the "//" from your language
+          //"es": "PLACEHOLDER",
+          //"ko": "PLACEHOLDER",
+          //"de": "PLACEHOLDER",
+          //"fr": "PLACEHOLDER",
+          //"hu": "PLACEHOLDER",
+          //"it": "PLACEHOLDER",
+          //"ja": "PLACEHOLDER",
+          //"pt": "PLACEHOLDER",
+          //"ru": "PLACEHOLDER",
+          //"tr": "PLACEHOLDER",
+          //"zh": "PLACEHOLDER",
+      },
+      "DescriptionLocalization":
+      {
+        //remove the "//" from your language      
+          //"es": "PLACEHOLDER",
+          //"ko": "PLACEHOLDER",
+          //"de": "PLACEHOLDER",
+          //"fr": "PLACEHOLDER",
+          //"hu": "PLACEHOLDER",
+          //"it": "PLACEHOLDER",
+          //"ja": "PLACEHOLDER",
+          //"pt": "PLACEHOLDER",
+          //"ru": "PLACEHOLDER",
+          //"tr": "PLACEHOLDER",
+          //"zh": "PLACEHOLDER",
+      }
+  }

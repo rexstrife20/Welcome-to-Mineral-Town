@@ -1,0 +1,48 @@
+{
+    "Name": "Salted Butter",
+    "Description": "A creamy base used in all sorts of recipes",
+    "Category": "Cooking",
+    "Edibility": -300,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 150,
+    "IsColored": false,
+    "CanPurchase": true,
+    
+    "GiftTastes": {
+        "Love": [ ],
+        "Like": [ ],
+        "Dislike": [ ],
+        "Hate": [ ]
+      },  
+      "NameLocalization":
+      { 
+        //remove the "//" from your language
+          //"es": "PLACEHOLDER",
+          //"ko": "PLACEHOLDER",
+          //"de": "PLACEHOLDER",
+          //"fr": "PLACEHOLDER",
+          //"hu": "PLACEHOLDER",
+          //"it": "PLACEHOLDER",
+          //"ja": "PLACEHOLDER",
+          //"pt": "PLACEHOLDER",
+          //"ru": "PLACEHOLDER",
+          //"tr": "PLACEHOLDER",
+          //"zh": "PLACEHOLDER",
+      },
+      "DescriptionLocalization":
+      {
+        //remove the "//" from your language      
+          //"es": "PLACEHOLDER",
+          //"ko": "PLACEHOLDER",
+          //"de": "PLACEHOLDER",
+          //"fr": "PLACEHOLDER",
+          //"hu": "PLACEHOLDER",
+          //"it": "PLACEHOLDER",
+          //"ja": "PLACEHOLDER",
+          //"pt": "PLACEHOLDER",
+          //"ru": "PLACEHOLDER",
+          //"tr": "PLACEHOLDER",
+          //"zh": "PLACEHOLDER",
+      }
+  }

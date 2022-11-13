@@ -1,0 +1,58 @@
+{ // Dialogues
+  "Changes": [
+    {
+      "LogName": "Elli dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Elli",
+      "Entries": {
+        //INTRODUCTION
+        "Introduction": "Why, hello there. My name is Elli, who might you be? Oh so you're @? Well, welcome to Mineral Town @!#$b#If you ever find yourself sick, or just want to stop in and say hello, I'll usually be working over at the clinic.",
+        "danceRejection": "I'm sorry, I don't think I'm cut out for dancing.$s",
+        "divorced": "I can forgive you for divorcing me, but not for how it affected Stu and my grandma.$s#$b#I'm sorry, I need to go.",
+        "breakUp": "I don't understand right now. But you seem to have made up your mind.$s#$b#Hopefully one day we can be friends again, it may just take awhile.",
+        //STARTING DIALOGUE
+        "Mon": "The Doctor is one of the most highly regarded in his field. We are lucky to have a professional like him in our small clinic in Mineral Town.",
+        "Tue": "Oh, hello @! I must say, I'm glad to not have seen you in our clinic as a patient.$h#$b#Not that I don't greatly appreciate your visits to see me!$l",
+        "Wed": "Hello @, I hope today is treating you well. Make sure to take a break now and then to keep yourself in top shape.",
+        "Thu": "Have you met Maru? We went to nursing school together.#$b#She was so smart and inspiring to look up to! We've been friends ever since!$h",
+        "Fri": "I know the weekend is different for a farmer, but please make sure to take some time off to take care of yourself.",
+        "Sat": "So how are things working at %farm? Nursing is hard work, but I imagine that farming must be on a whole different level!",
+        "Sun": "Ah yes. Once again, my brother hid crickets in my shoes this morning. What a new and exciting twist!$a",
+        // SPECIFIC DAY
+        "spring_12": "Stu loves participating in the egg hunt. You just always have to keep an eye out anytime that he and Vincent are together.", // Day before the Egg Festival
+        "spring_23": "Oh....are you going to the Flower Dance tomorrow?#$b#I'd like to but...I don't want to leave the clinic unmanned...$s", // Day before the Flower Dance
+        "summer_10": "Be very careful when eating from the potluck @. Sometimes people like to throw things in that can make you quite ill.#$b#I'm sure they think they're hilarious.", // Day before the Luau
+        "summer_27": "I haven't been to see the midnight jellies in years. Maybe I should take the night off to go this year. What do you think @?", // Day before the Midnight Jellies
+        "fall_15": "", // Day before the Stardew Fair
+        "fall_26": "", // Day before Spirit's Eve
+        "winter_7": "", // Day before the Ice Festival
+        "winter_24": "", // Day before Winter Star
+        //2 Heart
+        "Mon2": "You know my Grandma, right?#$b#I'm studying here because I want to discover a cure for her leg deterioration.",
+        "Tue2": "Have you been to the spa before, @?#$b#There's something special about those waters. They're power to heal the body competes with any medicine we have at the clinic!",
+        "Wed2": "It seems there's a cold going around, so please be sure to take the necessary precautions!",
+        "Thu2": "Oh, hello, @. Are you feeling well today?#$b#Farm work must be so taxing. I imagine it requires a lot of stamina.$h",
+        "Fri2": "Mr. Carter has been a good influence on Stu. Hopefully he can continue reigning in some of his bad behavior.",
+        "Sat2": "Have you seen my little brother around?#$b#I swear, that boy always has something planned. I have to be on my guard at all times….$a",
+        "Sun2": "If you see Maru anytime soon, please tell her that I say hello and that we need to get together soon!$h",
+        //4 Heart
+        "Mon4": "I sometimes worry about Karen's health.#$b#Seeing her stumble around hungover on Mondays is heartbreaking.$s",
+        "Tue4": "Oh, it's you, @!$h#$b#What is it? Does something hurt somewhere?#$b#I worry about you being all alone, @, and not having anyone around if you were to get hurt or sick",
+        "Wed4": "Hey there, @.$h#$b#Say, you come to Mineral Town very often these days don't you?#$b#Maybe you should just move here by now to cut down on commute time!$h",
+        "Thu4": "Oh, hello, @. Something tells me you've gotten used to life on the farm.#$b#What originally brought you to this town, @? It occurs to me that I never even asked you.$h",
+        "Fri4": "I found some really fascinating medical texts at the library the other day!#$b#I wonder if any could lead to a cure for my grandma's condition?",
+        "Sat4": "I've been looking into finding a way to help Mrs. Lillia too lately.#$b#I know her husband went out searching for a cure, but maybe there's something here that can help her.",
+        "Sun4": "Don't forget, the clinic is still open on Sundays if you ever need anything!",
+        //6 Heart
+        "Mon6": "The doctor has been such a blessing for me and my family. Did you know he performs my grandmother's treatments for free?#&b#He even covered the cost of her wheelchair!",
+        "Tue6": "Say, have you ever considered going into nursing?#$b#You've really got the personality for it. Not everyone is so caring!$h",
+        "Wed6": "Mine and Stu's parents? They died in a car crash a few years ago….$s#$b#It's hard to talk about, but talking to you is kind of therapeutic.",
+        "Thu6": "I have a question @. Do you think I'd make a good practitioner?#$b#The doctor says I'd be great at it but…. I'm not sure.$s#$b#I hear the schoolings really intense….$s",
+        "Sat6": "Oh! Hello there @.#$b#You're looking well today, is it because you've come to see me?$l#$b#Just kidding! But please stop by more often!$h",
+        "Sun6": "Have you ever come across a Stardrop?#$b#I hear they have some truly amazing properties to them. They can make you feel better than your best!$h",
+	//LOCATION DIALOGUE
+	"Resort": "My, it's so beautiful here! I'm so glad you helped fixed up that old boat.$h",
+      },
+    },
+  ],
+}

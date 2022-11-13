@@ -1,0 +1,47 @@
+{
+    "Name": "Blue Grass",
+    "Description": "A species of wild grass that grows near natural hotsprings.",
+    "Category": "Flower",
+    "Edibility": 10,
+    "Price": 50,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+    "Love": [ "Lillia", "Mary", "Jeff" ],
+    "Like": [ "Elli", "Basil", "Doctor", "Rick" ],
+    "Dislike": [ "Saibara", "Harris", "Cliff", "Ann", "Thomas", "Zack", "Carter", "Anna", "Ellen", "Duke", "May" ],
+    "Hate": [ "Popuri", "Kai", "Stu" ]
+    },
+  
+        "NameLocalization":
+      { 
+        //remove the "//" from your language
+          //"es": "PLACEHOLDER",
+          //"ko": "PLACEHOLDER",
+          //"de": "PLACEHOLDER",
+          //"fr": "PLACEHOLDER",
+          //"hu": "PLACEHOLDER",
+          //"it": "PLACEHOLDER",
+          //"ja": "PLACEHOLDER",
+          //"pt": "PLACEHOLDER",
+          //"ru": "PLACEHOLDER",
+          //"tr": "PLACEHOLDER",
+          //"zh": "PLACEHOLDER",
+      },
+      "DescriptionLocalization":
+      {
+        //remove the "//" from your language      
+          //"es": "PLACEHOLDER",
+          //"ko": "PLACEHOLDER",
+          //"de": "PLACEHOLDER",
+          //"fr": "PLACEHOLDER",
+          //"hu": "PLACEHOLDER",
+          //"it": "PLACEHOLDER",
+          //"ja": "PLACEHOLDER",
+          //"pt": "PLACEHOLDER",
+          //"ru": "PLACEHOLDER",
+          //"tr": "PLACEHOLDER",
+          //"zh": "PLACEHOLDER",
+      }
+  }

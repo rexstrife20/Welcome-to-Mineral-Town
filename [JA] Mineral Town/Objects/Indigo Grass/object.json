@@ -1,0 +1,47 @@
+{
+    "Name": "Indigo Grass",
+    "Description": "A species of wild grass that only grows in sandy soil.",
+    "Category": "Flower",
+    "Edibility": 10,
+    "Price": 50,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+    "Love": [ "Lillia", "Doctor", "Doug", "Jeff" ],
+    "Like": [ "Elli", "Basil", "Rick", "Mary" ],
+    "Dislike": [ "Saibara", "Cliff", "Harris", "Ann", "Thomas", "Zack", "Manna", "Karen", "Carter", "Anna", "Ellen", "Duke" ],
+    "Hate": [ "Popuri", "Kai", "Stu"  ]
+    },
+  
+        "NameLocalization":
+      { 
+        //remove the "//" from your language
+          //"es": "PLACEHOLDER",
+          //"ko": "PLACEHOLDER",
+          //"de": "PLACEHOLDER",
+          //"fr": "PLACEHOLDER",
+          //"hu": "PLACEHOLDER",
+          //"it": "PLACEHOLDER",
+          //"ja": "PLACEHOLDER",
+          //"pt": "PLACEHOLDER",
+          //"ru": "PLACEHOLDER",
+          //"tr": "PLACEHOLDER",
+          //"zh": "PLACEHOLDER",
+      },
+      "DescriptionLocalization":
+      {
+        //remove the "//" from your language      
+          //"es": "PLACEHOLDER",
+          //"ko": "PLACEHOLDER",
+          //"de": "PLACEHOLDER",
+          //"fr": "PLACEHOLDER",
+          //"hu": "PLACEHOLDER",
+          //"it": "PLACEHOLDER",
+          //"ja": "PLACEHOLDER",
+          //"pt": "PLACEHOLDER",
+          //"ru": "PLACEHOLDER",
+          //"tr": "PLACEHOLDER",
+          //"zh": "PLACEHOLDER",
+      }
+  }

@@ -1,0 +1,65 @@
+{
+    "Name": "Harvest Apple Pie",
+    "Description": "Tastes just like freedom.",
+    "Category": "Cooking",
+    "Edibility": 105,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 600,
+    "IsColored": false,
+    "Recipe": {
+      "ResultCount": 1,
+      "Ingredients": [
+        {
+          "Object": 613,
+          "Count": 1,
+        },
+        {
+          "Object": 246,
+          "Count": 1,
+        },
+        {
+          "Object": 245,
+          "Count": 1,
+        },
+      ],
+      "CanPurchase": true,
+      "PurchaseFrom": "Doug",    "PurchasePrice": 600,
+    },
+  "GiftTastes": {
+      "Love": [ "Popuri", "Harris", "Ann", "Thomas", "Stu", "Gray" ],
+      "Like": [ "Elli", "Lillia", "Cliff", "Gotz", "Ellen", "Duke", "Mary", "May" ],
+      "Dislike": ["Saibara", "Barley", "Karen" ],
+      "Hate": [""]
+    },  
+    "NameLocalization":
+    { 
+      //remove the "//" from your language
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+    },
+    "DescriptionLocalization":
+    {
+      //remove the "//" from your language      
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+  }
+}

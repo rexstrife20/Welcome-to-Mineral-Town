@@ -1,0 +1,68 @@
+{
+    "Changes": [
+        {
+            "LogName": "Karen dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Karen",
+            "Entries": {
+                //INTRODUCTION
+                "Introduction": "So, you're the new farmboy over in Pelican Town that I've been hearing about?^So, you're the new farmgirl over in Pelican Town that I've been hearing about?#$b#I'm Karen. My family runs the general store here in Mineral Town. You should stop by and say hi sometime.#$b#I've gotta get going, but I hope to be seeing you around!$h",
+                "danceRejection": "Sorry, nothing personal but this kind of dancing isn't exactly for me....",
+                "divorced": "Oh, sorry. I thought I'd be too boring to talk to.$a",
+                "breakUp": "....Oh. I see how it is. Well, thanks for at least telling me.$s",
+		        //STARTING DIALOGUE
+                "Mon": "Hey there. Anything interesting going on in your neck of the woods?#$b#Things are too quite around here for me.",
+                "Tue": "Sometimes I really can't believe I left Zuzu City to come back to this ho dunk town.$s ",
+                "Wed": "Is there anything fun going on in Pelican Town today?#$b#My dad doesn't need my help at the store today so now I've gotta find something to do.",
+                "Thu": "I wonder what Aja is doing over in the city this weekend?#$b#Maybe I should try to give her a call.$h",
+                "Fri": "Hey, you going out tonight? I can't decide between the Moonlight in or Stardrop Saloon.#$b#Honestly, they're both pretty boring.$h",
+                "Sat": "Last night got pretty wild.$u#$b#Should I go out for another tonight?$u#$e#Who the hell am I kidding? Like there's anything else to do.$h",
+                "Sun": "Sorry, now's not a great time @.....$s",
+                // SPECIFIC DAY
+                "spring_12": "I think we're both a little too old to be getting excited about the Egg Festival, aren't we?#$b#But hey, free drinks courtesy of Doug and Gus right?$h", // Day before the Egg Festival
+                "spring_23": "I'll be honest, the Flower Dance isn't exactly my sort of party. But, it IS a party.", // Day before the Flower Dance
+                "summer_10": "I'm trying to think of what I could cook to bring to the Luau tomorrow. Most people say \"Please Karen, for the good of mankind please don't bring ANYTHING!\"#$b#But I think they're just saying that to inspire me!$l", // Day before the Luau
+                "summer_27": "I've gotta admit, something about the quiet serenity of the Midnight Jellies really gets me thinking….", // Day before the Midnight Jellies
+                "fall_15": "The Stardew Fair is probably the single closest thing to a party in The Valleys.#$b#I can respect that!$h", // Day before the Stardew Fair
+                "fall_26": "Do you have a costume picked out for this year @?#$b#Bet you can't wait to see mine, can you?$h", // Day before Spirit's Eve
+                "winter_7": "Ice Festival? What a yawn-fest. Sorry, I'll pass.", // Day before the Ice Festival
+                "winter_24": "The Winter Star is a little too whimsical for me.#$b#But it gives me a chance to try out some new fruit cake recipes, so I don't mind too much.$h", // Day before Winter Star
+                //2 Heart
+                "Mon2": "%Karen is looking unwell. Perhaps it's best to leave her be.",
+                "Tue2": "Sometimes I forget how boring it is to help run the store. Then I step foot inside and it hits me straight in the face once again.",
+                "Wed2": "Does the Stardrop Saloon ever get lively? I hear it's become really packed lately.#$e#Hey, take me there with you sometime if you ever find a spot for me, okay?$h",
+                "Thu2": "Y'know, Ann and I were never really close as children. But lately we've been talking a lot more.#$b#We're both more similar and more different than I'd have imagined.",
+                "Fri2": "Hey there @! You hyped up for the weekend?$h#$b#I better see you around the Moonlight Inn. Don't be late!$h",
+                "Sat2": "Alright farmer. We've just gotta puke and rally.#$b#That's how we'll get through today....at least I hope so.$s",
+                "Sun2": "Ugh.....sorry @. I really, really can't talk right now.$s",
+                //4 Heart
+                "Mon4": "No offense, but the other girls in this town are kinda lame. I need to meet back up with my school friends.",
+                "Tue4": "Why can't things ever just be easy?#$b#Hey @, wanna run off with me somewhere?",
+                "Wed4": "I can't stand it when Duke talks down to me. We run into eachother at the inn all the time.#$b$Even my favorite spot isn't sacred.$s",
+                "Thu4": "So what exactly do you do during the week? I always see you running from person to person like a maniac....#$b#Is that actually productive?",
+                "Fri4": "Hey @. Gonna buy me a drink tonight?$h",
+                "Sat4": "Man, last night was a little embarassing....Even for me....$s",
+                "Sun4": "%Karen looks pale and seems to be sweating heavily. She doesn't seem to notice you.",
+                //6 Heart
+                "Mon6": "Hey @, what did you always want to be when you grew up?#$b#Did you ever think you'd end up stuck in a place like this?$s",
+                "Tue6": "Me and Ann might be taking a trip to Zuzu pretty soon.#$b#You should totally join us!$h",
+                "Wed6": "Man, the store's been really busy lately. At first I thought it was you buying everything up but it's surprisingly not!",
+                "Thu6": "What are you up to today? You should take me to Pelican Town and show me around one of these days.",
+                "Sat6": "I feel bad for Gray. Saibara gets so loud and obnoxious at the Inn.#$b#I can only imagine how much it must suck to work for him.#$b#Really makes me appreciate my old man just a tad more.$h",
+                "Sun6": "I….don't feel hungover.#$b#I'm not really sure what to do on a Sunday when I'm not on the brink of death.",
+                //8 Heart
+                "Mon8": "I'm trying to plan a laddie's' night for all of us girls.#$b#Maybe you could pop in for a bit to make an appearance?",
+                "Tue8": "I've been trying to help my dad come up with marketing ideas.#$b#Not gonna lie, I kinda dig it.$h#$e#Maybe it's like a new calling for me.$l",
+                "Wed8": "I've cut ties with a lot of my friends from uni. I've gotta say, I feel much more productive now.#$b#Turns out they were pretty judgmental the whole time. Very toxic.",
+                "Thu8": "So I uh…asked Mary to help tutor me for school. She seemed really shocked that I asked.#$b#But she ended up saying yes!$h",
+                "Fri8": "I gotta say, I know that I'm not the smartest, and I don't mean to be.#$b#But you have never made me feel stupid.#$b#So….thanks @.$l",
+                "Sat8": "I think I'm gonna stay in this weekend.#$b#If you're free, you should come join!$h",
+                "Sun8": "Tell me @, are you a believer in the Harvest Goddess? I never really have been.#$b#But, I dunno, it's been something I've been giving a second thought to lately.",
+		    //LOCATION DIALOGUE
+		    "Custom_HM_Inn": "Wouldn’t it be great if we could just dissolve our problems and drink them away?$u",
+		    "Resort": "There's all sorts of rare varieties of medicinal herbs here on the island.#$b#The good we could do with these.....who knows where to begin?",
+            
+            }
+        }
+    ]
+}

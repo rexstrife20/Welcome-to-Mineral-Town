@@ -1,0 +1,16 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Mei Schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Mei ",
+      "Entries": {
+        "spring": "0 Custom_HM_YodelSecFloor 1 13 3 Mei_sleep/610 Custom_HM_YodelSecFloor 5 5 0/730 Custom_HM_MineralTown 87 67 3/1100 Custom_HM_MineralTown 129 81 3 Mei_rope/1400 Custom_HM_YodelInterior 11 12 2/2100 Custom_HM_YodelSecFloor 1 13 3",
+        "summer": "GOTO spring Mei_sleep",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring"
+      },
+    },
+  ],
+}

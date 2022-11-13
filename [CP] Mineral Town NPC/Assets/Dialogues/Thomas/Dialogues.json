@@ -1,0 +1,71 @@
+{
+  "Changes": [
+    {
+      "LogName": "Thomas dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Thomas",
+      "Entries": {
+        //INTRODUCTION
+        "Introduction": "I'm so glad you decided to swing by and give Mineral Town a chance to win you over! You'll find the townsfolk here to be exceedingly pleasant and helpful.$h#$b#So please, take a look around and sample everything Mineral Town has to offer.#$b#Then head back and tell Lewis about how superior my town is!$h",
+        //STARTING DIALOGUE
+        "Mon": "Why hello there young @. I hope this day is treating you well!#$b#Oh, and of course, welcome back to Mineral Town!$h",
+        "Tue": "I've been mayor of this town since 2003! That HAS to be some sort of record!",
+        "Wed": "Have you ever stopped by the Moonlight Inn? It and Doug's phenomenal cooking are some of Mineral Town's best attractions!$h",
+        "Thu": "I once had a dream that I was forever as short as the children.#$b#Could you imagine! What kind of mayor would I be then!$h",
+        "Fri": "My son Harris is the town's only police officer. Even so, he does his best to keep the peace.#$b#I'm darn proud of him!$h",
+        "Sat": "Not to brag, but Lewis's mustache simply cannot hold a candle to mine. And that's a fact!",
+        "Sun": "People travel far and wide to come view Mineral Town's world renowned cherry blossoms each year!$h#$e#Sort of like how every year they travel to Pelican Town to see Lewis's face age like a poor wine!$h",
+        // SPECIFIC DAY
+        "spring_12": "Hah! Lewis may think he's won the day with his Egg Festival. But who, I ask you, supplies most of the eggs?#$b#Why, PoPoultry of course!$h", // Day before the Egg Festival
+        "spring_23": "The Flower Dance. Such a quaint affair.#$b#I do rather enjoy it! Lewis did good on that one, loathe as I am to admit it!", // Day before the Flower Dance
+        "summer_10": "Sorry @, no time to talk. This year I'll be able to show Lewis up in front of the Governer himself!$h", // Day before the Luau
+        "summer_27": "I don't usually go to see the midnight jellies.#$b#Quite honestly, it's well past my bedtime.", // Day before the Midnight Jellies
+        "fall_15": "I should setup a stand this year!$h#$b$If only I had anything to fill it with....$s", // Day before the Stardew Fair
+        "fall_26": "A few years ago a child got lost in the hedge maze for hours! It was almost quite the travesty.", // Day before Spirit's Eve
+        "winter_7": "Ice Festival? Nobody even cares about that @!", // Day before the Ice Festival
+        "winter_24": "Who did you get for gift giving this year @?#$e#Oh come now, you can tell old Thomas!$h", // Day before Winter Star
+        //2 Heart
+        "Mon2": "Being mayor isn't easy you know.#$b#It can be quite thankless sometimes.",
+        "Tue2": "Carter has done such an excellent job of helping the children build strong character.#$b#Wouldn't you agree?$h",
+        "Wed2": "Harris has been doing a great job keeping the town safe hasn't he?",
+        "Thu2": "Between you and I, the Harvest Goddess statue outside of the church was quite the expensive commission.#$b#But it sure is an excellent conversation starter, wouldn't you agree?",
+        "Fri2": "Ah @, will you be joining us here in Mineral Town for the weekend? I'm sure Doug would greatly enjoy your patronage!$h",
+        "Sat2": "I hear you Pelican Townites have a wizard in your midst?#$b#Why don't we have anything interesting going on here?$s",
+        "Sun2": "Do tell me @, what was it like living in the city? I actually came to Mineral Town from Zuzu City, but that was ages ago.",
+        //4 Heart
+        "Mon4": "You should consider moving over to Mineral Town, @.#$b#You're too great of an asset to be all holed up in Pelican Town!$h",
+        "Tue4": "This town holds many secrets, if you didn't know.#$b#Who knows, maybe if you find them all, I'll give you a prize!$h#$b#Consider it a challenge, @.$h",
+        "Wed4": "You know, it takes a lot more to be mayor than most people think it does.#$b#I truly didn't know what it all entailed when I took over for my predecessor. I was simply in it for the glory!",
+        "Thu4": "How Lewis lives with himself while one of his citizens lives in a tent in the mountains is beyond me.#$b#Why, I've heard stories that the poor fellow was seen eating out of the trash!$s",
+        "Fri4": "Jeff does fine work running that department store of his.#$b#It's able to supply the whole town with anything they could need. And all the more at an affordable price!$h",
+        "Sat4": "I'm trying to think of how to bring more weekend attractions to our little town.#$b#Perhaps an arcade? A waterpark? Skydiving? There's no limit to our potential!$h",
+        "Sun4": "Another day spent hard at work, @?#$b#It must be quite tiring. You could at least take the weekend off.#$b#But I'm sure that is easier said than done for someone with a farm to maintain.",
+        //6 Heart
+        "Mon6": "And so yet another peaceful day passes in our peaceful town. As mayor, I could not be happier.$h",
+        "Tue6": "People like me count on people like you to grow our food.#$b#So, what I'm saying is, thank you so much for all you do!$h",
+        "Wed6": "Occasionally, I'll here stories of mischief being made in the outskirts of the town.#$b#Red chickens running amok, tiny apple men warring with gnomes.#$b#There's been no shortage of tall tales as of late.",
+        "Thu6": "Some years ago, I shared my roof with a gentleman by the name of Kanno.#$b#He was a photographer, you see. Had a real fondness for taking pictures of Mineral Town's scenery. But one day, I returned home to find he had left, leaving behind only a letter.#$b#I wonder where he is now.",
+        "Sat6": "I hope you're resting up this weekend, @.#$b#Thankfully, you're here in Mineral Town where you always seem to be in a good mood!$h#$b#May I recommend a dip in our natural hotspring?",
+        "Sun6": "I think I'll take a load off today. Would you mind playing mayor for a short while?#$b#I'm only kidding, of course!$h",
+        //8 Heart
+        "Mon8": "I'm proud to say that I haven't fallen into corporate greed as Lewis has.#$b#To think, he allowed that garish JojaMart to set roots in his town.#$b#Such a pity!$h",
+        "Tue8": "It always makes me feel better when Harris tells me that nothing problematic has happened in town.",
+        "Wed8": "Zack is a hard working man through and through.#$b#It's a pity that the old farm nearby is now vacant. That's where ninety-percent of his workload came from!",
+        "Thu8": "We must do something with the empty shack behind the clinic. Do you have any ideas, @?",
+        "Fri8": "I've been thinking, perhaps I can use some of the land around us to install more attractions to our town.#$b#To think, we could have our own beach resort!$h",
+        "Sat8": "Many people have said that I'm alot taller in person than they had expected.#$b#I'm....not really sure what that's supposed to mean.#$b#But I suppose it must be a good thing.",
+        "Sun8": "The fact that Lewis let the Pelican Town community center fall into such disarray is disgraceful.#$b#No mayor worth his weight would allow that on his watch.",
+        //10 Heart
+        "Mon10": "Where did I get my hat?#$b#Why, @, I'm flattered but some things a man must keep secret!$h",
+        "Tue10": "All these newcomers to town really bring a sense of excitement that we haven't seen in some time.#$b#Carter, Kai, Won, and even yourself!$h#$b#The town is always evolving and I can't wait to see where it heads to next.",
+        "Wed10": "I've been wondering, do you think it wise for me to construct my own golden statue?#$b#Oh, the look on your face!$h#$b#I'm joking of course, that would be a flagrant misuse of town funds.$h",
+        "Thu10": "One of these days, I must go to visit my friend Romana again.#$b#If only I had the funds to get the highway to Forget-Me-Not Valley installed.$s",
+        "Fri10": "Good day, @! There seems to be something magical in the air today, wouldn't you agree?#$b#Maybe its just the ever eminating satisfaction of a job well done.$h",
+        "Sat10": "Sometimes, I cannot believe how lucky I am to have been granted the ability to become mayor of a town as splendid as this.#$b#It truly is heartwarming to see it develop beyond even my wildest dreams.",
+        "Sun10": "I can tell that you've been visiting here more and more often lately.#$b#Is our allure finally taking hold?#$b#Don't worry, I can get property papers drafted in a jiffy and have you moved into Mineral Town by tomorrow!$h",
+	//LOCATION DIALOGUE
+	"Resort": "Hello there, @!$u#$b#I'm taking a bit of a holiday getaway from my mayorly duties for a moment.$u#$b#Keep Mineral Town in one peace for me, if you would!$u",
+      },
+    },
+  ],
+}

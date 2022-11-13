@@ -1,0 +1,62 @@
+{
+  "Name": "Fruit Latte",
+  "Description": "Nutritious AND delicious.",
+  "Category": "Cooking",
+  "Edibility": 80,
+  "EdibleIsDrink": true,
+  "EdibleBuffs": null,
+  "Price": 80,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": -6,
+        "Count": 1
+      },
+      {
+        "Object": -79,
+        "Count": 1
+      },
+    
+      ],
+      "CanPurchase": false,
+
+    },
+  "GiftTastes": {
+      "Love": [ "Elli", "Lillia", "Manna", "Carter", ],
+      "Like": [ "Barley", "Popuri", "Cliff", "Ann", "Kai", "Thomas", "Gotz", "Stu", "Doug", "Anna", "Ellen", "May", "Jeff" ],
+      "Dislike": [ "", ""],
+      "Hate": [ "" ]
+    },
+    "NameLocalization":
+    { 
+      //remove the "//" from your language
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+    },
+    "DescriptionLocalization":
+    {
+      //remove the "//" from your language      
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",  
+    }
+}

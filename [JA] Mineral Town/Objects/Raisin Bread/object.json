@@ -1,0 +1,59 @@
+{
+    "Name": "Raisin Bread",
+    "Description": "Subtly sweet, but great to eat!",
+    "Category": "Cooking",
+    "Edibility": 75,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 80,
+    "IsColored": false,
+    "Recipe": {
+      "ResultCount": 1,
+      "Ingredients": [
+        {
+          "Object": "Bread",
+          "Count": 1,
+        },
+        {
+          "Object": "Grape",
+          "Count": 1,
+        },
+        
+      ],
+      "CanPurchase": false,
+      "PurchaseFrom": "",    "PurchasePrice": 800,
+    },
+  "GiftTastes": {
+      "Love": [""],
+    },  
+    "NameLocalization":
+    { 
+      //remove the "//" from your language
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+    },
+    "DescriptionLocalization":
+    {
+      //remove the "//" from your language      
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+  }
+}

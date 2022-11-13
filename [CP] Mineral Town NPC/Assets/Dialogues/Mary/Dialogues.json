@@ -1,0 +1,58 @@
+{ // Dialogues
+    "Changes": [
+        {
+            "LogName": "Mary dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Mary",
+            "Entries": {
+                //INTRODUCTION
+                "Introduction": "Oh! Sorry, I'm not great at this..... I'm Mary. You're @ right? It's really nice to finally meet you.",
+                "danceRejection": "Erm, no thanks. I'm very sorry!",
+                "divorced": "I'm sorry, but I really don't want to talk right now.$a",
+                "breakUp": "...oh...ummmm I really don't know what to say to this….$s#$b#I'm sorry I guess.$s",
+                //STARTING DIALOGUE
+                "Mon": "Ummm...how are you doing today?#$b#Me, oh I'm doing well. Thanks so much for asking!$l",
+                "Tue": "Have you been reading anything interesting lately? I picked up this series called \"Story of Seasons\". #$b#You should check it out sometime, I'm sure you'd love it!$h",
+                "Wed": "I heard they're coming out with a movie adaptation of \"A Wonderful Life\". That's always been one of my favorites!$h#$b#I really hope they do it justice…..",
+                "Thu": "Our collection of books here at the library is unmatched in the valleys. Although….somehow Gunther's collection has been steadily growing….$s#$b#I wonder who's getting him these books?",
+                "Fri": "My father's line of work is a little too….grimy for me. Regardless, I really look up to his passion for what he does!",
+                "Sat": "The weekends are great for just being able to sit down uninterrupted with a great story. Wouldn't you agree @?",
+                "Sun": "Sunday's have been the day of rest since as long as records show. I wonder how that ever came to be….#$e#Sorry, was that exceedingly boring? Sometimes I think out loud.",
+                // SPECIFIC DAY
+                "spring_12": "Did you know, the Egg Festival is surprisingly new. It was actually created by Mayor Lewis himself.#$b#Probably in some vain attempt to one up Mayor Thomas, as they are both wont to do.", // Day before the Egg Festival
+                "spring_23": "My mother handed me down her old Flower Dance dress but.... I'm not too sure that I'm made for that kind of thing.$l", // Day before the Flower Dance
+                "summer_10": "The Luau is such a weird tradition.#$b#I understand that the potluck binds people as a community, but what if something dangerous ends up in it?#$b#Then the whole town will be retching for days.", // Day before the Luau
+                "summer_27": "Are you ready to watch the jellies tomorrow? I would truly love to see one close up.#$b#Would you mind catching one for me, @?$h", // Day before the Midnight Jellies
+                "fall_15": "The Stardew Fair is a little too packed for my tastes.#$b#But if I can finish my studying tonight, perhaps I'll be able to stop by for a moment or two.#$b#Will you be there at all?", // Day before the Stardew Fair
+                "fall_26": "Me? Scared? N-no, why would you ask such a thing?#$b#I can be brave tomorrow, I know I can!$s", // Day before Spirit's Eve
+                "winter_7": "I'm not a huge fan of the cold, but the ice sculptures Leah makes are something I just cannot miss out on.$h", // Day before the Ice Festival
+                "winter_24": "Even as an adult, I still find a sort of fairytale whimsy in the Winter Star.#$b#Maybe some things should never change, don't you think, @?$h", // Day before Winter Star
+                //2 Heart
+                "Mon2": "What kind of books do you like to read, @?#$b#Some of my favorites are a series written by two-time award winning author Rodney O'Brien. You should really check them out!$h",
+                "Tue2": "This town feels like a quaint fairy tale hamlet nestled in the countryside.$h#$b#Is Pelican Town much the same?",
+                "Wed2": "The Library was built so that the townspeople could read my father's books.$h#$b#I sometimes switch out books or add new titles to the collection, so I hope you make a habit of stopping by often.$h",
+                "Thu2": "My mother keeps asking me to take a trip with her to Zuzu City.#$b#I don't want to let her down, but I've got my hands full with my studies.#$b#Perhaps I can bring audio textbooks?",
+                "Fri2": "Do you talk to Gray often? A lot of people in town think he's standoffish.#$b#But I really think he's just misunderstood. Not everyone is a social butterfly like you, @.",
+                "Sat2": "I was reading Legends of Krys the other day.#$b#What a zany story. I cannot recommend it enough.",
+                "Sun2": "If you could go anywhere, where would you choose?#$b#I always wonder if finding a different environment might help jog my creative gears and help me write my play.",
+                //4 Heart
+                "Mon4": "May I tell you about a rumor I've heard?#$b#Supposedly, there's a book out there that engrosses its readers so much, they lose all sense of time!#$b#If a book like that really does exist, I'd love to read it, even just once.$h",
+                "Tue4": "I found a book called The Lusty Argonian Maid tucked away in the library the other day.#$b#It's very.... ahem. Nevermind. Forget I said anything!",
+                "Wed4": "Have you ever seen a stageplay before?#$b#We went to see one in Zuzu City when I was a little girl. Honestly, I've been infatuated with them ever since.",
+                "Thu4": "I like stopping by the library in Pelican Town every now and then.#$b#It's crazy to see, no matter how big our collection is here, that there are still so many books out there that I've never seen or heard of.$h",
+                "Fri4": "Are you enjoying your life on the farm, @? Would you tell me all about what a farmer does sometime?#$b#You came all the way to this town only to undertake a life of hard labor... I imagine I could learn a lot from you.$h",
+                "Sat4": "Have you ever acted? I'd imagine there has to be a lot more oppurtunities back in the city.#$b#You could've made it big time!",
+                "Sun4": "I've got a lot of research to do for the play I'm writing. If only the days were twice as long.",
+                //6 Heart
+                "Mon6": "When you look into the differences in overall philosophy between the Ferngill Republic and Gotoro Empire, you not only notice how fundamentally different they are, but also how they developed in parallel to one another.#$e#Wouldn't you agree?",
+                "Tue6": "I hope that you understand the value of continuously enriching your mind.#$b#It can take you soaring to any goal you can imagine.",
+                "Wed6": "Oh, why hello there @! Your voracious appetite for the written word is admirable.$h#$b#I love the scent of books. They smell like... a forest, almost.#$b# It transports me to a place of calm.",
+                "Thu6": "We're so lucky to have a library of our size in such a small town.#$b#And for the oppurtunity to live right next door, I feel like the entire world is just a door away.$h",
+                "Sat6": "Oh... hello @. Ah, no. I was simply lost in thought.#$b#I notice that only certain people ever come to the Library. And yet I dearly want to foster a passion for reading in all of Mineral Town's residents.",
+                "Sun6": "Have you talked to Penny much?#$b#She's kind of the de facto educator for the children in Pelican Town.#$b#I would like to start something similar here for Stu and May but....I'm not sure. What do you think?",
+		//LOCATION DIALOGUE
+		"Resort": "It's beautiful here.$h#$b#Just like something out of a storybook...$h",
+            },
+        },
+    ],
+}

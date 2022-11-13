@@ -1,0 +1,16 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Saibara Schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Saibara ",
+      "Entries": {
+        "spring": "0 Custom_HM_BlackSmith 18 5 1 Saibara_sleep/610 Custom_HM_BlackSmith 15 7 2/810 Custom_HM_BlackSmith 7 12 2/1200 Custom_HM_BlackSmithWorkshop 6 16 3 Saibara_work/1500 Custom_HM_BlackSmith 7 12 2 Saibara_sleep/1800 Custom_HM_Inn 17 10 3/2300 Custom_HM_BlackSmith 18 5 1 Saibara_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring"
+      },
+    },
+  ],
+}

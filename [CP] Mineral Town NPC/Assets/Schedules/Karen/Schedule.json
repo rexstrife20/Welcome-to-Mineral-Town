@@ -1,0 +1,17 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Karen Schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Karen ",
+      "Entries": {
+        "spring": "0 Custom_HM_JeffMarket 3 5 3 Karen_sleep/610 Custom_HM_JeffMarket 5 6 2/710 Custom_HM_MineralTown 77 88 2/1000 Custom_HM_JeffMarket 7 14 2/1500 Custom_HM_MineralBeach 56 14 1/1700 Custom_HM_Inn 19 8 2 Karen_drink/2300 Custom_HM_JeffMarket 3 5 3 Karen_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "Sun": "0 Custom_HM_JeffMarket 3 5 3 Karen_sleep/610 Custom_HM_GoddessHill 31 12 0/1000 Custom_HM_MountainLake 36 27 3/1300 Custom_HM_Inn 19 8 0/1800 Custom_HM_OceanSummit 27 17 0/2200 Custom_HM_JeffMarket 3 5 3 Karen_sleep",
+      },
+    },
+  ],
+}

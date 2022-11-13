@@ -1,0 +1,71 @@
+{ // Dialogues
+    "Changes": [
+        {
+            "LogName": "Saibara dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Saibara",
+            "Entries": {
+                //INTRODUCTION
+                "Introduction": "You must be @. You have the same lost look on your face as your Granddad always had.#$b#The name's Saibara, I run the smithy here in Mineral Town. Feel free to stop by and make yourself useful!",
+                //STARTING DIALOGUE
+                "Mon": "Ah @! Good to see you back to work after the weekend!$h#$b#My grandson could learn a thing or two from you!$h",
+                "Tue": "Don't you have some work that needs doin'?",
+                "Wed": "Oh hey there @.#$b#Stop by my shop today and help an old man out would you? Clearly you've got enough free time!$h",
+                "Thu": "That Clint can really do some great work.#$b#Boy just needs to learn to lighten up a little$h",
+                "Fri": "I hope you're kinder to your tools than your Grandfather was. He was in my shop every week with something freshly mangled.",
+                "Sat": "Work hard during the week, party hard during the weekend!$h#$b#That's been my motto longer than you've been alive!$h",
+                "Sun": "Bah! \"Day of Rest\".#$b#Time to party is more like it!$h",
+                // SPECIFIC DAY
+                "spring_12": "Eggs? Yer kiddin' right?", // Day before the Egg Festival
+                "spring_23": "I'm not really one for a Flower Dance, believe that or not.#$b#But, you make sure to go have yourself a good time.", // Day before the Flower Dance
+                "summer_10": "Ah the Luau, now THAT'S a holiday I can get behind.#$b#Free drink, delicious food, and the sun beating at my neck.#$b#Enjoy it while you can!$h", // Day before the Luau
+                "summer_27": "I was never big on the Midnight Jellies, but my wife, bless her heart, she couldn't get enough of them.#$b#Maybe I'll show up in support of her memory.", // Day before the Midnight Jellies
+                "fall_15": "You'd best be ready to hear that bell ring out across Pelican Town when I show you my strength tomorrow!$h", // Day before the Stardew Fair
+                "fall_26": "Bah, there ain't nothin' about Spirit's Eve that's all that scary.#$b#You should've seen my wife when she worked up a temper!$h#$b#She'd of sent you runnin' for the hills!$h", // Day before Spirit's Eve
+                "winter_7": "Who on earth would choose to fish in the cold?#$b#Seems like a pretty miserable way to spend your day.", // Day before the Ice Festival
+                "winter_24": "Sometimes I dress up as an elf for the Feast of the Winter Star.#$b#What, ya don't believe me?$a", // Day before Winter Star
+                //2 Heart
+                "Mon2": "Hohoho. There's no point in standing around here.",
+                "Tue2": "Y'know, you should take Gray under yer wing for a spell.#$b#He could stand to learn something about self motivation from you!$h",
+                "Wed2": "What's the matter? Is all well on the farm I hope?",
+                "Thu2": "Clint apprenticed under me for a bit, did you know that?#$b#I'll tell ya one thing, the big oaf was a bigger crybaby than my grandson!",
+                "Fri2": "I'd love to sit and chat with you all day, @.#$b#But, unlike you, I've got a business to run, hohoho!$h",
+                "Sat2": "Don't you think you should quit wasting time around here and focus on your farm work instead?$a",
+                "Sun2": "Those who work hard need to relax in equal measure. The body requires rest!",
+                //4 Heart
+                "Mon4": "Sorry, what was that, @?#$b#You outta speak up, I can't hear you from down here, y'know!",
+                "Tue4": "I have a lot of fond memories growing up with your grandpa and the other old timers in The Valleys.#$b#Not that I'm not still young in my finest years!$h",
+                "Wed4": "All is well in your world, I trust?#$b#Whatever life throws at you, devote yourself to it fully. To live is to learn. Never forget that.$h",
+                "Thu4": "Try not to think too much about what yer doin'.#$b#If things are supposed to happen, then they will.#$b#All worrying your mind does is exhaust ya before the day even starts.",
+                "Fri4": "I've gotta say, Gray's work the other day was quite the piece.$h#$b#Don't tell him I said that though. I don't want him to start thinkin' he's a hotshot.",
+                "Sat4": "My grandson? He means the world to me.#$b#That's why I need to forge him like a piece of fine iridium so he's ready for when I leave this world.#$b#One day, I'm sure he'll come to understand that.",
+                "Sun4": "I'm at that age now, you know. I have a duty to teach Gray everything I know before I leave this world behind.",
+                //6 Heart
+                "Mon6": "Some people are still convinced that I'm secretely a dwarf.#$b#Couldn't tell ya why for the life of me.",
+                "Tue6": "I think I've deserved a stiff drink after work today, wouldn't you agree, @?$h",
+                "Wed6": "You're a hard worker yourself. I can see how much you've grown.",
+                "Thu6": "I learned the art of smithing from my father, who learned from his father, who learned from his father.#$b#Woulda taught my son too if he didn't take off from town.#$b#Now it's my duty to leave all I know with Gray.",
+                "Sat6": "I know I preach on about hard work all the time, but make sure yer taking time out for yerself as well.#$b#Gotta refuel sometimes to keep at peak efficiency, much like a furnace.",
+                "Sun6": "Perhaps I should take some time today to go take a dip in the spa.#$b#It does wonders for my aching back and creaking joints.#$b#Slaving away smashing iron day in and day out does have its detriments.#$b#But the muscle it builds more than makes up for it!$h",
+                //8 Heart
+                "Mon8": "Tell me honestly, you don't think I'm too tough on Gray, do ya?#$b#I only want to toughen him up and make him as best of a man as I can with the rest of the time I've got.",
+                "Tue8": "Who delivers me the ore for my work?#$b#You ask far too many questions, @. Just be grateful for what I'm able to provide.",
+                "Wed8": "Believe it or not, I actually helped the doctor design Ellen's wheelchair. It was the least I could do to help an old friend live her life to the fullest.",
+                "Thu8": "Legend has it that, somewhere in this valley, there are tools both cursed and blessed.#$b#I didn't believe them at first, but I can tell you that I've come across them firsthand once before.#$b#But that's all I'll say about it, you'll have to discover the rest on yer own!$",
+                "Fri8": "I'm really thankful for my grandson's help around the forge. #$b#Maybe you could let that slip to him sometime. Just be subtle with it, ya hear?",
+                "Sat8": "It's gotten more difficult to make the climb up Goddess Hill over the past few years.#$b#But you'd better believe that that doesn't stop me in the slightest!$h",
+                "Sun8": "Maybe I'll give Gray some time off today.#$b#The boy's really been improving substantially as of late.",
+                //10 Heart
+                "Mon10": "Can I ask you a favor, @? Next time you're in Pelican Town, tell Cliff I'll be taking him out to lunch one of these days.#$b#And tell him that forge of his had better be spotless!",
+                "Tue10": "Whew, y'know what, @? Maybe we should all take today off. Consider it an official holiday!$h",
+                "Wed10": "If there's ever anything you need for your farm, please don't hesitate to ask.#$b#It'll be good practice for Gray, and at this point his work can rival my own anyways!$h",
+                "Thu10": "Y'know what, @, I'm grateful that you stopped by Mineral Town on a whim when ya did.#$b#I realize I mighta not been treating my grandson the best. He doesn't deserve that.",
+                "Fri10": "I'm proud of the young men of this town. They all have their struggles, but I can tell they're each confronting them in their own ways.#$b#That's a key sign of boys becoming men.",
+                "Sat10": "Appreciate your time with me here while you can.#$b#Don't be so morbid! I ain't talkin' about dying.#$b#I'm talking about retiring to Ginger Island! Now that's a dream I can get behind hoho!$h",
+                "Sun10": "I always wondered what it's like down in that strange cavern in Calico Desert.#$b#If I was your age, you'd have to drag me home to stop me from finding out what's down there!",
+		//LOCATION DIALOGUE
+		"Resort": "Ohohoho, the sand between my toes is divine.$h#$b#Stop starin' and go relax!$h",
+            },
+        },
+    ],
+}

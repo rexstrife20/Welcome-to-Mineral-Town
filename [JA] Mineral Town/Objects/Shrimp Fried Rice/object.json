@@ -1,0 +1,71 @@
+{
+  "Name": "Shrimp Fried Rice",
+  "Description": "Who could say no to some fried rice?",
+  "Category": "Cooking",
+  "Edibility": 36,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 80,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": -5,
+        "Count": 1
+      },
+      {
+        "Object": "Rice",
+        "Count": 1
+      },
+      {
+        "Object": "Oil",
+        "Count": 1
+      },
+      {
+        "Object": "Shrimp",
+        "Count": 1
+      },
+    
+      ],
+      "CanPurchase": false,
+
+    },
+  "GiftTastes": {
+      "Love": [ "Harris", "Kai", "Zack", "Gray" ],
+      "Like": [ "Cliff", "Ann" ],
+      "Dislike": [ "Saibara", "Mary"],
+      "Hate": [ "" ]
+    },  
+    "NameLocalization":
+    { 
+      //remove the "//" from your language
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+    },
+    "DescriptionLocalization":
+    {
+      //remove the "//" from your language      
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+    }
+}
+  

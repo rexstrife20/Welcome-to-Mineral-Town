@@ -1,0 +1,71 @@
+{
+    "Changes": [
+        {
+            "LogName": "Jeff dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jeff",
+            "Entries": {
+                //INTRODUCTION
+                "Introduction": "Hello there, my name is Jeff. Mayor Thomas mentioned you, you're @ correct? How are things over at %farm?#$b#Make sure to swing by the store if you ever need any farming supplies! I can meet or beat any price Pierre offers!$h",
+                //STARTING DIALOGUE
+                "Mon": "My daughter was out again all weekend. Sometimes I'm surprised that girl doesn't get into more trouble than she does.$s",
+                "Tue": "Sasha is such a social butterfly. I don't mind it at all, besides, it works as free marketing for the shop!",
+                "Wed": "Time to re-energize for the second half of the week! Stop by the shop if you need anything!$h",
+                "Thu": "I respect Pierre's dedication to his work, but sometimes I think he goes a little overboard.#$b#Do you ever find him a little overbearing?",
+                "Fri": "Pardon me, Fridays are really busy for me at the shop. I'd love to talk more but I'm afraid it'll have to wait.",
+                "Sat": "One day, I hope to retire and pass on the shop to my daughter. Although, she doesn't seem to keen on the idea….perhaps she'll come around some day.",
+                "Sun": "Whew. Thank the Goddess that the weekend rush is finally over.$h#$b#I was starting to get a little winded!$h",
+                // SPECIFIC DAY
+                "spring_12": "Don't forget to stock up on strawberry seeds tomorrow!#$b#Just a bit of insider info for you.", // Day before the Egg Festival
+                "spring_23": "Every year Sasha asks me to do the Flower Dance.#$b#And, every year I completely forget how to do said dance…$s", // Day before the Flower Dance
+                "summer_10": "I enjoy the Luau, but it always feels like it makes no difference what I put in…", // Day before the Luau
+                "summer_27": "My wife and daughter have loved the midnight jellies as long as Karen has been around.#$b#I can admit, I enjoy them quite a bit myself.", // Day before the Midnight Jellies
+                "fall_15": "My wife always wants us to capitalize on the fair for business.#$b#But, honestly, I could really use the day off.", // Day before the Stardew Fair
+                "fall_26": "I don't like Spirit's Eve.#$b#Why? Because my anxiety causes my heart to pound for the entire day. Which leads to a sore stomach.", // Day before Spirit's Eve
+                "winter_7": "Another Ice Festival. They need to figure out how to make them more exciting.", // Day before the Ice Festival
+                "winter_24": "The Winter Star is so magical.#$b#Do you know what I mean?", // Day before Winter Star
+                //2 Heart
+                "Mon2": "Oh! Hello there, @. Don't mind me, I'm just trying to get things reorganized after the long weekend.",
+                "Tue2": "Ooof. Hey there, sorry @. I'm having a bit of a stomach bug today, I'm afraid.#$b#Can we rain check this conversation?",
+                "Wed2": "You must have it hard, what with all that manual labor. Careful you keep your stress levels in check.",
+                "Thu2": "I'm afraid I'm not operating at peak efficiency today. Maybe a day at the spa will be the pick-me-up I need.",
+                "Fri2": "Things here in town move pretty slowly.#$b#Not that I mind, just makes it easier for me to keep up with changing business demands more easily.",
+                "Sat2": "I suggest you make friends with as many people as you can here. It's a small town, after all.#$b#Yes, it's definitely wise to be friendly!$h",
+                "Sun2": "I'm happy that Karen helps out so often, I just wish she didn't make it so obvious on her face that she'd rather be doing anything else.",
+                //4 Heart
+                "Mon4": "Morris tried to buy me out once. His price was almost insultingly low.#$b#But, sometimes I think it would've been nice to retire a bit early. Oh well, can't go back now.",
+                "Tue4": "I love how tranquil it is here in Mineral Town. It's wonderfully soothing to the body and the spirit.",
+                "Wed4": "I'm trying to expand the varieties of tea that we carry at the store.#$b#Why? Because I'm a big tea fan. No other compelling reason.",
+                "Thu4": "Did I ever tell you that, before I came upon the general store here in town, I actually initially wanted to open up and run my own bakery?#$b#Weird how things can change direction like that, as you know all too well!$h",
+                "Fri4": "I can tell that you're a hard worker. You'd have to be, to go from an office job to backbreaking labor like farming.",
+                "Sat4": "I want to pass this store along to Karen one day when I retire.#$b#I'm not gonna lie though, I'm a bit nervous to approach her about it and see what she thinks....$s",
+                "Sun4": "Between you and me, the store's been doing above expectations lately.#$b#I've been able to set aside a little extra for a special occassion.$h",
+                //6 Heart
+                "Mon6": "You should buy some of the baked goods we sell at the store. I actually make them myself!",
+                "Tue6": "Seeing you working so hard gives me the courage to work a little harder myself. Not that my job's as hard as yours.",
+                "Wed6": "Business has been doing exceedingly well.#$b#It's nice to be able to mentally relax for awhile.$h",
+                "Thu6": "When it comes to customers, I firmly believe in quality over quantity.#$b#Unfortunately, my wife doesn't exactly agree with that mindset.$s",
+                "Sat6": "Hello there, @. How's the farm?#$b#I've noticed that it's really starting to look the part lately. So are you, actually.$h",
+                "Sun6": "Whenever my wife and daughter get into an argument, it gets quite scary.#$b#I usually try to avoid choosing sides in any way.",
+                //8 Heart
+                "Mon8": "I've been coming up with a lot of new marketing ideas lately.#$b#Although, I suppose I can't take all of the credit. Karen and Sasha have been pitching in too!$h",
+                "Tue8": "Maybe one day, when I can leave this store to someone else, I'll retire and startup that bakery I had always wanted.",
+                "Wed8": "I hope we carry anything you might need for your farm, @. If there's anything else you need, just let me know and I'll do my best to make it happen.",
+                "Thu8": "Sometimes I wish we had a little more competition here in Mineral Town.#$b#You could say we have a bit of a monopoly. Makes it almost too easy!",
+                "Fri8": "It's a pretty good day today, isn't it @? Even if my body is working, my mind is at rest for once.",
+                "Sat8": "I used to be way more nervous about things. But seeing how people like Kai, Mr. Carter, and you all carry yourselves has helped me realize to let some of the anxiety go.#$b#So, I guess I wanted to say thank you!$h",
+                "Sun8": "The doctor said that most of my stomach issues were tied to anxiety.#$b#He's definitely right, now that I fee less wound up, I rarely run into any issues.$h",
+                //10 Heart
+                "Mon10": "I'm very glad you decided to take such a liking to our town, @.#$b#Thanks to your friendship, I've slowly been able to grow a spine!$",
+                "Tue10": "Karen offered to watch the store so Sasha and I could take some time off.#$b#Maybe we should take some time to go relax on Ginger Island. What do you think?",
+                "Wed10": "Sometimes, I can't help but feel like there's something a little mystical about Mineral Town.#$b#I mentioned it to Mr. Carter once, he just smiled and nodded.#$b#I wonder what that could mean….",
+                "Thu10": "Thanks for all the help and ideas, @.#$b#If you ever decide to quit the farming life, you can take over the store and we can be business partners!$h",
+                "Fri10": "Next time I make a batch, I'll sneak you some of my pastries.#$b#Even I have to admit that I've gotten considerably better.$h#$b#Now, to try and pass some of those skills along to Karen….",
+                "Sat10": "People are starting to clear up their tabs.#$b#I kind of had to put my foot down….politely of course.",
+                "Sun10": "I wrote up a new contract with Zack. Soon, I should be able to get more interesting items shipped in to add to my stock.#$b#Just you wait, @!$h",
+		//LOCATION DIALOGUE
+		"Resort": "Hey there, @.$h#$b#Um....I'm not the best swimmer. So I usually keep my feet on land.",
+            }
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{ // Dialogues
+    "Changes": [
+        {
+            "LogName": "Harris dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Harris",
+            "Entries": {
+                //INTRODUCTION
+                "Introduction": "Well if it isn't @. Keeping out of trouble I hope!#$b#Haha, I'm only joking. I'm Harris, I'm the policeman responsible for keeping the peace here in Mineral Town. I know things are normally quiet around here, but that doesn't mean I can slack off in my duties!$h",
+                //STARTING DIALOGUE
+                "Mon": "Good day @! Good to have seen that you didn't get into any debauchery this weekend. A model citizen as always!$h",
+                "Tue": "Mayor Thomas may be my father, but don't think that means I didn't work exceptionally hard to get this position.",
+                "Wed": "Yet another pleasant day, wouldn't you say @? I expect you'll keep on the up and up as usual!",
+                "Thu": "I heard there's some scandal going on in Pelican Town lately.#$e#I bet there wouldn't be if you guys had a police officer on duty!",
+                "Fri": "Ah the weekend, yet again. This is always the time when vigilance is exceedingly crucial towards keeping the fine people of Mineral Town safe!",
+                "Sat": "I've heard that there's been someone going around digging in trash bins in Pelican Town. This is why we must always remain vigilant, wouldn't you agree?",
+                "Sun": "Day of rest? No sir, not when danger could be lurking around every corner!#$e#Not on my watch!",
+                // SPECIFIC DAY
+                "spring_12": "Perhaps I should attend the Egg Festival. I cannot allow corruption in the form of cheating to intrude upon the day's events!", // Day before the Egg Festival
+                "spring_23": "Don't let your guard down tomorrow, farmer. Even the Flower Dance can be a breeding ground for evil, believe you me!", // Day before the Flower Dance
+                "summer_10": "Nothing outlandish in the potluck soup tomorrow farmer. Be considerate of your fellow citizens.", // Day before the Luau
+                "summer_27": "I cherish the jellies. My mother used to take me every year back when I was a young boy.#$b#They're some of my fondest memories.", // Day before the Midnight Jellies
+                "fall_15": "I can feel it. Tomorrow, I will handedly serve the high-striker it's punishing defeat.$h", // Day before the Stardew Fair
+                "fall_26": "I don't understand why Marlon would bring monsters INTO the town....$s", // Day before Spirit's Eve
+                "winter_7": "Careful tomorrow. All it takes is one misstep to send a precious ice sculpture tumbling to its doom.", // Day before the Ice Festival
+                "winter_24": "Father used to have a Winter Star festival in Mineral Town too. But the one in Pelican Town just grew significantly more popular.#$e#Please don't bring that up around him though.", // Day before Winter Star
+                //2 Heart
+                "Mon2": "Keeping on the up-and-up @?",
+                "Tue2": "I have nothing but the utmost respect for Marlon. Without a proper police force, he's the only thing keeping evil at bay over in Stardew Valley.",
+                "Wed2": "Woah there @! Where's the fire?#$b#There are elderly and children walking about in this town so, please, be considerate and slow down!",
+                "Thu2": "Whew. Y'know what farmer @? Much like evil, I never rest, but I think I might reconsider that this weekend.",
+                "Fri2": "%Harris stares ahead with determination.",
+                "Sat2": "I'm glad I'm able to keep a close eye on my father. It helps ensure that our town remains free of corruption.#$b#Not that he's ever had an issue with that, but he surely won't on my watch!$h",
+                "Sun2": "Duke and Karen got into it again at the Inn last night. Of course it always comes down to me to separate them.",
+                //4 Heart
+                "Mon4": "Hop to it @! Keep up the good work!",
+                "Tue4": "You often find yourself fighting beasts in the mines, right @?#$b#If you're interested, I could use someone like you as my deputy!$h",
+                "Wed4": "Ellen dropped her groceries on the ground yesterday. I was about to go help her when her grandson ran up and took care of the situation.#$b#It's refreshing to see youth with so much compassion and a strong work ethic!$h",
+                "Thu4": "The ladies are always chatting about in the town square. What could they be planning...",
+                "Fri4": "I am here!$h",
+                "Sat4": "I swear farmer, if I see Kai and Rick get into it one more time......$a#$b#Both are splendid young men. I will not allow them to make a mockery of themselves.",
+                "Sun4": "I thought I saw a disturbance going on near the hotsprings the other day.#$b#Unfortunately, by the time I was able to get closer to take a look, whatever may have been there had evacuated the premises.",
+                //6 Heart
+                "Mon6": "Tell me @, have you ever considered a career in the police force?#$b#I could always use a deputy!$h",
+                "Tue6": "There's been increasing reports of mischief going on around the town.#$b#I've heard that it's supposedly tiny forest people, but you and I both know that that's a bunch of malarkey.",
+                "Wed6": "Keep calm farmer. As long as you remain on the up-and-up, I have no qualms with you.",
+                "Thu6": "To think, Pelican Town allowing a man to hang about suspiciously by the spa.$s#$b#I simply would not allow it in this town!",
+                "Sat6": "Keep a lookout for a \"Red Chicken\" @. I hear word that it's causing a ruckus about town lately.",
+                "Sun6": "Keep an eye on the children, would you? Lest their pranks and reckless abandon lead them ever spiralling into a life of crime from whence there is no return!",
+                //8 Heart
+                "Mon8": "Oh, hello there citizen.$h#$b#Say, you sure seem to have taken a liking to our town here. Perhaps one day you'll decide to wisen up and set down your roots here permenantly!$h",
+                "Tue8": "Jeff puts off the appearance of a spineless coward, but I see through his act.#$b#The only question is, where does his allegiance lie?",
+                "Wed8": "I perform 1,000 situps, 500 pushups, 700 jumping jacks, and 100 burpees every day to stay in peak physical condition.#$b#It's the least I can do for this fine town.",
+                "Thu8": "As both the leader an sole member of this town's police force, I greatly appreciate you helping out my fellow citizens.#$b#As soon as I am able, I will forge you a medal of honor with these bare hands.#$b#Take my word for it, farmer!",
+                "Fri8": "If there's one thing I cannot abide above all other malicious acts, it's littering.$a",
+                "Sat8": "Remember @, a true hero will always find a way for justice to be served!",
+                "Sun8": "Remember @, the first step towards evil and corruption often begins with jaywalking.",
+                //10 Heart
+                "Mon10": "Marlon and his band of misfit would-be heroes think they can act above the law?#$b#Not on my watch! Permitless adventuring is a crime like no other!$a",
+                "Tue10": "%Harris simply eyes you up and down suspiciously.",
+                "Wed10": "I picked up an illegally discarded chip bag off the side of the road this morning.$a#$b#I swear by my honor, whoever has commited such a heinous crime shall pay tenfold!$a",
+                "Thu10": "I hear the local teens in Pelican Town have been imbibing in the \"Devil's Lettuce\".#$b#It is my sworn duty to keep such things from stepping foot into this peaceful hamlet!",
+                "Fri10": "What do I look like under my hat?#$b#Trust me.... you don't want to have to find out.",
+                "Sat10": "The doctor and Elli run a fine upstanding service here in Mineral Town.#$b#Healthcare and civil defense go hand in hand, never forget that, @.",
+                "Sun10": "Well done, young @. You've become the talk of the town for your exemplary services.#$b#I tip my hat to you indeed!$h",
+		//LOCATION DIALOGUE
+		"Resort": ".....eyes on the skies partner.$s#$b#Do not let your guard down, if even but for a moment....$s#$b#",
+            },
+        },
+    ],
+}

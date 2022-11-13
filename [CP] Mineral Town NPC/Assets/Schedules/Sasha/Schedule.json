@@ -1,0 +1,17 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Sasha Schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Sasha ",
+      "Entries": {
+        "spring": "0 Custom_HM_JeffMarket 16 5 3 Sasha_sleep/610 Custom_HM_JeffMarket 14 14 0/700 Custom_HM_JeffMarket 16 24 1/1800 Custom_HM_MineralTown 7 14 2/2100 Custom_HM_JeffMarket 16 5 3 Sasha_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "Sun" : "0 Custom_HM_JeffMarket 16 5 3 Sasha_sleep/610 Custom_HM_JeffMarket 14 14 0/900 Custom_HM_PoultryInterior 15 12 1/1400 Custom_HM_MineralTown 51 75 3/1700 Custom_HM_Inn 14 15 1/2100 Custom_HM_JeffMarket 16 5 3 Sasha_sleep ",
+      },
+    },
+  ],
+}

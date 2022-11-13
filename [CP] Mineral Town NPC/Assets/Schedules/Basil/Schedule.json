@@ -1,0 +1,17 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Basil Schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Basil",
+      "Entries": {
+        "Mon": "0 Custom_HM_LibraryHouseSecFloor 2 11 3 Basil_sleep/610 Custom_HM_MountainLake 50 26 3 Basil_writinng/1200 Custom_HM_MountainSummit 19 16 0/1500 Custom_HM_Inn 7 11 3/2100 Custom_HM_LibraryHouseSecFloor 2 11 3 Basil_sleep",
+        "spring": "0 Custom_HM_LibraryHouseSecFloor 2 11 3 Basil_sleep/610 Custom_HM_LibraryHouse 3 12 1/810 Custom_HM_LibrarySecFloor 9 11 3 Basil_writinng/1730 Custom_HM_Inn 7 11 3/2100 Custom_HM_LibraryHouseSecFloor 2 11 3 Basil_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring"
+      },
+    },
+  ],
+}

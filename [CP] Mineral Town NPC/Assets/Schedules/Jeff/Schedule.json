@@ -1,0 +1,17 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Jeff Schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Jeff",
+      "Entries": {
+        "spring": "0 Custom_HM_JeffMarket 14 5 1 Jeff_sleep/610 Custom_HM_JeffMarket 7 14 2/700 Custom_HM_JeffMarket 4 32 3 Jeff_work/900 Custom_HM_JeffMarket 10 25 2/1800 Custom_HM_MineralTown 78 91 2/2200 Custom_HM_JeffMarket 14 5 1 Jeff_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "Sun": "0 Custom_HM_JeffMarket 14 5 1 Jeff_sleep/610 Custom_HM_JeffMarket 7 14 2/900 Custom_HM_ChurchInterior 15 12 0/1700 Custom_HM_Inn 17 15 3/2100 Custom_HM_JeffMarket 14 5 1 Jeff_sleep"
+      },
+    },
+  ],
+}

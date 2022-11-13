@@ -1,0 +1,48 @@
+{
+    "Name": "Mineral Salt",
+    "Description": "A particular kind of salt that is formed only in the hills of Mineral Town.",
+    "Category": "Cooking",
+    "Edibility": -300,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 100,
+    "IsColored": false,
+    "CanPurchase": true,
+    
+    "GiftTastes": {
+        "Love": [ ],
+        "Like": [ ],
+        "Dislike": [ ],
+        "Hate": [ ]
+      },  
+      "NameLocalization":
+      { 
+        //remove the "//" from your language
+          //"es": "PLACEHOLDER",
+          //"ko": "PLACEHOLDER",
+          //"de": "PLACEHOLDER",
+          //"fr": "PLACEHOLDER",
+          //"hu": "PLACEHOLDER",
+          //"it": "PLACEHOLDER",
+          //"ja": "PLACEHOLDER",
+          //"pt": "PLACEHOLDER",
+          //"ru": "PLACEHOLDER",
+          //"tr": "PLACEHOLDER",
+          //"zh": "PLACEHOLDER",
+      },
+      "DescriptionLocalization":
+      {
+        //remove the "//" from your language      
+          //"es": "PLACEHOLDER",
+          //"ko": "PLACEHOLDER",
+          //"de": "PLACEHOLDER",
+          //"fr": "PLACEHOLDER",
+          //"hu": "PLACEHOLDER",
+          //"it": "PLACEHOLDER",
+          //"ja": "PLACEHOLDER",
+          //"pt": "PLACEHOLDER",
+          //"ru": "PLACEHOLDER",
+          //"tr": "PLACEHOLDER",
+          //"zh": "PLACEHOLDER",
+      }
+  }

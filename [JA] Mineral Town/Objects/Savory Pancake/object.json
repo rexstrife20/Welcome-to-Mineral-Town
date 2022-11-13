@@ -1,0 +1,67 @@
+{
+    "Name": "Savory Pancakes",
+    "Description": "A sturdy breakfast only attempted by those with high willpower.",
+    "Category": "Cooking",
+    "Edibility": 180,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 80,
+    "IsColored": false,
+    "Recipe": {
+      "ResultCount": 1,
+      "Ingredients": [
+        {
+          "Object": -5,
+          "Count": 1,
+        },
+        {
+          "Object": "Oil",
+          "Count": 1,
+        },
+        {
+            "Object": "Wheat Flour",
+            "Count": 1,
+        },
+        {
+            "Object": "Red Cabbage",
+            "Count": 1,
+        },
+        
+      ],
+      "CanPurchase": true,
+      "PurchaseFrom": "",    "PurchasePrice": 800,
+    },
+    "GiftTastes": {
+      "Love": [""],
+    },  
+    "NameLocalization":
+    { 
+      //remove the "//" from your language
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+    },
+    "DescriptionLocalization":
+    {
+      //remove the "//" from your language      
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+  }
+}

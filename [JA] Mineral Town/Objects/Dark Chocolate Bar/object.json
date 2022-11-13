@@ -1,0 +1,19 @@
+{
+    "Name": "Dark Chocolate Bar",
+    "Description": "Used in cooking many recipes.",
+    "Category": "Cooking",
+    "Edibility": 10,
+    "EdibleIsDrink": false,
+    "Price": 80,
+    "IsColored": false,
+    "CanPurchase": true,
+    "PurchaseFrom": "Jeff",
+    "PurchasePrice": 200,
+    "GiftTastes": {
+      "Love": [ "Sasha", "Popuri", "Ann", "Stu", "Anna", "Rick", "Gray", "Doug", "Mary", "May" ],
+      "Like": [ "Elli", "Lillia", "Cliff", "Zack", "Gotz", "Duke", "Jeff" ],
+      "Dislike": [ "Saibara", "Barley", "Karen", "" ],
+      "Hate": [ "" ]
+    },
+    "TranslationKey": "object.darkchocolate-cooking"
+  }

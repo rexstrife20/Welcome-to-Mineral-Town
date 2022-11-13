@@ -1,0 +1,110 @@
+{
+"Changes": [
+    {
+       
+    "Action": "EditData",
+    "Target": "Characters/Dialogues/MarriageDialogue(NPCNAME)",
+    "Entries": {
+
+///Birthday
+    "summer_17": "{{i18n:}}",
+
+///Indoor Day
+    "Indoor_Day_0": "{{i18n:}}",
+    "Indoor_Day_1": "{{i18n:}}",
+    "Indoor_Day_2": "{{i18n:}}",
+    "Indoor_Day_3": "{{i18n:}}",
+    "Indoor_Day_4": "{{i18n:}}",
+    "Indoor_Day_5": "{{i18n:}}",
+
+///Indoor Night
+    "Indoor_Night_0": "{{i18n:}}",
+    "Indoor_Night_1": "{{i18n:}}",
+    "Indoor_Night_2": "{{i18n:}}",
+    "Indoor_Night_3": "{{i18n:}}",
+    "Indoor_Night_4": "{{i18n:}}",
+    "Indoor_Night_5": "{{i18n:}}",
+    "Indoor_Night_6": "{{i18n:}}",
+
+///Outdoor
+    "Outdoor_0": "{{i18n:}}",
+    "Outdoor_1": "{{i18n:}}",
+    "Outdoor_2": "{{i18n:}}",
+    "Outdoor_3": "{{i18n:}}",
+    "Outdoor_4": "{{i18n:}}",
+    "Outdoor_Ann": "{{i18n:}}",
+
+///Rainy Day
+    "Rainy_Day_0": "{{i18n:}}",
+    "Rainy_Day_1": "{{i18n:}}",
+    "Rainy_Day_2": "{{i18n:}}",
+    "Rainy_Day_3": "{{i18n:}}",
+    "Rainy_Day_4": "{{i18n:}}",
+    "Rainy_Day_5": "{{i18n:}}",
+    "Rainy_Day_6": "{{i18n:}}",
+
+///Rainy Night
+    "Rainy_Night_0": "{{i18n:}}",
+    "Rainy_Night_1": "{{i18n:}}",
+    "Rainy_Night_2": "{{i18n:}}",
+    "Rainy_Night_3": "{{i18n:}}",
+    "Rainy_Night_4": "{{i18n:}}",
+    "Rainy_Night_5": "{{i18n:}}",
+    "Rainy_Night_6": "{{i18n:}}",
+
+///One Kid
+    "OneKid_0": "{{i18n:}}",
+    "OneKid_1": "{{i18n:}}",
+    "OneKid_2": "{{i18n:}}",
+    "OneKid_3": "{{i18n:}}",
+
+///Two Kids
+    "TwoKids_0": "{{i18n:}}",
+    "TwoKids_1": "{{i18n:}}",
+    "TwoKids_2": "{{i18n:}}",
+    "TwoKids_3": "{{i18n:}}",
+
+//Relationship Dialogue//
+///Good
+    "Good_0": "{{i18n:}}",
+    "Good_1": "{{i18n:}}",
+    "Good_2": "{{i18n:}}",
+    "Good_3": "{{i18n:}}",
+    "Good_4": "{{i18n:}}",
+    "Good_5": "{{i18n:}}",
+    "Good_6": "{{i18n:}}",
+    "Good_7": "{{i18n:}}",
+    "Good_8": "{{i18n:}}",
+    "Good_9": "{{i18n:}}",
+
+///Neutral
+    "Neutral_0": "{{i18n:}}",
+    "Neutral_1": "{{i18n:}}",
+    "Neutral_2": "{{i18n:}}",
+    "Neutral_3": "{{i18n:}}",
+    "Neutral_4": "{{i18n:}}",
+    "Neutral_5": "{{i18n:}}",
+    "Neutral_6": "{{i18n:}}",
+    "Neutral_7": "{{i18n:}}",
+    "Neutral_8": "{{i18n:}}",
+    "Neutral_9": "{{i18n:}}",
+
+///Bad
+    "Bad_0": "{{i18n:}}",
+    "Bad_1": "{{i18n:}}",
+    "Bad_2": "{{i18n:}}",
+    "Bad_3": "{{i18n:}}",
+    "Bad_4": "{{i18n:}}",
+    "Bad_5": "{{i18n:}}",
+    "Bad_6": "{{i18n:}}",
+    "Bad_7": "{{i18n:}}",
+    "Bad_8": "{{i18n:}}",
+    "Bad_9": "{{i18n:}}",
+
+            },
+        },
+    ]
+}
+
+
+    

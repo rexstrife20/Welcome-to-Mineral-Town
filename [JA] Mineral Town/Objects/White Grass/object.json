@@ -1,0 +1,47 @@
+{
+    "Name": "White Grass",
+    "Description": "A type of wild grass hardy enough to survive snowfalls.",
+    "Category": "Flower",
+    "Edibility": 10,
+    "Price": 150,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+    "Love": [ "Rick", "Doug", "Jeff" ],
+    "Like": [ "Elli", "Lillia", "Basil", "Doctor" ],
+    "Dislike": [ "Saibara", "Harris", "Cliff", "Ann", "Thomas", "Zack", "Karen", "Manna", "Carter", "Anna", "Duke",  ],
+    "Hate": [ "Popuri", "Kai", "Stu" ]
+    },
+  
+        "NameLocalization":
+      { 
+        //remove the "//" from your language
+          //"es": "PLACEHOLDER",
+          //"ko": "PLACEHOLDER",
+          //"de": "PLACEHOLDER",
+          //"fr": "PLACEHOLDER",
+          //"hu": "PLACEHOLDER",
+          //"it": "PLACEHOLDER",
+          //"ja": "PLACEHOLDER",
+          //"pt": "PLACEHOLDER",
+          //"ru": "PLACEHOLDER",
+          //"tr": "PLACEHOLDER",
+          //"zh": "PLACEHOLDER",
+      },
+      "DescriptionLocalization":
+      {
+        //remove the "//" from your language      
+          //"es": "PLACEHOLDER",
+          //"ko": "PLACEHOLDER",
+          //"de": "PLACEHOLDER",
+          //"fr": "PLACEHOLDER",
+          //"hu": "PLACEHOLDER",
+          //"it": "PLACEHOLDER",
+          //"ja": "PLACEHOLDER",
+          //"pt": "PLACEHOLDER",
+          //"ru": "PLACEHOLDER",
+          //"tr": "PLACEHOLDER",
+          //"zh": "PLACEHOLDER",
+      }
+  }

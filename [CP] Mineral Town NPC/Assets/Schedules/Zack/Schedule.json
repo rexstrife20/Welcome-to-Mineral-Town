@@ -1,0 +1,16 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Zack Schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Zack ",
+      "Entries": {
+        "spring": "0 Custom_HM_ZackHouse 19 5 3/610 Custom_HM_MineralBeach 56 14 3/700 Custom_HM_JeffMarket 10 27 0/930 Custom_HM_ZackHouse 14 8 1/1400 Custom_HM_BlackSmith 8 14 0/1700 Custom_HM_Inn 17 14 3/2200 Custom_HM_ZackHouse 19 5 3",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring"
+      },
+    },
+  ],
+}

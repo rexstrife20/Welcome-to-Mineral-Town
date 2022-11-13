@@ -1,0 +1,1587 @@
+{
+    //******************************************************************
+    //Dispositions
+    //******************************************************************
+    "Name.Ann": "Ann",
+    "Name.Anna": "Anna",
+    "Name.Barley": "Barley",
+    "Name.Basil": "Basil",
+    "Name.Carter": "Carter",
+    "Name.Cliff": "Cliff",
+    "Name.Crono": "Crono",
+    "Name.Doctor": "Doctor",
+    "Name.Doug": "Doug",
+    "Name.Duke": "Duke",
+    "Name.Ellen": "Ellen",
+    "Name.Elli": "Elli",
+    "Name.Gotz": "Gotz",
+    "Name.Gray": "Gray",
+    "Name.Harris": "Harris",
+    "Name.HGoddess": "Harvest Goddess",
+    "Name.Jeff": "Jeff",
+    "Name.Kai": "Kai",
+    "Name.Kappa": "Kappa",
+    "Name.Karen": "Karen",
+    "Name.Lillia": "Lillia",
+    "Name.Magus": "Magus",
+    "Name.Manna": "Manna",
+    "Name.Mary": "Mary",
+    "Name.Mei": "Mei",
+    "Name.Popuri": "Popuri",
+    "Name.Rick": "Rick",
+    "Name.Saibara": "Saibara",
+    "Name.Sasha": "Sasha",
+    "Name.Stu": "Stu",
+    "Name.Thomas": "Thomas",
+    "Name.Won": "Won",
+    "Name.Zack": "Zack",
+
+    "Name.Aqua": "Aqua",
+    "Name.Bold": "Bold",
+    "Name.Chef": "Chef",
+    "Name.Hoggy": "Hoggy",
+    "Name.Nappy": "Nappy",
+    "Name.Staid": "Staid",
+    "Name.Timid": "Timid",
+    
+    //********************
+    //Gift Taste Reactions
+    //********************
+    //Ann
+    "gifts.ann.love": "Whoa! Heeeeck yeah! Can I really have this? Thanks!",
+    "gifts.ann.like": "Thank you, I'm happy!",
+    "gifts.ann.dislike": "What are you doing? Throw this stuff away properly!",
+    "gifts.ann.hate": "Just because I like to clean doesn't mean you should bring me trash! Throw this away yourself!",
+    //Anna
+    "gifts.anna.love": "Thank you! I'm absolutely delighted. You make gift-giving an art form.",
+    "gifts.anna.like": "Oh, my! What a considerate gift.",
+    "gifts.anna.dislike": "Hmmm. I... don't particularly like this. But since you're offering, I suppose it would be rude not to take it.",
+    "gifts.anna.hate": "Absolutely NOT. What is the meaning of this?",
+    //Barley
+    "gifts.barley.love": "This is my favorite. Thank you. I gratefully accept.",
+    "gifts.barley.like": "What is this all about? You don't have to pay me any special mind. I do appreciate it, though.",
+    "gifts.barley.dislike": "Erm, thanks.... But giving this to an old-timer like me doesn't do anyone any good.",
+    "gifts.barley.hate": "Bleh! Are you crazy? What in the world and I supposed to do with this?",
+    //Basil
+    "gifts.basil.love": "Hey, thanks. You know exactly what I like.",
+    "gifts.basil.like": "Thanks. Everyone in this town is so kind.",
+    "gifts.basil.dislike": "Urgh, my allergies are acting up.",
+    "gifts.basil.hate": "Huh? If you're looking for a recycling bin, you won't find one here.",
+    //Carter
+    "gifts.carter.love": "Thank you. Labor as I might in the realm of the divine. I lack a true 'job' here, so I feel blessed by such kindness.",
+    "gifts.carter.like": "Thank you. This is a true blessing.",
+    "gifts.carter.dislike": "I'll take it.",
+    "gifts.carter.hate": "My stars and holy garters... Well it's awkward. I'm not entirely sure why you would give this to me. I will... think it over for a while.",
+    //Cliff
+    "gifts.cliff.love": "What? For me? You really outdid yourself with this, honestly. I love it. Thanks.",
+    "gifts.cliff.like": "You're sure? Thanks!",
+    "gifts.cliff.dislike": "What's this? And what am I supposed to do with it?",
+    "gifts.cliff.hate": "What're you trying to say? Do you hate me, @?",
+    //Doctor
+    "gifts.doctor.love": "Wow, thank you! I'll be able to get plenty of use out of this.",
+    "gifts.doctor.like": "Oh, you're giving that to me? You're so considerate.",
+    "gifts.doctor.dislike": "Urgh... Th-Thank you, but this isn't something I particularly desire.",
+    "gifts.doctor.hate": "Interesting....what is it you're trying to say exactly, @?",
+    //Doug
+    "gifts.doug.love": "Hey, thanks! I love it. Seriously.",
+    "gifts.doug.like": "Thanks. Sorry to put you out like this.",
+    "gifts.doug.dislike": "Now you've put me on the spot. Well... I guess since you're offering...",
+    "gifts.doug.hate": "Hold on, back it up. What exactly do you expect me to do with this?",
+    //Duke
+    "gifts.duke.love": "Oh, ho! Thank you. I'm a simple man--I'm happy as long as I have honest work and a full belly. Thanks for helping me with the latter.",
+    "gifts.duke.like": "Oh ho! Thank you. I think I'll hide it from Manna and keep it all to myself.",
+    "gifts.duke.dislike": "Well now, I bet you think you're pretty funny, don't you @?",
+    "gifts.duke.hate": "What is this? Get this out of my sight immediately!",
+    //Ellen
+    "gifts.ellen.love": "Thank you kindly, sweetheart. Do come visit me again, you hear?",
+    "gifts.ellen.like": "Oh, why thank you dear. This is very thoughtful.",
+    "gifts.ellen.dislike": "I'm sorry dear but I don't particularly like this....",
+    "gifts.ellen.hate":  "....thank you. I appreciate the thought I suppose.",
+    //Elli
+    "gifts.elli.love": "Thank you. I'm so happy. But is it really all right for me to receive something so...so...?",
+    "gifts.elli.like": "Thank you. This is nice.",
+    "gifts.elli.dislike": "I-I mustn't turn down an act of generosity... I'm always telling Stu not to be picky, after all.",
+    "gifts.elli.hate": "Why would you do this to me? You're a horrible person!",
+    //Gotz
+    "gifts.gotz.love": "Whoa, you're such a thoughtful person. Thank you, I'll take it.",
+    "gifts.gotz.like": "Oh, thank you for helping me with this kind of thing.",
+    "gifts.gotz.dislike": "What? What is this thing? Hey, what am I supposed to do with this?",
+    "gifts.gotz.hate": "I don't need this. Here, take it back. Hey... Why don't you accept it?",
+    //Gray
+    "gifts.gray.love": "Oh, thanks! Gotta say, it's nice to have friends who have your back.",
+    "gifts.gray.like": "Lucky me! Y'know, if you ever wanted to give me one of these again sometime... Heh.",
+    "gifts.gray.dislike": "...I guess I'll take it, but I don't like it.",
+    "gifts.gray.hate": "What's wrong with you!? Don't give me something like that!",
+    //Harris
+    "gifts.harris.love": "Thank you! And not just for the lovely gift, but for even thinking of me in the first place.",
+    "gifts.harris.like": "Thank you! I appreciate your thoughtfulness.",
+    "gifts.harris.dislike": "Erm, w-well... Your heart was certainly in the right place...",
+    "gifts.harris.hate": "I admit to feeling disappointed--not out of greediness, but because I didn't think you capable of being so hurtful.",
+    //H. Goddess
+    "gifts.hgoddess.love": "I really like these. Thank you and farewell.",
+    "gifts.hgoddess.like": "Oh, my!  I'm rather fond of this. How wonderful. You have my thanks.",
+    "gifts.hgoddess.dislike": "Oh dear. I'm not terribly fond of this kind of thing. Thank you for the thought, though.",
+    "gifts.hgoddess.hate": "Ah, I forgive you. You simply could not have known how offensive this is to me.",
+    //Jeff
+    "gifts.jeff.love": "Wow, thank you! That's so thoughtful of you. I love it.",
+    "gifts.jeff.like": "Thank you! What a nice gesture. I like it.",
+    "gifts.jeff.dislike": "I'm afraid I'm not too fond of stuff like this, sorry to say.",
+    "gifts.jeff.hate": "Huh... All right. I think I see what you're trying to say. Guess I really left a bad impression on you.",
+    //Kai
+    "gifts.kai.love": "Whoa, thanks! Good looking out.",
+    "gifts.kai.like": "Whoa, this is for me? Cool! Thanks.",
+    "gifts.kai.dislike": "Sorry, but, uh...this REALLY isn't my style.",
+    "gifts.kai.hate": "Hey, quick question: what's your major malfunction? I really don't have time for your weird pranks or whatever.",
+    //Kappa
+    "gifts.kappa.love": "",
+    "gifts.kappa.like": "",
+    "gifts.kappa.dislike": "",
+    "gifts.kappa.hate": "",
+    //Karen
+    "gifts.karen.love": "Oh my, are you really giving this to me? I love this kinda stuff.",
+    "gifts.karen.like": "Wow, thanks. That was cool of you.",
+    "gifts.karen.dislike": "Yeah...no. Hard Pass.",
+    "gifts.karen.hate": "GAH. Uh, how about you save that for someone else next time, huh?",
+    //Lillia
+    "gifts.lillia.love": "My, my! Why, thank you! My husband used to bring this to me a lot in our younger days.",
+    "gifts.lillia.like": "Why, thank you, sweetie. I wonder, does Rick even know what sorts of things his mother likes?",
+    "gifts.lillia.dislike": "Oh, dear. I'm afraid I really don't care for this at all, sweetheart.",
+    "gifts.lillia.hate": "Goodness, gracious, great balls of grossness! I can't believe you would try to give me something like that!",
+    //Magus
+    "gifts.magus.love": "",
+    "gifts.magus.like": "",
+    "gifts.magus.dislike": "",
+    "gifts.magus.hate": "",
+    //Manna
+    "gifts.manna.love": "Why, thank you! Do you always give such lovely gifts to the townspeople? If you're going to give gifts, you should give them out to everyone, you know. Bad rumors will start circulating if you're only generous with folks who are young, single, and ready to mingle. Well, to be honest, everyone likes you enough that you proobably don't have to worry. But anyway, thank you. I love it!",
+    "gifts.manna.like": "Why, thank you. You're surprisingly conscientious. No, that wasn't a backhanded compliment. It's a good thing! Truly! I live with a pushy, insensitive oaf of a man like Duke, so... When I encounter folks like you, I can't help but compare them to my only frame of reference. Anyway, thank you so much.",
+    "gifts.manna.dislike": "",
+    "gifts.manna.hate": "",
+    //Mary
+    "gifts.mary.love": "Wow, I love this! Thank you. I'll happily accept it.",
+    "gifts.mary.like": "Whoa, I'm so happy! I like these.",
+    "gifts.mary.dislike": "Uh, sorry. These really aren't my favorite...",
+    "gifts.mary.hate": "Umm, what is this?",
+    //Mei
+    "gifts.mei.love": "Wow! Thanks, @! I'll show it to Grandpa later.",
+    "gifts.mei.like": "Wow, thanks. This is nice.",
+    "gifts.mei.dislike": "I don't like this. But don't tell Grandpa, okay?",
+    "gifts.mei.hate": "Do I reeeally hafta take this?",
+    //Popuri
+    "gifts.popuri.love": "Wow, thank you! I super like it!",
+    "gifts.popuri.like": "Ooh, thanks!",
+    "gifts.popuri.dislike": "Ew! I hate this!",
+    "gifts.popuri.hate": "Ew, gross! I don't want that!",
+    //Rick
+    "gifts.rick.love": "Ooh! Thanks. It's so nice of you to get a present for me, @.",
+    "gifts.rick.like": "Ooh, is this for me? Great! I can really use this. Thanks.",
+    "gifts.rick.dislike": "Um...thanks? I guess?",
+    "gifts.rick.hate": "EGG-SCUSE ME?! EW! Are you really giving this to me?! What the heck were you thinking?",
+    //Saibara
+    "gifts.saibara.love": "Mmm, I'm grateful. You've got real respect for your elders, kid. Thanks for thinking of an old-timer like me. Gray could learn a thing or two from you.",
+    "gifts.saibara.like": "Well, thank you. I'll happily take it.",
+    "gifts.saibara.dislike": "Urk...! You want me to take that? Can't say it does anything for me...",
+    "gifts.saibara.hate": "Just what are you trying to pull?! Ugh. Kids these days need to mind their manners.",
+    //Sasha
+    "gifts.sasha.love": "My, my! How thoughtful of you. I like this ever so much.",
+    "gifts.sasha.like": "My, how thoughtful! No matter how old you get, it always feels nice to get a present, don't you think?",
+    "gifts.sasha.dislike": "I don't think so, dear. I'm sorry, but I can't stomach that.",
+    "gifts.sasha.hate": "Goodness, take that away! I can barely stand looking at it!",
+    //Stu
+    "gifts.stu.love": "Yaaay! Sooo cool! Thanks.",
+    "gifts.stu.like": "Nice! Thanks!",
+    "gifts.stu.dislike": "Haha, very funny prank @.",
+    "gifts.stu.hate": "Gah! You're copying me?! But I hate these things!",
+    //Thomas
+    "gifts.thomas.love": "How very kind of you. I am always appreciative of presents.",
+    "gifts.thomas.like": "Oh ho! What have we here? Aah, splendid, splendid! I do so enjoy these. Thank you kindly.",
+    "gifts.thomas.dislike": "Oh ho? What have we-- Erm.",
+    "gifts.thomas.hate": "Oh ho! ...A-Ah, now what am I to do with this? I see that you have decided to, erm...test me.",
+    //Won
+    "gifts.won.love": "Aiyaaah! You are a good person, yes? You have made me happy. Xie xie!",
+    "gifts.won.like": "Aah, many thanks. I like this very much.",
+    "gifts.won.dislike": "Aiyaaah! This is no good, dear costumer. No good at all. What use have I for something like this?",
+    "gifts.won.hate": "Dear customer, pranks are not good! You may cause me to be angry.",
+    //Zack
+    "gifts.zack.love": "Yo, thanks! Now ain't this a hot little number?",
+    "gifts.zack.like": "Yo, thanks. 'Preciate it.",
+    "gifts.zack.dislike": "Huh. Well, uh... 'Preciate the thought, but I ain't got much use for somethin' like this.",
+    "gifts.zack.hate": "Yo, what the heck! Yer brain fulla lead or somethin'? Ugh, can't even begin to imagine what you were thinkin'...", 
+ 
+    //************************************************************************
+    // M A R R I A G E
+    //************************************************************************
+
+//Ann Marriage Dialogue
+"Ann.MarriageDialogue.summer17": "Oh, @, you remembered my birthday this year!$h#$b#Not that I ever doubted you for a second...$h",
+
+//Indoor Day
+"Ann.MarriageDialogue.Indoor_Day_0": "Good morning honey!$h#$b#I think I'm gonna try out one of my dad's recipes tonight, so don't be home too late!$h",
+"Ann.MarriageDialogue.Indoor_Day_1": "Let me know if you need any help today, @!$h#$b#We'll kick the day's butt with our teamwork!$h",
+"Ann.MarriageDialogue.Indoor_Day_2": "I might take %pet out today, I think they're getting cooped up lately.",
+"Ann.MarriageDialogue.Indoor_Day_3": "So little time, so much to do today!#$b#I'll by pretty busy so you miiiight need to fend for yourself today.$h",
+"Ann.MarriageDialogue.Indoor_Day_4": "No matter the time of year, the sunshine bouncing off of everything gets me excited$h",
+"Ann.MarriageDialogue.Indoor_Day_5": "Make today a good one honey!$l#$b#Remember, I'm always here if you need me.$l",
+
+//Indoor Night
+"Ann.MarriageDialogue.Indoor_Night_0": "I never realized how great %farm is for stargazing at night.$h#$b#You need to join me next time.$l",
+"Ann.MarriageDialogue.Indoor_Night_1": "You've been working so hard lately, you deserve a back rub.$l",
+"Ann.MarriageDialogue.Indoor_Night_2": "Whew, got a lot of work done today.$h#$b#I'm ready to pass right out!$h",
+"Ann.MarriageDialogue.Indoor_Night_3": "Hey hun.#$b#Just wanted to say, I'm proud of you for how much %farm grows day after day.$l",
+"Ann.MarriageDialogue.Indoor_Night_4": "Thanks for working so hard for us.$l#$b#Never forget, I'll always do what I can to support you.$l",
+"Ann.MarriageDialogue.Indoor_Night_5": "It gets so quiet on the farm at night.#$b#I get why you like it here!$h",
+"Ann.MarriageDialogue.Indoor_Night_6": "It's so dark outside out here, away from the town lights.#$b#It's like we're in our own little world.$h",
+
+//Outdoor
+"Ann.MarriageDialogue.Outdoor_0": "It always surprises me how big %farm is.#$b#There's always so much to do!$h",
+"Ann.MarriageDialogue.Outdoor_1": "I should take %pet for a walk around the farm today.$h",
+"Ann.MarriageDialogue.Outdoor_2": "Do you feel like making dinner today, sweetie? I can't decide what to make...",
+"Ann.MarriageDialogue.Outdoor_3": "Y'know, I never really thought about how much I'd enjoy the farm life.#$b#Do you think it suits me?$h",
+"Ann.MarriageDialogue.Outdoor_4": "I'm so happy with you, @.$h#$b#Hmm? Embarrassed?#$b#Of course not! After all, it's the truth!$h",
+"Ann.MarriageDialogue.Outdoor_Ann": "There's always so much to do on the farm.$h#$b#How do you even decide where to begin?$h",
+
+//Rainy Day
+"Ann.MarriageDialogue.Rainy_Day_0": "It's so dreary out today.$s#$b#Looks like I won't be getting much work done outside.$h#$b#I'm sure I can find something that needs doing around here!$h",
+"Ann.MarriageDialogue.Rainy_Day_1": "We need to get some games for days like today.#$b#I'd completely destroy you at Chutes and Ladders!$h",
+"Ann.MarriageDialogue.Rainy_Day_2": "Today seems like a bit of a drag outside.$s#$b#But, let's make the best of it, @!$h",
+"Ann.MarriageDialogue.Rainy_Day_3": "I think this weather is giving me a cold...$s",
+"Ann.MarriageDialogue.Rainy_Day_4": "Aww, I wanted to take %pet outside to play today.$s#$b#But I can't have them tracking mud everywhere.$s",
+"Ann.MarriageDialogue.Rainy_Day_5": "I woke up way too early.$s#$b#The rain was so heavy, it sounded like someone was throwing rocks at the house!",
+"Ann.MarriageDialogue.Rainy_Day_6": "Good morning, @!$h#$b#Since it's so crummy outside, I'll use today to get some of the cleaning done that I've been slacking off on.",
+    
+//Rainy Night
+"Ann.MarriageDialogue.Rainy_Night_0": "The rain sounds so peaceful out there…don't you agree, @?$l",
+"Ann.MarriageDialogue.Rainy_Night_1": "Nights like tonight are some of the few times I can get myself to finally relax.#$b#I guess they're therapeutic.",
+"Ann.MarriageDialogue.Rainy_Night_2": "Want to sit on the couch with me and listen to the rain?$l",
+"Ann.MarriageDialogue.Rainy_Night_3": "%Ann lets out a few sniffles weakly.",
+"Ann.MarriageDialogue.Rainy_Night_4": "I know we're adults, but don't you kinda want to go out and jump in some puddles?$h",
+"Ann.MarriageDialogue.Rainy_Night_5": "I just cleaned up everything on the patio today.....$s#$b#Guess that was one big waste of time.$s",
+"Ann.MarriageDialogue.Rainy_Night_6": "I was scared of storms when I was younger, did I tell you that?#$b#My mom and dad would always make a blanket fort in the middle of the dining room when they got really bad and read me stories.#$b#You'll do that for me if I need it, right?$h",
+    
+//One Kid
+"Ann.MarriageDialogue.OneKid_0": "Who do you think %kid1 will end up looking like when they grow up?#$b#I bet they'll look like my dad!$h",
+"Ann.MarriageDialogue.OneKid_1": "Man, if %kid1 inherits both of our work ethics, the little stinker will be unstoppable.$h",
+"Ann.MarriageDialogue.OneKid_2": "%kid1 has been getting into sooooo much trouble lately.#$b#They definitely get THAT from you!$h",
+"Ann.MarriageDialogue.OneKid_3": "I can't wait to teach %kid1 some of my dad's recipes one day!$h",
+    
+//Two Kids
+"Ann.MarriageDialogue.TwoKids_0": "%kid 1 and %kid2 play so well together.$h#$b#We really lucked out with them!$h",
+"Ann.MarriageDialogue.TwoKids_1": "I wish you could've seen %kid2 chasing around %pet yesterday.$h#$b#I'll try and record it next time!$h",
+"Ann.MarriageDialogue.TwoKids_2": "I think %kid2 looks more like me, what do you think?",
+"Ann.MarriageDialogue.TwoKids_3": "%kid1 is such a little trooper, helping me take care of %kid2.$h",
+    
+//Relationship-dependent
+///Good
+"Ann.MarriageDialogue.Good_0": "Hey hun.#$b#I just wanted to say, thanks for taking me on life's adventure with you.$l#$b#You're the best.$l",
+"Ann.MarriageDialogue.Good_1": "%Ann gives your hand a tight squeeze as she smiles brightly at you.",
+"Ann.MarriageDialogue.Good_2": "Thanks for being my best friend, @.$l#$b#I'll work my hardest to always be yours.$h",
+"Ann.MarriageDialogue.Good_3": "Hey honey.$l#$b#Just wanted to thank you for everything you do.$l",
+"Ann.MarriageDialogue.Good_4": "%Ann inhales deeply.#$e#Honey, you really smell amazing today!$h",
+"Ann.MarriageDialogue.Good_5": "My dad was talking about you to me the other day, saying how proud he is of you and us.$l#$b#What can I say? My old man knows how to spot 'em!$h",
+//"Ann.MarriageDialogue.Good_6"://
+//"Ann.MarriageDialogue.Good_8"://
+//"Ann.MarriageDialogue.Good_9"://
+    
+///Neutral
+"Ann.MarriageDialogue.Neutral_0": "We've been really putting in the work, haven't we @?$h#$b#I think it's really, really paying off!$h",
+"Ann.MarriageDialogue.Neutral_1": "One of these days, we should host a party.#$b#It'll take me back to my waitressing days at the inn!$h",
+"Ann.MarriageDialogue.Neutral_2": "I can feel it. The itch to go on a cleaning spree is taking over!$h",
+"Ann.MarriageDialogue.Neutral_3": "I'm going to try out some new recipes I've been working on.#$b#You, my friend, are going to be my guinea pig!$h",
+//"Ann.MarriageDialogue.Neutral_4"://
+//"Ann.MarriageDialogue.Neutral_5"://
+//"Ann.MarriageDialogue.Neutral_6"://
+//"Ann.MarriageDialogue.Neutral_8"://
+    
+///Bad
+"Ann.MarriageDialogue.Bad_0": "I'm sorry...I'm busy right now. We should talk some other time....$s",
+"Ann.MarriageDialogue.Bad_1": "%Ann refuses to make eye contact",
+"Ann.MarriageDialogue.Bad_2": "Ah, glad to see you're not too busy for me today!$h",
+"Ann.MarriageDialogue.Bad_3": "....$s",
+"Ann.MarriageDialogue.Bad_4": "I don't want to talk right now.$a#$b#We can do this on my time.$a",
+"Ann.MarriageDialogue.Bad_5":  "I really miss the Moonlight Inn.$s#$b#At least I felt wanted there....$s",
+//"Ann.MarriageDialogue.Bad_6"://
+//"Ann.MarriageDialogue.Bad_7"://
+//"Ann.MarriageDialogue.Bad_8"://
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Elli Marriage Dialogue
+"Elli.MarriageDialogue.spring16": "Hi sweetie, I can't believe I'm another year older.#$b#Please, tell me it's not too noticeable.$h",
+
+//Indoor Day
+"Elli.MarriageDialogue.Indoor_Day_0": "Sometimes, I miss my brother's constant pranks.$s#$b#Then I remember how many of them involved bugs, suddenly I'm okay again!$h",
+"Elli.MarriageDialogue.Indoor_Day_1": "Let me know if you need any help today, @!$h#$b#I'll always be by your side.$h", 
+"Elli.MarriageDialogue.Indoor_Day_2": "I'm going to give Nanna a call today.#$b#Want me to tell her you say hello?$h",
+"Elli.MarriageDialogue.Indoor_Day_3": "The Doctor was so nice to offer to stop by nanna's every-so-often to help take care of her!$h",
+"Elli.MarriageDialogue.Indoor_Day_4": "%Elli lets out a huge yawn.#$b#I was studying way too late last night...$s",
+"Elli.MarriageDialogue.Indoor_Day_5": "Have a good day today dear!$l#$b#Remember, I'm always here if you need me.$l",
+
+//Indoor Night
+"Elli.MarriageDialogue.Indoor_Night_0": "I'm really thankful for our nights home.#$b#Nothing I can think of beats being here with you.$l",
+"Elli.MarriageDialogue.Indoor_Night_1": "You've been working so hard lately, want me to run you a bath?.$l",
+"Elli.MarriageDialogue.Indoor_Night_2": "It's so peaceful out here, I feel like I can hear across the whole farm.",
+"Elli.MarriageDialogue.Indoor_Night_3": "Hello dear.#$b#Just wanted to say, I'm proud of you for how much %farm grows day after day.$l",
+"Elli.MarriageDialogue.Indoor_Night_4": "Thanks for working so hard for us.$l#$b#Never forget, I'll always do what I can to support you.$l",
+"Elli.MarriageDialogue.Indoor_Night_5": "It gets so quiet on the farm at night.#$b#It'd be scary if I didn't have you here with me.$l",
+"Elli.MarriageDialogue.Indoor_Night_6": "I wonder what nanna and Stu got up to today?#$b#I need to pay them a visit soon.",
+
+//Outdoor
+"Elli.MarriageDialogue.Outdoor_0": "The fresh air feels so nice, doesn't it?#$b#I can feel it giving me so much more energy, can't you dear?$h",
+"Elli.MarriageDialogue.Outdoor_1": "I should take %pet for a walk around the farm today.$h",
+"Elli.MarriageDialogue.Outdoor_2": "Do you feel like making dinner today, dear? I can't decide what to make...",
+"Elli.MarriageDialogue.Outdoor_3": "It's amazing how good I feel eating food made from our own home-grown ingredients.$h#$b#More people should try growing their own food!$h",
+"Elli.MarriageDialogue.Outdoor_4": "They say that playing in the dirt helps build our immune system.#$b#I'm honestly not sure if that's true....",
+"Elli.MarriageDialogue.Outdoor_Elli":  "I'm gonna try and collect some herbs for you.$h#$b#The Doctor taught me a trick or two!$h",
+
+//Rainy Day
+"Elli.MarriageDialogue.Rainy_Day_0": "You need to be careful out there dear.#$b#This weather will give you a nasty cold in no time!#$b#Keep warm!",
+"Elli.MarriageDialogue.Rainy_Day_1": "It's so dreary out.#$b#And I had so many plans for today....$s",
+"Elli.MarriageDialogue.Rainy_Day_2": "Today seems pretty dreary outside.$s#$b#But, let's make the best of it, @!$h",
+"Elli.MarriageDialogue.Rainy_Day_3": "I think this weather is giving me a cold...$s",
+"Elli.MarriageDialogue.Rainy_Day_4": "%Elli lets out a violent sneeze.#$b#Ugh....oh no....$s",
+"Elli.MarriageDialogue.Rainy_Day_5": "I woke up way too early.$s#$b#The rain was so heavy, it sounded like someone was throwing rocks at the house!",
+"Elli.MarriageDialogue.Rainy_Day_6": "The rain really isn't so bad.#$b#...From inside, of course.",
+
+//Rainy Night
+"Elli.MarriageDialogue.Rainy_Night_0": "The rain sounds so peaceful out there…don't you agree, @?$l",
+"Elli.MarriageDialogue.Rainy_Night_1": "Nights like tonight are great for meditating. You've got to keep your body AND mind healthy, after all.$h",
+"Elli.MarriageDialogue.Rainy_Night_2": "Tonight's the kind of night when I can get so much studying done.$h#$b#It's a good thing too, I haven't been the most productive this week!$l",
+"Elli.MarriageDialogue.Rainy_Night_3": "The pitter-patter of the rain on the windows is so soothing, don't you think?$h",
+"Elli.MarriageDialogue.Rainy_Night_4": "I think %pet might be scared of the rain.#$b#Probably should leave some room on the bed for them tonight.$h",
+"Elli.MarriageDialogue.Rainy_Night_5": "I really hope this weather doesn't flood out the crops.$s",
+"Elli.MarriageDialogue.Rainy_Night_6": "Mom and dad would always sit with me on the porch in the rain.$s#$b#I wish you got to meet them, they would love you.$s",
+
+//One Kid
+"Elli.MarriageDialogue.OneKid_0": "I think %kid1 has a little cold.#$b#Poor dear has been sneezing up a storm.$s",
+"Elli.MarriageDialogue.OneKid_1": "I need to brush up on my nursery rhymes for %kid1.#$b#Which is your favorite, dear?$h",
+"Elli.MarriageDialogue.OneKid_2": "%kid1 is such a little stinker. Taking after their uncle a little TOO much....",
+"Elli.MarriageDialogue.OneKid_3": "I never knew having a child would be such an amazing experience, did you?",
+
+//Two Kids
+"Elli.MarriageDialogue.TwoKids_0": "%kid1 is just too cute, helping me take care of %kid2.$h",
+"Elli.MarriageDialogue.TwoKids_1": "I think %kid2 looks more like me, don't you agree?",
+"Elli.MarriageDialogue.TwoKids_2": "The kids get along so well.#$b#We really lucked out with them, didn't we?$h",
+//"Elli.MarriageDialogue.TwoKids_3": 
+
+//Relationship-dependent
+///Good
+"Elli.MarriageDialogue.Good_0": "Thanks for always supporting me dear.$l#$b#I know that it's not easy sometimes, but we can get through anything together!$h",
+"Elli.MarriageDialogue.Good_1": "Thanks for being my best friend, @.$l#$b#I'll be by your side in sickness and in health.$h",
+"Elli.MarriageDialogue.Good_2": "Did I tell you that the Doctor always speaks very highly of you?$h#$b#He doesn't dish out praise like that very often!$h", 
+"Elli.MarriageDialogue.Good_3": "Next time you injure yourself, come back home so I can practice wound care on you!$h",
+"Elli.MarriageDialogue.Good_4": "Hey, just wanted to remind you how much I love you, okay?$l",
+//"Elli.MarriageDialogue.Good_5": 
+//"Elli.MarriageDialogue.Good_8":
+//"Elli.MarriageDialogue.Good_9":
+
+///Neutral
+"Elli.MarriageDialogue.Neutral_0": "How are you feeling today?#$b#Oh, sorry, sometimes I slip into clinic mode.$h",
+"Elli.MarriageDialogue.Neutral_1": "Hello dear, you look well today!$h#$b#You have a real youthful glow to you!$h",
+"Elli.MarriageDialogue.Neutral_2": "You know, Harvey's clinic isn't too bad.#$b#If only he had enough patients for a second nurse….that would be so convenient!$h",
+"Elli.MarriageDialogue.Neutral_3": "Now that I think about it, ever since you moved into town, my grandma talks about your grandpa A LOT.",
+"Elli.MarriageDialogue.Neutral_4": "Be careful out there dear, I can only patch you up so many times.",
+//"Elli.MarriageDialogue.Neutral_5"://
+//"Elli.MarriageDialogue.Neutral_6"://
+//"Elli.MarriageDialogue.Neutral_8"://
+
+///Bad
+"Elli.MarriageDialogue.Bad_0": "I can feel us growing apart.$s#$b#I guess, sometimes it's only natural.$s",
+"Elli.MarriageDialogue.Bad_1": "I've always been by your side to take care of you.$a#$b#The way you've been treating me is NOT ok!$a",
+"Elli.MarriageDialogue.Bad_2": "At least people appreciated me at the clinic....$s",
+"Elli.MarriageDialogue.Bad_3": "I'm sorry, I really don't have the energy for this right now.$s",
+"Elli.MarriageDialogue.Bad_4": "%Elli looks away with a frown.",
+"Elli.MarriageDialogue.Bad_5":  "....$s",
+//"Elli.MarriageDialogue.Bad_6"://
+//"Elli.MarriageDialogue.Bad_7"://
+//"Elli.MarriageDialogue.Bad_8"://    
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Karen Marriage Dialogue
+"Karen.MarriageDialogue.fall15": "Oh, wow! I'd forgotten that it was even my birthday today!$h#$b#Thanks for always remembering...love you babe.$l",
+
+//Indoor Day
+"Karen.MarriageDialogue.Indoor_Day_0": "Good job with everything, babe.$h#$b#You've really been killing it lately, I thought you should know that.$l",
+"Karen.MarriageDialogue.Indoor_Day_1": "Let me know if you need any help today, @!$h#$b#We'll kick the day's butt as a team!$h",
+"Karen.MarriageDialogue.Indoor_Day_2": "I think I might go for a run today.#$b#You should join, if you get any free time for once.$h",
+"Karen.MarriageDialogue.Indoor_Day_3": "We need more to do around here.#$b#Y'know, I've actually been thinking a lot about future plans for the store.#$b#We could attach an arcade and make it the go-to hangout spot in Mineral Town.$h#$b#What do you think?$l",
+"Karen.MarriageDialogue.Indoor_Day_4": "Ooof. I tried making breakfast today.$s#$b#Didn't quite stick the landing.",
+"Karen.MarriageDialogue.Indoor_Day_5": "Have a great day, babe!$l#$b#Remember, I'm always here if you need me.$l",
+
+//Indoor Night
+"Karen.MarriageDialogue.Indoor_Night_0": "I binged like 10 episodes of The Kilian Experience today.#$b#That guy's hilarious!$h",
+"Karen.MarriageDialogue.Indoor_Night_1": "You've been working so hard lately, you deserve some time to relax for once.$l",
+"Karen.MarriageDialogue.Indoor_Night_2": "We should start having family game night!#$b#But, I'll warn you, I'm a very sore loser.$h",
+"Karen.MarriageDialogue.Indoor_Night_3": "Hey babe.#$b#Just wanted to say, I'm proud of you for how much %farm grows day after day.$l",
+"Karen.MarriageDialogue.Indoor_Night_4": "Thanks for working so hard for us.$l#$b#Never forget, I'll always do what I can to support you.$l",
+"Karen.MarriageDialogue.Indoor_Night_5": "It gets so quiet on the farm at night.#$b#But I don't mind it, not with you here.$l",
+"Karen.MarriageDialogue.Indoor_Night_6": "My mom and I were talking about planning a family trip.#$b#We'll keep you posted so you can make sure to be free for it!$h",
+
+//Outdoor
+"Karen.MarriageDialogue.Outdoor_0": "Every time I come out here and explore the farm, I find something new!$h",
+"Karen.MarriageDialogue.Outdoor_1": "I should take %pet for a walk around the farm today.$h",
+"Karen.MarriageDialogue.Outdoor_2": "Do you feel like making dinner today, babe? I can't decide what to make...",
+"Karen.MarriageDialogue.Outdoor_3": "I used to not be very into nature.#$b#Slowly but surely, this place is changing my opinion on that.$h",
+"Karen.MarriageDialogue.Outdoor_4": "Y'know, I really like shorts.#$b#They're so comfy and easy to wear!$h",
+"Karen.MarriageDialogue.Outdoor_Karen": "Being out here is so liberating!$h#$b#No wonder you're usually in such a good mood!$h",
+
+//Rainy Day
+"Karen.MarriageDialogue.Rainy_Day_0": "Rainy days are nice once in a while, but more often then not, they're just a huge drag.$s#$b#Maybe we just have to spend some time inside, right?$l",
+"Karen.MarriageDialogue.Rainy_Day_1": "We're gonna go play in the rain later, right?$h#$b#If not, me and %pet are so going without you.$h",
+"Karen.MarriageDialogue.Rainy_Day_2": "Today seems like a bit of a bummer outside.$s#$b#But, let's make the best of it, @!$h",
+"Karen.MarriageDialogue.Rainy_Day_3": "I think this weather is giving me a cold...$s",
+"Karen.MarriageDialogue.Rainy_Day_4": "I always liked the rain.#$b#It's mentally AND physically sobering.$h",
+"Karen.MarriageDialogue.Rainy_Day_5": "I woke up way too early.$s#$b#The rain was so heavy, it sounded like someone was throwing rocks at the house!",
+"Karen.MarriageDialogue.Rainy_Day_6": "You ever wonder what would happen if it never stopped raining?",
+
+//Rainy Night
+"Karen.MarriageDialogue.Rainy_Night_0": "The rain sounds so peaceful out there…don't you agree, @?$l",
+"Karen.MarriageDialogue.Rainy_Night_1": "Nights like tonight are some of my favorite times to spend with you.$l#$b#It's best when it's just the two of us.$h",
+"Karen.MarriageDialogue.Rainy_Night_2": "%Karen's nose is visibly running. She looks miserable.",
+"Karen.MarriageDialogue.Rainy_Night_3": "I'm gonna sleep like a baby tonight with this background noise.$h",
+"Karen.MarriageDialogue.Rainy_Night_4": "We should totally cuddle up and watch the rain together.$l#$b#What do you think?$h",
+"Karen.MarriageDialogue.Rainy_Night_5": "Hey babe, would it be too childish of me to go splashing in some puddles?#$b#Asking for a friend.$h",
+"Karen.MarriageDialogue.Rainy_Night_6": "After tonight, I bet every frog in Stardew Valley will be hopping around tomorrow.",
+
+//One Kid
+"Karen.MarriageDialogue.OneKid_0": "%kid1 is such a stinker.$h#$b#That definitely comes from my side!$h",
+"Karen.MarriageDialogue.OneKid_1": "Did you hear %kid1 talking in their sleep last night?#$b#It's literally too cute to handle.$h",
+"Karen.MarriageDialogue.OneKid_2": "Thank Yoba I've made so many mistakes in life.#$b#%kid1 won't be able to get anything past me when they're older.",
+"Karen.MarriageDialogue.OneKid_3": "I didn't know being a mother could be so fulfilling.$l#$b#Man, my parents really owe me one.$h",
+
+//Two Kids
+"Karen.MarriageDialogue.TwoKids_0": "%kid1 and %kid2 are always so fun together.#$b#Kinda makes me wish I had a sibling.$h",
+"Karen.MarriageDialogue.TwoKids_1": "I really hope the kids get your affinity for animals when they grow up.#$b#They can get witty humor and general tenacity.$h",
+"Karen.MarriageDialogue.TwoKids_2": "I think %kid2 looks more like me.#$b#Lucky them!$h",
+"Karen.MarriageDialogue.TwoKids_3": "%kid1 is such a rockstar, helping me take care of %kid2.$h",
+
+//Relationship-dependent
+///Good
+"Karen.MarriageDialogue.Good_0": "Hey babe.#$b#Thanks so much for helping me through everything.$l#$b#I honestly have no idea where I'd be without you so....thank you...$h",
+"Karen.MarriageDialogue.Good_1": "Thanks for being my best friend, @.$l#$b#I'll work my hardest to always be yours.$h",
+"Karen.MarriageDialogue.Good_2": "We should go out and visit the city sometime, just you and me.$l",
+"Karen.MarriageDialogue.Good_3": "Dang babe, you're looking great today!$h#$b#",
+"Karen.MarriageDialogue.Good_4": "We should take a trip to Ginger Island or somewhere.$h#$b#Our own little romantic getaway...$l",
+//"Karen.MarriageDialogue.Good_5": 
+//"Karen.MarriageDialogue.Good_8":
+//"Karen.MarriageDialogue.Good_9":
+
+///Neutral
+"Karen.MarriageDialogue.Neutral_0": "Hey babe, I've been trying to think about something to do today and am completely drawing a blank.$s#$b#Any ideas?",
+"Karen.MarriageDialogue.Neutral_1": "I haven't been to the Inn for awhile now. Maybe I should go check and see how Ann's doing?",
+"Karen.MarriageDialogue.Neutral_2": "I wonder how my parents are doing with the store.#$b#I suppose I could give them a call, couldn't I?$h",
+"Karen.MarriageDialogue.Neutral_3": "Man, time really flies, now that I'm with you.#$b#Is it the same for you?",
+//"Karen.MarriageDialogue.Neutral_4": 
+//"Karen.MarriageDialogue.Neutral_5"://
+//"Karen.MarriageDialogue.Neutral_6"://
+//"Karen.MarriageDialogue.Neutral_8"://
+
+///Bad
+"Karen.MarriageDialogue.Bad_0": "Is everything okay between us?$s#$b#I feel like I've done something wrong...",
+"Karen.MarriageDialogue.Bad_1": "Oh, sorry, I can't talk right now. I'm busing doing literally anything else.",
+"Karen.MarriageDialogue.Bad_2": "Ah! I was wondering when I'd be good enough to talk to again!$a",
+"Karen.MarriageDialogue.Bad_3": "I'm having a lot of deja vu lately.$s#$b#And NOT in a good way...$s",
+"Karen.MarriageDialogue.Bad_4": "I know %farm is important to you, but that doesn't mean you can neglect me.$a",
+"Karen.MarriageDialogue.Bad_5": "....$s",
+//"Karen.MarriageDialogue.Bad_6"://
+//"Karen.MarriageDialogue.Bad_7"://
+//"Karen.MarriageDialogue.Bad_8"://    
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Mary Marriage Dialogue
+"Mary.MarriageDialogue.winter20": "Thanks for remembering my birthday sweetheart.$l#$b#I don't really need anything, just having you is enough.$l",
+
+//Indoor Day
+"Mary.MarriageDialogue.Indoor_Day_0": "I stopped by the museum the other day.#$b#It's crazy, the stories of the Junimo are so intricate and detailed, that there MUST be some truth to them.",
+"Mary.MarriageDialogue.Indoor_Day_1": "Let me know if you need any help today, @!$h#$b#We can do anything together, I just know it!$h",
+"Mary.MarriageDialogue.Indoor_Day_2": "I talked to my mother today. Apparently, my father has been making a point to spend more time with her, now that I've moved out.#$b#She sounded so invigorated by it.$h",
+"Mary.MarriageDialogue.Indoor_Day_3": "Have you ever noticed how suspiciously quickly the Gunther's book collection has grown at the museum?#$b#Truly a mystery...",
+"Mary.MarriageDialogue.Indoor_Day_4": "I may go down to the beach some time for a bit of inspiration.#$b#You should come with me, @!$h",
+"Mary.MarriageDialogue.Indoor_Day_5": "Make today a good one honey!$l#$b#Remember, I'm always here if you need me.$l",
+
+//Indoor Night
+"Mary.MarriageDialogue.Indoor_Night_0": "It's so dark outside out here, away from the town lights.#$b#It's like we're in our own little world.$h",
+"Mary.MarriageDialogue.Indoor_Night_1": "You've been working so hard lately, let's take some time to just relax for a while.$l",
+"Mary.MarriageDialogue.Indoor_Night_2": "The chirping of the crickets on evenings such as this are soothing for the soul.#$b#Don't you agree?$h",
+"Mary.MarriageDialogue.Indoor_Night_3": "Hello there sweetheart.#$b#Just wanted to say, I'm proud of you for how much %farm grows day after day.$l",
+"Mary.MarriageDialogue.Indoor_Night_4": "Thanks for working so hard for us.$l#$b#Never forget, I'll always do what I can to support you.$l",
+"Mary.MarriageDialogue.Indoor_Night_5": "It gets so quiet on the farm at night.#$b#It's so inspirational, the ideas just come flooding in.$h",
+"Mary.MarriageDialogue.Indoor_Night_6": "Nighttime really changes the emotional vibe of a whole scene, don't you think?",
+
+//Outdoor
+"Mary.MarriageDialogue.Outdoor_0": "My father keeps asking if he can come and inspect %farm.#$b#He swears that he'll find new plant species here.#$b#As to why he feels this way? I could not tell you.",
+"Mary.MarriageDialogue.Outdoor_1": "I should take %pet for a walk around the farm today.$h",
+"Mary.MarriageDialogue.Outdoor_2": "Do you feel like making dinner today, my love? I can't decide what to make...",
+"Mary.MarriageDialogue.Outdoor_3": "Every time I come out here and explore the farm, I find something new!$h",
+"Mary.MarriageDialogue.Outdoor_4": "I love how peaceful it is out here.#$b#It's great for getting lost in thought, wouldn't you agree?",
+"Mary.MarriageDialogue.Outdoor_Mary": "It's so quaint out here. Makes me really think about how big our world is.$h",
+
+//Rainy Day
+"Mary.MarriageDialogue.Rainy_Day_0": "Rainy days are the perfect time to sit down and immerse yourself in a story, don't you agree sweetie?$h",
+"Mary.MarriageDialogue.Rainy_Day_1": "Ever wonder what would happen if it rained forever?#$b#That would be quite the story, wouldn't it?",
+"Mary.MarriageDialogue.Rainy_Day_2": "Today seems positively miserable outside.$s#$b#But, let's make the best of it, @!$h",
+"Mary.MarriageDialogue.Rainy_Day_3": "I think this weather is giving me a cold...$s",
+"Mary.MarriageDialogue.Rainy_Day_4": "Hi sweetheart. Hope you don't let this weather get you down!$h",
+"Mary.MarriageDialogue.Rainy_Day_5": "I woke up way too early.$s#$b#The rain was so heavy, it sounded like someone was throwing rocks at the house!",
+"Mary.MarriageDialogue.Rainy_Day_6": "Do you think that each raindrop has its own little microscopic world inside of it?",
+
+//Rainy Night
+"Mary.MarriageDialogue.Rainy_Night_0": "The rain sounds so peaceful out there…don't you agree, @?$l",
+"Mary.MarriageDialogue.Rainy_Night_1": "Nights like tonight are some of the few times I can get myself to focus entirely on my writing.#$b#It's like a tidal wave of ideas washes over me!$h",
+"Mary.MarriageDialogue.Rainy_Night_2": "%Mary coughs ferociously and sighs to herself.",
+"Mary.MarriageDialogue.Rainy_Night_3": "Watching the rain today gave me no small amount of ideas for my story.#$b#Nature's funny like that sometimes, isn't it?",
+"Mary.MarriageDialogue.Rainy_Night_4": "This weather has the perfect ambience for a horror script, don't you agree?",
+"Mary.MarriageDialogue.Rainy_Night_5": "When it's pouring like this, I used to love turning off all the lights and reading by candlelight.$h#$b#We must give it a try sometime!$h",
+"Mary.MarriageDialogue.Rainy_Night_6": "I remember Barley always saying his knees would act up when rain was coming.$#b#Do you think there's truth to that, @?",
+
+//One Kid
+"Mary.MarriageDialogue.OneKid_0": "I took %kid1 over to see mother and father the other day.#$b#Father took them on a nature scavenger hunt.#$b#I think %kid1 loved it!$h",
+"Mary.MarriageDialogue.OneKid_1": "Did you hear %kid1 talking in their sleep last night?#$b#They really make my heart melt.$h",
+"Mary.MarriageDialogue.OneKid_2": "I never imagined being a mother could be so fulfilling.$l#$b#My mother talked about it, but I didn't know it went to this extent.$h",
+"Mary.MarriageDialogue.OneKid_3": "Who do you think %kid1 will resemble most when they grow up?#$b#I bet they'll be the spitting image of my mother!$h",
+
+//Two Kids
+"Mary.MarriageDialogue.TwoKids_0": "I think %kid2 looks more like me, do you concur?",
+"Mary.MarriageDialogue.TwoKids_1": "%kid1 is just the sweatest, helping me take care of %kid2 all the time.$h",
+"Mary.MarriageDialogue.TwoKids_2": "I think %kid2 looks more like me.#$b#Isn't it weird how that can happen?$h",
+//"Mary.MarriageDialogue.TwoKids_3": 
+
+//Relationship-dependent
+///Good
+"Mary.MarriageDialogue.Good_0": "Did you see? My play made it onto the Top 10 charts!$h#$b#I honestly could not have done it without you, sweetheart.$l",
+"Mary.MarriageDialogue.Good_1": "I've been on such a writing spree.#$b#I think %farm is such a great inspiration.#$b#There's always something new around every corner.$h",
+"Mary.MarriageDialogue.Good_2": "It's probably weird of me, but I model most of my main characters off of you in some way or another.$l",
+"Mary.MarriageDialogue.Good_3": "My love, I just wanted to remind you how lucky I am to have you.$l#$b#I'll make sure to never allow myself to forget that.$l",
+//"Mary.MarriageDialogue.Good_4": 
+//"Mary.MarriageDialogue.Good_5": 
+//"Mary.MarriageDialogue.Good_8":
+//"Mary.MarriageDialogue.Good_9":
+
+///Neutral
+"Mary.MarriageDialogue.Neutral_0": "Hello there sweetheart.#$b#You look particularly jubilant today!$h#$b#Perhaps I should follow your lead.$h",
+"Mary.MarriageDialogue.Neutral_1": "When you get the time, would you mind proofreading a script for me?#$b#And please, be brutally honest. I'm counting on you!",
+"Mary.MarriageDialogue.Neutral_2": "Have you ever tried writing anything?#$b#You seem like you would've been big into Hat Mouse fanfics back in the day.$h",
+"Mary.MarriageDialogue.Neutral_3": "I won't lie, I slightly miss having a library at my beck and call.#$b#Do you think we could ever build one on the farm?$h#$b#Just kidding! The museum will suffice!$h",
+//"Mary.MarriageDialogue.Neutral_4": 
+//"Mary.MarriageDialogue.Neutral_5"://
+//"Mary.MarriageDialogue.Neutral_6"://
+//"Mary.MarriageDialogue.Neutral_8"://
+
+///Bad
+"Mary.MarriageDialogue.Bad_0": "%Mary pretends to be lost in thought.",
+"Mary.MarriageDialogue.Bad_1": "....$s",
+"Mary.MarriageDialogue.Bad_2": "Things feel like they're building up to something…$s#$b#I hope it's not our final act…$s",
+"Mary.MarriageDialogue.Bad_3": "Tell me, do you doubt my love for you?$s#$b#It's as strong as it's ever been, what about you?$s",
+"Mary.MarriageDialogue.Bad_4": "Maybe today just isn't our day, @….",
+//"Mary.MarriageDialogue.Bad_5": 
+//"Mary.MarriageDialogue.Bad_6"://
+//"Mary.MarriageDialogue.Bad_7"://
+//"Mary.MarriageDialogue.Bad_8"://    
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Popuri Marriage Dialogue
+"Popuri.MarriageDialogue.summer3": "Today's my birthday sweetie!$h#$b#Can't wait to see what you have planned!$h",
+//Indoor Day
+"Popuri.MarriageDialogue.Indoor_Day_0": "Good morning sweetie!#$b#I've got some free time today, so let me know if you need help with anything!$h",
+"Popuri.MarriageDialogue.Indoor_Day_1": "Let me know if you need any help today, @!$h#$b#We'll kick the day's butt with our teamwork!$h",
+"Popuri.MarriageDialogue.Indoor_Day_2": "It was unbelievable, you should've heard the praise Rick was giving you the other day.#$b#I never thought I'd see him accept anyone like that.$h",
+"Popuri.MarriageDialogue.Indoor_Day_3": "The Harvest Goddess is so beautiful.#$b#Do you think I'll be like that too, one day?",
+"Popuri.MarriageDialogue.Indoor_Day_4": "The Sprites and Junimo like to play tricks on one another.#$b#I'll try and get a photo next time to show you!$h",
+"Popuri.MarriageDialogue.Indoor_Day_5": "Should I go down to the beach today?#$b#It's so pretty, but last time I just about fell in.$h",
+
+//Indoor Night
+"Popuri.MarriageDialogue.Indoor_Night_0": "I love that we live in our own little world here on %farm.$l#$b#Couldn't think of anyone better to spend the time here with than you, sweetie.$l",
+"Popuri.MarriageDialogue.Indoor_Night_1": "You've been working so hard lately, you deserve a foot rub.$h",
+"Popuri.MarriageDialogue.Indoor_Night_2": "If it's ever quiet enough out there, I think you can hear the junimo singing from the forest.#$b#It's so enchanting.$l",
+"Popuri.MarriageDialogue.Indoor_Night_3": "Hey sweetie. Just wanted to say, I'm proud of you for how much %farm grows day after day.$l",
+"Popuri.MarriageDialogue.Indoor_Night_4": "Thanks for working so hard for us.$l#$b#Never forget, I'll always do what I can to support you.$l",
+"Popuri.MarriageDialogue.Indoor_Night_5": "It gets so quiet on the farm at night.#$b#We should stay up and watch the sunrise!$h",
+"Popuri.MarriageDialogue.Indoor_Night_6": "I think I might call it an early night tonight.#$b#I've been practicing some of the magic, and boy am I exhausted.$h",
+
+//Outdoor
+"Popuri.MarriageDialogue.Outdoor_0": "Every time I come out here and explore the farm, I find something new!$h",
+"Popuri.MarriageDialogue.Outdoor_1": "I should take %pet for a walk around the farm today.$h",
+"Popuri.MarriageDialogue.Outdoor_2": "Do you feel like making dinner today, honey? I can't decide what to make...",
+"Popuri.MarriageDialogue.Outdoor_3": "I love how peaceful it is out here.#$b#I can really feel the energy radiating.#$b#Literally AND figuratively.$h",
+"Popuri.MarriageDialogue.Outdoor_4": "Sometimes I still don't know if taking the Godess's offer is the right choice or not.$s#$b#You'd tell me if it wasn't, right sweetie?",
+"Popuri.MarriageDialogue.Outdoor_Popuri": "Chasing the chickens around out here reminds me of back home!$h#$b#They keep me in shape though!$h",
+
+//Rainy Day
+"Popuri.MarriageDialogue.Rainy_Day_0": "Rainy days are no fun.$s#$b#I had all these plans and now I'll just have to camp out inside.#$b#Ah well, just gonna have to make up for it tomorrow!$h", 
+"Popuri.MarriageDialogue.Rainy_Day_1": "This rain is going to absolutely destroy my hair.#$b#Do you have any idea how LONG hair like this takes?$s",
+"Popuri.MarriageDialogue.Rainy_Day_2": "Today seems yucky outside.$s#$b#But, let's make the best of it, @!$h",
+"Popuri.MarriageDialogue.Rainy_Day_3": "I think this weather is giving me a cold...$s",
+"Popuri.MarriageDialogue.Rainy_Day_4": "I'm glad I've been able to contribute more around here.#$b#It was getting old being home and told I shouldn't touch anything.",
+"Popuri.MarriageDialogue.Rainy_Day_5": "I woke up way too early.$s#$b#The rain was so heavy, it sounded like someone was throwing rocks at the house!",
+"Popuri.MarriageDialogue.Rainy_Day_6": "Rain, rain, go away....$s#$b#Today is just the pits.$s",
+
+//Rainy Night
+"Popuri.MarriageDialogue.Rainy_Night_0": "The rain sounds so peaceful out there…don't you agree, @?$l",
+"Popuri.MarriageDialogue.Rainy_Night_1": "Nights like tonight are some of my favorites.$h#$b#Don't you just love the sound of storms?$h",
+"Popuri.MarriageDialogue.Rainy_Night_2": "Popuri sneezes violently.#$b#Ugh....I'm sorry. I'm a mess.$s",
+"Popuri.MarriageDialogue.Rainy_Night_3": "It's been a non-stop drip-drop all day today.$s#$b#Oh! Hey I just rhymed!$h#$b#Look out Elliot, there's a new poet in town!$h",
+"Popuri.MarriageDialogue.Rainy_Night_4": "I hope Rick didn't forget to put the chickens in the coop today.#$b#Poor dears would be scared half to death out in this weather.$s",
+"Popuri.MarriageDialogue.Rainy_Night_5": "Kappa probably loves this weather, right?#$b#He's an oddball, I can imagine him running around the woods right now.$h",
+"Popuri.MarriageDialogue.Rainy_Night_6": "I'm gonna sleep like a baby tonight with this background noise.$h",
+
+//One Kid
+"Popuri.MarriageDialogue.OneKid_0": "Did you hear %kid1 talking in their sleep last night?#$b#It's so cute, I could die!.$h",
+"Popuri.MarriageDialogue.OneKid_1": "I took %kid1 over to see mom the other day.#$b#I think they had so much fun running around, chasing the chickens!$h",
+"Popuri.MarriageDialogue.OneKid_2": "I didn't know being a mother could be so fun!$l#$b#Is this how my parents felt when they raised Rick and me?$h",
+"Popuri.MarriageDialogue.OneKid_3": "Who do you think %kid1 will end up looking like when they're older?#$b#More importantly, do you think they'll have magical powers too?$h",
+
+//Two Kids
+"Popuri.MarriageDialogue.TwoKids_0": "%kid1 is just too cute, helping me take care of %kid2.$h#$b#I could just pinch their little cheekies!$h",
+"Popuri.MarriageDialogue.TwoKids_1": "I think %kid2 looks more like me.#$b#Sorry, not sorry!$h",
+//"Popuri.MarriageDialogue.TwoKids_2": 
+//"Popuri.MarriageDialogue.TwoKids_3": 
+
+//Relationship-dependent
+///Good
+"Popuri.MarriageDialogue.Good_0": "I don't know who loves you more, me or the animals.$h#$b#You do such a great job with them!$h",
+"Popuri.MarriageDialogue.Good_1": "The sprites say they miss you!$h#$b#Don't forget to stop in to see them!$h",
+"Popuri.MarriageDialogue.Good_2": "Hi sweetie!$h#$b#I hope you have a great day today, you deserve it for working so hard for us lately.$l",
+"Popuri.MarriageDialogue.Good_3": "It's fun to get to know the Junimo over here.$h#$b#Don't worry, they have only good things to say about you!$h",
+//"Popuri.MarriageDialogue.Good_4": 
+//"Popuri.MarriageDialogue.Good_5": 
+//"Popuri.MarriageDialogue.Good_8":
+//"Popuri.MarriageDialogue.Good_9":
+
+///Neutral
+"Popuri.MarriageDialogue.Neutral_0": "I was talking to Kappa the other day.....#$b#What an absolute weirdo!$h#$b#He's funny though, so you get used to him.$h",
+"Popuri.MarriageDialogue.Neutral_1": "I'm so glad my mom's been feeling better.$h#$b#Even Rick has finally been able to take a breather and relax for once.",
+//"Popuri.MarriageDialogue.Neutral_2": 
+//"Popuri.MarriageDialogue.Neutral_3": 
+//"Popuri.MarriageDialogue.Neutral_4": 
+//"Popuri.MarriageDialogue.Neutral_5":
+//"Popuri.MarriageDialogue.Neutral_6":
+//"Popuri.MarriageDialogue.Neutral_8":
+
+///Bad
+"Popuri.MarriageDialogue.Bad_0": "I thought you were different, but you treat me just like everyone at home did.$a#$b#Guess I should just sit here and look pretty...$s",
+"Popuri.MarriageDialogue.Bad_1": "Oh, hey @.$s#$b#I'm gonna go hangout with the animals or something.$s#$b#See ya.$s",
+"Popuri.MarriageDialogue.Bad_2": "You DO realize I might be a goddess one day, right?$a#$b#If that doesn't make me a catch, then what will?$s",
+"Popuri.MarriageDialogue.Bad_3": "You'll regret treating me this way one day.$a#$b#I hope by then that it isn't too late.$s",
+"Popuri.MarriageDialogue.Bad_4": "....$s", 
+//"Popuri.MarriageDialogue.Bad_5": 
+//"Popuri.MarriageDialogue.Bad_6":
+//"Popuri.MarriageDialogue.Bad_7":
+//"Popuri.MarriageDialogue.Bad_8":
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Cliff Marriage Dialogue
+"Cliff.MarriageDialogue.summer6": "Oh, I guess it's my birthday today.#$b#Thanks for reminding me @, I probably would've forgotten otherwise.$h",
+//Indoor Day
+"Cliff.MarriageDialogue.Indoor_Day_0": "I'm feeling a little cooped up lately.#$b#You alright if I go on an adventure today?",
+"Cliff.MarriageDialogue.Indoor_Day_1": "I was passing through Cindersap forest the other day when I could've sworn I saw something out of the corner of my eye.#$b#It's just like Goddess Hill....weird.",
+"Cliff.MarriageDialogue.Indoor_Day_2": "Hey, @.#$b#Make sure to always let me know if you need help around here, okay?#$b#You're not in this alone.$l",
+"Cliff.MarriageDialogue.Indoor_Day_3": "Make sure you're keeping your strength up!#$b#I don't need you passing out on me!$h",
+"Cliff.MarriageDialogue.Indoor_Day_4": "Guess I'd better get along with my training, shouldn't I?",
+"Cliff.MarriageDialogue.Indoor_Day_5": "I was hearing some strange sounds coming from the sewer the other day.#$b#I swear it sounded like someone talking.",
+
+//Indoor Night
+"Cliff.MarriageDialogue.Indoor_Night_0": "My sword was getting a little beat up, so I took it over to Clint.#$b#He's no Saibara, but he does pretty good work.",
+"Cliff.MarriageDialogue.Indoor_Night_1": "I needed Harvey to patch me up the other day.#$b#He and Maru did a pretty good job, what do you think?$h",
+"Cliff.MarriageDialogue.Indoor_Night_2": "Ever notice that weird thing up by the train station?#$b#It looks like a stone tablet with duck feet.#$b#Super weird.",
+"Cliff.MarriageDialogue.Indoor_Night_3": "I'm honestly surprised there aren't more monsters here in the valley.#$b#It's like something's keeping them away...",
+"Cliff.MarriageDialogue.Indoor_Night_4": "Hey, @.Tell me one good thing and one bad thing about your day.#$b#Annnnd go!",
+"Cliff.MarriageDialogue.Indoor_Night_5": "I asked Gray to make me a special blade.#$b#He said he'll do it!$h#$b#But, he also said he needs to improve before he's worthy of it, so it may be quite awhile.",
+"Cliff.MarriageDialogue.Indoor_Night_6": "Sometimes I miss Mineral Town a little.#$b#But, I'll be honest, this place already feels way more like home.$l",
+
+//Outdoor
+"Cliff.MarriageDialogue.Outdoor_0": "I should take %pet for a walk around the farm today.$h",
+"Cliff.MarriageDialogue.Outdoor_1": "It's so beautiful out here.#$b#Not quite the same as the wilds, but I still like having our own corner.$h",
+"Cliff.MarriageDialogue.Outdoor_2": "Sometimes, I see Abigail hanging out around the graveyard.#$b#What a weirdo right?$h#$b#On the other hand, I kinda get it.$h",
+"Cliff.MarriageDialogue.Outdoor_3": "Have you heard of the legendary fish? Strange that they're all exclusive to this small valley.",
+"Cliff.MarriageDialogue.Outdoor_4": "I hear there are dragons in Calico desert.#$b#No way can that be true!$h",
+"Cliff.MarriageDialogue.Outdoor_Cliff": "I heard there's a super dangerous mine over in Calico Desert.#$b#Not gonna lie, I'm really itching to go.",
+
+//Rainy Day
+"Cliff.MarriageDialogue.Rainy_Day_0": "Man, this rain is really throwing a wrench in my plans today...$s",
+"Cliff.MarriageDialogue.Rainy_Day_1": "I want to go monster hunting in the mines, but I'll be soaked by the time I get there.$s",
+"Cliff.MarriageDialogue.Rainy_Day_2": "What do you say we spend the day inside, just you and me?$l#$b#Sorry, don't mean to try and keep you locked down today.$h#$b#Just let me know if you need help with anything.",
+"Cliff.MarriageDialogue.Rainy_Day_3": "I think this weather is giving me a cold….$s",
+"Cliff.MarriageDialogue.Rainy_Day_4": "%Cliff groans while holding his head, before letting out a big sneeze.#$b#Sorry...maybe I need some rest...$s",
+"Cliff.MarriageDialogue.Rainy_Day_5": "It's such a gross day outside.$s#$b#Do you mind if I do my training in the house?#$b#I promise not to break anything!$h",
+"Cliff.MarriageDialogue.Rainy_Day_6": "Going for a run in the rain will build character and resilience.#$b#That being said, I still don't think I'm going to.",
+
+//Rainy Night
+"Cliff.MarriageDialogue.Rainy_Night_0": "The rain sounds so peaceful out there…don't you agree, @?$l",
+"Cliff.MarriageDialogue.Rainy_Night_1": "I remember spending my nights in the wilderness with the wind and rain battering against my tent.#$b#I almost miss it sometimes!$h",
+"Cliff.MarriageDialogue.Rainy_Night_2": "I'm debating setting up a rain collector outside.#$b#Though, I suppose we don't really need one....maybe that's just the survivalist in me talking.$h",
+"Cliff.MarriageDialogue.Rainy_Night_3": "Dark and stormy nights are pretty foreboding.#$b#That's part of what makes them so exciting.",
+"Cliff.MarriageDialogue.Rainy_Night_4": "At first, rainy nights were a bit terrifying.#$b#After a handful of them, it honestly becomes soothing.",
+"Cliff.MarriageDialogue.Rainy_Night_5": "I might just stay up and watch the storm tonight.#$b#You should join me if you're not too tired.$l",
+"Cliff.MarriageDialogue.Rainy_Night_6": "I stopped by that wizard's tower the other day.#$b#What a strange, strange man.#$b#And that's coming from me!$h",
+
+//One Kid
+"Cliff.MarriageDialogue.OneKid_0": "I didn't know my parents too well...$s#$b#I hope I don't mess up with %kid1.$s#$b#But, you're manning the ship, so I'm sure we'll do great!$h",
+"Cliff.MarriageDialogue.OneKid_1": "%kid1 is such a little ball of energy!$h#$b#Almost too much for me!$h",
+"Cliff.MarriageDialogue.OneKid_2": "I was playing hide and seek with %kid1 the other day.#$b#Man, they're really good! Thought I lost them for a bit.$h",
+"Cliff.MarriageDialogue.OneKid_3": "You don't mind if I go take %kid1 to go live in the forest for a week or two do you?#$b#What, is that not a normal thing?",
+
+//Two Kids
+"Cliff.MarriageDialogue.TwoKids_0": "Who do you think will be the protector when they grow up, %kid1 or %kid2?",
+"Cliff.MarriageDialogue.TwoKids_1": "Is it too early to start taking the kids adventuring with me?#$b#I'm sure they'll be just fine!$h",
+"Cliff.MarriageDialogue.TwoKids_2": "%kid1 is becoming quite the little helper.$h#$b#And %kid2 is so well behaved. Is parenting always this easy?$h",
+"Cliff.MarriageDialogue.TwoKids_3": "The kids play so well together.#$b#Let's hope that that's something they never grow out of.$h",
+
+//Relationship-dependent
+///Good
+"Cliff.MarriageDialogue.Good_0": "Hey, @.#$b#I just wanted to let you know....you'll always be my hero.$l#$b#Got that?$l",
+"Cliff.MarriageDialogue.Good_1": "Don't you ever worry.#$b#I would slay a thousand monsters to protect you.$l#$b#I truly mean that.$l",
+"Cliff.MarriageDialogue.Good_2": "Remember, I'll always be here to protect you.$l",
+"Cliff.MarriageDialogue.Good_3": "I used to feel alone a lot of the time, wandering from place to place.$s#$b#Thank you for being my home.$l",
+"Cliff.MarriageDialogue.Good_4": "Thank you for giving me a place to belong, @.$l",
+//"Cliff.MarriageDialogue.Good_5": 
+//"Cliff.MarriageDialogue.Good_8":
+//"Cliff.MarriageDialogue.Good_9":
+
+///Neutral
+"Cliff.MarriageDialogue.Neutral_0": "Sam and Sebastian were saying I give off an \"Anime Protagonist\" vibe.#$b#I have no clue what that means.$h",
+"Cliff.MarriageDialogue.Neutral_1": "Marlon's been teaching me some new sword skills.#$b#For an old man, that guy is way quicker on his feet than I imagined.",
+"Cliff.MarriageDialogue.Neutral_2": "I'm not big on reading, but sometimes I hear them talk about some legends in the museum.#$b#I wonder if I can ever make my way into one?",
+"Cliff.MarriageDialogue.Neutral_3": "You should train with me sometimes.#$b#We could find out who's the student and who's the master.$h",
+"Cliff.MarriageDialogue.Neutral_4": "I'm so happy we decided to forge our own story together.$l",
+"Cliff.MarriageDialogue.Neutral_5": "We should plan a trip soon, I'd love to check out some place new.", 
+//"Cliff.MarriageDialogue.Neutral_6"://
+//"Cliff.MarriageDialogue.Neutral_8"://
+
+///Bad
+"Cliff.MarriageDialogue.Bad_0": "....$s",
+"Cliff.MarriageDialogue.Bad_1": "Am I just going to become a memory?$s",
+"Cliff.MarriageDialogue.Bad_2": "Do I actually matter to you?$s#$b#Sometimes, I'm not too sure.$s",
+"Cliff.MarriageDialogue.Bad_3": "And here I thought I was meant to be a hero.$s#$b#You're starting to convince me otherwise...$s",
+"Cliff.MarriageDialogue.Bad_4": "Have I lived long enough to become the villain?$s",
+"Cliff.MarriageDialogue.Bad_5": "I'm sorry...I'm busy right now. We should talk some other time....$s",
+"Cliff.MarriageDialogue.Bad_6": "You'll regret treating me this way one day.$a#$b#I hope by then that it isn't too late.$s",
+"Cliff.MarriageDialogue.Bad_7": "Perhaps I made the wrong choice, putting myself in a cage like this.$s",
+//"Cliff.MarriageDialogue.Bad_8"://    
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Doctor Marriage Dialogue
+"Doctor.MarriageDialogue.fall19": "Oh, I got so wrapped up in work that I forgot my birthday, didn't I?",
+//Indoor Day
+"Doctor.MarriageDialogue.Indoor_Day_0": "Isn't it odd that there are so many doctors practicing in such a small area?#$b#Rather uncanny, if you think about it.",
+"Doctor.MarriageDialogue.Indoor_Day_1": "Take care out there, @.#$b#I know I'm here to patch you up, but don't let that make you reckless.",
+"Doctor.MarriageDialogue.Indoor_Day_2": "Are you going to be a Guinea pig for my tonics?#$b#You'll be fine, I'm a professional.$h",
+"Doctor.MarriageDialogue.Indoor_Day_3": "You've been doing great work lately, never forget that.",
+"Doctor.MarriageDialogue.Indoor_Day_4": "I could've sworn I saw something in the bushes foraging for herbs the other day.#$b#It was…odd.",
+"Doctor.MarriageDialogue.Indoor_Day_5": "What to do today?#$b#I'm at a loss, I don't usually get a lot of free time.",
+
+//Indoor Night
+"Doctor.MarriageDialogue.Indoor_Night_0": "Elli called today, sounds like she's been doing a great job taking care of the clinic when I'm not around.$h",
+"Doctor.MarriageDialogue.Indoor_Night_1": "Were you ever a fan of medical TV shows?#$b#They're entertaining, but not particularly accurate.",
+"Doctor.MarriageDialogue.Indoor_Night_2": "Make sure to get some good rest tonight.#$b#Farming really takes it out of you.",
+"Doctor.MarriageDialogue.Indoor_Night_3": "I gave Ellen a call today.#$b#I'm happy to say, it sounds like she's doing very well.$h",
+"Doctor.MarriageDialogue.Indoor_Night_4": "It's so peaceful tonight. Reminds me that all I need in the world is you.$l",
+"Doctor.MarriageDialogue.Indoor_Night_5": "A lot of people used to be intimidated by my position.#$b#I'm glad you weren't one of those people.$h",
+"Doctor.MarriageDialogue.Indoor_Night_6": "%pet gave me quite the run-around today.#$b#It's good though, it'll help me stay in shape.$h",
+
+//Outdoor
+"Doctor.MarriageDialogue.Outdoor_0": "You know, one of these days you should teach me how to cultivate crops.#$b#So many have very interesting properties to them.$h",
+"Doctor.MarriageDialogue.Outdoor_1": "I should take %pet for a walk around the farm today.$h",
+"Doctor.MarriageDialogue.Outdoor_2": "I've been working in small country clinics for years now. But there's something different about this place that I can't put my finger on…",
+"Doctor.MarriageDialogue.Outdoor_3": "Harvey called me to do some consulting on a case today.#$b#I'll be a little tied up most of the day.",
+"Doctor.MarriageDialogue.Outdoor_4": "Maru seems like a great nurse, but Elli sells herself short.#$b#I think they're equally skilled and knowledgeable.$h",
+"Doctor.MarriageDialogue.Outdoor_Doctor": "Should take some time to go to the spa if you're feeling a little spent.#$b#Can't run on an empty tank after all.",
+
+//Rainy Day
+"Doctor.MarriageDialogue.Rainy_Day_0": "Careful out there, weather like this can do a real number on your immune system.",
+"Doctor.MarriageDialogue.Rainy_Day_1": "Days like this are bad for gathering herbs.#$b#Instead, I use them to stay inside and continue my research.",
+"Doctor.MarriageDialogue.Rainy_Day_2": "Make sure to bundle up in this weather, unless you're eager to get a cold.",
+"Doctor.MarriageDialogue.Rainy_Day_3": "I think this weather is giving me a cold….$s",
+"Doctor.MarriageDialogue.Rainy_Day_4": "Personally, I find sitting and watching the rain to be rather therapeutic.#$b#Not the best for the body, but great for the soul.$h",
+"Doctor.MarriageDialogue.Rainy_Day_5": "This rain is exactly what's needed to grow strong medical herbs.",
+"Doctor.MarriageDialogue.Rainy_Day_6": "Make sure the animals are inside today.#$b#They can get sick just like us.",
+
+//Rainy Night
+"Doctor.MarriageDialogue.Rainy_Night_0": "The rain sounds so peaceful out there…don't you agree, @?$l", 
+"Doctor.MarriageDialogue.Rainy_Night_1": "The gentle sound of rain on a quiet night like this can be rather soothing.#$b#Wouldn't you agree?$h",
+"Doctor.MarriageDialogue.Rainy_Night_2": "Nights like this are perfect for sitting in the living room and hitting the books.$h",
+"Doctor.MarriageDialogue.Rainy_Night_3": "The rain and crisp night air are kind of romantic, wouldn't you say?$l",
+"Doctor.MarriageDialogue.Rainy_Night_4": "I've already taken care of all my work for today.#$b#Have time for a movie tonight?$l", 
+"Doctor.MarriageDialogue.Rainy_Night_5": "I've been studying up on nutritious meals to cook.#$b#Hopefully, I'll be able to up my culinary game.",
+"Doctor.MarriageDialogue.Rainy_Night_6": "I've got dozens of pages of research to read through.#$b#I suppose tonight's a good night for it.",
+
+//One Kid
+"Doctor.MarriageDialogue.OneKid_0": "I never knew having a child could be so fulfilling.#$b#Although, there's also a part of it that's terrifying.",
+"Doctor.MarriageDialogue.OneKid_1": "%kid1 is quite the energetic one.#$b#We'll have to keep our heads on a swivel.$h",
+"Doctor.MarriageDialogue.OneKid_2": "I saw %kid1 eating random herbs the other day....$s#$b#Maybe I should explain the concept to them sooner rather than later.$s",
+"Doctor.MarriageDialogue.OneKid_3": "%kid1 is looking more and more like you every day.#$b#Maybe I'll get the next one.$h",
+
+//Two Kids
+"Doctor.MarriageDialogue.TwoKids_0": "The kids play so well together.#$b#Let's hope that that's something they never grow out of.$h",
+"Doctor.MarriageDialogue.TwoKids_1": "The kids got into my medical equipment the other day.#$b#Nothing too dangerous, but the way they were playing with it, they'll be professionals in no time!$h",
+"Doctor.MarriageDialogue.TwoKids_2": "%kid1 is becoming quite the little helper.$h#$b#And %kid2 is so well behaved. Is parenting always this easy?$h",
+//"Doctor.MarriageDialogue.TwoKids_3": 
+
+//Relationship-dependent
+///Good
+"Doctor.MarriageDialogue.Good_0": "I know I'm not great at these things, but I just want to remind you how much you mean to me.$l",
+"Doctor.MarriageDialogue.Good_1": "For a long time, I was so wrapped up in my work that it didn't even cross my mind I could have a life this great.#$b#You've really shown me a new side of life. So…thank you.$l",
+"Doctor.MarriageDialogue.Good_2": "I have to say, being with you is hardly ever a dull moment.$h",
+"Doctor.MarriageDialogue.Good_3": "I used to have a rigid plan for how my life would go.#$b#Meeting you changed all that, and I couldn't be happier.$h",
+"Doctor.MarriageDialogue.Good_4": "They say that love can add years to your life.#$b#I'm looking forward to seeing if they're right.$l",
+//"Doctor.MarriageDialogue.Good_5": 
+//"Doctor.MarriageDialogue.Good_8":
+//"Doctor.MarriageDialogue.Good_9":
+
+///Neutral
+"Doctor.MarriageDialogue.Neutral_0": "This valley has so many interesting properties to it.#$b#This could revolutionize medicine as we know it.",
+"Doctor.MarriageDialogue.Neutral_1": "We should plan a trip soon, I'm a little burnt out on research at the moment.",
+"Doctor.MarriageDialogue.Neutral_2": "I hear the beach's of Ginger Island have many health benefits.#$b#Perhaps a vacation is in order?$h",
+"Doctor.MarriageDialogue.Neutral_3": "Exercise can add years to your life and life to your years.$h#$b#Or, at least so I've heard.$h",
+//"Doctor.MarriageDialogue.Neutral_4": 
+//"Doctor.MarriageDialogue.Neutral_5"://
+//"Doctor.MarriageDialogue.Neutral_6"://
+//"Doctor.MarriageDialogue.Neutral_8"://
+
+///Bad
+"Doctor.MarriageDialogue.Bad_0": "....$s",
+"Doctor.MarriageDialogue.Bad_1": "I'm sorry...I'm busy right now. We should talk some other time....$s",
+"Doctor.MarriageDialogue.Bad_2": "Perhaps I made the wrong choice, letting my career take a back seat.$s",
+"Doctor.MarriageDialogue.Bad_3": "It's unfortunate how things have been panning out lately.$s#$b#Hopefully we can turn this around eventually.$s",
+"Doctor.MarriageDialogue.Bad_4": "If I'm this unimportant to you, perhaps it's best I return to Mineral Town where I'm needed.$a",
+"Doctor.MarriageDialogue.Bad_5": "Years of medical school, all for this….$s",
+"Doctor.MarriageDialogue.Bad_6": "You'll regret treating me this way one day.$a#$b#I hope by then that it isn't too late.$s",
+//"Doctor.MarriageDialogue.Bad_7"://
+//"Doctor.MarriageDialogue.Bad_8"://    
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Gray Marriage Dialogue
+"Gray.MarriageDialogue.winter6": "Oh yeah, I guess it is my birthday, huh?#$b#It means a lot, so I guess thank you!$l",
+//Indoor Day
+"Gray.MarriageDialogue.Indoor_Day_0": "Not to brag, but I think I'm starting to pass Clint up.#$b#Next goalpost is grandpa!$h",
+"Gray.MarriageDialogue.Indoor_Day_1": "I'll have to show you one of my new projects one of these days.#$b#Granted, it's still in early stages....so don't judge too harshly.$h",
+"Gray.MarriageDialogue.Indoor_Day_2": "I talked to Marlon the other day about making some swords for the Adventurer's Guild.#$b#I didn't realize how nerve-wracking it would be when I offered.$h",
+"Gray.MarriageDialogue.Indoor_Day_3": "Sometimes, I miss the sound of grandpa yelling at me.#$b#Actually, y'know what? I take that back.$h",
+"Gray.MarriageDialogue.Indoor_Day_4": "I've been thinking up a new recipe....#$b#Hah! Just kidding, I suck at cooking.$h",
+"Gray.MarriageDialogue.Indoor_Day_5": "You've been working so hard lately.#$b#Want a back rub or anything?$l",
+
+//Indoor Night
+"Gray.MarriageDialogue.Indoor_Night_0": "Good night. I love you, @. I learn a lot from this farm.#$b#You're so capable, it's insane.$l.",
+"Gray.MarriageDialogue.Indoor_Night_1": "Sorry I get so worked up sometimes.$s#$b#Nighttime is great because I can finally take a breather.$h",
+"Gray.MarriageDialogue.Indoor_Night_2": "Today was pretty bleh.$s#$b#But definitely better, now that you're home!$l",
+"Gray.MarriageDialogue.Indoor_Night_3": "Whew. I was working on a project so long today that my arms feel like noodles.$h",
+"Gray.MarriageDialogue.Indoor_Night_4": "Man, it gets so quiet out here.#$b#It almost gives me whiplash when compared to the city or grandpa's smithy.", 
+"Gray.MarriageDialogue.Indoor_Night_5": "Do you ever wonder what's running around the farm while we sleep?#$b#Sorry, maybe I shouldn't have said that.$h",
+"Gray.MarriageDialogue.Indoor_Night_6": "What did I do today? Nothing.#$b#And it was so beautiful.$h",
+
+//Outdoor
+"Gray.MarriageDialogue.Outdoor_0": "I wonder if I could turn that cave into a workshop....what do you think?",
+"Gray.MarriageDialogue.Outdoor_1": "I should take %pet for a walk around the farm today.$h",
+"Gray.MarriageDialogue.Outdoor_2": "Hmmmm....I think I should go visit granpda soon.#$b#But I can already imagine what he'll say since I haven't stopped by in awhile.$s",
+"Gray.MarriageDialogue.Outdoor_3": "Maybe it's about time that I learn how to do some of this whole 'farming' thing.",
+"Gray.MarriageDialogue.Outdoor_4": "Clint does some good work, I'll admit it.#$b#But the guy needs to cheer up a bit.#$b#And that's coming from me of all people!$h",
+"Gray.MarriageDialogue.Outdoor_Gray": "What do you have going on today?#$b#I have so many things to do, it's almost paralyzing.",
+
+//Rainy Day
+"Gray.MarriageDialogue.Rainy_Day_0": "What a boring day. This rains ruined all my plans.$s",
+"Gray.MarriageDialogue.Rainy_Day_1": "Man, this weather really pisses me off.#$b#I've got too much work to do out there to be rained out.",
+"Gray.MarriageDialogue.Rainy_Day_2": "I like to listen to the rain.#$b#When I'm inside, being in it is a whole 'nother thing entirely.",
+"Gray.MarriageDialogue.Rainy_Day_3": "I think this weather is giving me a cold….$s",
+"Gray.MarriageDialogue.Rainy_Day_4": "Is there anything that needs fixing up inside today?#$b#I'm way too bored right now.",
+"Gray.MarriageDialogue.Rainy_Day_5": "When I was a kid, I used to love puddle jumping.#$b#Honestly, it still sounds kinda fun...$h",
+"Gray.MarriageDialogue.Rainy_Day_6": "This rain won't flood out the crops will it?#$b#Sorry, farming isn't my field of expertise.",
+
+//Rainy Night
+"Gray.MarriageDialogue.Rainy_Night_0": "The rain sounds so peaceful out there…don't you agree, @?$l",
+"Gray.MarriageDialogue.Rainy_Night_1": "This rain has been such a bummer.#$b#Want to hang out and watch a movie, now that you're home?$h",
+"Gray.MarriageDialogue.Rainy_Night_2": "Ugh, we're gonna get worms and frogs everywhere after this, aren't we.#$b#What a pain.",
+"Gray.MarriageDialogue.Rainy_Night_3": "What should we do tonight? I feel like I've been unproductive all day.", 
+"Gray.MarriageDialogue.Rainy_Night_4": "Holy cow, it's like this rain is never going to end!",
+"Gray.MarriageDialogue.Rainy_Night_5": "Man, it's coming down so hard out there. I'm not sure I'll be able to sleep tonight.",
+"Gray.MarriageDialogue.Rainy_Night_6": "The rain and fresh night air are kind of romantic, wouldn't you say?$l",
+
+//One Kid
+"Gray.MarriageDialogue.OneKid_0": "%kid1 is such a stinker.$h#$b#That definitely comes from your side!$h",
+"Gray.MarriageDialogue.OneKid_1": "I'll have to start teaching %kid1 to swing a hammer!$h#$b#A fake one of course, I'm not that crazy.$h",
+"Gray.MarriageDialogue.OneKid_2": "Can't wait for %kid1 to be my own little apprentice!$h",
+"Gray.MarriageDialogue.OneKid_3": "%kid1 is a maniac. I can barely keep up with them!$h",
+
+//Two Kids
+"Gray.MarriageDialogue.TwoKids_0": "%kid1 is becoming quite the little helper.$h#$b#And %kid2 is so well behaved. Is parenting always this easy?$h",
+"Gray.MarriageDialogue.TwoKids_1": "The kids play so well together.#$b#Let's hope that that's something they never grow out of.$h",
+//"Gray.MarriageDialogue.TwoKids_2": 
+//"Gray.MarriageDialogue.TwoKids_3": 
+
+//Relationship-dependent
+///Good
+"Gray.MarriageDialogue.Good_0": "Hey, I just wanted to say....ummmm...how do I do this?#$b#I guess, I wanted to just say that I love you.$l",
+"Gray.MarriageDialogue.Good_1": "Y'know, in hindsight I'm glad my grandpa gave me such a hard time for so long.#$b#It gave me the backbone to be a good husband for you.$h",
+"Gray.MarriageDialogue.Good_2": "You mean the world to me.#$b#There, I said it!$l",
+//"Gray.MarriageDialogue.Good_3": 
+//"Gray.MarriageDialogue.Good_4": 
+//"Gray.MarriageDialogue.Good_5": 
+//"Gray.MarriageDialogue.Good_8":
+//"Gray.MarriageDialogue.Good_9":
+
+///Neutral
+"Gray.MarriageDialogue.Neutral_0": "I'm so happy I married you. I'll work hard for you.$h#$b#That's a promise.$l",
+"Gray.MarriageDialogue.Neutral_1": "We should plan a trip soon, I really need to learn to relax.",
+"Gray.MarriageDialogue.Neutral_2": "I should teach you how to do some smithing.#$b#What do you think?$h",
+//"Gray.MarriageDialogue.Neutral_3": 
+//"Gray.MarriageDialogue.Neutral_4": 
+//"Gray.MarriageDialogue.Neutral_5"://
+//"Gray.MarriageDialogue.Neutral_6"://
+//"Gray.MarriageDialogue.Neutral_8"://
+
+///Bad
+"Gray.MarriageDialogue.Bad_0": "....$s",
+"Gray.MarriageDialogue.Bad_1": "I'm sorry...I'm busy right now. We should talk some other time....$s",
+"Gray.MarriageDialogue.Bad_2": "You'll regret treating me this way one day.$a#$b#I hope by then that it isn't too late.$s",
+"Gray.MarriageDialogue.Bad_3": "Perhaps I made the wrong choice, dedicating so much time to this.$s",
+"Gray.MarriageDialogue.Bad_4": "Tch, if I wanted to be annoyed nonstop, I would've stayed with grandpa.$a",
+//"Gray.MarriageDialogue.Bad_5": 
+//"Gray.MarriageDialogue.Bad_6"://
+//"Gray.MarriageDialogue.Bad_7"://
+//"Gray.MarriageDialogue.Bad_8"://    
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Kai Marriage Dialogue
+"Kai.MarriageDialogue.summer22": "Woah, I totally forgot about my birthday.$h#$b#Thanks for remembering, babe!$h",
+//Indoor Day
+"Kai.MarriageDialogue.Indoor_Day_0": "I'm trying to think of what to cook for dinner.#$b#I need some inspiration, gimme some ideas!$h",
+"Kai.MarriageDialogue.Indoor_Day_1": "I've had a lot of talks with Willy recently.#$b#That guy's got some crazy stories.$h",
+"Kai.MarriageDialogue.Indoor_Day_2": "I was sitting with Elliot at the beach the other day.#$b#He was asking me about what he should write next.#$b#I suggested a biography about my life, duh!$h",
+"Kai.MarriageDialogue.Indoor_Day_3": "Sam was trying to teach me to skateboard the other day.#$b#I really sucked at it.$h#$b#I would've figured it would be pretty similar to surfing....but not so much.",
+"Kai.MarriageDialogue.Indoor_Day_4": "What've you got going on today?#$b#I'm trying to get some ideas for things to do.",
+"Kai.MarriageDialogue.Indoor_Day_5": "How's it goin' babe?#$b#You seem in a particularly good mood today!$h",
+
+//Indoor Night
+"Kai.MarriageDialogue.Indoor_Night_0": "The stargazing out here is incredible.#$b#Have you ever tried?",
+"Kai.MarriageDialogue.Indoor_Night_1": "If you try really hard, and it's particularly silent, you can hear the waves crashing all the way from the beach.$h",
+"Kai.MarriageDialogue.Indoor_Night_2": "I think I might turn in early tonight.#$b#I am absolutely beat today.",
+"Kai.MarriageDialogue.Indoor_Night_3": "I can't wait to see what surprises tomorrow brings!$h#$b#That's the fun of life, y'know?",
+"Kai.MarriageDialogue.Indoor_Night_4": "It was difficult getting used to falling asleep without being able to hear the waves.#$b#But, I'll admit, it's nice not waking up with sand blown in everywhere.$h",
+"Kai.MarriageDialogue.Indoor_Night_5": "I should probably write a letter back home soon, shouldn't I?#$b#You'll have to help me think of what to say, since you're much better with words.$h",
+"Kai.MarriageDialogue.Indoor_Night_6": "One of these days I'll have to teach you the family recipe for snow cones passed down for ten generations.#$b#But, I'm not sure you're mind is ready for that quite yet.",
+
+//Outdoor
+"Kai.MarriageDialogue.Outdoor_0": "I'll be honest, this farm is the exact kind of freedom I've always been looking for.$h",
+"Kai.MarriageDialogue.Outdoor_1": "I should take %pet for a walk around the farm today.$h",
+"Kai.MarriageDialogue.Outdoor_2": "We should setup a hot tub out here.#$b#I know there's the spas, but it'd be sweet to have one right at our fingertips.",
+"Kai.MarriageDialogue.Outdoor_3": "I never thought I'd find myself working on a farm. But I'll admit, I'm having a blast!$h",
+"Kai.MarriageDialogue.Outdoor_4": "Y'know what they say. A farm is just a beach without water and sand.$h#$b#Truer words have never been spoken. Whoever penned that is a genius.",
+"Kai.MarriageDialogue.Outdoor_Kai": "We should buy a boat and head out to see!$h#$b#Just for a trip, of course.",
+
+//Rainy Day
+"Kai.MarriageDialogue.Rainy_Day_0": "Man, this rain is a buzzkill. What do I do now?",
+"Kai.MarriageDialogue.Rainy_Day_1": "It's a torrential downpour out there!#$b#Oh, nevermind, it's not so bad.$h",
+"Kai.MarriageDialogue.Rainy_Day_2": "Gahhhhhh. I wanted to hit the beach today.$s#$b#Screw it, I still might do it anyways.",
+"Kai.MarriageDialogue.Rainy_Day_3": "I think this weather is giving me a cold….$s",
+"Kai.MarriageDialogue.Rainy_Day_4": "Y'know, I'm really not used to this much rain this often.#$b#Hard to see it in a good light.",
+"Kai.MarriageDialogue.Rainy_Day_5": "Okay, sure. The rain is nice to look at from inside.#$b#But I wanted to be OUTside.",
+"Kai.MarriageDialogue.Rainy_Day_6": "Gahhhhhhh....screw off rain!$a",
+
+//Rainy Night
+"Kai.MarriageDialogue.Rainy_Night_0": "The rain sounds so peaceful out there…don't you agree, @?$l",
+"Kai.MarriageDialogue.Rainy_Night_1": "Danggg, it's like this rain is never going to end!",
+"Kai.MarriageDialogue.Rainy_Night_2": "Even if I can't stand the rain, I'll admit that I'm okay with staying in with you.$l",
+"Kai.MarriageDialogue.Rainy_Night_3": "I'm sure the waves get crazy on days like this.#$b#Maybe I should go check them out?$h",
+"Kai.MarriageDialogue.Rainy_Night_4": "Even though it was scary at first, settling down with you turned out pretty great!$h",
+"Kai.MarriageDialogue.Rainy_Night_5": "How the heck is it still raining?",
+"Kai.MarriageDialogue.Rainy_Night_6": "The rain and revitilizing night air are kind of romantic, wouldn't you say?$l",
+
+//One Kid
+"Kai.MarriageDialogue.OneKid_0": "%kid1 is such a stinker.$h#$b#That definitely comes from my side!$h",
+"Kai.MarriageDialogue.OneKid_1": "%kid1 is such a little rascal. They're lucky they're so cute!$h",
+"Kai.MarriageDialogue.OneKid_2": "Can't wait for %kid1 to become a little surfer!$h#$b#I'm gonna go shopping for a boogie board!$h",
+"Kai.MarriageDialogue.OneKid_3": "Raising %kid1 is so fulfilling.#$b#Never would I have imagined!$h",
+
+//Two Kids
+"Kai.MarriageDialogue.TwoKids_0": "%kid1 is becoming quite the little helper.$h#$b#And %kid2 is so well behaved.Man, is parenting always this easy?$h",
+"Kai.MarriageDialogue.TwoKids_1": "The kids play so well together.#$b#Let's hope that that's something they never grow out of.$h",
+"Kai.MarriageDialogue.TwoKids_2": "Watching %kid1 and %kid2 together almost brings a tear to my eye. We've done good.",
+//"Kai.MarriageDialogue.TwoKids_3": 
+
+//Relationship-dependent
+///Good
+"Kai.MarriageDialogue.Good_0": "Dang babe, you're looking great today!$h#$b#",
+"Kai.MarriageDialogue.Good_1": "You're the apple of my eye babe.#$b#Please, don't ever forget that.$l",
+"Kai.MarriageDialogue.Good_2":  "I'm gonna teach you how to surf one of these days!$h#$b#Don't worry, I won't let anything happen to you.$l",
+//"Kai.MarriageDialogue.Good_3": 
+//"Kai.MarriageDialogue.Good_4": 
+//"Kai.MarriageDialogue.Good_5": 
+//"Kai.MarriageDialogue.Good_8":
+//"Kai.MarriageDialogue.Good_9":
+
+///Neutral
+"Kai.MarriageDialogue.Neutral_0": "We should plan a trip soon, I'm feeling a little cooped up.$h.",
+"Kai.MarriageDialogue.Neutral_1": "One of these days, I'll have to take you back to my home town.#$b#My parents will love you!$h",
+"Kai.MarriageDialogue.Neutral_2": "You should find someone to watch the farm so we can take a world tour!$h",
+//"Kai.MarriageDialogue.Neutral_3": 
+//"Kai.MarriageDialogue.Neutral_4": 
+//"Kai.MarriageDialogue.Neutral_5"://
+//"Kai.MarriageDialogue.Neutral_6"://
+//"Kai.MarriageDialogue.Neutral_8"://
+
+///Bad
+"Kai.MarriageDialogue.Bad_0": "I'm sorry...I'm busy right now. We should talk some other time....$s",
+"Kai.MarriageDialogue.Bad_1": "You'll regret treating me this way one day.$a#$b#I hope by then that it isn't too late.$s",
+"Kai.MarriageDialogue.Bad_2": "....$s",
+"Kai.MarriageDialogue.Bad_3": "Perhaps I made the wrong choice, letting myself get tied down.$s",
+"Kai.MarriageDialogue.Bad_4": "I gave up freedom for this....$s",
+"Kai.MarriageDialogue.Bad_5": "Don't talk to me right now. What you did was super not cool!$a",
+//"Kai.MarriageDialogue.Bad_6"://
+//"Kai.MarriageDialogue.Bad_7"://
+//"Kai.MarriageDialogue.Bad_8"://   
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Rick Marriage Dialogue
+"Rick.MarriageDialogue.fall27": "Wow, I can't remember the last time I didn't have to work through my birthday!$h",
+//Indoor Day
+//"Rick.MarriageDialogue.Indoor_Day_0": 
+//"Rick.MarriageDialogue.Indoor_Day_1": 
+//"Rick.MarriageDialogue.Indoor_Day_2": 
+//"Rick.MarriageDialogue.Indoor_Day_3": 
+//"Rick.MarriageDialogue.Indoor_Day_4": 
+//"Rick.MarriageDialogue.Indoor_Day_5": 
+
+//Indoor Night
+//"Rick.MarriageDialogue.Indoor_Night_0": 
+//"Rick.MarriageDialogue.Indoor_Night_1": 
+//"Rick.MarriageDialogue.Indoor_Night_2": 
+//"Rick.MarriageDialogue.Indoor_Night_3": 
+//"Rick.MarriageDialogue.Indoor_Night_4": 
+//"Rick.MarriageDialogue.Indoor_Night_5": 
+//"Rick.MarriageDialogue.Indoor_Night_6": 
+
+//Outdoor
+"Rick.MarriageDialogue.Outdoor_0": "I should take %pet for a walk around the farm today.$h",
+//"Rick.MarriageDialogue.Outdoor_1": 
+//"Rick.MarriageDialogue.Outdoor_2": 
+//"Rick.MarriageDialogue.Outdoor_3": 
+//"Rick.MarriageDialogue.Outdoor_4": 
+//"Rick.MarriageDialogue.Outdoor_Rick": 
+
+//Rainy Day
+"Rick.MarriageDialogue.Rainy_Day_0": "I think this weather is giving me a cold….$s",
+//"Rick.MarriageDialogue.Rainy_Day_1": 
+//"Rick.MarriageDialogue.Rainy_Day_2": 
+//"Rick.MarriageDialogue.Rainy_Day_3": 
+//"Rick.MarriageDialogue.Rainy_Day_4": 
+//"Rick.MarriageDialogue.Rainy_Day_5": 
+//"Rick.MarriageDialogue.Rainy_Day_6": 
+
+//Rainy Night
+"Rick.MarriageDialogue.Rainy_Night_0": "The rain sounds so peaceful out there…don't you agree, @?$l",
+"Rick.MarriageDialogue.Rainy_Night_1": "This rain has been such a let down.#$b#Want to hang out and watch a movie, now that you're home?$h",
+"Rick.MarriageDialogue.Rainy_Night_2": "Dangit, it's like this rain is never going to end!$a",
+//"Rick.MarriageDialogue.Rainy_Night_3": 
+//"Rick.MarriageDialogue.Rainy_Night_4": 
+//"Rick.MarriageDialogue.Rainy_Night_5": 
+//"Rick.MarriageDialogue.Rainy_Night_6": 
+
+//One Kid
+"Rick.MarriageDialogue.OneKid_0": "%kid1 is such a stinker.$h#$b#That definitely comes from your side!$h",
+"Rick.MarriageDialogue.OneKid_1": "The kids play so well together.#$b#Let's hope that that's something they never grow out of.$h",
+//"Rick.MarriageDialogue.OneKid_2": 
+//"Rick.MarriageDialogue.OneKid_3": 
+
+//Two Kids
+"Rick.MarriageDialogue.TwoKids_0": "%kid1 is becoming quite the little helper.$h#$b#And %kid2 is so well behaved. Is parenting always this easy?$h",
+//"Rick.MarriageDialogue.TwoKids_1": 
+//"Rick.MarriageDialogue.TwoKids_2": 
+//"Rick.MarriageDialogue.TwoKids_3": 
+
+//Relationship-dependent
+///Good
+//"Rick.MarriageDialogue.Good_0": 
+//"Rick.MarriageDialogue.Good_1": 
+//"Rick.MarriageDialogue.Good_2": 
+//"Rick.MarriageDialogue.Good_3": 
+//"Rick.MarriageDialogue.Good_4": 
+//"Rick.MarriageDialogue.Good_5": 
+//"Rick.MarriageDialogue.Good_8":
+//"Rick.MarriageDialogue.Good_9":
+
+///Neutral
+"Rick.MarriageDialogue.Neutral_0": "We should plan a trip soon, I really need to take a breather for once.",
+//"Rick.MarriageDialogue.Neutral_1": 
+//"Rick.MarriageDialogue.Neutral_2": 
+//"Rick.MarriageDialogue.Neutral_3": 
+//"Rick.MarriageDialogue.Neutral_4": 
+//"Rick.MarriageDialogue.Neutral_5"://
+//"Rick.MarriageDialogue.Neutral_6"://
+//"Rick.MarriageDialogue.Neutral_8"://
+
+///Bad
+"Rick.MarriageDialogue.Bad_0": "I'm sorry...I'm busy right now. We should talk some other time....$s",
+"Rick.MarriageDialogue.Bad_1": "....$s",
+"Rick.MarriageDialogue.Bad_2": "You'll regret treating me this way one day.$a#$b#I hope by then that it isn't too late.$s",
+"Rick.MarriageDialogue.Bad_3": "Perhaps I made the wrong choice, breaking my back for this relationship.$s",
+//"Rick.MarriageDialogue.Bad_4": 
+//"Rick.MarriageDialogue.Bad_5": 
+//"Rick.MarriageDialogue.Bad_6"://
+//"Rick.MarriageDialogue.Bad_7"://
+//"Rick.MarriageDialogue.Bad_8"://    
+
+    //************************************************************************
+    // M A I L
+    //************************************************************************
+
+    //************************************************************************
+    // Q U E S T S
+    //************************************************************************
+
+    //************************************************************************
+    //  S P E C I A L   O R D E R S
+    //************************************************************************
+    
+
+    //************************************************************************
+    // M O V I E S
+    //************************************************************************
+
+    //************************************************************************
+    // R A I N   D I A L O G U E
+    //************************************************************************
+    
+    //************************************************************************
+    // S T R I N G S
+    //************************************************************************
+
+    //************************************************************************
+    // F E S T I V A L   D I A L O G U E
+    //************************************************************************
+    
+    //*******************
+    // egg festival
+    //*************
+    
+    "festivals.ann.spring13": "When I was a kid, I remember that I won the Egg Hunt so much!#$b#I mean, not as much as Abigail....",
+    "festivals.cliff.spring13": "Huh, what a strange festival.#$b#It's like foraging, for children.",
+    "festivals.doctor.spring13": "Eggs are phenomenal sources of protein. I highly recommend them.",
+    "festivals.elli.spring13": "The egg painting was always my favorite part of this festival.#$b#You get to make yours unique and personalized!$h",
+    "festivals.gray.spring13.false": "Eh, the Egg Festival was never that exciting to me.",
+    "festivals.kai.spring13.true": "Woah, an Egg Festival? That's so weird!$h#$b#But, whaterver, a party is a party!$h",
+    "festivals.karen.spring13.true": "Wow, the kids are having so much fun!#$b#I remember when this was entertaining.",
+    "festivals.mary.spring13.true": "The Egg Festival actually goes back quite a bit.#$b#Oh, sorry, I'm being boring again aren't I?",
+    "festivals.popuri.spring13.true": "THE EGGS ARE SO CUTE!$h",
+    "festivals.rick.spring13.true": "I love the Egg Festival. My favorite eggstravaganza!$h",
+    
+    //*******************
+    // flower dance
+    //*************
+    
+    "festivals.ann.spring24": "I'm not used to dressing up like this....what do you think?$l",
+    "festivals.cliff.spring24": "Hmmmm....I'm not sure how I feel about this form of dress....",
+    "festivals.doctor.spring24": "I haven't danced since college.#$b#50-50 chance that I even remember how.$h",
+    "festivals.elli.spring24": "Oh, I've always just loved the Flower Dance.#$b#Everyone looks so wonderful!$h",
+    "festivals.gray.spring24": "Do I really have to dance?#$b#I suppose if the right person asked, it wouldn't be so bad....",
+    "festivals.kai.spring24": "Hey now! This is my kinda shindig!$h#$b#Keep your eyes on me, I'll show you how dancing is done!$h",
+    "festivals.karen.spring24": "I've always wanted to find a partner for the Flower Dance....but nobody's asked....$s",
+    "festivals.mary.spring24": "Oh...um....I kind of have....two left feet.$s",
+    "festivals.popuri.spring24": "I always love seeing everyone in their Flower Dance dresses.#$b#And the suits too, of course!$h",
+    "festivals.rick.spring24": "Dancing isn't my strong suit so, please, try not to laugh too hard.",
+    
+    //*******************
+    // luau
+    //*************
+    
+    "festivals.ann.summer11": "I'm always so curious to see how the stew turns out every year!",
+    "festivals.cliff.summer11": "Man....the smell of it is making my stomach growl...",
+    "festivals.doctor.summer11": "I hope I don't get too many patients with stomach issues tomorrow.$s",
+    "festivals.elli.summer11": "The Luau is such a great way for the towns to get together and share good times together.$h",
+    "festivals.gray.summer11": "I always eat too much stew at the Luau.#$b#You think I'd learn, but I don't think I have.$h",
+    "festivals.kai.summer11": "Any party on the beach is one I wholeheartedly support!$h",
+    "festivals.karen.summer11": "Mmmmmm....the stew smells so good.#$b#Wait until I add what I've brought!$h",
+    "festivals.mary.summer11": "Try not to eat too much stew. You never know what's in it....",
+    "festivals.popuri.summer11": "The stew looks so yummy this year!$h",
+    "festivals.rick.summer11": "Guess what I put in the pot?#$b#It was cabbage!$h#$b#Nah, I'm kidding, we both know it was eggs.",
+    
+    //*******************
+    // jellies
+    //*************
+    
+    "festivals.ann.summer28": "The jellies are so pretty.#$b#I remember always coming with my mom and dad...$s#$b#But, time to make new memories, right?$h",
+    "festivals.cliff.summer28": "I've heard of this from a lot of different people in my travels.#$b#It's really put this small town on the map.",
+    "festivals.doctor.summer28": "There's something therapeutic about watching the jellies....",
+    "festivals.elli.summer28": "I really want to know how the jellies glow like that.#$b#It's fascinating.$h",
+    "festivals.gray.summer28": "I wanna catch a jelly one of these years.#$b#Probably should learn how to fish first, shouldn't I?",
+    "festivals.kai.summer28": "I've actually seen these jellies other places before.#$b#But never quite in this number!$h",
+    "festivals.karen.summer28": "I love watching the jellies.#$b#Reminds you that there are so many things in this world we don't fully understand...",
+    "festivals.mary.summer28": "The Midnight Jellies are actually a particular subspecies that's actually pretty rare.#$b#They migrate around on a pretty regular schedule.",
+    "festivals.popuri.summer28": "They're so pretty, I really look forward to this every year.#$b#One day, we'll bring my mother to see them again.",
+    "festivals.rick.summer28": "I'm sorry, but Midnight Jellies kinda sound delicious....or is that just me?",
+    
+    //*******************
+    // fair
+    //*************
+    "festivals.ann.fall16": "I love the fair so much, I honestly get frozen trying to decide what to do first!$h",
+    "festivals.cliff.fall16": "I've been to a lot of different fairs, but this one is definitely top tier.",
+    "festivals.doctor.fall16": "Should I try the strength test?#$b#I'm kidding, that would just depress us all.$h",
+    "festivals.elli.fall16": "This suprises people, but I'm actually pretty keen with a slingshot.#$b#Who do you think taught Stu?$h",
+    "festivals.gray.fall16": "One of these years, I'm gonna bring a bunch of swords to sell at the fair.#$b#Just you wait!$h",
+    "festivals.kai.fall16": "This is a sweet party!#$b#But....why with the clown....?$s",
+    "festivals.karen.fall16": "It's so hard to resist the urge to gamble all my tokens on the wheel.",
+    "festivals.mary.fall16": "Honestly, I usually love coming to the fair the most to try all the fun snacks!$h",
+    "festivals.popuri.fall16": "Wow, all the stands have such fun looking things.#$b#Maybe I should do my own next year. Although, all I really have is eggs.$h",
+    "festivals.rick.fall16": "I'm gonna do it. I'm gonna juggle eggs this year for everyone to see.#$b#No, I'm not gonna chicken out!$a",
+    
+    //********************
+    // Spirit's eve
+    //*************
+   
+    //"festivals.ann.fall27": "",
+    //"festivals.cliff.fall27": "",
+    //"festivals.doctor.fall27": "",
+    //"festivals.elli.fall27": "",
+    //"festivals.gray.fall27": "",
+    //"festivals.kai.fall27": "",
+    //"festivals.karen.fall27": "",
+    //"festivals.mary.fall27": "",
+    //"festivals.popuri.fall27": "",
+    //"festivals.rick.fall27": "",
+    
+    //********************
+    // ice festival
+    //*************
+   
+    //"festivals.ann.winter8": "",
+    //"festivals.cliff.winter8": "",
+    //"festivals.doctor.winter8": "",
+    //"festivals.elli.winter8": "",
+    //"festivals.gray.winter8": "",
+    //"festivals.kai.winter8": "",
+    //"festivals.karen.winter8": "",
+    //"festivals.mary.winter8": "",
+    //"festivals.popuri.winter8": "",
+    //"festivals.rick.winter8": "",
+    
+    //********************
+    // winter star
+    //*************
+   
+    //"festivals.ann.winter25": "",
+    //"festivals.cliff.winter25": "",
+    //"festivals.doctor.winter25": "",
+    //"festivals.elli.winter25": "",
+    //"festivals.gray.winter25": "",
+    //"festivals.kai.winter25": "",
+    //"festivals.karen.winter25": "",
+    //"festivals.mary.winter25": "",
+    //"festivals.popuri.winter25": "",
+    //"festivals.rick.winter25": "",
+
+    //**************************************
+    // E N G A G E M E N T   D I A L O G U E
+    //**************************************
+   
+    //"engagement.aideen0": "Oh! I am all a-fluster. We are to be married!$4",
+    //"engagement.aideen1": "Everything is completely under control, @. And we shall have the most fantastic flowers.$1",
+    //"3567.aideen": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Aideen in the bonds of marriage.",
+    //"5369.aideen": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Aideen in the bonds of marriage.",
+    //"5371.aideen": "@... Aideen... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$h",
+    //"5377.aideen": "@... Aideen... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you wife and..., well, wife!$h",
+    
+    //**************************************************************************************
+    // E V E N T S
+    //**************************************************************************************
+    
+    //Lewis approaches Farmer to inform them of the Governor's pending visit
+    //all dialogue Lewis
+    //"57873000.01": "Good morning, @. I'm pleased to have caught you at home.#$b#I have a very important task for you.",
+    //"57873000.02": "The Governor is sending his wife and son to stay here, in Pelican Town!$1",
+    //"57873000.03": "Apparently the child's not well, and he's hoping the country air will help. Poor kid...$2#$b#But what an opportunity for us!$1",
+    //"57873000.04": "They're moving into East Scarpe Inn for the winter, and I'm relying on you, @, to help make them feel welcome.#$b#What do you say?",
+    //"57873000.q1": "Of course I will!",
+    //"57873000.q2": "I'm busy enough.",
+    //"57873000.q3": "Isn't that your job?",
+    //"57873000.q4": "What's in it for me?",
+    //"57873000.r1": "Excellent. I knew I could rely on you, @!",
+    //"57873000.r2": "Oh yes, I completely understand! But there's always time for a little neighborly friendliness, right?",
+    //"57873000.r3": "Well...yes. But all of us have our part to play.$4",
+    //"57873000.r4": "The satisfaction of being a good neighbor. Isn't that reward enough?",
+    //"57873000.05": "Anyway, @, I'm sure you'll do Pelican Town proud.",
+ 
+    //***************************************************************************************
+    //B E A C H  D I A L O G U E
+    //***************************************************************************************
+    
+    //Ann
+    //"Ann.Resort_Entering": "",
+    //"Ann.Resort_Leaving": "",
+    //"Ann.Resort_Shore": "",
+    //"Ann.Resort_Umbrella": "",
+    //"Ann.Resort_Wander": "",
+    //"Ann.Resort_Bar": "",
+    "Ann.Resort": "Wow, the sunshine out here is amazing! Maybe my dad was right about taking time off now and then!$h",
+
+    //Anna
+    //"Anna.Resort_Entering": "",
+    //"Anna.Resort_Leaving": "",
+    //"Anna.Resort_Shore": "",
+    //"Anna.Resort_Umbrella": "",
+    //"Anna.Resort_Wander": "",
+    //"Anna.Resort_Bar": "",
+    "Anna.Resort": "Oh things on Ginger Island are simply divine!$h#$b#Are you enjoying yourself dead? I know it's very different here from the city or Pelican Town, but you truly fit in like a natural!$h",
+
+    //Barley
+    //"Barley.Resort_Entering": "",
+    //"Barley.Resort_Leaving": "",
+    //"Barley.Resort_Shore": "",
+    //"Barley.Resort_Umbrella": "",
+    //"Barley.Resort_Wander": "",
+    //"Barley.Resort_Bar": "",
+    "Barley.Resort": "Ohoho! This sunshine is more energizing than even the hot springs back home!$h",    
+
+    //Basil
+    //"Basil.Resort_Entering": "",
+    //"Basil.Resort_Leaving": "",
+    //"Basil.Resort_Shore": "",
+    //"Basil.Resort_Umbrella": "",
+    //"Basil.Resort_Wander": "",
+    //"Basil.Resort_Bar": "",
+    "Basil.Resort": "Am I on vacation?#$b#No, there's just some really unique varieties of flora on this island.#$b#It just so happens that it's ALSO a tropical paradise!$h",
+
+    //Carter
+    //"Carter.Resort_Entering": "",
+    //"Carter.Resort_Leaving": "",
+    //"Carter.Resort_Shore": "",
+    //"Carter.Resort_Umbrella": "",
+    //"Carter.Resort_Wander": "",
+    //"Carter.Resort_Bar": "",
+    "Carter.Resort": "This resort is invigorating for both the body and the soul.#$b#I cannot recommend it enough.$h",
+    
+    //Cliff
+    //"Cliff.Resort_Entering": "",
+    //"Cliff.Resort_Leaving": "",
+    //"Cliff.Resort_Shore": "",
+    //"Cliff.Resort_Umbrella": "",
+    //"Cliff.Resort_Wander": "",
+    //"Cliff.Resort_Bar": "",
+    "Cliff.Resort": "I want to go checkout the volcano up north.#$b#What do you think, @? Up for a little adventure?",
+    
+    //Doctor
+    //"Doctor.Resort_Entering": "",
+    //"Doctor.Resort_Leaving": "",
+    //"Doctor.Resort_Shore": "",
+    //"Doctor.Resort_Umbrella": "",
+    //"Doctor.Resort_Wander": "",
+    //"Doctor.Resort_Bar": "",
+    "Doctor.Resort": "There's all sorts of rare varieties of medicinal herbs here on the island.#$b#The good we could do with these.....who knows where to begin?",
+
+    //Doug
+    //"Doug.Resort_Entering": "",
+    //"Doug.Resort_Leaving": "",
+    //"Doug.Resort_Shore": "",
+    //"Doug.Resort_Umbrella": "",
+    //"Doug.Resort_Wander": "",
+    //"Doug.Resort_Bar": "",
+    "Doug.Resort": "Ahhh, it's good to relax once in awhile.$h#$b#It's good for you to take a load off once in awhile, @$h",
+
+    //Duke
+    //"Duke.Resort_Entering": "",
+    //"Duke.Resort_Leaving": "",
+    //"Duke.Resort_Shore": "",
+    //"Duke.Resort_Umbrella": "",
+    //"Duke.Resort_Wander": "",
+    //"Duke.Resort_Bar": "",
+    "Duke.Resort": "Hmmmm....perhaps I should build a resort myself back in Mineral Town....food for thought!$h",
+
+    //Ellen
+    //"Ellen.Resort_Entering": "",
+    //"Ellen.Resort_Leaving": "",
+    //"Ellen.Resort_Shore": "",
+    //"Ellen.Resort_Umbrella": "",
+    //"Ellen.Resort_Wander": "",
+    //"Ellen.Resort_Bar": "",
+    "Ellen.Resort": "Oh hello, dear.$h#$b#The good Doctor made sure that this wheelchair could function in the sand.$h#$b#It's a bumpy ride, but servicable.",
+
+    //Elli
+    //"Elli.Resort_Entering": "",
+    //"Elli.Resort_Leaving": "",
+    //"Elli.Resort_Shore": "",
+    //"Elli.Resort_Umbrella": "",
+    //"Elli.Resort_Wander": "",
+    //"Elli.Resort_Bar": "",
+    "Elli.Resort": "My, it's so beautiful here! I'm so glad you helped fixed up that old boat.$h",
+
+    //Gotz
+    //"Gotz.Resort_Entering": "",
+    //"Gotz.Resort_Leaving": "",
+    //"Gotz.Resort_Shore": "",
+    //"Gotz.Resort_Umbrella": "",
+    //"Gotz.Resort_Wander": "",
+    //"Gotz.Resort_Bar": "",
+    "Gotz.Resort": "Ahhhh glorious sunshine!$h#$b#I miss my trees, but unshackled sunshine without the forest canopy in the way is a wonder to behold!",
+
+    //Gray
+    //"Gray.Resort_Entering": "",
+    //"Gray.Resort_Leaving": "",
+    //"Gray.Resort_Shore": "",
+    //"Gray.Resort_Umbrella": "",
+    //"Gray.Resort_Wander": "",
+    //"Gray.Resort_Bar": "",
+    "Gray.Resort": "It's nice to take a break once in awhile.$h#$b#Even my grandpa calms down for a bit when he's here.$h",
+
+    //Harris
+    //"Harris.Resort_Entering": "",
+    //"Harris.Resort_Leaving": "",
+    //"Harris.Resort_Shore": "",
+    //"Harris.Resort_Umbrella": "",
+    //"Harris.Resort_Wander": "",
+    //"Harris.Resort_Bar": "",
+    "Harris.Resort": ".....eyes on the skies partner.$s#$b#Do not let your guard down, if even but for a moment....$s#$b#",
+
+    //Jeff
+    //"Jeff.Resort_Entering": "",
+    //"Jeff.Resort_Leaving": "",
+    //"Jeff.Resort_Shore": "",
+    //"Jeff.Resort_Umbrella": "",
+    //"Jeff.Resort_Wander": "",
+    //"Jeff.Resort_Bar": "",
+    "Jeff.Resort": "Hey there, @.$h#$b#Um....I'm not the best swimmer. So I usually keep my feet on land.",
+
+    //Kai
+    //"Kai.Resort_Entering": "",
+    //"Kai.Resort_Leaving": "",
+    //"Kai.Resort_Shore": "",
+    //"Kai.Resort_Umbrella": "",
+    //"Kai.Resort_Wander": "",
+    //"Kai.Resort_Bar": "",
+    "Kai.Resort": "Ahhhhhhh yes!$h#$b#Now THIS is what I'm talking about!#$b#This is a beach among beaches, dont'cha agree, my guy?$h",
+
+    //Karen
+    //"Karen.Resort_Entering": "",
+    //"Karen.Resort_Leaving": "",
+    //"Karen.Resort_Shore": "",
+    //"Karen.Resort_Umbrella": "",
+    //"Karen.Resort_Wander": "",
+    //"Karen.Resort_Bar": "",
+    "Karen.Resort": "This is really my kind of place.$u#$b#You're the best for getting this place open!$6#$b#My hero!$u",
+    
+    //Lillia
+    //"Lillia.Resort_Entering": "",
+    //"Lillia.Resort_Leaving": "",
+    //"Lillia.Resort_Shore": "",
+    //"Lillia.Resort_Umbrella": "",
+    //"Lillia.Resort_Wander": "",
+    //"Lillia.Resort_Bar": "",
+    "Lillia.Resort": "Getting here was a bit of a struggle, but now that I'm here, this sunshine feels spectacular!$h",
+
+    //Manna
+    //"Manna.Resort_Entering": "",
+    //"Manna.Resort_Leaving": "",
+    //"Manna.Resort_Shore": "",
+    //"Manna.Resort_Umbrella": "",
+    //"Manna.Resort_Wander": "",
+    //"Manna.Resort_Bar": "",
+    "Manna.Resort": "This resort needs to have a weekly ladies night, wouldn't you agree?",
+
+    //Mary
+    //"Mary.Resort_Entering": "",
+    //"Mary.Resort_Leaving": "",
+    //"Mary.Resort_Shore": "",
+    //"Mary.Resort_Umbrella": "",
+    //"Mary.Resort_Wander": "",
+    //"Mary.Resort_Bar": "",
+    "Mary.Resort": "It's beautiful here.$h#$b#Just like something out of a storybook...$h",
+
+    //Mei
+    //"Mei.Resort_Entering": "",
+    //"Mei.Resort_Leaving": "",
+    //"Mei.Resort_Shore": "",
+    //"Mei.Resort_Umbrella": "",
+    //"Mei.Resort_Wander": "",
+    //"Mei.Resort_Bar": "",
+    "Mei.Resort": "Yay!$h#$b#Come build a sandcastle with me, @!$h",
+
+    //Popuri
+    //"Popuri.Resort_Entering": "",
+    //"Popuri.Resort_Leaving": "",
+    //"Popuri.Resort_Shore": "",
+    //"Popuri.Resort_Umbrella": "",
+    //"Popuri.Resort_Wander": "",
+    //"Popuri.Resort_Bar": "",
+    "Popuri.Resort": "Oh I just LOVE it out here!$h#$b#Maybe I should just stay here. Mother says it's good for her health so we can just move in!$h",
+
+    //Rick
+    //"Rick.Resort_Entering": "",
+    //"Rick.Resort_Leaving": "",
+    //"Rick.Resort_Shore": "",
+    //"Rick.Resort_Umbrella": "",
+    //"Rick.Resort_Wander": "",
+    //"Rick.Resort_Bar": "",
+    "Rick.Resort": "Ahhhh this is great. Even if I've got work building up at home as we speak.$h",
+
+    //Saibara
+    //"Saibara.Resort_Entering": "",
+    //"Saibara.Resort_Leaving": "",
+    //"Saibara.Resort_Shore": "",
+    //"Saibara.Resort_Umbrella": "",
+    //"Saibara.Resort_Wander": "",
+    //"Saibara.Resort_Bar": "",
+    "Saibara.Resort": "Ohohoho, the sand between my toes is divine.$h#$b#Stop starin' and go relax!$h",
+
+    //Sasha
+    //"Sasha.Resort_Entering": "",
+    //"Sasha.Resort_Leaving": "",
+    //"Sasha.Resort_Shore": "",
+    //"Sasha.Resort_Umbrella": "",
+    //"Sasha.Resort_Wander": "",
+    //"Sasha.Resort_Bar": "",
+    "Sasha.Resort": "Oh, hello dear.$h#$b#I hope you're having yourself a great time! I know I sure am!$h",
+
+    //Stu
+    //"Stu.Resort_Entering": "",
+    //"Stu.Resort_Leaving": "",
+    //"Stu.Resort_Shore": "",
+    //"Stu.Resort_Umbrella": "",
+    //"Stu.Resort_Wander": "",
+    //"Stu.Resort_Bar": "",
+    "Stu.Resort": "I wanna go find some rock crabs!$h#$b#Do you think nanna would let me take one home?$h",
+
+    //Thomas
+    //"Thomas.Resort_Entering": "",
+    //"Thomas.Resort_Leaving": "",
+    //"Thomas.Resort_Shore": "",
+    //"Thomas.Resort_Umbrella": "",
+    //"Thomas.Resort_Wander": "",
+    //"Thomas.Resort_Bar": "",
+    "Thomas.Resort": "Hello there, @!$u#$b#I'm taking a bit of a holiday getaway from my mayorly duties for a moment.$u#$b#Keep Mineral Town in one peace for me, if you would!$u",
+
+    //Won
+    //"Won.Resort_Entering": "",
+    //"Won.Resort_Leaving": "",
+    //"Won.Resort_Shore": "",
+    //"Won.Resort_Umbrella": "",
+    //"Won.Resort_Wander": "",
+    //"Won.Resort_Bar": "",
+    "Won.Resort": "I've got an idea for a new stand here.....#$b#OH! Don't mind me!#$b#Go, enjoy yourself, @!$h",
+
+    //Zack
+    //"Zack.Resort_Entering": "",
+    //"Zack.Resort_Leaving": "",
+    //"Zack.Resort_Shore": "",
+    //"Zack.Resort_Umbrella": "",
+    //"Zack.Resort_Wander": "",
+    //"Zack.Resort_Bar": "",
+    "Zack.Resort": "Keep an eye out for jellyfish. If you see any, lemme know.#$b#If they have half a mind to show up here, I'll hit them with a BOOM! POW!$a#$b#That's a one-two punch for you, farmer.$h",
+
+    //***************************************************************************************
+    // C O N V E R S A T I O N   T O P I C S
+    //***************************************************************************************
+
+    // CUSTOM COMPANION INSPECTION DIALOGUE
+    "Aqua.01": "Hello there...Kupo?!",
+    "Bold.01": "This forest has always been our home!",
+    "Chef.01": "Why are humans so tall??",
+    "Hoggy.01": "It's a small world after all!",
+    "Nappy.01": "Tell me a funny joke please!",
+    "Staid.01": "Have you seen Pete around? I miss that guy!",
+    "Timid.01": "Why do people think we're dwarves?",
+    ////////////////////////////////////////
+    ///////////////////////////////////////
+
+}

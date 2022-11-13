@@ -1,0 +1,16 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Rick Schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Rick ",
+      "Entries": {
+        "spring": "0 Custom_HM_PoultrySecFloor 2 15 3 Rick_sleep/610 Custom_HM_MineralTown 80 100 3/800 Custom_HM_MineralTown 80 105 3/1000 Custom_HM_PoultryInterior 17 10 3/1300 Custom_HM_MineralTown 87 100 1/1800 Custom_HM_Inn 20 16 0/2200 Custom_HM_PoultrySecFloor 2 15 3 Rick_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring"
+      },
+    },
+  ],
+}

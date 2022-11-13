@@ -1,0 +1,16 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Duke Schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Duke",
+      "Entries": {
+        "spring": "0 Custom_HM_AjaWinerySecFloor 3 19 1 Duke_sleep/700 Custom_HM_WineryGreenHouse 6 19 2/1000 Custom_HM_MineralTown 62 101 3/1200 Custom_HM_WineryStorage 14 11 0/1700 Custom_HM_Inn 14 10 1 Duke_drink/2300 Custom_HM_AjaWinerySecFloor 3 19 1 Duke_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring"
+      },
+    },
+  ],
+}

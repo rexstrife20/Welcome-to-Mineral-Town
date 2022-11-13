@@ -1,0 +1,16 @@
+{
+  "Name": "Harvest Cucumber",
+  "Description": "Loved by a special mystical being.",
+  "Category": "Vegetable",
+  "Edibility": 15,
+  "EdibleIsDrink": false,
+  "Price": 80,
+  "IsColored": false,
+  "CanPurchase": true,
+  "PurchaseFrom": "",
+  "PurchasePrice": 200,
+  "GiftTastes": {
+    "Love": [ "Gotz" ],
+    "Dislike": [ "Stu"  ],
+  }
+}

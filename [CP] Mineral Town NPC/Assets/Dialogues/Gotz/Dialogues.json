@@ -1,0 +1,71 @@
+{ // Dialogues
+  "Changes": [
+    {
+      "LogName": "Gotz dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Gotz",
+      "Entries": {
+        //INTRODUCTION
+        "Introduction": "Why hello there young lad!^Why hello there young lady!#$b#Name's Gotz, a simple woodsman here in Mineral Town. I can tell you're new to The Valleys. Care to give me your name?#$b#@? Well, that's a splendid name indeed! Nice to meet you @!$h",
+        //STARTING DIALOGUE
+        "Mon": "Listen kiddo, the key to starting off a great work week is to begin with a hardy breakfast. Bacon, eggs, the whole works. I'm sure you can get most of that on your farm for free.",
+        "Tue": "Being a woodsman is a quiet life. But it really makes you appreciate the world around us. Makes ya thankful for what you've got.#$b#Do you know what I mean @?",
+        "Wed": "%Gotz is whistling a tune and doesn't seem to notice you.",
+        "Thu": "Boy are my arms sore. I think I might be gettin' to old for this.",
+        "Fri": "How am I gonna spend my weekend? I dunno, might just light up the ole fireplace and put my feet up for a change!$h",
+        "Sat": "Yesterday was so relaxin', I might just stay at the cabin more often!$h",
+        "Sun": "What did you think of the church service today? There's a lot that I'm thankful for in my life, the Goddess has helped me through a lot of troubles indeed....",
+     	// SPECIFIC DAY
+	"spring_12": "I eat so many eggs on the daily. The Egg Festival is just another day for me.$h",  // Day before the Egg Festival
+	"spring_23": "My wife hates dancing, and I'm way past the point of learnin'.#$b#I want all of you to have a great time nonetheless.", // Day before the Flower Dance,
+	"summer_10": "The Luau never fails to introduce an entirely new flavor to my palette.",  // Day before the Luau
+	"summer_27": "The midnight jellies are something different to behold entirely.#$b#Enjoy them while you can!$h", // Day before the Midnight Jellies
+	"fall_15": "Every year for the fair, I try to sell off some of my high quality lumber.#$b#And, I must say, I've got a good feeling about this year!$h", // Day before the Stardew Fair
+	"fall_26": "I'm not a huge fan of dress in' up, but I've been carvin' pumpkins all week to get ready for Spirit's Eve.", // Day before Spirit's Eve
+	"winter_7": "Erm….I don't have much to say about the Ice Festival, to be quite honest.", // Day before the Ice Festival
+	"winter_24": "Y'know, just saying the words \"Winter Star\" in that order gives me the warm and fuzzies all over.$h", // Day before Winter Star
+        //2 Heart
+        "Mon2": "Now, I like livin' way out here by myself, but sometimes, when it's real quiet, I'll see some weird stuff.#$b#What, ya gettin' scared? Then scoot on home before it gets too dark.$h",
+        "Tue2": "Y'know @, you should give livin' out in the woods a try sometime!$h#$b#It's an experience unlike any other.$h",
+        "Wed2": "I'm lookin' for some good trees to turn into lumber. Figured I'd forage for some stuff to eat while I'm at it.",
+        "Thu2": "I eat my own terrible cookin' every single day, which is why I really look forward to a meal at Moonlight Inn.",
+        "Fri2": "Farmer, sometimes you just need to kick back and relax.#$b#You'll work yourself half to death if you try to keep up this pace forever!$h",
+        "Sat2": "Been up on the mountain for a while now. I'd go nuts if I didn't come down and be social with folks sometimes.",
+        "Sun2": "Lots of folks say there's supposed to be a Goddess livin' up on this mountain, but I ain't never seen her.$s#$b#If you ever do see that Goddess, could ya tell her Gotz says hi?#$b#Tell her I'm thankful for all mountain gives me.$h",
+        //4 Heart
+        "Mon4": "Spending as much time out here alone as I do, sometimes I'll see some really out-there stuff.#$b#When I get home, I always stop and think to myself, \"Did that happen? Or was I just dreaming?\"",
+        "Tue4": "Tell ya what farmer. Maybe, one day, I'll make you yer own cabin out here!$h#$b#Erm…. you'll have to cover the materials up front of course…#$b#I'm rich in experience, not money.",
+        "Wed4": "Keep making your farm bigger and better, farmer.$h",
+        "Thu4": "Some years ago, an old coot by the name of of Chuu used to live with me. Loved to collect and study bugs and bees and stuff.#$b#Something about Mineral Town's insects really fascinated him. Saw him take off chasing a butterfly one day, and poof. Gone.#$e#He ain't come back yet. How far did he follow that thing?",
+        "Fri4": "What do you like to do on yet weekends?#$b#Wait…. Well I guess to your crops and flocks there ain't no difference is there?$h",
+        "Sat4": "Should I go foraging on Goddess Hill today?#$b#Perhaps I shall farmer, perhaps I shall!$h",
+        "Sun4": "You seem to be eatin' well farmer!$h#$b#Er, don't take that the wrong way…$s#$b#I just mean you look healthy is all!",
+        //6 Heart
+        "Mon6": "Well don't you just look fit as a fiddle, farmer!$h#$b#Whatever it is yet doin' keep it up!$h",
+        "Tue6": "A friendly tip: if you're thinkin' of chopping down some trees, don't just go out there and start whackin' away. Have some respect and take only what ya need.#$b#The mountain is sharing her bounty with us humans, after all.",
+        "Wed6": "People are always trying to rush me in my work. They really need to just slooooow it down.#$b#Know what I mean?",
+        "Thu6": "You be careful when you climb that mountain alone, ya hear me? It ain't like there're bears or wolves, but it don't hurt to be cautious.",
+        "Sat6": "I'd tell ya to be careful in the wilds around here, but I hear you're quite the monster slayer!$h",
+        "Sun6": "Living off nature is great and all, but nothing beats some searing hot smoked bacon.#$b#Y'know what I mean?$h",
+        //8 Heart
+        "Mon8": "Y'know what farmer? I'm glad you decided to visit this little town of ours.#$b#Visitors and newcomers always breath new life into the place! Just like Carter and Kai before you!$h",
+        "Tue8": "Is there really a mountain man living in Pelican Town? If so, I need to meet this man.#$b#He and I must be kindred spirits, dontcha think?$h",
+        "Wed8": "Say, you wouldn't know where I can find some more hardwood, would ya?#$b#It's the good stuff, I'll tell ya that much!",
+        "Thu8": "My axe head flew off the handle the other day and disappeared into the bushes.$s#$b#Guess it's another trip over to old man Saibara for me…$s",
+        "Fri8": "I've seen some of Robin's handiwork. I'll be honest with ya, never thought I'd meet a woman who's craftsmanship can compete with my own!$h#$b#Guess I need to pickup the pace!$h",
+        "Sat8": "Sometimes, up on Goddess Hill, I get the feeling that I ain't alone.#$b#It's equal parts horrifying and mystifying.",
+        "Sun8": "That Basil is an interesting fella, but I can get behind his appreciation for nature.$h",
+        //10 Heart
+        "Mon10": "Now that you've been here in The Valleys for some time, how does it compare to city life?#$b#My place is here in the woods, but I've thought about what it'd be like now and then!",
+        "Tue10": "I hear there's forage that grows here in Mineral Town that you just don't find over your way.#$b#The towns are so close… I can't help but wonder how it turned out like that?",
+        "Wed10": "Not many know this, but back in the day I served a stint with the Adventurer's Guild.#$b#Who else would've put all the Guild Halls together but ole Gotz?$h",
+        "Thu10": "Today's a beautiful day farmer.$h#$b#And I ain't talkin' about the weather. Just you and me and all the people here livin' our best lives.$h",
+        "Fri10": "I should take Jeff out on a trek through the wilds sometime.#$b#The man could use a little bit of danger to toughen him up a bit.",
+        "Sat10": "Hey @, have you ever wrestled a bear?#$b#Don't get it wrong, I haven't either. But I feel like I'd have decent odds!$h",
+        "Sun10": "Good day, farmer. You keep on keepin' on and I'll do my best to do the same!$h",
+	//LOCATION DIALOGUE
+	"Resort": "Ahhhh glorious sunshine!$h#$b#I miss my trees, but unshackled sunshine without the forest canopy in the way is a wonder to behold!",
+      },
+    },
+  ],
+}

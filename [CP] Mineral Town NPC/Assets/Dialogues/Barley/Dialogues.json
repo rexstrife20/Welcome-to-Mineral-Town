@@ -1,0 +1,71 @@
+{
+  "Changes": [
+    {
+      "LogName": "Barley dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Barley",
+      "Entries": {
+        //INTRODUCTION
+        "Introduction": "Why hello there young lad!^Why hello there young lady!$h#$b#The name's Barley, proprietor of Yodel Ranch. You must be @ then? Well @, it's nice to meet you! Stop by the ranch and say hello sometime!#$e#Oh! If you see my granddaughter Mei running around, please make sure she isn't getting into trouble!",
+        //STARTING DIALOGUE
+        "Mon": "I think I might go to the hot springs sometime today. It does wonders for these old, aching bones.",
+        "Tue": "Saibara's always been so cranky. I'll never understand it, life here in Mineral Town is always so pleasant! You'll never find me complaining.",
+        "Wed": "Every now and then, I'll stop by Jeff's shop to hunt for some good deals.",
+        "Thu": "I remember your grandad. He was hopeless at raising animals at first! He'd run by the ranch every other day in a panic over even the smallest of issues.#$bHis heart was always in the right place though!$h",
+        "Fri": ".....Joanna what were you thinking?$s",
+        "Sat": "I'm so grateful that the Doctor was able to get Ellen a wheelchair.#$bNow she gets around town so easily that I'm almost jealous!$h",
+        "Sun": "I'm glad that Carter let's the children help setup for services on Sunday. It's a good way to keep them out of trouble.",
+        // SPECIFIC DAY
+        "spring_12": "Believe you me. If I was young again I'd be running circles around these kids. I would've been unstoppable in the egg hunt!$h", // Day before the Egg Festival
+        "spring_23": "I remember back when Sasha, Manna, and Anna were young enough to take part in the Flower Dance.#$b#I was old even back then!$h", // Day before the Flower Dance
+        "summer_10": "You'd best not put anything in the pot that will make my stomach churn!", // Day before the Luau
+        "summer_27": "My wife and I would go watch the Dance of the Midnight Jellies every year. She's gone now of course, but taking my granddaughter still keeps that sparkle in my eye.", // Day before the Midnight Jellies
+        "fall_15": "Not sure if I'll be able to make it to the fair this year.#$b#Unless you're offering to carry me?$h", // Day before the Stardew Fair
+        "fall_26": "I've been around long enough that I don't think there's much that can scare me anymore.", // Day before Spirit's Eve
+        "winter_7": "I tend to avoid the Ice Festival. One slip and fall and I'll be in a wheelchair the rest of my days!", // Day before the Ice Festival
+        "winter_24": "Every year the only thing Mei wishes for is for her mother to come back.....$s", // Day before Winter Star
+        //2 Heart
+        "Mon2": "Mei is a great help around the ranch!I don't know what I'd do without her help.$h",
+        "Tue2": "Have you met George in Pelican Town?#$e#Tell me, is he still as bitter as ever?",
+        "Wed2": "Wednesdays are always slow business.",
+        "Thu2": "That Stu is such a little terror to his poor sister.$s#$b#Reminds me of myself when I was a lad!$h",
+        "Fri2": "Mei's mother? She hasn't been in town for a long time now.",
+        "Sat2": "I hate to say it, but I may need to hire some help soon. It's getting difficult to run the ranch with just Mei and I.$s",
+        "Sun2": "Hey there @! Keep your chin up!$h",
+        //4 Heart
+        "Mon4": "Managing Yodel Ranch at my age can get pretty tiring, I won't lie.$s#$b#But seeing all of these happy and healthy animals makes it worth it in the end!$h",
+        "Tue4": "If you see Mei around, please make sure she's keeping out of trouble!#$b#If anything happened to the sweet girl, I'd be beside myself!",
+        "Wed4": "Lewis and Thomas have been competing with eachother for ages! Why those two boys can't get along is beyond me!",
+        "Thu4": "Ellen and I? Why, we've been friends since long before your parents were even born!$h",
+        "Fri4": "Y'know, I used to be quite the partygoer when I was your age.#$b#You should've seen me at the sock hop!",
+        "Sat4": "The war with the Gotoro Empire.....Why must people be so cruel to one another?$s#$b#My heart truly goes out to that Won lad.$s",
+        "Sun4": "Eh? You're going to have to speak up there farmer. I seemed to have lost my hearing aids again.$a",
+        //6 Heart
+        "Mon6": "Have you heard the legends about Goddess Hill?#$b#I'm not the one best suited to tell you, but if you get the chance then stop by the library and talk to Basil or Mary about it. They know much more than I could hope to remember!$h",
+        "Tue6": "I worry about Ellen's health sometimes. But when I approach her about it, she just says that I'm \"not one to talk.\"$h",
+        "Wed6": "Eh? What color are my eyes? What a strange and unnatural question farmer.",
+        "Thu6": "What do you say farmer, should you and I hit the city today?#$b#You might have to carry me, but you should be strong enough!$h",
+        "Sat6": "Sorry farmer, I'm not feeling the best today. These old bones are a little tired out. Maybe seeing the doctor wouldn't be the worst idea...$s",
+        "Sun6": "That Carter is a good man. I truly do appreciate the time he takes to help keep Mei and Stu out of trouble.#$b#Before him, that church was empty for years after our previous pastor passed away.",
+        //8 Heart
+        "Mon8": "My granddaughter tried showing me how to use a computer the other day. It went about as well as you'd expect!#$b#Remember, you can't teach an old trick new dogs!$h",
+        "Tue8": "One time, when your grandpa and I were just young boys, we could've sworn we saw the sprites dancing up on Goddess Hill.#$b#It was far too real to have been an illusion or a dream. Are you a believer @?",
+        "Wed8": "Y'know, it's quite a shame that you missed disco. I was known throughout all of the clubs in Zuzu City for my moves!$h#$b#Those flashy outfits were quite flattering for me as well.$h",
+        "Thu8": "Doug's cooking is something else. You need to apprentice under him, then you can make me all of those delicious meals for free!$h",
+        "Fri8": "I wish you could've met my wife. Even up to the very end she was so full of life!#b$#She'd have been running circles around the both of us, believe you me!$h",
+        "Sat8": "I always wondered what it would have been like to be an adventurer like that Marlon fella.#$b#I suppose it would be quite lonely never having a family of your own.#$e#I did hear that the man has a dozen or so neices and nephews though!$h",
+        "Sun8": "I used to go to the church every sunday when my wife was still alive.#$b#Perhaps I should get back into it while I still can.",
+        //10 Heart
+        "Mon10": "Y'know @, this town just wouldn't be the same without you around.#$b#I truly can't thank you enough for all you've done!$h",
+        "Tue10": "I've been paying attention to how you treat the animals. I must say, you've exceeded my expectations @!$h#$b#You have a kind soul @, don't ever let anyone tell you otherwise!",
+        "Wed10": "Wanna carry me up to Goddess Hill today?#$b#No?#$b#Well if you ever change your mind, you know where to find me!$h",
+        "Thu10": "My daughter, Joanna, left Mei here with me some time ago. What would ever lead her to abandoning such a sweet girl boggles the mind.$s#$b#I'm sure she has her reasons, but I can't understand them. Perhaps I'm better for that.",
+        "Fri10": "I never met Mei's father, but seeing as she doesn't resemble her mother much she must take after him.#$b#I wonder if he even knows that she exists.$s",
+        "Sat10": "Cut a rug out there tonight @! If you don't, this old man will have to step in and show you a move or two!$h#$e#I've still got moves for days so you'd better watch your back!$h",
+        "Sun10": "I feel better today than I have in quite some time farmer. Now step aside before I accidently run you over!$h",
+	//LOCATION DIALOGUE
+	"Resort": "Ohoho! This sunshine is more energizing than even the hot springs back home!$h",
+      },
+    },
+  ],
+}

@@ -1,0 +1,16 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Thomas Schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Thomas ",
+      "Entries": {
+        "spring": "0 Custom_HM_MayorHouse 27 5 1 Thomas_sleep/610 Custom_HM_MineralTown 83 91 2/1000 Custom_HM_MayorHouse 3 14 1/1300 Custom_HM_MayorHouse 2 10 0/1800 Custom_HM_MayorHouse 23 16 2/2100 Custom_HM_MayorHouse 27 5 1 Thomas_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring"
+      },
+    },
+  ],
+}

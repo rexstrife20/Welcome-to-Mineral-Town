@@ -1,0 +1,57 @@
+{ // Dialogues
+    "Changes": [
+        {
+            "LogName": "Doctor dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Doctor",
+            "Entries": {
+                //INTRODUCTION
+                "Introduction": "My apologies, I didn't see you there at first. You must be this @ that I've heard so much about. It's nice to finally meet you.#$b#My name is Doctor-ah! I'm sorry, I just received an urgent page that I must take. It's been nice meeting you @.",
+                "danceRejection": "I'm expecting an urgent call. My apologies.",
+                "divorced": "Sorry, I have important work to do. It'll have to wait until some other time.",
+                "breakUp": "I see. We had some fun times, but perhaps this is for the best.",
+                //STARTING DIALOGUE
+                "Mon": "I can tell sometimes that Elli has self confidence issues with Maru outperforming her in nursing school.#$b#Honestly though, schooling doesn't have nearly as much impact on professional performance as they lead you to believe.#$e#Was I top of my class? I'll let you ponder that for yourself.$h",
+                "Tue": "Be sure to be careful when farming. And mining. Honestly, you should be careful with everything your line of work includes.",
+                "Wed": "Elli's as fine of a nurse as I could ever hope for. This clinic simply couldn't run without her!",
+                "Thu": "I have to say, being the physician for Mineral Town isn't even half as difficult as medical school was.#$b#The environment here is so relaxing. It's rejuvenating for both the kind and body.$h",
+                "Fri": "Harvey over in Pelican Town is a very promising young physician. He needs to work on his posture a bit though. Slouching like that does no favors for the back.#$b#At this rate, he'll need to partner with a physical therapist just to keep himself going.",
+                "Sat": "The weekends are usually more relaxed. Unfortunately, I'm on call to handle any….inebriation-based injuries.",
+                "Sun": "Hello @. Make sure to take time today to give yourself a chance to relax and let some of your mental and physical tension go.",
+                // SPECIFIC DAY
+                "spring_12": "The eggs used in the Egg Festival are primarily sourced from PoPoultry here in Mineral Town.#$b#I can tell you with certainty that those chickens are the best raised in The Valleys.", // Day before the Egg Festival
+                "spring_23": "I'm a big advocate for aerobic exercise. Dancing in particular is a great way to decrease stress so maybe you should consider taking part in the performance tomorrow.$h", // Day before the Flower Dance
+                "summer_10": "One year I had 10 different cases of \"stomach issues\" the day after the Luau. Please be careful with what you choose to put in.", // Day before the Luau"summer_27": "Watching the Midnight Jellies is therapeutic. I may try to stop down to the beach to see them as long as my work permits it.", // Day before the Midnight Jellies
+                "fall_15": "I've got too much work going on here to head down to the fair tomorrow. But, please, do go out and enjoy yourself!$h", // Day before the Stardew Fair
+                "fall_26": "You'd be surprised how many decoration-based accidents happen on and around Spirit's Eve.#$b#It truly is a baffling amount.", // Day before Spirit's Eve
+                "winter_7": "I dabble in a bit of ice skating here and there. Maybe I'll have to join the festivities tomorrow.", // Day before the Ice Festival
+                "winter_24": "Are you attending the Feast of the Winter Star tomorrow? I've thought about going for years now, but I don't want to risk closing the clinic and something happen to the residents here while I'm away.$s", // Day before Winter Star
+                //2 Heart
+                "Mon2": "Oh, hello there @. Sorry, I have a lot of calls to follow up on after the weekend.",
+                "Tue2": "Keep an eye on Ellen for me, could you?#$b$She's a sweet woman but doesn't fully understand her limits.",
+                "Wed2": "I'm sorry, I'm very busy today. If it's business related, please leave a note with Elli for me. Take care.",
+                "Thu2": "Hello there @. I was wondering, do you think you could bring some of the home grown produce you grow to Mineral Town?#$b#Such clean dietary options would do great for the citizens' health.",
+                "Fri2": "Please tell me you didn't end up in Harvey's clinic from overworking....",
+                "Sat2": "There aren't many medical facilities here in The Valleys.#$b$It's actually quite surprising myself and Harvey both have separate clinics so close to one another.",
+                "Sun2": "People are much more relaxed on Sundays. I prefer it that way. The more they stay out of trouble, the more of a breather I can finally take.$h",
+                //4 Heart
+                "Mon4": "%Doctor seems to be in the middle of a serious phone conversation.",
+                "Tue4": "Harris can be a strange man sometimes, but his hard work spares a lot of citizens from injury.",
+                "Wed4": "Keep an eye on the children, would you? Kids can spring back from a lot, but one of these days Stu is going to eat something poisonous....",
+                "Thu4": "Don't forget to drink plenty of water. It's a small thing, but easily goes unnoticed until it's too late.",
+                "Fri4": "Be safe this weekend. I like talking to you, but I prefer not getting any emergency calls.",
+                "Sat4": "One of these days, Karen's going to end up getting herself hurt.$a",
+                "Sun4": "Glad to see you survived the weekend @.$h",
+                //6 Heart
+                "Mon6": "On days when the Clinic is closed, I forage for medicinal herbs on Goddess Hill.#$b#I request shipments of herbs from Zack as well, but the amount he gives me isn't nearly enough for my needs.#$e#If you stumble upon another place that has an abundance of herbs, let me know.",
+                "Tue6": "Gray always seems to be in a....disheartened mood. Perhaps he needs a referral for therapy?",
+                "Wed6": "Do you know of Forget-Me-Not Valley? I've heard rumors that a physician acquaintance of mine lives around there.#$b#He has something of an...unusual appearance, but his skills are top-rate.",
+                "Thu6": "I wonder if I could get grants for my clinic. Being able to afford to cover Elli's school expenses would be of great benefit to this town.",
+                "Sat6": "I sometimes run into Basil on Goddess Hill. He's a very kind person who goes out of his way to teach me about medicinal herbs.$h",
+                "Sun6": "Don't forget to take care of yourself first, @.#$b#Sometimes I worry, with you working %farm by yourself and all.",
+		//LOCATION DIALOGUE
+		"Resort": "There's all sorts of rare varieties of medicinal herbs here on the island.#$b#The good we could do with these.....who knows where to begin?",
+            },
+        },
+    ],
+}

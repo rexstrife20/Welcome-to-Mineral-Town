@@ -1,0 +1,69 @@
+{
+    "Changes": [
+        {
+            "LogName": "Zack dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Zack",
+            "Entries": {
+                //INTRODUCTION
+               	"Introduction": "Well hey there!#$b#Let me give you a big warm welcome once again to Mineral Town! Home of cherry blossoms and the kindest souls imagineable!$h",
+                //STARTING DIALOGUE
+                "Mon": "The weekends finally over. Y'know what that means don't you?#$b#IT MEANS GET YER BUTT BACK TO WORK!$a#$b#Please and thank you of course!$h",
+                "Tue": "If you find yourself working until you're blue in the face-#$b#IT MEANS YOU DONE MESSED UP!$a#$b#So don't go doin' that. Make sure to take care of yourself!$h",
+                "Wed": "Wednesdays are when I hit the gym with my buddy Rodney. It's nice to just crush some iron now and then!$h",
+                "Thu": "Have you had the chance to meet Lillia yet? I tell ya, there's something mystifying about that woman…..",
+                "Fri": "%Zack hums something….violently out of tune.",
+                "Sat": "Heya boss. Hope you're enjoying your Saturday. Remember what I always say, \"If ya don't rest, ya can't bring yet best!\"$h",
+                "Sun": "Does something seem off about today? Or is it just me?",
+                // SPECIFIC DAY
+                "spring_12": "Who do you think it is that's delivers all the eggs from PoPoultry to Pelican Town for the Egg Festival?#$b#That's right, yet lookin' at him!$h", // Day before the Egg Festival
+                "spring_23": "I've never been one for dancing so I probably won't be at the Flower Dance.#$b#Unless the right person goes, that is.", // Day before the Flower Dance
+                "summer_10": "I can't wait for the Luau! Listen, you can hear my stomach getting revved up already!", // Day before the Luau
+                "summer_27": "The midnight jellies are dazzlingly beautiful.#$b#That said, they're still not the most beautiful things I've found in The Valleys….", // Day before the Midnight Jellies
+                "fall_15": "Sorry farmer, can't talk much. I've got a lot to help with for the Stardew Fair tomorrow.", // Day before the Stardew Fair
+                "fall_26": "%Zack seems awfully jumpy. Perhaps it's best to leave him be.", // Day before Spirit's Eve
+                "winter_7": "The Ice Festival sire is a holiday!$h", // Day before the Ice Festival
+                "winter_24": "The Winter Star….every year it's better than the last.", // Day before Winter Star
+                //2 Heart
+                "Mon2": "Yo, what's up? How's work? Do my best to ship as much as I can.$h",
+                "Tue2": "Yo, @. Don't push yerself too hard$h#$b#YA HEAR ME?$a",
+                "Wed2": "Yo! Workin' hard today? Y'know, the more ya ship, the more money you make.",
+                "Thu2": "I gotta hand it to you, @, the farm life really suits ya.#$b#That’s a compliment. Honest.$h",
+                "Fri2": "54..55..57.. Hm? Ain't it 'bout 57 now? Wait, it's 56? Huh!? Yo! @! I'm tryin' to work here, y'know!$a",
+                "Sat2": "I always enjoy Saturday nights at the Inn.#$b#Sometimes I go to Stardrop salon for a drink too.",
+                "Sun2": "I'm glad I stumbled upon this little town of ours. I can even make ends meet workin' as a shipper here and everything.$h",
+                //4 Heart
+                "Mon4": "I used to have a guy who lived with me. Went by the name Greg.#$b#Ain't nothing Greg loved more than fishing'. Said he was gonna fish round the world one day, and took off.#$b#Haven't seen him since. Wonder what he's up to these days?",
+                "Tue4": "Yo, @. Ready t'kick back after a hard day's work? Huh! Ya sure do put in yer hours. With gusto, even",
+                "Wed4": "We used to had farmers who keep put weird things in the shipping bin#$b#And I had to pay them too, can you believe it!$a",
+                "Thu4": "I don't live here just because of my job. Folk will always find a reason to go on livin', you know?#$b#I found mine.$l",
+                "Fri4": "Hey @. Is the farming going well?#$b#Despite how it seems, I really envy you...",
+                "Sat4": "I've heard nothin' but good news about the work you've been doin' at %farm.#$b#Keep up the great work!$h",
+                "Sun4": "Don't think that I'm gonna drag your butt out of the mines if you get yerself injured.#$b#I'm a friendly guy, but that's way too far above my pay grade!",
+                //6 Heart
+                "Mon6": "I gotta wonder when old man Rod is gonna come back home. I'm gettin' real worried for the guy.",
+                "Tue6": "Having Won stay here with me was a little uncomfortable at first, what with the war and all.#$b#But he's helped to show me that none of us are THAT different, y'know what I mean?",
+                "Wed6": "What does a shipper do?#$b#I ship things, that's the entirety of my job. But, hey, it's a livin' right!$h",
+                "Thu6": "Being a shipper is a pretty interesting job.#$b#I get to travel all over the place and make friends with all kinds of people.#$b#Chatting with folks and learning about their lives is pretty fascinating too.$h",
+                "Sat6": "I'll have to tell you stories about the different places I've visited one of these days.#$b#You probably wouldn't believe it, but I'm a rather well-traveled guy.",
+                "Sun6": "Morris once came by and tried to get me to come work for him at Joja Mart.#$b#Could ya imagine, me, a shelf stocker? AS IF!$h",
+                //8 Heart
+                "Mon8": "Be honest with me. If Gotz and I arm wrestled, who do you think would win?",
+                "Tue8": "%Zack seems to be trying to hum some sort of sea shanty. He is unsuccessful in this endeavor.",
+                "Wed8": "I used to spend a lot of time out at sea.#$b#It wasn't actually until fairly recently that I hung up my sea legs and set root here in Mineral Town.",
+                "Thu8": "Have you ever noticed how seriously Harris takes his job?#$b#I respect the hustle and bustle, but he needs to calm down a few notches if you ask me!$h",
+                "Fri8": "I feel like Mayor Thomas and I know eachother fairly well, all things considered.#$b#Being the sole shipper of goods in and out of town makes me a rarity.#$b#He's a good guy, Thomas, even if his rivalry with Mayor Lewis gets out of hand sometimes.",
+                "Sat8": "I've taken a few short fishing trips with Cliff before.#$b#He's a good kid, if not a bit awkward at times. But, really, who am I to talk?",
+                "Sun8": "Hey @. Do you think I should shave my mustache?#$b#Lillia says I look younger without it…$s",
+                //10 Heart
+                "Mon10": "If you think I'm strong now, shoulda seen me back when I was your age.#$b#Back then, I was two hundred percent muscle. And that ain't no exaggeration.",
+                "Tue10": "I've gotta take another fishing trip with Willy one of these days.#$b#I ain't no slouch when it comes to fishing, but that man is a legend!$h",
+                "Wed10": "How's Lillia been lately, I haven't been able to stop by as much recently.#$b#Why do I ask? Erm well..... that's what friends are for right?",
+                "Thu10": "There's something about the mind-numbing repitition of carrying packages back and forth that really gives you time to reflect on your life. Y'know what I mean?",
+                "Fri10": "Should I finally just tell her?... No, Zack, think before you land yourself in a mess of trouble....$s",
+                "Sat10": "Did you know, my moustache is honed to such a fine point that it is able to cut on a molecular level?#$b#I made that up entirely, but it sure made me sound smart, didn't it?$h",
+                "Sun10": "One of my biggest clients retired right before you got here.#$b#He wasn't even much older then you. Just made millions in the farming business and called it a day.#$b#What a legend.",
+            },
+        },
+    ],
+}

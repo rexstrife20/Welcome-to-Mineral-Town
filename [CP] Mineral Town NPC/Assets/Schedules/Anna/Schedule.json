@@ -1,0 +1,17 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Anna Schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Anna",
+      "Entries": {
+        "spring": "0 Custom_HM_LibraryHouseSecFloor 4 11 3 Anna_sleep/610 Custom_HM_LibraryHouse 5 11 2/810 Custom_HM_Libary 1 7 2/1730 Custom_HM_Inn 6 13 1/2100 Custom_HM_LibraryHouseSecFloor 4 11 3 Anna_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "Sun":"0 Custom_HM_LibraryHouseSecFloor 4 11 3 Anna_sleep/610 Custom_HM_LibraryHouse 5 11 2/1400 Custom_HM_MineralTown 51 75 3/1700 Custom_HM_Inn 5 12 0/2100 Custom_HM_LibraryHouseSecFloor 4 11 3 Anna_sleep",
+      },
+    },
+  ],
+}

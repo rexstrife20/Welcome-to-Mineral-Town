@@ -1,0 +1,72 @@
+{
+    "Changes": [
+        {
+            "LogName": "Doug dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Doug",
+            "Entries": {
+                //INTRODUCTION
+                "Introduction": "You're a new face around here. The name's Doug, how ya doin? I run the Moonlight Inn here in town with my daughter Ann.#$b#Make sure to stop in and grab lunch next time you're in town!$h",
+                //STARTING DIALOGUE
+                "Mon": "Whew! Oh sorry @, I'm a little worn out after the busy weekend! Business is money though, so don't take that as complaining!$h",
+                "Tue": "It's a shame you never got the chance to meet my wife. She could always brighten up any room!#$b#Luckily, Ann takes after her a lot. At least she didn't come out sportin' this ugly mug!$h",
+                "Wed": "Once cherry blossoms start blooming in the trees, this town actually becomes quite the attraction!#$b#$hYou don't see anything like them in Pelican Town or even the city!",
+                "Thu": "If you ever want to learn a thing or two about cooking, be sure to let me know! Not to brag too much, but I've been told that I leave Gus's cooking in the dust!$h",
+                "Fri": "Sorry, can't talk too much right now. Fridays are our busiest days of the week!",
+                "Sat": "I keep telling Ann that she needs to take the weekends to go out and have a life, but she refuses to listen. Regardless, I am very proud of her and thankful for all of her help in running the Moonlight Inn.",
+                "Sun": "Cleaning up on Sundays is the hardest part. Although, I suppose the harder we need to work to put everything back together, then that means that business must've been that much better!",
+                // SPECIFIC DAY
+                "spring_12": "I remember how excited Ann would get for the egg hunt when she was just a little tike. She never lost that enthusiasm for everything she does.$h", // Day before the Egg Festival
+                "spring_23": "I know I don't have the knack for these sorts of things that my wife used to have, but I still try to help Ann out with her Flower Dance routine as best as I can.", // Day before the Flower Dance
+                "summer_10": "I've tried coordinating with Gus on what to bring to the Luau this year.#$b$We just have so many ideas floating around in our heads that it makes it difficult to decide on a plan!$h", // Day before the Luau
+                "summer_17": "Today's the anniversary of Gloria's passing. She was taken way before her time.$s#$b#I'm just happy to have all of those wonderful memories with her....$s#$b#Sorry @, I just need some time right now...$s",
+                "summer_27": "I remember going to see the midnight jellies with Ann and Gloria back when she was still around.#$b#I tell ya, the way my lovely ladies would look out into the ocean was somethin' I just can't put to words.", // Day before the Midnight Jellies
+                "fall_15": "I wonder what I should cook up for the fair tomorrow. Any suggestions @?", // Day before the Stardew Fair
+                "fall_26": "One of these years, I want to forego the tradition of making every dish into the shape of a pumpkin or bat. But if it's what the folks want, who am I to deny them?$h", // Day before Spirit's Eve
+                "winter_7": "Y'know @, my daughter is actually getting pretty good at ice fishing. If you're going to compete tomorrow, you'd better bring your A-game!$h", // Day before the Ice Festival
+                "winter_24": "Ann and I used to decorate the Inn to have a Winter Star party every year but it became too much to handle as more and more folks started showing up.#$b$Not only that, but Mayor Thomas and Mayor Lewis would gripe about both towns having a Winter Star event. Nothing's worth all that noise!", // Day before Winter Star
+                //2 Heart
+                "Mon2": "What a busy weekend that was! If we can keep getting business like this, I'll be able to afford to take Ann on a trip for vacation!$h",
+                "Tue2": "Y'know, I remember your grandfather. You have a similar look about you.",
+                "Wed2": "I like collaborating with Gus on catering events. Heck, if he lived here in town, I'd hire him as my head chef.$h",
+                "Thu2": "Ann takes after her mother so much...",
+                "Fri2": "That Saibara needs to start treating his grandson more kindly.$a#$b#Sure, the kids a bit standoffish, but he's dedicated and has his heart in the right place.",
+                "Sat2": "When we have spare food in the kitchen, Ann and I will try and make meals to deliver to Ellen and Barley.#$b#Better than it going to waste.",
+                "Sun2": "How are things at %farm? I hope business is going well.",
+                //4 Heart
+                "Mon4": "When he first started coming on by, I thought Duke was pretty intimidating. Turns out, he's stern and work oriented but a good man at heart.",
+                "Tue4": "It's wonderful to see Mary becoming more outspoken. When she was little and came to stay the night, Ann was doing all of the talking.#$b#Couldn't get a peep out of that girl!$h",
+                "Wed4": "The town used to gather at the inn for meals more frequently. Business has taken a bit of a hit, but it's starting to build back up.",
+                "Thu4": "Between you and I, there's bad blood between my daughter and Popuri.#$e#Why? Heaven's, if I could tell you how a woman thinks, I'd be richer than Duke.",
+                "Fri4": "Hey @, what are you in the mood to eat right this second?#$b$I'm trying to think up new recipe ideas.$h",
+                "Sat4": "Alright, we're back into the work zone. So far I can't complain!",
+                "Sun4": "Whew. What a weekend that was.#$b#I think I'm gettin' to old for this.",
+                //6 Heart
+                "Mon6": "The Moonlight Inn was actually started by my father.#$b#Back then, it was just a little hole-in-the-wall bar.#$b#Not to congratulate myself too much, but it's come a long way from then, dontcha think?$h",
+                "Tue6": "Say, you should try to spread the word about us over to your pals in Pelican Town.#$b#I'm sure Gus could appreciate a little break now and then, the old workhorse!$h",
+                "Wed6": "My daughter means the world to me, @.#$b#I truly hope you come to experience that yourself one day.$h",
+                "Thu6": "Tell ya what, @, you find any interesting recipes, be sure to pass them along.#$b#Gotta stay a step ahead of old Gus!$h",
+                "Sat6": "Gloria woulda liked you alot, that's for sure!$h#$b#Sometimes, when I visit her, I tell her all your wild stories. She woulda thought you were a hoot and a half!$h",
+                "Sun6": "I'm proud of my daughter for taking care of Karen so often.#$b#At first, I thought she'd be a bad influence on Ann, but on the contrary, the opposite seems to be true.#$b#The girl truly does take after her mother!$h",
+                //8 Heart
+                "Mon8": "Between you and me, I wish Ann could put aside her differences with that Popuri girl.#$b#With her dad Rod gone runnin' off to who knows where, the two ladies could be great support for one another.",
+                "Tue8": "Tell you what, @, I can tell my daughter really looks up to you.#$b#Can't really blame her, what with you taking up your Grandad's farm all on your own like ya did.#$b#Not just anyone could pull that off!$h",
+                "Wed8": "I appreciate you stoppin' by all the time, @.#$b#I can tell by how often you run back and forth across town that you must be extremely busy!#$b#Thanks for always find in' the time for us!$h",
+                "Thu8": "Whew, it ain't easy running the inn day in and day out. But it's worth it for all the different folks you get to meet!",
+                "Fri8": "Make sure to let me know if you think up any interesting menu ideas.#$b#Just none of that weird keen-wa stuff please. This new-age cuisine ain't really my style.",
+                "Sat8": "Let me know next time you head up to Goddess Hill. I could use some new flowers for Gloria's grave soon.",
+                "Sun8": "Y'know, I wish I could get to know this Carter fella some more.#$b#I'm guessin' he ain't the drinkin' type though, so he doesn't stop by too often.",
+                //10 Heart
+                "Mon10": "Thanks for stoppin' by Mineral Town so much, kid.#$b#You've become like family to all of us here!$h#$b#We're just glad to have ya!$h",
+                "Tue10": "When you cook as much as I do, you really work yourself up an appetite! Know what I mean, @?",
+                "Wed10": "I'm thinkin' of closing down the place for a week to take Ann on a trip somewhere.#$b#But where would she wanna go….?",
+                "Thu10": "Don't forget, if farmin' ever becomes too much for ya, you can always come here to work for me!$h",
+                "Fri10": "Duke can be a real pain in the rear sometimes, but he's also one of my highest paying customers!#$b#He's really not all that bad once you get to know him.#$b#If Ann took off like Aja did…. I'm not sure how I'd feel myself.$s",
+                "Sat10": "I've thought about leaving Mineral Town for a fresh start before, especially after my wife passed.#$b#But, there's just something about this place that always assures me that I'm home where I belong.",
+                "Sun10": "One day, I hope to pass the Moonlight Inn down to my daughter. But, I want her to experience her life the way she wants to.#$b#If it's gonna happen, it'll happen naturally. Don't you agree?",
+		//LOCATION DIALOGUE
+		"Resort": "Ahhh, it's good to relax once in awhile.$h#$b#It's good for you to take a load off once in awhile, @$h",
+            }
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{ // Dialogues
+  "Changes": [
+    {
+      "LogName": "Popuri dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Popuri",
+      "Entries": {
+        //INTRODUCTION
+        "Introduction": "Oh hello! I don't believe we've ever met before.#$b#I'm Popuri and my family runs PoPoultry here in town.$h#$b#I'd love to get to know you more but I promised my mom I'd help her with the coops today. See you around!$h",
+        "danceRejection": "Sorry but I'm not feeling it today.",
+        "divorced": "Sorry, I don't want to talk to you right now.$a",
+        "breakUp": "Oh no….did I do something wrong? Can't we work this out?$s",
+        //STARTING DIALOGUE
+        "Mon": "Ah, Monday. Another great start to the week! I hope you have a good day @!$h",
+        "Tue": "Do you stop over by Marnie's ranch often? I hear the animals there are beautiful.#$e#Must be because they're kept happy and healthy!$h",
+        "Wed": "Hey @! It's great to see you today!$h#$b#If you get the chance, I know my mom would really appreciate it if you stopped by to say hello.",
+        "Thu": "Boy, the chickens sure have been extra riled up lately. It gets exhausting sometimes.",
+        "Fri": "I hope Rick hasn't been giving you a hard time. I know he can seem a little aggressive sometimes, but he's just looking out for me.",
+        "Sat": "I thought I saw a tiny man in the Forest the other day…..#$b#Must've just been my imagination right? Let me know if you ever see anything.",
+        "Sun": "Every Sunday my mother acts a little odd….. Have you noticed that too?$s",
+        // SPECIFIC DAY
+        "spring_12": "We always work extra hard this time of year to help supply you all in Pelican Town with eggs for the festival.", // Day before the Egg Festival
+        "spring_23": "I can't wait for the Flower Dance! I've been working on my moves all year.#$b#You're looking at prime Flower Queen material right here!$h", // Day before the Flower Dance
+        "summer_10": "I can't wait for the Luau tomorrow! I'll bring some delicious spa boiled eggs along for it!", // Day before the Luau
+        "summer_27": "Don't you just love the Dance of the Midnight Jellies @? There's something so magical about them.$h#$b#It's enchanting.", // Day before the Midnight Jellies
+        "fall_15": "I always feel like we should setup a stand to sell our products at the fair but Rick says it's a waste of time.", // Day before the Stardew Fair
+        "fall_26": "BOO!#$b#Sorry @, did I scare you!$h#$b#You'd better get ready if you're gonna survive Spirit's Eve!$h", // Day before Spirit's Eve
+        "winter_7": "I always wanted to learn how to ice skate. Maybe I should try at the festival tomorrow.", // Day before the Ice Festival
+        "winter_24": "Who did you get for the Winter Star Festival this year?#$b#You can tell me, I promise I won't spoil it!$h", // Day before Winter Star
+        //2 Heart
+        "Mon2": "Is farming fun for you? I'll be honest, I actually find it pretty boring.",
+        "Tue2": "Have you ever eaten at the Beach Cafe?#$b#The menu has all kinds of food you can't find growing here in Mineral Town.$h",
+        "Wed2": "I hear there's an aerobics class that goes on over in Pelican Town every week.#$b#Maybe I'll have to join one day!#$b#Be careful, one day I'll be stronger than you!$h#$e#Just kidding of course!$h",
+        "Thu2": "Right now, Mom is watching the store and Rick is feeding the chickens.#$b#I'm sure Dad had a lot of faith in Rick. I mean, he didn't teach me how to do any of the chores the way he taught Rick.$s",
+        "Fri2": "The chickens here are so much fun.#$b#But it can get a little exhausting trying to chase them around all day.#$b#I'm sure you know the feeling!$h",
+        "Sat2": "Ann's always going on about \"work work work\".#$b#It's like the girl doesn't have anything else interesting to talk about.",
+        "Sun2": "I wonder what the point of the Church is? Like what's it supposed to be for?#$b#Whenever I ask Father Carter about it, he only says, \"Good question.\"",
+        //4 Heart
+        "Mon4": "Did you ever think you'd be a farmer when you were growing up?#$b#I didn't really see myself raising chickens, but it's not so bad!$h",
+        "Tue4": "Hey, @? What was the town you used to live in like?#$b#I want go to traveling and visit all kinds of places!$h",
+        "Wed4": "It's always so quiet here in Mineral Town.#$b#I swear, I could hear a pin drop if I tried to!",
+        "Thu4": "@, you aren't like my brother at all. You're actually super nice!$h#$e#Rick just doesn't seem to get that I'm a grown-up now. He never lets me do anything on my own.$s",
+        "Fri4": "I used to go to the Inn on Fridays for dinner, but Ann became too standoffish.#$b#If I'm not wanted there, then fine by me.$s",
+        "Sat4": "You used to live in Zuzu City right? What was it like? I'd think it'd be too noisy, is that true?#$b#I'd like to go visit it someday. Maybe you'll have to take me!$h",
+        "Sun4": "The church was built when I was still just a little girl. I'd always ask Rick to take me there to see it.",
+        //6 Heart
+        "Mon6": "Sometimes, I wonder why my dad really left town.$s#$b#Was it really just to find a cure for mom? You think he'd at least write if that were the case....$s#$b#Sorry, not to be a buzzkill!$h",
+        "Tue6": "Y'know, @, you're super mature and impressive. I mean, you can run that whole farm all by yourself.#$b#Rick was talking to me about how amazing you are!$h#$b#I really look up to you too.$l",
+        "Wed6": "I wish my dad would've taught me how to do some of the work around here before he left.#$b#I never really have much to do, and Rick certainly isn't going to teach me anything.",
+        "Thu6": "Hey, @, what do you think of me? Everyone here treats me like I'm still a child.#$b#Do you think I'm still a kid too?$s",
+        "Sat6": "Sometimes, I wonder if I should go looking for a cure for mom too.#$b#Quite frankly, I don't feel like I contribute much here at PoPoultry.",
+        "Sun6": "If you ever go fishing, please take me with you!#$b#I've never done it before, but I want to learn something new!$h",
+	//LOCATION DIALOGUE
+	"Resort": "Oh I just LOVE it out here!$h#$b#Maybe I should just stay here. Mother says it's good for her health so we can just move in!$h",
+      },
+    },
+  ],
+}

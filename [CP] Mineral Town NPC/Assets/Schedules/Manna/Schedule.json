@@ -1,0 +1,17 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Manna Schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Manna ",
+      "Entries": {
+        "spring": "0 Custom_HM_AjaWinerySecFloor 1 19 3 Manna_sleep/610 Custom_HM_AjaWinery 5 6 2/810 Custom_HM_JeffMarket 16 25 1/1000 Custom_HM_Library 2 7 0/1700 Custom_HM_AjaWinery 5 6 2/2200 Custom_HM_AjaWinerySecFloor 1 19 3 Manna_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "Sun": "0 Custom_HM_AjaWinerySecFloor 1 19 3 Manna_sleep/610 Custom_HM_AjaWinery 5 6 2/1400 Custom_HM_MineralTown 50 76 0/1700 Custom_HM_AjaWinery 5 6 2/2200 Custom_HM_AjaWinerySecFloor 1 19 3 Manna_sleep",
+      },
+    },
+  ],
+}

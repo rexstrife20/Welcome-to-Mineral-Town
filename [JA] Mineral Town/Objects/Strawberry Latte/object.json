@@ -1,0 +1,59 @@
+{
+    "Name": "Strawberry Latte",
+    "Description": "Oh yeah, now that's the stuff.",
+    "Category": "Cooking",
+    "Edibility": 80,
+    "EdibleIsDrink": true,
+    "EdibleBuffs": null,
+    "Price": 80,
+    "IsColored": false,
+    "Recipe": {
+      "ResultCount": 1,
+      "Ingredients": [
+        {
+          "Object": -6,
+          "Count": 1,
+        },
+        {
+          "Object": "Strawberry",
+          "Count": 1,
+        },
+        
+      ],
+      "CanPurchase": true,
+      "PurchaseFrom": "",    "PurchasePrice": 800,
+    },
+  "GiftTastes": {
+      "Love": [""],
+    },  
+    "NameLocalization":
+    { 
+      //remove the "//" from your language
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+    },
+    "DescriptionLocalization":
+    {
+      //remove the "//" from your language      
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+  }
+}

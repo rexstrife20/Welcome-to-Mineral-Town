@@ -1,0 +1,48 @@
+{
+    "Name": "Black Grass",
+    "Description": "A species of wild grass only found in the mines on Goddess Hill.",
+    "Category": "Flower",
+    "Edibility": 10,
+    "Price": 10,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+    "Love": [ "Basil", "Doctor", "Harvey", "Mary" ],
+    "Like": [ "Elli", "Maru", "Demetrius", "Lillia", "Rick", "Doug", "Jeff" ],
+    "Dislike": [ "Saibara", "Harris", "Cliff", "Ann", "Thomas", "Zack", "Stu", "Manna", "Vincent", "Karen", "Carter", "Anna", "Duke"],
+    "Hate": [ "Popuri", "Kai" ]
+
+    },
+  
+        "NameLocalization":
+      { 
+        //remove the "//" from your language
+          //"es": "PLACEHOLDER",
+          //"ko": "PLACEHOLDER",
+          //"de": "PLACEHOLDER",
+          //"fr": "PLACEHOLDER",
+          //"hu": "PLACEHOLDER",
+          //"it": "PLACEHOLDER",
+          //"ja": "PLACEHOLDER",
+          //"pt": "PLACEHOLDER",
+          //"ru": "PLACEHOLDER",
+          //"tr": "PLACEHOLDER",
+          //"zh": "PLACEHOLDER",
+      },
+      "DescriptionLocalization":
+      {
+        //remove the "//" from your language      
+          //"es": "PLACEHOLDER",
+          //"ko": "PLACEHOLDER",
+          //"de": "PLACEHOLDER",
+          //"fr": "PLACEHOLDER",
+          //"hu": "PLACEHOLDER",
+          //"it": "PLACEHOLDER",
+          //"ja": "PLACEHOLDER",
+          //"pt": "PLACEHOLDER",
+          //"ru": "PLACEHOLDER",
+          //"tr": "PLACEHOLDER",
+          //"zh": "PLACEHOLDER",
+      }
+  }

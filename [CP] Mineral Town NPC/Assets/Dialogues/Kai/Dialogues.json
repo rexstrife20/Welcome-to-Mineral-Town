@@ -1,0 +1,58 @@
+{ // Dialogues
+    "Changes": [
+        {
+            "LogName": "Kai dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kai",
+            "Entries": {
+                //INTRODUCTION
+                "Introduction": "Hey there, I can tell just by looking at you that you're not from around here either, are you?#$b#The name's Kai, I'm not from the valley, but I suppose you could call Mineral Town my \"second home\" at this point!$h#$b#So you're @? Well it's great to meet you @! I'm sure I'll be seeing you around plenty, but hit up the beach if you're ever looking for me!",
+                "danceRejection": "Sorry, but I'm gonna pass on this one. Maybe next year!",
+                "divorced": "To think, I used to believe that you were cool.$a",
+                "breakUp": "I guess this is just how things go huh? Like the tides, sometimes we just drift away.$s",
+                //STARTING DIALOGUE
+                "Mon": "Mondays are pretty lame. Do you have anything interesting going on at %farm?",
+                "Tue": "Hey! I was actually thinking about heading down to the beach over in your neck of the woods. I could use a change of scenery every now and then.#$b#Plus, that Willy is an interesting guy to talk to.$h",
+                "Wed": "I'm thinking about starting up a business of my own here in Mineral Town. What do you think @?",
+                "Thu": "Sometimes I'll do some odd jobs for Won. He's an…..interesting guy to say the least!$h",
+                "Fri": "Man, that Rick sure seems to have a problem with me. Does he ever give you trouble?$s#$b#He's not intimidating, it just makes me feel very unwelcome.$s",
+                "Sat": "Can't believe the weekend's here already! I can't decide if I want to spend this one relaxing or partying it up.$h#$b#Maybe I'll head over to the Moonlight Inn and see where the night takes me from there!",
+                "Sun": "Sundays are the days when everyone else finally settles down. But I've been doing this for years, they could learn a thing or two from me!$h",
+                // SPECIFIC DAY
+                "spring_12": "An egg festival tomorrow, huh?#$b#That's pretty cool I guess. Maybe not my first choice, but I can dig it!$h", // Day before the Egg Festival
+                "spring_23": "Are you going to the Flower Dance tomorrow?#$b#I love dancing, but that sounds a little too rigid for my taste.#$b#You and I might just have to liven it up a bit!$h", // Day before the Flower Dance
+                "summer_10": "Oh boy, I can't wait for the Luau!$h#$b#Back where I'm from, we used to have these kinds of things all the time!$h", // Day before the Luau
+                "summer_27": "I remember hearing about the midnight jellies as a kid.#$b#Kinda cool that you guys have a whole ceremony for them, if you ask me.$h", // Day before the Midnight Jellies
+                "fall_15": "Are you setting up a display at the fair tomorrow? Cuz I can't wait to see what you'd bring!$h", // Day before the Stardew Fair
+                "fall_26": "What's wrong, @? You look a little unnerved.#$b#Don't tell me that you're already getting the heebie jeebies for tomorrow.#$b#I know you're tougher than that!$h", // Day before Spirit's Eve
+                "winter_7": "I'm more a a fun-in-the-sun kind of guy. So the idea of an Ice Festival kinda goes against my nature, know what I mean?", // Day before the Ice Festival
+                "winter_24": "Hope you've been behaving yourself this year @!#$b#You wouldn't want to find coal in your stocking now!#$b#Actually, coal would be great for a cookout…. I take it back.", // Day before Winter Star
+                //2 Heart
+                "Mon2": "It feels like time passes at more of a crawl here than it does in the town where I came from.",
+                "Tue2": "Tell me, @, have you ever been surfing?#$b#We should totally go sometime, I'll show you how it's really done!&h",
+                "Wed2": "That Zack guy who lives next door seems high strung at first, but he's actually pretty chill once you get to know him.$h#$b#Won though….now he's hard to get a read on…",
+                "Thu2": "Aaah. The sea breeze here's like a snack for the soul.",
+                "Fri2": "I know some people complain that this town can get a little boring sometimes, but a place like this is just my style.#$b#I feel like I can really move at my own pace here.$h",
+                "Sat2": "Running the Snack Shack is interesting.#$b#Sure, it isn't exactly reeling money in. But it gives me a chance to really get to talk and learn about everyone.$h",
+                "Sun2": "Doug's such a good cook. Most of his dishes are new to me, but I can still tell how much care he puts into the craft.",
+                //4 Heart
+                "Mon4": "How's it hangin' farmer @?#$b#You look in high spirits, hope that your day keeps rolling on!$h",
+                "Tue4": "Ever since I came to this town, everyone's been so warm and welcoming.$h#$b#Well, almost everyone….$s#$b#But I can't let it get to me, right? Not everyone's always gonna like you.",
+                "Wed4": "Man, I'm getting, like, no customer traffic at all. Maybe I should follow your example and take up farming.#$b#Just kidding! I already know I'm not cut out for that stuff. I don't have the willpower you do, @!$h",
+                "Thu4": "I feel like Popuri and I are birds of a feather.#$b#She likes to chill and have fun, but once you get to know her, she's got a lot more going on in her heart and soul than you'd think.#$b#Know what I mean, @?",
+                "Fri4": "Yo, @. This town is boring, but people are very nice. Don't you agree?$h",
+                "Sat4": "Man...not many customers lately... Maybe I should start a farm too...#$b#Just kidding. I can't work like you do, @.$h",
+                "Sun4": "You know Popuri's brother? His name is Rick.#$b#He comes and provokes me. He tells me not to hit on Popuri. What's this about?$a",
+                //6 Heart
+                "Mon6": "Now, about Thomas... He shows up everywhere. He'll show up right next to you from out of nowhere.#$b#It can be really surprising!",
+                "Tue6": "Someone was recommending I take a trip out to Calico Desert.#$b#Now, I'm a big fan of summer. But a desert?#$b#That's a bit much even for me!$h",
+                "Wed6": "Yo, @. How is your farm?#$b#When I see you working, I feel I have to work hard too.#$b#You're very inspirational!$h",
+                "Thu6": "I need to move to Ginger Island. Now THAT'S the kind of place I belong!$h#$b#Don't worry, @, I'll take you with me!$h",
+                "Sat6": "All work and no play makes for a dull @, y'know?#$b# How 'bout you take a break and hang out here for a bit?",
+                "Sun6": "I might go hangout at the spa today. I could definitely use a dip.",
+		//LOCATION DIALOGUE
+		"Resort": "Ahhhhhhh yes!$h#$b#Now THIS is what I'm talking about!#$b#This is a beach among beaches, dont'cha agree, my guy?$h",
+            },
+        },
+    ],
+}

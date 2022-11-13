@@ -1,0 +1,71 @@
+{
+  "Name": "Harvest Cheesecake",
+  "Description": "A rich dessert.",
+  "Category": "Cooking",
+  "Edibility": 150,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 700,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 174,
+        "Count": 1
+      },
+      {
+        "Object": 186,
+        "Count": 1
+      },
+      {
+        "Object": 424,
+        "Count": 1
+      },
+      {
+        "Object": 245,
+        "Count": 1
+      }
+    
+      ],
+      "CanPurchase": false,
+      "PurchaseFrom": "Doug",
+      "PurchasePrice": 700
+    },
+  "GiftTastes": {
+      "Love": [ "Ann", "Stu", "Gray" ],
+      "Like": [ "Elli", "Lillia", "Cliff", "Rick", "Ellen", "Mary", "May" ],
+      "Dislike": ["Saibara", "Sasha", "Karen" ],
+      "Hate": [ "" ]
+    },
+    "NameLocalization":
+    { 
+      //remove the "//" from your language
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+    },
+    "DescriptionLocalization":
+    {
+      //remove the "//" from your language      
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",  
+    }
+}
