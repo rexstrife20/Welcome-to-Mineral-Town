@@ -1,0 +1,82 @@
+{
+  "Name": "Aqua",
+  "Type": "Walking",
+  "FrameSizeWidth": 16,
+  "FrameSizeHeight": 32,
+  "TravelSpeed": 2,
+  "InspectionDialogue": "Hello there...Kupo?!",
+  "Portrait": {
+    "PortraitDisplayName": "Aqua",
+    "FrameSizeWidth": 64,
+    "FrameSizeHeight": 64,
+    "FrameIndex": 0
+  },
+
+  "IdleBehavior": "Wander",
+  "MaxIdleDistance": 500,
+  "MaxDistanceBeforeTeleport": -1,
+
+  "EnableBreathing": false,
+  "EnableFarmerCollision": true,
+  "EnableShadow": true,
+  "Shadow": {
+    "OffsetX": 0,
+    "OffsetY": 8,
+    "Scale": 1,
+    "Alpha": 255
+  },
+
+  "DirectionChangeChanceWhileMoving": 0.003,
+  "DirectionChangeChanceWhileIdle": 0.05,
+  "ChanceForHalting": 0.1,
+  "MinHaltTime": 10000,
+  "MaxHaltTime": 20000,
+
+  "DownAnimation": {
+    "StartingFrame": 0,
+    "NumberOfFrames": 4,
+    "Duration": 250,
+
+    "IdleAnimation": {
+      "StartingFrame": 0,
+      "NumberOfFrames": 1,
+      "Duration": 250
+    }
+  },
+
+  "RightAnimation": {
+    "StartingFrame": 4,
+    "NumberOfFrames": 4,
+    "Duration": 250,
+
+    "IdleAnimation": {
+      "StartingFrame": 4,
+      "NumberOfFrames": 1,
+      "Duration": 250
+    }
+  },
+
+  "UpAnimation": {
+    "StartingFrame": 8,
+    "NumberOfFrames": 4,
+    "Duration": 250,
+
+    "IdleAnimation": {
+      "StartingFrame": 8,
+      "NumberOfFrames": 1,
+      "Duration": 250
+    }
+  },
+
+  "LeftAnimation": {
+    "StartingFrame": 12,
+    "NumberOfFrames": 4,
+    "Duration": 250,
+
+    "IdleAnimation": {
+      "StartingFrame": 12,
+      "NumberOfFrames": 1,
+      "Duration": 250
+    }
+  },
+}

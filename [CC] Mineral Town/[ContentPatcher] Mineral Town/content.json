@@ -1,0 +1,103 @@
+{
+    "Format": "1.27.0",
+    "Changes": [
+       {
+        "LogName": "Adds Harvest Sprite Aqua",
+        "Action": "EditMap",
+        "Target": "Maps/Custom_HM_MountainForest",
+        "MapTiles": [
+             {
+                "Position": { "X": 13, "Y": 26 },
+                "Layer": "Back",
+                "SetProperties": {
+                "CustomCompanions": "Spawn 1 MineralTownArchitects.MineralTownCompanionsCC.Aqua",
+                },
+            },
+        ],
+       },
+       {        
+        "LogName": "Adds Harvest Sprite Chef",
+        "Action": "EditMap",
+        "Target": "Maps/Custom_HM_SpriteHutInterior",
+        "MapTiles": [
+            {
+               "Position": { "X": 16, "Y": 11 },
+               "Layer": "Back",
+               "SetProperties": {
+                "CustomCompanions": "Spawn 1 MineralTownArchitects.MineralTownCompanionsCC.Chef",
+                },
+            },
+        ],
+        },
+        {        
+            "LogName": "Adds Harvest Sprite Staid",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_HM_SpriteHutInterior",
+            "MapTiles": [
+                {
+                   "Position": { "X": 10, "Y": 12 },
+                   "Layer": "Back",
+                   "SetProperties": {
+                    "CustomCompanions": "Spawn 1 MineralTownArchitects.MineralTownCompanionsCC.Staid",
+                   },
+                },
+            ],
+        },
+        {        
+            "LogName": "Adds Harvest Sprite Nappy",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_HM_SpriteHutInterior",
+            "MapTiles": [
+                {
+                    "Position": { "X": 15, "Y": 6 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                    "CustomCompanions": "Spawn 1 MineralTownArchitects.MineralTownCompanionsCC.Nappy",
+                    },
+                },
+            ],
+        },
+        {        
+            "LogName": "Adds Harvest Sprite Timid",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_HM_MountainForest",
+            "MapTiles": [
+                        {
+                    "Position": { "X": 25, "Y": 24 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                    "CustomCompanions": "Spawn 1 MineralTownArchitects.MineralTownCompanionsCC.Timid",
+                    },
+                },
+            ],
+        },
+        {        
+            "LogName": "Adds Harvest Sprite Bold",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_HM_SpriteHutInterior",
+            "MapTiles": [
+                {
+                   "Position": { "X": 21, "Y": 9 },
+                   "Layer": "Back",
+                   "SetProperties": {
+                    "CustomCompanions": "Spawn 1 MineralTownArchitects.MineralTownCompanionsCC.Bold",
+                   },
+                },
+            ],
+        },
+        {        
+            "LogName": "Adds Harvest Sprite Hoggy",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_HM_SpriteHutInterior",
+            "MapTiles": [
+                {
+                   "Position": { "X": 20, "Y": 6 },
+                   "Layer": "Back",
+                   "SetProperties": {
+                    "CustomCompanions": "Spawn 1 MineralTownArchitects.MineralTownCompanionsCC.Hoggy",
+                   }
+                }
+             ]
+        }
+     ]
+ }

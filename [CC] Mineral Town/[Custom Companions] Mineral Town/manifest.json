@@ -1,0 +1,11 @@
+{
+	"Name": "Mineral Town Custom Companions",
+	"Author": "Mineral Town Architects",
+	"Version": "1.0.3",
+	"Description": "Spawns custom companions in Mineral Town",
+	"UniqueID": "MineralTownArchitects.MineralTownCompanionsCC",
+	"ContentPackFor": {
+		"UniqueID": "PeacefulEnd.CustomCompanions"
+	},
+
+}

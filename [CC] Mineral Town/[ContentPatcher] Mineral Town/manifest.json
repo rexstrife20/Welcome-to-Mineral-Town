@@ -1,0 +1,18 @@
+{
+	"Name": "CP for Mineral Town Custom Companions",
+	"Author": "Mineral Town Architects",
+	"Version": "1.0.3",
+	"Description": "CP for CC Mineral Town",
+	"UniqueID": "MineralTownArchitects.MineralTownCompanionsCP",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+   "Dependencies": [
+		{
+			"UniqueID": "PeacefulEnd.CustomCompanions",
+		},   
+		{
+			"UniqueID": "MineralTownArchitects.MineralTown"
+		}
+   ]
+}
