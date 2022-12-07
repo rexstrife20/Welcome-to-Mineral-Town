@@ -73,7 +73,7 @@
     },
     {
       "UniqueID": "MineralTownProject.MineralTownNPCs",
-      "IsRequired": true
+      "IsRequired": false
     }
   ]
 }

@@ -64,11 +64,6 @@
     },
     {
       "Action": "Load",
-      "Target": "Maps/fall_lunarchurch",
-      "FromFile": "TileSheets/{{TargetWithoutPath}}.png"
-    },
-    {
-      "Action": "Load",
       "Target": "Maps/fall_lunarelfhut",
       "FromFile": "TileSheets/{{TargetWithoutPath}}.png"
     },
@@ -115,11 +110,6 @@
     {
       "Action": "Load",
       "Target": "Maps/Kailey_Clinic_Beds",
-      "FromFile": "TileSheets/{{TargetWithoutPath}}.png"
-    },
-    {
-      "Action": "Load",
-      "Target": "Maps/lunartowninterior",
       "FromFile": "TileSheets/{{TargetWithoutPath}}.png"
     },
     {
@@ -195,11 +185,6 @@
     {
       "Action": "Load",
       "Target": "Maps/spring_lumber",
-      "FromFile": "TileSheets/{{TargetWithoutPath}}.png"
-    },
-    {
-      "Action": "Load",
-      "Target": "Maps/spring_lunarchurch",
       "FromFile": "TileSheets/{{TargetWithoutPath}}.png"
     },
     {
@@ -299,11 +284,6 @@
     },
     {
       "Action": "Load",
-      "Target": "Maps/summer_lunarchurch",
-      "FromFile": "TileSheets/{{TargetWithoutPath}}.png"
-    },
-    {
-      "Action": "Load",
       "Target": "Maps/summer_lunarelfhut",
       "FromFile": "TileSheets/{{TargetWithoutPath}}.png"
     },
@@ -399,11 +379,6 @@
     },
     {
       "Action": "Load",
-      "Target": "Maps/winter_lunarchurch",
-      "FromFile": "TileSheets/{{TargetWithoutPath}}.png"
-    },
-    {
-      "Action": "Load",
       "Target": "Maps/winter_lunarelfhut",
       "FromFile": "TileSheets/{{TargetWithoutPath}}.png"
     },
@@ -475,6 +450,31 @@
     {
       "Action": "Load",
       "Target": "Maps/zWineryGreenhouse",
+      "FromFile": "TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/spring_mt_town",
+      "FromFile": "TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/summer_mt_town",
+      "FromFile": "TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/fall_mt_town",
+      "FromFile": "TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/winter_mt_town",
+      "FromFile": "TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/mineraltown_interior",
       "FromFile": "TileSheets/{{TargetWithoutPath}}.png"
     }
   ]

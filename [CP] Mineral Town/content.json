@@ -76,6 +76,10 @@
       "Name": "Custom_HM_HighwayEntrance",
       "FromMapFile": "OutdoorMaps/HighwayEntrance.tmx"
     },
+    {
+      "Name": "Custom_HM_EllenGarden",
+      "FromMapFile": "OutdoorMaps/EllenGarden.tmx"
+    },
 
     //Maps with Sky that Changes
     //Night
@@ -206,6 +210,10 @@
       "FromMapFile": "IndoorMaps/InnKitchen.tmx"
     },
     {
+      "Name": "Custom_HM_InnBasement",
+      "FromMapFile": "IndoorMaps/InnBasement.tmx"
+    },
+    {
       "Name": "Custom_HM_WineryStorage",
       "FromMapFile": "IndoorMaps/WineryStorage.tmx"
     },
@@ -281,6 +289,10 @@
     {
       "Name": "Custom_HM_MineralBarn",
       "FromMapFile": "IndoorMaps/MineralBarn.tmx"
+    },
+    {
+      "Name": "Custom_HM_Void",
+      "FromMapFile": "IndoorMaps/Void.tmx"
     }
   ],
 
@@ -289,7 +301,7 @@
     /*********
 		** Add location warps
 		*********/
-    // Add Warp for NPCs to get into Mineral Town from Bus Stop
+    // Add NPC Warps to get into Mineral Town from Bus Stop
     {
       "Action": "EditMap",
       "Target": "Maps/BusStop",
@@ -302,6 +314,53 @@
       "Target": "Maps/Custom_HM_MineralTownEntrance",
       "MapProperties": {
         "NPCWarp": "44 19 BusStop 13 11"
+      }
+    },
+
+    //Add NPC Warp for Snack Shack Bedroom, Church Confessional Box & Bell Tower Room
+    //Snack Shack Bedroom
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_SnackShack",
+      "MapProperties": {
+        "NPCWarp": "2 4 Custom_HM_Void 2 6"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_Void",
+      "MapProperties": {
+        "NPCWarp": "2 7 Custom_HM_SnackShack 2 5"
+      }
+    },
+    //Bell Tower
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_ChurchInterior",
+      "MapProperties": {
+        "NPCWarp": "3 8 Custom_HM_Void 3 6"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_Void",
+      "MapProperties": {
+        "NPCWarp": "3 7 Custom_HM_ChurchInterior 4 8"
+      }
+    },
+    //Confessional Box
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_ChurchInterior",
+      "MapProperties": {
+        "NPCWarp": "18 8 Custom_HM_Void 4 6"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_Void",
+      "MapProperties": {
+        "NPCWarp": "4 7 Custom_HM_ChurchInterior 19 8"
       }
     },
 
@@ -627,8 +686,8 @@
       "Action": "EditMap",
       "Target": "Maps/Custom_HM_ChurchInterior",
       "AddWarps": [
-        "10 31 Custom_HM_MineralTown 36 31",
-        "11 31 Custom_HM_MineralTown 36 31"
+        "10 27 Custom_HM_MineralTown 36 31",
+        "11 27 Custom_HM_MineralTown 36 31"
       ]
     },
 
@@ -637,18 +696,8 @@
       "Action": "EditMap",
       "Target": "Maps/Custom_HM_HospitalFirstFloor",
       "AddWarps": [
-        "11 25 Custom_HM_MineralTown 21 64",
-        "12 25 Custom_HM_MineralTown 21 64",
-        "1 1 Custom_HM_HospitalSecondFloor 5 4",
-        "2 1 Custom_HM_HospitalSecondFloor 5 4"
-      ]
-    },
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_HM_HospitalSecondFloor",
-      "AddWarps": [
-        "4 3 Custom_HM_HospitalFirstFloor 2 2",
-        "5 3 Custom_HM_HospitalFirstFloor 2 2"
+        "11 19 Custom_HM_MineralTown 24 67",
+        "12 19 Custom_HM_MineralTown 24 67"
       ]
     },
 
@@ -664,7 +713,15 @@
       "Action": "EditMap",
       "Target": "Maps/Custom_HM_EllenHouse",
       "AddWarps": [
-        "18 20 Custom_HM_MineralTown 55 93"
+        "18 20 Custom_HM_MineralTown 55 93",
+        "1 14 Custom_HM_EllenGarden 18 7"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_EllenGarden",
+      "AddWarps": [
+        "19 7 Custom_HM_EllenHouse 2 14"
       ]
     },
     {
@@ -719,26 +776,36 @@
       "AddWarps": [
         "13 20 Custom_HM_MineralTown 22 86",
         "14 20 Custom_HM_MineralTown 22 86",
-        "1 0 Custom_HM_InnSecFloor 2 23",
-        "2 0 Custom_HM_InnSecFloor 2 23",
-        "3 0 Custom_HM_InnSecFloor 2 23",
-        "6 0 Custom_HM_InnKitchen 6 20"
+        "1 0 Custom_HM_InnSecFloor 7 19",
+        "2 0 Custom_HM_InnSecFloor 7 19",
+        "3 0 Custom_HM_InnSecFloor 7 19",
+        "6 0 Custom_HM_InnKitchen 6 20",
+        "7 0 Custom_HM_InnKitchen 6 20",
+        "19 0 Custom_HM_InnBasement 8 14"
       ]
     },
     {
       "Action": "EditMap",
       "Target": "Maps/Custom_HM_InnSecFloor",
       "AddWarps": [
-        "1 24 Custom_HM_Inn 2 1",
-        "2 24 Custom_HM_Inn 2 1",
-        "3 24 Custom_HM_Inn 2 1"
+        "6 20 Custom_HM_Inn 2 1",
+        "7 20 Custom_HM_Inn 2 1",
+        "8 20 Custom_HM_Inn 2 1"
       ]
     },
     {
       "Action": "EditMap",
       "Target": "Maps/Custom_HM_InnKitchen",
       "AddWarps": [
-        "6 21 Custom_HM_Inn 6 1"
+        "6 21 Custom_HM_Inn 6 1",
+        "7 21 Custom_HM_Inn 6 1"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_InnBasement",
+      "AddWarps": [
+        "8 15 Custom_HM_Inn 19 1"
       ]
     },
 
@@ -1226,8 +1293,8 @@
       "ToArea": {
         "X": 0,
         "Y": 0,
-        "Width": 28,
-        "Height": 24
+        "Width": 27,
+        "Height": 20
       },
       "PatchMode": "ReplaceByLayer",
       "When": {
@@ -1242,8 +1309,8 @@
       "ToArea": {
         "X": 0,
         "Y": 0,
-        "Width": 28,
-        "Height": 24
+        "Width": 27,
+        "Height": 20
       },
       "PatchMode": "Overlay",
       "When": {
@@ -1542,6 +1609,10 @@
         "MT.Inn.7": "It's loaded with lots of ingredients.",
         "MT.Inn.8": "How to raise a Tomboy Daughter",
         "MT.Inn.9": "It's rude to interrupt someone who's having dinner.",
+        "MT.Inn.10": "Renovation for Future Updates",
+        "MT.Inn.11": "Storage Room",
+        "MT.Inn.12": "The door's locked but you can hear a person inside the room. (Maybe come back when someone creates a Custom New NPC?)",
+        "MT.Inn.13": "This door leads to the corridor.",
 
         //Library
         "MT.Library.1": "That's when Marlow Chrisford figured out the entire mystery. Inside the UFO, a weird creature was laying down on a horizontal platform.^^Then the hero Shinichi Izumi........................^^^Epilogue^^...Shinichi walked gloomily down the streets of London...^^\"Hey Shinichi. What happened after that?\" \"Hello Marlow. Thanks to you, I managed to sneak into the UFO, but the truth remains a mystery.\"^^\"There's no hurry. We still have lots of time.\"^^...The story of these two has just begun...^^^Written by^Mary",
@@ -1605,7 +1676,7 @@
         "MT.Church.1": "Sign - \"Confessional Box\"",
         "MT.Church.2": "The door's locked.",
         "MT.Church.3": "You pressed a key and heard a loud noise from the piano.",
-        "MT.Church.4": "The Father will give you blessings from the God.",
+        "MT.Church.4": "Carter will give you a blessing from Harvest Goddess.",
 
         //SpriteHut
         "MT.SpriteHut.1": "It's the sprite's storage room and you have no reason to go up.",
