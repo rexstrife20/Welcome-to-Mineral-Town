@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="3">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="24" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="3">
  <properties>
   <property name="AmbientLight" value="255 255 255"/>
  </properties>
@@ -98,27 +98,27 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="2213" name="Craftables" tilewidth="16" tileheight="16" tilecount="576" columns="8">
-  <image source="zMineralTownCraftables.png" width="128" height="1152"/>
+ <tileset firstgid="2213" name="Craftables" tilewidth="16" tileheight="16" tilecount="480" columns="8">
+  <image source="zMineralTownCraftables.png" width="128" height="960"/>
  </tileset>
- <tileset firstgid="2789" name="zextraobjects" tilewidth="16" tileheight="16" tilecount="48" columns="8">
-  <image source="zextraobjects.png" width="128" height="96"/>
+ <tileset firstgid="2693" name="zextraobjects" tilewidth="16" tileheight="16" tilecount="72" columns="8">
+  <image source="zextraobjects.png" width="128" height="144"/>
  </tileset>
- <layer id="1" name="Back" width="20" height="25">
+ <layer id="1" name="Back" width="20" height="24">
   <data encoding="base64" compression="zlib">
-   eJxTZWBgUKUyphYYNY8+5ilwQDCx5rWwE8ZJHITVwMwDqaUU70MzD8R3BtJN7KRhZzzmxQNpBxKwIwdEDz7z9gPpBCQaHSOLJxJhHjYzqGEeujuRaRibXPfhCgNSzYO5BZvbKPEvNdyHK36R5YgxD5855JhHyCxS/AvKOy4kYnz5jZhyBlfZg24eNcsXYjBIDz3rShgAAHMGl6s=
+   eJxTZWBgUKUyphYYNY8+5ilwQDCx5rWwE8ZJHITVwMwDqaUU70MzD8R3BtJN7KRhZzzmxQNpBxKwIwdEDz7z9gPpBCQaHSOLJxJhHjYzqGEeujuRaRibXPfhCgNSzYO5BZvbKPEvNdyHK36R5YgxD5855JhHyCxS/AvKOy4kYnz5jZhyBlfZg24eNcsXYjBIDzHqAArVl6s=
   </data>
  </layer>
  <objectgroup id="2" name="Back"/>
- <layer id="3" name="Buildings" width="20" height="25">
+ <layer id="3" name="Buildings" width="20" height="24">
   <data encoding="base64" compression="zlib">
-   eJzVlM8OATEQxmexacWNB/DflQeQSCTehIM7N1dPwBsgnsTNFUcW78E02+qQbbdrXXzJl+l2Z36ZSXcLANBCt1O6A6EGMl4YQMCiI7UpByRzJHnAATweHamNOagx4VVwr8qjI7Uph/LOljkCh1lFvDLNezDzHJ7DrCJmuOaVLXNUObxky6kRXg/XN+zxjl6h10wzhviujm4QrlA3AzDzdV2f8Gj9tzrkNO/opWNNsM+p//69KJUKoV3Xv+AVY3jq2VZn608pjuc67ycv6bz/2N+MnMcyn44nWJ88xTSdqWk/jver/tKK8g7k/13kQyeVuAMEb4c+efre2WQ104Wr6sQdtZd7zRjPZd7WkgOOrKR+AtJebCQ=
+   eJzVlEsOgjAQhgcfafESiq+tHsDExMSb6MK97ryF3kC9gJ7BnVt0qaj30GmgdiS0FGHjn/yZUma+zKRQAIAuupfTfQg1juKNAQQsOVLrciBiTiMecACHJ0dqbQ5qRngN3PN4cqTW5VDe1TBHYDGriHemeC+mn8OxmFXEEle8umEOj8NHppwm4Q1x/cAen+gNessUY4LvWug24QoNSgDLqqobER6t/1V+RfHOTj7WHPtcVL+/F6lDLbTtugjePoUnn011pv6k0ni288Z5Wef9x/6W5DzWbj6eYMV5kqk7U91+Gq+o/vKK8nzy/67c0Fkl7gDBO6Ivjrp3dmXFtOHKOnFHnaK9TorlNzUz5Ei9AfMTmpI=
   </data>
  </layer>
  <objectgroup id="4" name="Buildings"/>
- <layer id="5" name="Front" width="20" height="25">
+ <layer id="5" name="Front" width="20" height="24">
   <data encoding="base64" compression="zlib">
-   eJxjYKAO0EBi32en3LxHQDM8oez/VDCPiQPBlufArY5YoIRkhj0VzHOighn4wGFgGB4B4mYsYckMtJsFzX4ZJgaGGFaEvqks1HXPViqaFwJ0Zygrdjlubggmlk0N87gImIfMx6UPn/vw+Z8c/+ID1DBvMLovBik+ejgpMw9kFrp5MDNxxSkucULmUct9lIIYHPmjmxOCKQWwcqeNGWEmMebC9CGDY0B8Cg8+DlV3Ao+a0yS4vRWqZzkJeqgFAA6lMVI=
+   eJxjYKAO0EBi32en3LxHQDM8oez/VDCPiQPBlufArY5YoIRkhj0VzHOighn4wGFgGB4B4mYsYckMtJsFzX4ZJgaGGFaEvqks1HXPViqaFwJ0ZygrdrnVXBBMLJsa5q0iYB4yH5c+fO7D539y/IsPUMO8wei+GKT46OGkzDyQWejmwczEFae4xAmZRy33UQpicOSPbk4IphTAyp02ZoSZxJgL04cMjgHxKTz4OFTdCTxqTlPuJawAAGxhYQw=
   </data>
  </layer>
  <objectgroup id="6" name="Front"/>
