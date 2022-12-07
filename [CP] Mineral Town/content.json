@@ -1,0 +1,2089 @@
+{
+  "Format": "1.23.0",
+
+
+  //NEW LOCATIONS
+
+  "CustomLocations": [
+    //Outdoor locations
+    {
+      "Name": "Custom_HM_MineralBeach",
+      "FromMapFile": "OutdoorMaps/BeachTideRises.tmx",
+      "MigrateLegacyNames": [ "Mineral Town Beach" ]
+    },
+    {
+      "Name": "Custom_HM_MineralBeachFalls",
+      "FromMapFile": "OutdoorMaps/BeachTideFalls.tmx"
+    },
+    {
+      "Name": "Custom_HM_MineralTidePool",
+      "FromMapFile": "OutdoorMaps/TidePool.tmx"
+    },
+    {
+      "Name": "Custom_HM_OceanSummit",
+      "FromMapFile": "OutdoorMaps/OceanSummit.tmx",
+      "MigrateLegacyNames": [ "Ocean Summit" ]
+    },
+    {
+      "Name": "Custom_HM_MineralTown",
+      "FromMapFile": "OutdoorMaps/TownCenter.tmx",
+      "MigrateLegacyNames": [ "Mineral Town Center" ]
+    },
+    {
+      "Name": "Custom_HM_MineralTownEntrance",
+      "FromMapFile": "OutdoorMaps/TownEntrance.tmx",
+      "MigrateLegacyNames": [ "Mineral Town Entrance" ]
+    },
+    {
+      "Name": "Custom_HM_WoodCutter",
+      "FromMapFile": "OutdoorMaps/WoodCutter.tmx",
+      "MigrateLegacyNames": [ "Wisp Song Forest Entrance" ]
+    },
+    {
+      "Name": "Custom_HM_GoddessHill",
+      "FromMapFile": "OutdoorMaps/GoddessHill.tmx",
+      "MigrateLegacyNames": [ "Goddess Hill" ]
+    },
+    {
+      "Name": "Custom_HM_MountainLake",
+      "FromMapFile": "OutdoorMaps/MountainLake.tmx",
+      "MigrateLegacyNames": [ "Wisp Song Forest Lake" ]
+    },
+    {
+      "Name": "Custom_HM_MountainForest",
+      "FromMapFile": "OutdoorMaps/MountainForest.tmx",
+      "MigrateLegacyNames": [ "Wisp Song Forest" ]
+    },
+    {
+      "Name": "Custom_HM_FlowerHill",
+      "FromMapFile": "OutdoorMaps/FlowerHill.tmx",
+      "MigrateLegacyNames": [ "Wisp Song Forest Flower Hill" ]
+    },
+    {
+      "Name": "Custom_HM_MountainSummit",
+      "FromMapFile": "OutdoorMaps/Summit.tmx",
+      "MigrateLegacyNames": [ "Mountain Summit" ]
+    },
+    {
+      "Name": "Custom_HM_Highway",
+      "FromMapFile": "OutdoorMaps/Highway.tmx"
+    },
+    {
+      "Name": "Custom_HM_UndergroundTunnel",
+      "FromMapFile": "OutdoorMaps/UndergroundTunnel.tmx"
+    },
+    {
+      "Name": "Custom_HM_HighwayEntrance",
+      "FromMapFile": "OutdoorMaps/HighwayEntrance.tmx"
+    },
+    {
+      "Name": "Custom_HM_EllenGarden",
+      "FromMapFile": "OutdoorMaps/EllenGarden.tmx"
+    },
+
+    //Maps with Sky that Changes
+    //Night
+    {
+      "Name": "Custom_HM_MountainSummitNight",
+      "FromMapFile": "OutdoorMaps/SummitNight.tmx"
+    },
+    {
+      "Name": "Custom_HM_OceanSummitNight",
+      "FromMapFile": "OutdoorMaps/OceanSummitNight.tmx"
+    },
+    {
+      "Name": "Custom_HM_HighwayNight",
+      "FromMapFile": "OutdoorMaps/HighwayNight.tmx"
+    },
+
+    //Rainy
+    {
+      "Name": "Custom_HM_MountainSummitRainy",
+      "FromMapFile": "OutdoorMaps/SummitRainy.tmx"
+    },
+    {
+      "Name": "Custom_HM_OceanSummitRainy",
+      "FromMapFile": "OutdoorMaps/OceanSummitRainy.tmx"
+    },
+    {
+      "Name": "Custom_HM_HighwayRainy",
+      "FromMapFile": "OutdoorMaps/HighwayRainy.tmx"
+    },
+
+    //Rainy Night
+    {
+      "Name": "Custom_HM_MountainSummitRainyNight",
+      "FromMapFile": "OutdoorMaps/SummitRainyNight.tmx"
+    },
+    {
+      "Name": "Custom_HM_OceanSummitRainyNight",
+      "FromMapFile": "OutdoorMaps/OceanSummitRainyNight.tmx"
+    },
+    {
+      "Name": "Custom_HM_HighwayRainyNight",
+      "FromMapFile": "OutdoorMaps/HighwayRainyNight.tmx"
+    },
+
+    //Indoor Locations
+    {
+      "Name": "Custom_HM_WoodCutterInterior",
+      "FromMapFile": "IndoorMaps/WoodCutterInterior.tmx",
+      "MigrateLegacyNames": [ "Wood Cutter" ]
+    },
+    {
+      "Name": "Custom_HM_DoctorHouseInterior",
+      "FromMapFile": "IndoorMaps/DoctorHouseInterior.tmx",
+      "MigrateLegacyNames": [ "Doctor's House" ]
+    },
+    {
+      "Name": "Custom_HM_CarterHouseInterior",
+      "FromMapFile": "IndoorMaps/CarterHouseInterior.tmx",
+      "MigrateLegacyNames": [ "Carter's House" ]
+    },
+    {
+      "Name": "Custom_HM_ChurchInterior",
+      "FromMapFile": "IndoorMaps/ChurchInterior.tmx",
+      "MigrateLegacyNames": [ "Mineral Church" ]
+    },
+    {
+      "Name": "Custom_HM_HospitalFirstFloor",
+      "FromMapFile": "IndoorMaps/HospitalInterior.tmx",
+      "MigrateLegacyNames": [ "Mineral Hospital" ]
+    },
+    {
+      "Name": "Custom_HM_HospitalSecondFloor",
+      "FromMapFile": "IndoorMaps/HospitalInterior2ndFloor.tmx"
+    },
+    {
+      "Name": "Custom_HM_JeffMarket",
+      "FromMapFile": "IndoorMaps/MarketInterior.tmx",
+      "MigrateLegacyNames": [ "Jeff Market" ]
+    },
+    {
+      "Name": "Custom_HM_EllenHouse",
+      "FromMapFile": "IndoorMaps/EllenInterior.tmx",
+      "MigrateLegacyNames": [ "Elli's House" ]
+    },
+    {
+      "Name": "Custom_HM_MayorHouse",
+      "FromMapFile": "IndoorMaps/MayorInterior.tmx",
+      "MigrateLegacyNames": [ "Thomas' House" ]
+    },
+    {
+      "Name": "Custom_HM_MountainMine",
+      "FromMapFile": "IndoorMaps/Mine.tmx",
+      "MigrateLegacyNames": [ "The Mine" ]
+    },
+    {
+      "Name": "Custom_HM_LibraryHouse",
+      "FromMapFile": "IndoorMaps/LibraryHouseInterior.tmx",
+      "MigrateLegacyNames": [ "Mary's House" ]
+    },
+    {
+      "Name": "Custom_HM_LibraryHouseSecFloor",
+      "FromMapFile": "IndoorMaps/LibraryHouseInterior2ndFloor.tmx"
+    },
+    {
+      "Name": "Custom_HM_Library",
+      "FromMapFile": "IndoorMaps/LibraryInterior.tmx",
+      "MigrateLegacyNames": [ "Mineral Library" ]
+    },
+    {
+      "Name": "Custom_HM_LibrarySecFloor",
+      "FromMapFile": "IndoorMaps/LibraryInterior2ndFloor.tmx"
+    },
+    {
+      "Name": "Custom_HM_Inn",
+      "FromMapFile": "IndoorMaps/InnInterior.tmx",
+      "MigrateLegacyNames": [ "Moonlight Inn" ]
+    },
+    {
+      "Name": "Custom_HM_InnNight",
+      "FromMapFile": "IndoorMaps/InnInteriorNight.tmx"
+    },
+    {
+      "Name": "Custom_HM_InnSecFloor",
+      "FromMapFile": "IndoorMaps/Inn2ndFloor.tmx"
+    },
+    {
+      "Name": "Custom_HM_InnKitchen",
+      "FromMapFile": "IndoorMaps/InnKitchen.tmx"
+    },
+    {
+      "Name": "Custom_HM_InnBasement",
+      "FromMapFile": "IndoorMaps/InnBasement.tmx"
+    },
+    {
+      "Name": "Custom_HM_WineryStorage",
+      "FromMapFile": "IndoorMaps/WineryStorage.tmx"
+    },
+    {
+      "Name": "Custom_HM_WineryGreenHouse",
+      "FromMapFile": "IndoorMaps/WineryGreenhouse.tmx"
+    },
+    {
+      "Name": "Custom_HM_AjaWinery",
+      "FromMapFile": "IndoorMaps/WineryInterior.tmx",
+      "MigrateLegacyNames": [ "Aja Winery" ]
+    },
+    {
+      "Name": "Custom_HM_AjaWinerySecFloor",
+      "FromMapFile": "IndoorMaps/WineryInterior2ndFloor.tmx"
+    },
+    {
+      "Name": "Custom_HM_BlackSmith",
+      "FromMapFile": "IndoorMaps/BlacksmithInterior.tmx",
+      "MigrateLegacyNames": [ "Saibara's Workshop" ]
+    },
+    {
+      "Name": "Custom_HM_BlackSmithWorkshop",
+      "FromMapFile": "IndoorMaps/BlacksmithWorkshop.tmx"
+    },
+    {
+      "Name": "Custom_HM_PoultryInterior",
+      "FromMapFile": "IndoorMaps/PoultryInterior.tmx",
+      "MigrateLegacyNames": [ "Poultry Farm" ]
+    },
+    {
+      "Name": "Custom_HM_PoultrySecFloor",
+      "FromMapFile": "IndoorMaps/PoultryInterior2ndFloor.tmx"
+    },
+    {
+      "Name": "Custom_HM_YodelInterior",
+      "FromMapFile": "IndoorMaps/YodelRanchInterior.tmx",
+      "MigrateLegacyNames": [ "Yodel Ranch" ]
+    },
+    {
+      "Name": "Custom_HM_YodelSecFloor",
+      "FromMapFile": "IndoorMaps/YodelRanchInterior2ndFloor.tmx"
+    },
+    {
+      "Name": "Custom_HM_SpriteHutInterior",
+      "FromMapFile": "IndoorMaps/SpriteHutInterior.tmx",
+      "MigrateLegacyNames": [ "Sprite Tree House" ]
+    },
+    {
+      "Name": "Custom_HM_SnackShack",
+      "FromMapFile": "IndoorMaps/SnackShackInterior.tmx",
+      "MigrateLegacyNames": [ "Kai's Snack Shack" ]
+    },
+    {
+      "Name": "Custom_HM_ZackHouse",
+      "FromMapFile": "IndoorMaps/ZackHouseInterior.tmx",
+      "MigrateLegacyNames": [ "Zack's House" ]
+    },
+    {
+      "Name": "Custom_HM_MountainTent",
+      "FromMapFile": "IndoorMaps/MountainTent.tmx",
+      "MigrateLegacyNames": [ "Mountain Tent" ]
+    },
+    {
+      "Name": "Custom_HM_MineralGuild",
+      "FromMapFile": "IndoorMaps/MineralAdventureGuild.tmx",
+      "MigrateLegacyNames": [ "Mineral Guild" ]
+    },
+    {
+      "Name": "Custom_HM_MineralCoop",
+      "FromMapFile": "IndoorMaps/MineralCoop.tmx"
+    },
+    {
+      "Name": "Custom_HM_MineralBarn",
+      "FromMapFile": "IndoorMaps/MineralBarn.tmx"
+    },
+    {
+      "Name": "Custom_HM_Void",
+      "FromMapFile": "IndoorMaps/Void.tmx"
+    }
+  ],
+
+
+  "Changes": [
+    /*********
+		** Add location warps
+		*********/
+    // Add NPC Warps to get into Mineral Town from Bus Stop
+    {
+      "Action": "EditMap",
+      "Target": "Maps/BusStop",
+      "MapProperties": {
+        "NPCWarp": "13 10 Custom_HM_MineralTownEntrance 43 20"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralTownEntrance",
+      "MapProperties": {
+        "NPCWarp": "44 19 BusStop 13 11"
+      }
+    },
+
+    //Add NPC Warp for Snack Shack Bedroom, Church Confessional Box & Bell Tower Room
+    //Snack Shack Bedroom
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_SnackShack",
+      "MapProperties": {
+        "NPCWarp": "2 4 Custom_HM_Void 2 6"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_Void",
+      "MapProperties": {
+        "NPCWarp": "2 7 Custom_HM_SnackShack 2 5"
+      }
+    },
+    //Bell Tower
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_ChurchInterior",
+      "MapProperties": {
+        "NPCWarp": "3 8 Custom_HM_Void 3 6"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_Void",
+      "MapProperties": {
+        "NPCWarp": "3 7 Custom_HM_ChurchInterior 4 8"
+      }
+    },
+    //Confessional Box
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_ChurchInterior",
+      "MapProperties": {
+        "NPCWarp": "18 8 Custom_HM_Void 4 6"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_Void",
+      "MapProperties": {
+        "NPCWarp": "4 7 Custom_HM_ChurchInterior 19 8"
+      }
+    },
+
+    /////////////////
+    //BusStop Warps
+    /////////////////
+
+    //Ayeisha exists
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_AyeishaVanRoad",
+      "When": {
+        "HasMod |contains=TheLimeyDragon.Ayeisha": true
+      },
+
+      "AddWarps": [
+        "10 9 Custom_HM_UndergroundTunnel 0 8",
+        "10 10 Custom_HM_UndergroundTunnel 0 8",
+        "10 11 Custom_HM_UndergroundTunnel 0 8",
+        "10 12 Custom_HM_UndergroundTunnel 0 8",
+        "10 13 Custom_HM_UndergroundTunnel 0 8"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_UndergroundTunnel",
+      "When": {
+        "HasMod |contains=TheLimeyDragon.Ayeisha": true
+      },
+
+      "AddWarps": [
+        "-1 6 Custom_AyeishaVanRoad 9 13",
+        "-1 7 Custom_AyeishaVanRoad 9 13",
+        "-1 8 Custom_AyeishaVanRoad 9 13",
+        "-1 9 Custom_AyeishaVanRoad 9 13",
+        "-1 10 Custom_AyeishaVanRoad 9 13"
+      ]
+    },
+
+    //TreeStump exists
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_UndergroundTunnel",
+      "When": {
+        "HasMod |contains=TMXTreeStump": true
+      },
+
+      "AddWarps": [
+        "11 9 StreetLeft 0 10",
+        "11 10 StreetLeft 0 10",
+        "11 11 StreetLeft 0 10",
+        "11 12 StreetLeft 0 10",
+        "11 13 StreetLeft 0 10",
+        "11 14 StreetLeft 0 10",
+        "10 14 StreetLeft 0 10",
+        "9 14 StreetLeft 0 10"
+      ]
+    },
+
+    {
+      "Action": "EditMap",
+      "Target": "Maps/StreetLeft",
+      "When": {
+        "HasMod |contains=TMXTreeStump": true
+      },
+
+      "AddWarps": [
+        "-1 9 Custom_HM_UndergroundTunnel 10 10",
+        "-1 10 Custom_HM_UndergroundTunnel 10 10",
+        "-1 11 Custom_HM_UndergroundTunnel 10 10",
+        "-1 12 Custom_HM_UndergroundTunnel 10 10",
+        "-1 13 Custom_HM_UndergroundTunnel 10 10",
+        "34 9 Custom_HM_Highway 2 29",
+        "34 10 Custom_HM_Highway 2 29",
+        "34 11 Custom_HM_Highway 2 29",
+        "34 12 Custom_HM_Highway 2 29",
+        "34 13 Custom_HM_Highway 2 29"
+      ]
+    },
+
+    //Default
+    {
+      "Action": "EditMap",
+      "Target": "Maps/BusStop",
+      "When": {
+        "HasMod |contains=TheLimeyDragon.Ayeisha": false
+      },
+      "AddWarps": [
+        "33 6 Custom_HM_UndergroundTunnel 0 8",
+        "33 7 Custom_HM_UndergroundTunnel 0 8",
+        "33 8 Custom_HM_UndergroundTunnel 0 8",
+        "33 9 Custom_HM_UndergroundTunnel 0 8",
+        "33 10 Custom_HM_UndergroundTunnel 0 8"
+      ]
+    },
+
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_UndergroundTunnel",
+      "When": {
+        "HasMod |contains=TheLimeyDragon.Ayeisha": false
+      },
+      "AddWarps": [
+        "-1 6 BusStop 32 8",
+        "-1 7 BusStop 32 8",
+        "-1 8 BusStop 32 8",
+        "-1 9 BusStop 32 8",
+        "-1 10 BusStop 32 8"
+      ]
+    },
+
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_UndergroundTunnel",
+      "When": {
+        "HasMod |contains=TMXTreeStump": false
+      },
+      "AddWarps": [
+        "11 9 Custom_HM_HighwayEntrance 2 13",
+        "11 10 Custom_HM_HighwayEntrance 2 13",
+        "11 11 Custom_HM_HighwayEntrance 2 13",
+        "11 12 Custom_HM_HighwayEntrance 2 13",
+        "11 13 Custom_HM_HighwayEntrance 2 13",
+        "11 14 Custom_HM_HighwayEntrance 2 13",
+        "10 14 Custom_HM_HighwayEntrance 2 13",
+        "9 14 Custom_HM_HighwayEntrance 2 13"
+      ]
+    },
+
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_HighwayEntrance",
+      "When": {
+        "HasMod |contains=TMXTreeStump": false
+      },
+      "AddWarps": [
+        "1 11 Custom_HM_UndergroundTunnel 10 10",
+        "1 12 Custom_HM_UndergroundTunnel 10 10",
+        "1 13 Custom_HM_UndergroundTunnel 10 10",
+        "1 14 Custom_HM_UndergroundTunnel 10 10",
+        "27 10 Custom_HM_Highway 2 29",
+        "27 11 Custom_HM_Highway 2 29",
+        "27 12 Custom_HM_Highway 2 29",
+        "27 13 Custom_HM_Highway 2 29",
+        "27 14 Custom_HM_Highway 2 29",
+        "27 15 Custom_HM_Highway 2 29"
+      ]
+    },
+
+    /////////////////
+    //Highway
+    /////////////////
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_Highway",
+      "When": {
+        "HasMod |contains=TMXTreeStump": false
+      },
+      "AddWarps": [
+        "63 43 Custom_HM_MineralTownEntrance 10 10",
+        "64 43 Custom_HM_MineralTownEntrance 10 10",
+        "65 43 Custom_HM_MineralTownEntrance 10 10",
+        "66 43 Custom_HM_MineralTownEntrance 10 10",
+        "67 43 Custom_HM_MineralTownEntrance 10 10",
+        "68 43 Custom_HM_MineralTownEntrance 10 10",
+        "69 43 Custom_HM_MineralTownEntrance 10 10",
+        "70 43 Custom_HM_MineralTownEntrance 10 10",
+        "71 43 Custom_HM_MineralTownEntrance 10 10",
+        "72 43 Custom_HM_MineralTownEntrance 10 10",
+        "73 43 Custom_HM_MineralTownEntrance 10 10",
+        "1 27 Custom_HM_HighwayEntrance 26 13",
+        "1 28 Custom_HM_HighwayEntrance 26 13",
+        "1 29 Custom_HM_HighwayEntrance 26 13",
+        "1 30 Custom_HM_HighwayEntrance 26 13",
+        "1 31 Custom_HM_HighwayEntrance 26 13"
+      ]
+    },
+
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_Highway",
+      "When": {
+        "HasMod |contains=TMXTreeStump": true
+      },
+      "AddWarps": [
+        "63 43 Custom_HM_MineralTownEntrance 10 10",
+        "64 43 Custom_HM_MineralTownEntrance 10 10",
+        "65 43 Custom_HM_MineralTownEntrance 10 10",
+        "66 43 Custom_HM_MineralTownEntrance 10 10",
+        "67 43 Custom_HM_MineralTownEntrance 10 10",
+        "68 43 Custom_HM_MineralTownEntrance 10 10",
+        "69 43 Custom_HM_MineralTownEntrance 10 10",
+        "70 43 Custom_HM_MineralTownEntrance 10 10",
+        "71 43 Custom_HM_MineralTownEntrance 10 10",
+        "72 43 Custom_HM_MineralTownEntrance 10 10",
+        "73 43 Custom_HM_MineralTownEntrance 10 10",
+        "1 27 StreetLeft 33 10",
+        "1 28 StreetLeft 33 10",
+        "1 29 StreetLeft 33 10",
+        "1 30 StreetLeft 33 10",
+        "1 31 StreetLeft 33 10"
+      ]
+    },
+
+
+
+    /////////////////
+    //Mineral Town Warps
+    /////////////////
+
+    /////////////////
+    //Beach
+    /////////////////
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralBeach",
+      "AddWarps": [
+        "0 16 Custom_HM_MineralTown 148 94",
+        "0 17 Custom_HM_MineralTown 148 94",
+        "0 18 Custom_HM_MineralTown 148 94",
+        "0 19 Custom_HM_MineralTown 148 94",
+        "0 20 Custom_HM_MineralTown 148 94",
+        "0 21 Custom_HM_MineralTown 148 94",
+        "0 43 Custom_HM_MineralTidePool 34 17",
+        "0 44 Custom_HM_MineralTidePool 34 17",
+        "0 45 Custom_HM_MineralTidePool 34 17",
+        "0 46 Custom_HM_MineralTidePool 34 17"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralTidePool",
+      "AddWarps": [
+        "35 17 Custom_HM_MineralBeach 2 43",
+        "35 18 Custom_HM_MineralBeach 2 43",
+        "35 19 Custom_HM_MineralBeach 2 43",
+        "35 20 Custom_HM_MineralBeach 2 43"
+      ]
+    },
+
+    /////////////////
+    //Beach Houses
+    /////////////////
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_SnackShack",
+      "AddWarps": [
+        "15 18 Custom_HM_MineralBeach 14 7"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_ZackHouse",
+      "AddWarps": [
+        "14 13 Custom_HM_MineralBeach 35 8"
+      ]
+    },
+
+    /////////////////
+    //Ocean Summit
+    /////////////////
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_OceanSummit",
+      "AddWarps": [
+        "20 36 Custom_HM_MineralTown 149 44",
+        "21 36 Custom_HM_MineralTown 149 44",
+        "22 36 Custom_HM_MineralTown 149 44",
+        "23 36 Custom_HM_MineralTown 149 44"
+      ]
+    },
+
+
+    /////////////////
+    //Town Center
+    /////////////////
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralTown",
+      "AddWarps": [
+        "149 91 Custom_HM_MineralBeach 1 19",
+        "149 92 Custom_HM_MineralBeach 1 19",
+        "149 93 Custom_HM_MineralBeach 1 19",
+        "149 94 Custom_HM_MineralBeach 1 19",
+        "149 95 Custom_HM_MineralBeach 1 19",
+        "149 96 Custom_HM_MineralBeach 1 19",
+        "5 69 Custom_HM_MineralTownEntrance 91 23",
+        "5 70 Custom_HM_MineralTownEntrance 91 23",
+        "5 71 Custom_HM_MineralTownEntrance 91 23",
+        "5 72 Custom_HM_MineralTownEntrance 91 23",
+        "5 73 Custom_HM_MineralTownEntrance 91 23",
+        "5 74 Custom_HM_MineralTownEntrance 91 23",
+        "150 43 Custom_HM_OceanSummit 21 35",
+        "150 44 Custom_HM_OceanSummit 21 35",
+        "150 45 Custom_HM_OceanSummit 21 35",
+        "34 121 Custom_HM_WoodCutter 50 6",
+        "35 121 Custom_HM_WoodCutter 50 6",
+        "36 121 Custom_HM_WoodCutter 50 6",
+        "37 121 Custom_HM_WoodCutter 50 6"
+      ]
+    },
+    /////////////////
+    //Houses in Town
+    /////////////////
+    //Doctor, Carter
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_DoctorHouseInterior",
+      "AddWarps": [
+        "10 19 Custom_HM_MineralTown 91 87"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_CarterHouseInterior",
+      "AddWarps": [
+        "3 18 Custom_HM_MineralTown 59 52"
+      ]
+    },
+
+    //Church
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_ChurchInterior",
+      "AddWarps": [
+        "10 27 Custom_HM_MineralTown 36 31",
+        "11 27 Custom_HM_MineralTown 36 31"
+      ]
+    },
+
+    //Hospital
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_HospitalFirstFloor",
+      "AddWarps": [
+        "11 19 Custom_HM_MineralTown 24 67",
+        "12 19 Custom_HM_MineralTown 24 67"
+      ]
+    },
+
+    //Market, Ellen, mayor
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_JeffMarket",
+      "AddWarps": [
+        "9 38 Custom_HM_MineralTown 72 82"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_EllenHouse",
+      "AddWarps": [
+        "18 20 Custom_HM_MineralTown 55 93",
+        "1 14 Custom_HM_EllenGarden 18 7"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_EllenGarden",
+      "AddWarps": [
+        "19 7 Custom_HM_EllenHouse 2 14"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MayorHouse",
+      "AddWarps": [
+        "4 20 Custom_HM_MineralTown 63 93",
+        "26 20 Custom_HM_MineralTown 68 93"
+      ]
+    },
+
+    //Library
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_LibraryHouse",
+      "AddWarps": [
+        "3 16 Custom_HM_MineralTown 42 50",
+        "18 0 Custom_HM_LibraryHouseSecFloor 19 4",
+        "19 0 Custom_HM_LibraryHouseSecFloor 19 4"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_LibraryHouseSecFloor",
+      "AddWarps": [
+        "18 5 Custom_HM_LibraryHouse 19 1",
+        "19 5 Custom_HM_LibraryHouse 19 1"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_Library",
+      "AddWarps": [
+        "6 16 Custom_HM_MineralTown 50 51",
+        "9 0 Custom_HM_LibrarySecFloor 10 4",
+        "10 0 Custom_HM_LibrarySecFloor 10 4"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_LibrarySecFloor",
+      "AddWarps": [
+        "9 5 Custom_HM_Library 10 1",
+        "10 5 Custom_HM_Library 10 1"
+      ]
+    },
+
+    //Inn
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_Inn",
+      "AddWarps": [
+        "13 20 Custom_HM_MineralTown 22 86",
+        "14 20 Custom_HM_MineralTown 22 86",
+        "1 0 Custom_HM_InnSecFloor 7 19",
+        "2 0 Custom_HM_InnSecFloor 7 19",
+        "3 0 Custom_HM_InnSecFloor 7 19",
+        "6 0 Custom_HM_InnKitchen 6 20",
+        "7 0 Custom_HM_InnKitchen 6 20",
+        "19 0 Custom_HM_InnBasement 8 14"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_InnSecFloor",
+      "AddWarps": [
+        "6 20 Custom_HM_Inn 2 1",
+        "7 20 Custom_HM_Inn 2 1",
+        "8 20 Custom_HM_Inn 2 1"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_InnKitchen",
+      "AddWarps": [
+        "6 21 Custom_HM_Inn 6 1",
+        "7 21 Custom_HM_Inn 6 1"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_InnBasement",
+      "AddWarps": [
+        "8 15 Custom_HM_Inn 19 1"
+      ]
+    },
+
+    //Aja Winery
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_WineryStorage",
+      "AddWarps": [
+        "10 20 Custom_HM_MineralTown 53 103",
+        "11 20 Custom_HM_MineralTown 53 103"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_WineryGreenHouse",
+      "AddWarps": [
+        "10 24 Custom_HM_MineralTown 57 118"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_AjaWinery",
+      "AddWarps": [
+        "9 22 Custom_HM_MineralTown 45 105",
+        "16 7 Custom_HM_AjaWinerySecFloor 17 6",
+        "17 7 Custom_HM_AjaWinerySecFloor 17 6"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_AjaWinerySecFloor",
+      "AddWarps": [
+        "16 7 Custom_HM_AjaWinery 17 8",
+        "17 7 Custom_HM_AjaWinery 17 8"
+      ]
+    },
+
+    //Blacksmith
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_BlackSmith",
+      "AddWarps": [
+        "10 19 Custom_HM_MineralTown 23 113"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_BlackSmithWorkshop",
+      "AddWarps": [
+        "6 19 Custom_HM_MineralTown 28 113"
+      ]
+    },
+
+    //Poultry
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_PoultryInterior",
+      "AddWarps": [
+        "9 17 Custom_HM_MineralTown 94 104",
+        "10 17 Custom_HM_MineralTown 94 104",
+        "1 6 Custom_HM_PoultrySecFloor 2 5",
+        "2 6 Custom_HM_PoultrySecFloor 2 5"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_PoultrySecFloor",
+      "AddWarps": [
+        "1 6 Custom_HM_PoultryInterior 2 7",
+        "2 6 Custom_HM_PoultryInterior 2 7"
+      ]
+    },
+
+    //Yodel
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_YodelInterior",
+      "AddWarps": [
+        "13 17 Custom_HM_MineralTown 128 104",
+        "18 6 Custom_HM_YodelSecFloor 19 5",
+        "19 6 Custom_HM_YodelSecFloor 19 5"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_YodelSecFloor",
+      "AddWarps": [
+        "18 6 Custom_HM_YodelInterior 19 7",
+        "19 6 Custom_HM_YodelInterior 19 7"
+      ]
+    },
+
+
+    //Adventure Guild
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralGuild",
+      "AddWarps": [
+        "6 14 Custom_HM_MineralTown 81 82"
+      ]
+    },
+
+
+    /////////////////
+    //Town Entrance
+    /////////////////
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralTownEntrance",
+      "AddWarps": [
+        "92 21 Custom_HM_MineralTown 6 71",
+        "92 22 Custom_HM_MineralTown 6 71",
+        "92 23 Custom_HM_MineralTown 6 71",
+        "92 24 Custom_HM_MineralTown 6 71",
+        "92 25 Custom_HM_MineralTown 6 71",
+        "92 26 Custom_HM_MineralTown 6 71",
+        "5 9 Custom_HM_Highway 68 42",
+        "6 9 Custom_HM_Highway 68 42",
+        "7 9 Custom_HM_Highway 68 42",
+        "8 9 Custom_HM_Highway 68 42",
+        "9 9 Custom_HM_Highway 68 42",
+        "10 9 Custom_HM_Highway 68 42",
+        "11 9 Custom_HM_Highway 68 42",
+        "12 9 Custom_HM_Highway 68 42",
+        "13 9 Custom_HM_Highway 68 42",
+        "14 9 Custom_HM_Highway 68 42",
+        "15 9 Custom_HM_Highway 68 42"
+      ]
+    },
+
+    /////////////////
+    //WoodCutter
+    /////////////////
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_WoodCutter",
+      "AddWarps": [
+        "48 5 Custom_HM_MineralTown 35 120",
+        "49 5 Custom_HM_MineralTown 35 120",
+        "50 5 Custom_HM_MineralTown 35 120",
+        "51 5 Custom_HM_MineralTown 35 120",
+        "52 5 Custom_HM_MineralTown 35 120",
+        "53 5 Custom_HM_MineralTown 35 120",
+        "0 13 Custom_HM_GoddessHill 41 21",
+        "0 14 Custom_HM_GoddessHill 41 21",
+        "0 15 Custom_HM_GoddessHill 41 21",
+        "0 16 Custom_HM_GoddessHill 41 21",
+        "1 30 Custom_HM_MountainLake 68 46",
+        "1 31 Custom_HM_MountainLake 68 46",
+        "1 32 Custom_HM_MountainLake 68 46"
+      ]
+    },
+
+    /////////////////
+    //WoodCutter's House
+    /////////////////
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_WoodCutterInterior",
+      "AddWarps": [
+        "11 17 Custom_HM_WoodCutter 34 19"
+      ]
+    },
+
+
+    /////////////////
+    //Goddess Hill
+    /////////////////
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_GoddessHill",
+      "AddWarps": [
+        "42 19 Custom_HM_WoodCutter 1 15",
+        "42 20 Custom_HM_WoodCutter 1 15",
+        "42 21 Custom_HM_WoodCutter 1 15",
+        "42 22 Custom_HM_WoodCutter 1 15",
+        "7 4 Custom_HM_MountainMine 6 9"
+      ]
+    },
+
+
+    /////////////////
+    //Mine
+    /////////////////
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MountainMine",
+      "AddWarps": [
+        "6 10 Custom_HM_GoddessHill 7 5"
+      ]
+    },
+
+
+    /////////////////
+    //Mountain Lake
+    /////////////////
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MountainLake",
+      "AddWarps": [
+        "69 45 Custom_HM_WoodCutter 2 30",
+        "69 46 Custom_HM_WoodCutter 2 30",
+        "69 47 Custom_HM_WoodCutter 2 30",
+        "69 48 Custom_HM_WoodCutter 2 30",
+        "58 1 Custom_HM_FlowerHill 32 38",
+        "59 1 Custom_HM_FlowerHill 32 38",
+        "60 1 Custom_HM_FlowerHill 32 38",
+        "61 1 Custom_HM_FlowerHill 32 38",
+        "52 13 Custom_HM_MountainTent 2 6",
+        "0 32 Custom_HM_MountainForest 43 23",
+        "0 33 Custom_HM_MountainForest 43 23",
+        "0 34 Custom_HM_MountainForest 43 23",
+        "0 35 Custom_HM_MountainForest 43 23"
+      ]
+    },
+
+
+    /////////////////
+    //Mountain Tent
+    /////////////////
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MountainTent",
+      "AddWarps": [
+        "2 7 Custom_HM_MountainLake 52 14"
+      ]
+    },
+
+    //Mountain Forest aka Whisp Song Forest
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MountainForest",
+      "AddWarps": [
+        "44 22 Custom_HM_MountainLake 1 33",
+        "44 23 Custom_HM_MountainLake 1 33",
+        "44 24 Custom_HM_MountainLake 1 33",
+        "44 25 Custom_HM_MountainLake 1 33"
+      ]
+    },
+
+    //Sprite House
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_SpriteHutInterior",
+      "AddWarps": [
+        "10 16 Custom_HM_MountainForest 19 22"
+      ]
+    },
+
+
+    //Flower Hill
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_FlowerHill",
+      "AddWarps": [
+        "30 39 Custom_HM_MountainLake 60 2",
+        "31 39 Custom_HM_MountainLake 60 2",
+        "32 39 Custom_HM_MountainLake 60 2",
+        "33 39 Custom_HM_MountainLake 60 2",
+        "25 0 Custom_HM_MountainSummit 19 27",
+        "26 0 Custom_HM_MountainSummit 19 27",
+        "27 0 Custom_HM_MountainSummit 19 27",
+        "28 0 Custom_HM_MountainSummit 19 27"
+      ]
+    },
+
+
+    /////////////////
+    //Moutain Summit
+    /////////////////
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MountainSummit",
+      "AddWarps": [
+        "2 28 Custom_HM_FlowerHill 27 1",
+        "3 28 Custom_HM_FlowerHill 27 1",
+        "4 28 Custom_HM_FlowerHill 27 1",
+        "5 28 Custom_HM_FlowerHill 27 1",
+        "6 28 Custom_HM_FlowerHill 27 1",
+        "7 28 Custom_HM_FlowerHill 27 1",
+        "8 28 Custom_HM_FlowerHill 27 1",
+        "9 28 Custom_HM_FlowerHill 27 1",
+        "10 28 Custom_HM_FlowerHill 27 1",
+        "11 28 Custom_HM_FlowerHill 27 1",
+        "12 28 Custom_HM_FlowerHill 27 1",
+        "13 28 Custom_HM_FlowerHill 27 1",
+        "14 28 Custom_HM_FlowerHill 27 1",
+        "15 28 Custom_HM_FlowerHill 27 1",
+        "16 28 Custom_HM_FlowerHill 27 1",
+        "17 28 Custom_HM_FlowerHill 27 1",
+        "18 28 Custom_HM_FlowerHill 27 1",
+        "19 28 Custom_HM_FlowerHill 27 1",
+        "20 28 Custom_HM_FlowerHill 27 1",
+        "21 28 Custom_HM_FlowerHill 27 1",
+        "22 28 Custom_HM_FlowerHill 27 1",
+        "23 28 Custom_HM_FlowerHill 27 1",
+        "24 28 Custom_HM_FlowerHill 27 1",
+        "25 28 Custom_HM_FlowerHill 27 1",
+        "26 28 Custom_HM_FlowerHill 27 1",
+        "27 28 Custom_HM_FlowerHill 27 1",
+        "28 28 Custom_HM_FlowerHill 27 1",
+        "29 28 Custom_HM_FlowerHill 27 1",
+        "30 28 Custom_HM_FlowerHill 27 1",
+        "31 28 Custom_HM_FlowerHill 27 1",
+        "32 28 Custom_HM_FlowerHill 27 1",
+        "33 28 Custom_HM_FlowerHill 27 1",
+        "34 28 Custom_HM_FlowerHill 27 1",
+        "35 28 Custom_HM_FlowerHill 27 1",
+        "36 28 Custom_HM_FlowerHill 27 1"
+      ]
+    },
+
+
+    //Coop & Barn
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralCoop",
+      "AddWarps": [
+        "2 10 Custom_HM_MineralTown 75 109"
+      ]
+    },
+
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralBarn",
+      "AddWarps": [
+        "11 15 Custom_HM_MineralTown 110 110"
+      ]
+    },
+
+
+    /*********
+		** Add Map Merge
+		*********/
+    {
+      "Action": "EditMap",
+      "Target": "Maps/BusStop",
+      "FromFile": "OutdoorMaps/BusStopSign.tmx",
+      "ToArea": {
+        "X": 10,
+        "Y": 21,
+        "Width": 1,
+        "Height": 2
+      },
+      "PatchMode": "ReplaceByLayer"
+    },
+
+
+    /*********
+		** Change from Tide Rises to TideFalls
+		*********/
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralBeach",
+      "FromFile": "OutdoorMaps/BeachTideRises.tmx",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 80,
+        "Height": 60
+      },
+      "PatchMode": "ReplaceByLayer",
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 0600, 1200}}"
+      },
+      "Update": "OnTimeChange"
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralBeach",
+      "FromFile": "OutdoorMaps/BeachTideFalls.tmx",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 80,
+        "Height": 60
+      },
+      "PatchMode": "ReplaceByLayer",
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralBeach",
+      "FromFile": "OutdoorMaps/BeachTideRises.tmx",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 80,
+        "Height": 60
+      },
+      "PatchMode": "ReplaceByLayer",
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 1800, 2400}}"
+      },
+      "Update": "OnTimeChange"
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralBeach",
+      "FromFile": "OutdoorMaps/BeachTideFalls.tmx",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 80,
+        "Height": 60
+      },
+      "PatchMode": "ReplaceByLayer",
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 2400, 0600}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+
+    /*********
+		** Change from Tide Rises to TideFalls when rainy
+		*********/
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralBeach",
+      "FromFile": "OutdoorMaps/BeachTideRises.tmx",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 80,
+        "Height": 60
+      },
+      "PatchMode": "ReplaceByLayer",
+      "When": {
+        "Weather: |contains=Sun": false,
+        "Time": "{{Range: 0600, 1500}}"
+      },
+      "Update": "OnTimeChange"
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralBeach",
+      "FromFile": "OutdoorMaps/BeachTideFalls.tmx",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 80,
+        "Height": 60
+      },
+      "PatchMode": "ReplaceByLayer",
+      "When": {
+        "Weather: |contains=Sun": false,
+        "Time": "{{Range: 1500, 2000}}"
+      },
+      "Update": "OnTimeChange"
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralBeach",
+      "FromFile": "OutdoorMaps/BeachTideRises.tmx",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 80,
+        "Height": 60
+      },
+      "PatchMode": "ReplaceByLayer",
+      "When": {
+        "Weather: |contains=Sun": false,
+        "Time": "{{Range: 2000, 2300}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+
+    /*********
+		** Change from DayInn to NightInn
+		*********/
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_Inn",
+      "FromFile": "IndoorMaps/InnInterior.tmx",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 27,
+        "Height": 20
+      },
+      "PatchMode": "ReplaceByLayer",
+      "When": {
+        "Time": "{{Range: 0600, 2000}}"
+      },
+      "Update": "OnTimeChange"
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_Inn",
+      "FromFile": "IndoorMaps/InnInteriorNight.tmx",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 27,
+        "Height": 20
+      },
+      "PatchMode": "Overlay",
+      "When": {
+        "Time": "{{Range: 2000, 2600}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+
+    /*********
+		** Change Sky from Day to Night
+		*********/
+    //Mountain Summit
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MountainSummit",
+      "FromFile": "OutdoorMaps/Summit.tmx",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 39,
+        "Height": 30
+      },
+      "PatchMode": "ReplaceByLayer",
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 0600, 1900}}"
+      },
+      "Update": "OnTimeChange"
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MountainSummit",
+      "FromFile": "OutdoorMaps/SummitNight.tmx",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 39,
+        "Height": 30
+      },
+      "PatchMode": "Overlay",
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 1900, 2600}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    //Ocean Summit
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_OceanSummit",
+      "FromFile": "OutdoorMaps/OceanSummit.tmx",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 43,
+        "Height": 37
+      },
+      "PatchMode": "ReplaceByLayer",
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 0600, 1900}}"
+      },
+      "Update": "OnTimeChange"
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_OceanSummit",
+      "FromFile": "OutdoorMaps/OceanSummitNight.tmx",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 43,
+        "Height": 37
+      },
+      "PatchMode": "Overlay",
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 1900, 2600}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    //Highway
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_Highway",
+      "FromFile": "OutdoorMaps/Highway.tmx",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 90,
+        "Height": 48
+      },
+      "PatchMode": "ReplaceByLayer",
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 0600, 1900}}"
+      },
+      "Update": "OnTimeChange"
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_Highway",
+      "FromFile": "OutdoorMaps/HighwayNight.tmx",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 90,
+        "Height": 48
+      },
+      "PatchMode": "Overlay",
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 1900, 2600}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+
+    //When it rains
+    //Change Summit Sky from Day to Night
+    //Summit
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MountainSummit",
+      "FromFile": "OutdoorMaps/SummitRainy.tmx",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 39,
+        "Height": 30
+      },
+      "PatchMode": "ReplaceByLayer",
+      "When": {
+        "Weather: |contains=Sun": false,
+        "Time": "{{Range: 0600, 1900}}"
+      },
+      "Update": "OnTimeChange"
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MountainSummit",
+      "FromFile": "OutdoorMaps/SummitRainyNight.tmx",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 39,
+        "Height": 30
+      },
+      "PatchMode": "Overlay",
+      "When": {
+        "Weather: |contains=Sun": false,
+        "Time": "{{Range: 1900, 2600}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    //Ocean Summit
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_OceanSummit",
+      "FromFile": "OutdoorMaps/OceanSummitRainy.tmx",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 43,
+        "Height": 37
+      },
+      "PatchMode": "ReplaceByLayer",
+      "When": {
+        "Weather: |contains=Sun": false,
+        "Time": "{{Range: 0600, 1900}}"
+      },
+      "Update": "OnTimeChange"
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_OceanSummit",
+      "FromFile": "OutdoorMaps/OceanSummitRainyNight.tmx",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 43,
+        "Height": 37
+      },
+      "PatchMode": "Overlay",
+      "When": {
+        "Weather: |contains=Sun": false,
+        "Time": "{{Range: 1900, 2600}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    //Highway
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_Highway",
+      "FromFile": "OutdoorMaps/HighwayRainy.tmx",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 90,
+        "Height": 48
+      },
+      "PatchMode": "ReplaceByLayer",
+      "When": {
+        "Weather: |contains=Sun": false,
+        "Time": "{{Range: 0600, 1900}}"
+      },
+      "Update": "OnTimeChange"
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_Highway",
+      "FromFile": "OutdoorMaps/HighwayRainyNight.tmx",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 90,
+        "Height": 48
+      },
+      "PatchMode": "Overlay",
+      "When": {
+        "Weather: |contains=Sun": false,
+        "Time": "{{Range: 1900, 2600}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+
+    /*********
+		** Map Strings
+		*********/
+
+    {
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+      "Entries": {
+
+        // Outdoors
+        "MT.Bin": "The bin is empty.",
+
+        "MT.Highway.1": "The road is blocked by a rockfall.",
+
+        "MT.LunarBeach.1": "--- Beach Rules ---#If you want to play frisbee with your dog, observe these rules:#- Bring your own frisbee^- Mature dogs only#Beach is open these times:^- Sunny days only in Spring, Summer, and Fall.^- 6am-5pm#Please play safely and have fun!#Note: Tide Rises - 6am to 12pm, 6pm to 12am^Tide Falls - 12pm to 6pm, 12am to 6am#Tide Falls (Rainy) - 3pm to 8pm#Make sure to go back to the beach before the tide rises.",
+
+        "MT.GoddessHill.2": "Harvest Goddess Hotspring^Restores your soul and mind",
+
+        "MT.Town.1": "The Sewer might lead to somewhere.",
+        "MT.Town.2": "Mineral Town^Built in August 9th, 1996",
+        "MT.Town.3": "Request Board",
+        "MT.Town.4": "Announcement Board",
+
+        "MT.Grave.1": "-Technoblade-^So Long Nerds^  1999-2022",
+        "MT.Grave.2": "RIP",
+        "MT.Grave.3": "-Gloria-^Our Beloved Mom",
+
+        "MT.Forest.1": "The Harvest Goddess Statue",
+
+
+        //Indoors
+        //Toilet
+        "MT.Indoors.1": "Toilet",
+        "MT.Indoors.2": "Toilet (M)",
+        "MT.Indoors.3": "Toilet (W)",
+        "MT.Indoors.4": "Toilet [No Smoking!]",
+        "MT.Indoors.5": "An old clock that needs to be set everyday.",
+
+        //Hospital
+        "MT.Hospital.1": "Emergency Room",
+        "MT.Hospital.2": "Operation Theatre",
+        "MT.Hospital.3": "Patient Room^Please do NOT Disturb.",
+        "MT.Hospital.4": "Labour Room",
+        "MT.Hospital.5": "This refrigerator is filled with medicial supplies.",
+        "MT.Hospital.6": "It's a sample jar. Better not put your fingers in there.",
+        "MT.Hospital.7": "This hospital is lincensed by the Ferngill Republic Health Authority.",
+        "MT.Hospital.8": "There is nothing but medical waste and your hands smells bad now.",
+        "MT.Hospital.9": "It's the patient room record. The one who comes here often is Jeff.",
+        "MT.Hospital.10": "You are not allowed to enter this room.",
+        "MT.Hospital.11": "Your health is your First Priority. Eat well, and stay healthy during this Pandemic.",
+        "MT.Hospital.12": "Bodigizer - Makes you stronger for a long time.^Side Effect - you will exhaust when it wears out.",
+        "MT.Hospital.13": "Turbojolt - Makes you faster for a long time.^Side Effect - it will drain your Energy over time.",
+        "MT.Hospital.14": "Energy Tonic - Restores a lot of Energy.^Side Effect - you might be addicted to the medicine. Drink with Caution.",
+        "MT.Hospital.15": "Muscle Remedy - Good for Exhaustion.^Side Effect - you might be addicted to the medicine. Drink with Caution.",
+        "MT.Hospital.16": "The medical charts for the villagers...",
+
+        //Inn
+        "MT.Inn.1": "You seem like you don't have any worries.",
+        "MT.Inn.2": "This old phone looks like it used to be a public phone for this town in the past.",
+        "MT.Inn.3": "Day Menu^^Daily Special------------------------------------ 500g^^Salad--------------------------------------- 300g^^Apple Pie----------------------------------- 300g^^Cheesecake---------------------------------- 250g^^Cookies------------------------------------- 200g",
+        "MT.Inn.4": "It's a globe. Hey, there's Stardew Valley!",
+        "MT.Inn.5": "The radio is set to the Cooking Channel.",
+        "MT.Inn.6": "\"My Best Recipes\" Cookbook by Gus",
+        "MT.Inn.7": "It's loaded with lots of ingredients.",
+        "MT.Inn.8": "How to raise a Tomboy Daughter",
+        "MT.Inn.9": "It's rude to interrupt someone who's having dinner.",
+        "MT.Inn.10": "Renovation for Future Updates",
+        "MT.Inn.11": "Storage Room",
+        "MT.Inn.12": "The door's locked but you can hear a person inside the room. (Maybe come back when someone creates a Custom New NPC?)",
+        "MT.Inn.13": "This door leads to the corridor.",
+
+        //Library
+        "MT.Library.1": "That's when Marlow Chrisford figured out the entire mystery. Inside the UFO, a weird creature was laying down on a horizontal platform.^^Then the hero Shinichi Izumi........................^^^Epilogue^^...Shinichi walked gloomily down the streets of London...^^\"Hey Shinichi. What happened after that?\" \"Hello Marlow. Thanks to you, I managed to sneak into the UFO, but the truth remains a mystery.\"^^\"There's no hurry. We still have lots of time.\"^^...The story of these two has just begun...^^^Written by^Mary",
+        "MT.Library.2": "\"Creatures of the Mountain - 1 - Mountain Animals\"^^Many animals live in the mountain near my village. Rabbits and squirrels and even foxes live there.^^People say that monkeys sometimes share the hot spring with the people of the village.^^^\"Creatures of the Mountain - 2 - Mountain Insects\"^^Many kinds of insects live in the mountain near my village. Cicadas, crickets, grasshoppers, ladybugs, bees, and even rare insects like the Atlas beetle and the Stag beetle can be found there.^^^\"Creatures of the Mountain - 3 - Problems for the Villagers\"^^Like I wrote before, many different animals live in the mountain near my village. There are animals like foxes, but nothing dangerous like bears or wild bear.^^However, wild dogs live on the mountain and these sometimes come down and attack livestock, which is a problem for the farmers.^^^^Written by^Basil",
+        "MT.Library.3": "\"The 7 Brothers That Live in the Forest - 1\"^^A long time ago, there were 7 little brothers who lived all apart from each other. The brothers were not very friendly with the villagers because they were small and the villagers seemed big and scary.^^Each brother had a different favourite color and liked a different favourite thing, so they figured they would always live apart.^^^\"The 7 Brothers That Live in the Forest - 2\"^^One day Chef, whose favourite color is red and who likes to cook, realized he had a problem. \"I love to cook, but there's nobody to eat my delicious food...\"^^Hoggy, whose favourite color is yellow and who loves to sleep, also had a problem. \"I love to sleep so much I don't want to get up and cook, but then I just get hungrier and hungrier.\"^^^\"The 7 Brothers That Live in the Forest - 3\"^^You can hear the sound, Hoo Hooooo, at night. Something sparks in the darkness. \"Ahhhh!\" Shiver-shiver-shiver... Timid likes the color green because it's easy for him to hide in the forest. But even then he's scared.^^You can hear the sound, Hoo Hooooo, at night. Something sparks in the darkness. \"Hai, Yaaaa!\" Crumble-crumble-crumble... Bold loves purple because he can hide in the shadows and use his battle cry \"Hai, Yaaaa!\" to defeat large enemies.^^^\"The 7 Brothers That Live in the Forest - 4\"^^Stylish Aqua loves the color light blue. \"Sigh... I'm running out of provisions fast. I like being stylish, but when I work I don't have the time...\"^^\"Ughhh... That's as much as I can do... Ahh!\" Staid is very serious and a hard worker. He likes the color blue and everything he wears is blue, so he is easy to spot.^^\"Staid,\" said Aqua, \" let's live together. It's got to be better than living alone.\"^^\"Aqua,\" said Staid, \" what brings you here, and with a story like that?\"^^\"Well you see,\" said Aqua, \"whisper...whisper...shisper...\"^^^\"The 7 Brothers That Live in the Forest - 5\"^^\"Ha ha ha, so that's it,\" said Staid. \" Sure, let's live together. But what's the point of everything being clean if you're still hungry?\"^^\"Even when your stomach is full, your heart remains hungry if things are not clean,\" replied Aqua.^^\"OK, so you do the chores like the cleaning and laundry.\"^^\"So, all I have to do is eat?\", asked Hoggy. \"Yes, all you have to do is eat. I enjoy watching you eat my food and being told it is delicious,\" replied Chef. \"I don't understand, but that's fine by me.\"^^\"Ha ha ha, what a mess you are,\" laughed Bold. \"Oh, it's you Bold,\" squeaked Timid.^^\"Who did you think I was?\" \"I don't know, but I'm scared of everything in the forest.\"^^\"Well then, you should stay with me. I'm not afraid of anything.\" \"OK, if that's what we do...\"^^\"If we're going to live together...\" \"We'll need a bigger house...\" \"Let's leave the forest for a bit...\"^^^\"The 7 Brothers That Live in the Forest - 6\"^^So Chef & Hoggy, Staid & Aqua, and Timid & Bold all decided to leave the forest for a while. The first one to find the house was Staid.^^\"Hey I found a house that's just right for us.\" \"Yes, it's a lot smaller than a human house, but it's just the right size for us.\"^^\"But there's a light on inside.\" \"Let's go in.\" \"Hey, wait... Aqua\"^^...CRASH!! \"Oh...\"^^^\"The 7 Brothers That Live in the Forest - 7\"^^\"Hello brother, long time no see.\" There in the house was the youngest brother, Nappy.^^\"Oh, it's you Nappy. You surprised me. How did you get this house?\" \"The people of the village built it for me.\"^^\"What?\" \"I always thought there'd be a time when we would all live together, so I had them make 7 beds.\"^^\"What made you think that?\" \"Because look, all of you are here.\"^^\"What?\" When Staid and Aqua turned around, they saw the rest of their brothers walking toward the house.^^^^Written by^Anonymous",
+        "MT.Library.4": "\"Mountain Harvest - Seasons\"^^In the Spring, you can gather bamboo shoots in the bamboo forest near the hot springs on the mountain.^^Like the hot spring, the bamboo forest is public property so anyone can harvest there.^^^^Written by^Basil",
+        "MT.Library.5": "\"Village Festivals - 1 - The Local Horse Race\"^^This village holds a local horse race on 18th day of Spring where horses from the farms of a number of villages come together for a race.^^The farmers normally use their horses for farm work, but as the race day nears they spend time training their horses for the race.^^Once I asked a nearby farmer if there was anything special one could do to win...^\"I don't do anything special, just brush my horse and talk to it everyday.\"^\"Actually, it is better practice for the horse to get on him and run, but... my leg.\"^^That was his answer.^^^^^\"Village Festivals - 2 - Opening Day\"^^This village holds an opening day ocean festival on the 1st day of Summer.^^In this festival, young men participate in a swim race. There appear to be no particular rules, but the \"thrash\" seems to be the most popular swim style.^^Swimming in the ocean is hard work, so the men are all very serious. This ocean race is quite difficult, and you must take many small breaths or you will tire and have difficulty reaching the finishing line.^^My friend the swimmer says: \"It is better to take short small breaths when long-distance swimming.\" But for us amateurs, it is hard to keep pace even over short distances.^^It is better not to wait until you can't hold your breath any longer. It is not good for your body to hold your breath for so long.^^^\"Village Festivals - 3 - The Chicken Festival\"^^This village holds a Chicken Festival on the 7th day of Summer and many people from nearby villages come to participate in the chicken sumo.^^The fights take place in a circle, with two chickens trying to intimidate each other out of the ring.^^I talked with the host of the chicken sumo, himself a poultry farmer...^\"People don't train special birds for the contest, but they do tend to select the chicken they feel most strongly about.\"^^\"Such chickens want to do their best and impress their owner, so they'll try their hardest. Some don't even need any urging.\"^^\"But if the owner is not paying enough attention, their chicken might flee out of the ring at the first fright.\" \"...I guess it all comes down to the relationship between man and hen (laugh)\"^^This is what the referee said. The thing that motivates the chicken most is probably the \"Love\" it has received from its owner.^^^\"Village Festivals - 4 - The Tomato Festival\"^^This village holds a Tomato Festival on the 12th day of Summer to celebrate the tomato harvest.^^What the villagers do is have a big food fight with the tomatoes. Most of the villagers participate in this festival, forming teams of 3 people each. It is a festival enjoyed by people of all ages.^^The men can throw faster than the women and children, but in the end it all comes down to how well you can dodge the tomatoes.^^^^\"Village Festivals - 5 - The Dog Race\"^^This village holds a Dog Race on the 10th day of Winter.^^In this race, the owners run as fast as they can and try to get their dogs to follow them to reach the goal first.^^The sight of the dog owners trying so hard to get their dogs to follow them sparks much laughter from the crowd. The interesting part of this race is that it clearly reveals the relationship between dog and owner.^^Dogs that are trained try very hard to keep up with their owners so they can stay close. If a dog has not been trained properly, when it tires and can't keep up it will wander away and forget about the race.^^I asked the host of the dog race whether he had any hints for winning...^\"It's simple. The owner just has to run at the pace of the dog.\"^^That was his answer. I guess that's all there is to it.^^^^Written by^Basil",
+        "MT.Library.6": "\"Flowers - 1 - Mountain Flowers\"^^The mountain I always hike has many different kinds of flowers blooming, depending on the season.^^The most common flower in this village is the Moon Drop. In the spring, some places are completely covered in these yellow flowers.^^In the fall, a flower called the Magic Red blooms. The flowers are normally blue, but sometimes the blossoms are red. The villagers here use the flower for medicine.^^Why these plants sometimes bloom red flowers is a mystery.^^^\"Flowers - 2 - The Flower of Happiness\"^^In the winter, when the mountain is covered in snow, some people claim to have seen a white flower blooming. The villagers call this the \"Flower of Happiness\", saying those who view it are blessed with happiness.^^Other countries have similar stories, and because they are all snowy countries, it is thought to be the same flower.^^^Written by^Basil",
+        "MT.Library.7": "\"All About Fish - 1 - Cultivation\"^^More and more people are using fish ponds to raise fish. If you raise them successfully, they will spawn and multiply.^^^^Written by^Anonymous",
+        "MT.Library.8": "\"Hiking the Mountain - 1\"^^I go mountain hiking once a week with my family to look for plants. There is a hot spring in the mountain that the villagers are free to use.^Last time I went there I was surprised to find eggs in the hot spring, but a farmer and a little girl told me this was a good way to boil eggs.^^Written by^Basil",
+        "MT.Library.9": "\"The Mine Only Accessible In Winter - 1\"^^In the village where I live there are two mines. One is the mine near the hot spring that I wrote about in another book.^^The other is a mine you can only get to in the winter.^^I only know what I heard from the blacksmith, but it seems you can find metal ores in this mine too, so I assume it is somewhere in the mountains of the village.^(Update: The mine was completely destroyed during the \"Large Earthquake\". By the time I got there it was gone. A big crack in the lake is where that mine rest.)^^^^Written by^Basil",
+        "MT.Library.10": "\"The Mine Near The Spring -1\"^^There is a mine in the village where I live, near the hot spring. It is said that you can find metal ores there to make tools with.^^Alexandrite stone is the hardest to find. You need to dig deeper.^^Written by^Basil",
+        "MT.Library.11": "Veggies, Fruits and Desserts",
+        "MT.Library.12": "Basil and Mary's Bookshelf",
+        "MT.Library.13": "Mary's writing her new novel series. Better not to peek .",
+
+        //Ellen's House
+        "MT.EllenHouse.1": "Milk, Strawberry, Apple, Cheese, Cake and Cookies",
+        "MT.EllenHouse.2": "The radio is set to the Oldies Station.",
+        "MT.EllenHouse.3": "You peek into Elli's dresser and are surprised by the Stu's bug.",
+        "MT.EllenHouse.4": "Stu's toy box. His toys and a slingshot can be seen inside.",
+        "MT.EllenHouse.5": "It seems like Elli is trying to search for something.",
+        "MT.EllenHouse.6": "Many books on medical treatments and first aids.",
+        "MT.EllenHouse.7": "There's a small burner on the cabinet.",
+        "MT.EllenHouse.8": "The door's locked.",
+
+        //Supermarket
+        "MT.market.1": "Jeff's Statistics Book",
+        "MT.market.2": "Who painted these paintings?",
+        "MT.market.3": "The scenery from this painting must be a waterfall near hot spring...",
+        "MT.market.4": "How To Cook - Newbie's Guide",
+        "MT.market.5": "Sasha's Perfumes and cosmetics...",
+        "MT.market.6": "The radio is set to the News.",
+        "MT.market.7": "This refrigerator is filled with meats and veggies.",
+        "MT.market.8": "How To Run A Local Store",
+
+        //Mayor's House
+        "MT.Mayor.1": "The cell's locked.",
+        "MT.Mayor.2": "\"Harris' Patrol Diary\"^...the town is always safe...",
+        "MT.Mayor.3": "Mayor Thomas use this silverware when his guests come to visit him.",
+        "MT.Mayor.4": "This drawer is filled with lots of paperwork.",
+        "MT.Mayor.5": "Energy Tonic, Muscle Remedy, Sandwiches, Wine and Apple Pie",
+        "MT.Mayor.6": "The radio is set to the News.",
+
+        //Blacksmith
+        "MT.Blacksmith.1": "Ouch!.........Got burned...",
+        "MT.Blacksmith.2": "Corn, Cheese, Eggs, and Milk",
+        "MT.Blacksmith.3": "Sir Saibara's handmade Goods are displayed here.",
+        "MT.Blacksmith.4": "Guides to become a Blacksmith",
+
+        //Aja Winery
+        "MT.AjaWinery.1": "One bottle of wine has a different label. It reads \"Aja.\"",
+        "MT.AjaWinery.2": "Kopo-kopo-kopo-kopo...#The sound of wine being made...",
+        "MT.AjaWinery.3": "There's a wine hidden under the shelf.",
+        "MT.AjaWinery.4": "Making A Better Wine - Complete Edition",
+        "MT.AjaWinery.5": "Madam Manna seems to be preparing her daughter's room every day to be ready when Aja changes her mind and comes back.",
+        "MT.AjaWinery.6": "Honey, Mayonnaise, Milk, Bread and Cheese...",
+        "MT.AjaWinery.7": "The radio is set to Ladies Channel.",
+
+        //Church
+        "MT.Church.1": "Sign - \"Confessional Box\"",
+        "MT.Church.2": "The door's locked.",
+        "MT.Church.3": "You pressed a key and heard a loud noise from the piano.",
+        "MT.Church.4": "Carter will give you a blessing from Harvest Goddess.",
+
+        //SpriteHut
+        "MT.SpriteHut.1": "It's the sprite's storage room and you have no reason to go up.",
+
+        //PoultryHouse
+        "MT.Poultry.1": "Just a broken radio.",
+        "MT.Poultry.2": "A lot of medicines for Madam Lillia can be seen in the refrigerator.",
+        "MT.Poultry.3": "How To Raise a Chicken...",
+
+        //Yodel Ranch
+        "MT.Yodel.1": "There, there... how you doing little Hana?",
+        "MT.Yodel.2": "Perfumes and cosmetics...",
+        "MT.Yodel.3": "This book is about how to raise livestock...^It talks about how to milk cows.#Must be from back when they didn't use milking machines...",
+        "MT.Yodel.4": "Puzzles and picture books...^These are May's things...",
+        "MT.Yodel.5": "Eggs, Miso, Honey, Cheese, Cookies and Ice cream",
+
+        //Lumber
+        "MT.Lumber.1": "Gotz's works are always brilliant.",
+        "MT.Lumber.2": "Louis's Bookshelf. It's filled with bees and insects collection.",
+        "MT.Lumber.3": "Canned soup, eggs, booze...^Just the basics...",
+
+        //Snack Shack
+        "MT.SnS.1": "You found Corns, Spaghetti Noodles, Freezed Pizzas, a Pineapple and a Sponge in Kai's refrigerator.",
+        "MT.SnS.2": "Hmm... Smells good...",
+        "MT.SnS.3": "Snow Cone and Ice Cream Freezer",
+        "MT.SnS.4": "The News Station is broadcasting the Breaking News from all around the World.",
+
+        //Zack's House
+        "MT.ZackHouse.1": "Box of Oranges",
+        "MT.ZackHouse.2": "Who is this photo of...?",
+        "MT.ZackHouse.3": "A bunch of fruits and veggies... with a dozen of Energy Tonic...",
+        "MT.ZackHouse.4": "Hey, there is a pizza in the microwave.",
+        "MT.ZackHouse.5": "Check lists of Deliveries Zack has sent and need to send...",
+        "MT.ZackHouse.6": "Won's Laptop",
+
+        //Mine
+        "MT.Mine": "It's no good. The Mine Entrance is blocked due to an earthquake."
+      }
+    },
+
+    /*********
+	  ** Music Enabled
+	  *********/
+
+    //Seasonal
+    {
+      "LogName": "Spring Music 1",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralTownEntrance,Maps/Custom_HM_WoodCutter,Maps/Custom_HM_GoddessHill,Maps/Custom_HM_MountainLake,Maps/Custom_HM_MountainSummit,Maps/Custom_HM_Highway,Maps/Custom_HM_HighwayEntrance,Maps/Custom_HM_UndergroundTunnel,Maps/Custom_HM_FlowerHill",
+      "MapProperties": {
+        "Music": "spring1"
+      },
+      "When": {
+        "Weather": "Sun",
+        "Season": "spring",
+        "Time": "{{Range: 0600, 1230}}"
+      },
+      "Update": "OnLocationChange"
+    },
+    {
+      "LogName": "Summer Music 1",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralTownEntrance,Maps/Custom_HM_WoodCutter,Maps/Custom_HM_GoddessHill,Maps/Custom_HM_MountainLake,Maps/Custom_HM_MountainSummit,Maps/Custom_HM_Highway,Maps/Custom_HM_HighwayEntrance,Maps/Custom_HM_UndergroundTunnel,Maps/Custom_HM_FlowerHill",
+      "MapProperties": {
+        "Music": "summer1"
+      },
+      "When": {
+        "Weather": "Sun",
+        "Season": "summer",
+        "Time": "{{Range: 0600, 1230}}"
+      },
+      "Update": "OnLocationChange"
+    },
+    {
+      "LogName": "Fall Music 1",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralTownEntrance,Maps/Custom_HM_WoodCutter,Maps/Custom_HM_GoddessHill,Maps/Custom_HM_MountainLake,Maps/Custom_HM_MountainSummit,Maps/Custom_HM_Highway,Maps/Custom_HM_HighwayEntrance,Maps/Custom_HM_UndergroundTunnel,Maps/Custom_HM_FlowerHill",
+      "MapProperties": {
+        "Music": "fall1"
+      },
+      "When": {
+        "Weather": "Sun",
+        "Season": "fall",
+        "Time": "{{Range: 0600, 1230}}"
+      },
+      "Update": "OnLocationChange"
+    },
+    {
+      "LogName": "Winter Music 1",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralTownEntrance,Maps/Custom_HM_WoodCutter,Maps/Custom_HM_GoddessHill,Maps/Custom_HM_MountainLake,Maps/Custom_HM_MountainSummit,Maps/Custom_HM_Highway,Maps/Custom_HM_HighwayEntrance,Maps/Custom_HM_UndergroundTunnel,Maps/Custom_HM_FlowerHill",
+      "MapProperties": {
+        "Music": "winter1"
+      },
+      "When": {
+        "Weather": "Sun",
+        "Season": "winter",
+        "Time": "{{Range: 0600, 1230}}"
+      },
+      "Update": "OnLocationChange"
+    },
+
+
+
+    {
+      "LogName": "Spring Music 2",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralTownEntrance,Maps/Custom_HM_WoodCutter,Maps/Custom_HM_GoddessHill,Maps/Custom_HM_MountainLake,Maps/Custom_HM_MountainSummit,Maps/Custom_HM_Highway,Maps/Custom_HM_HighwayEntrance,Maps/Custom_HM_UndergroundTunnel,Maps/Custom_HM_FlowerHill",
+      "MapProperties": {
+        "Music": "spring2"
+      },
+      "When": {
+        "Weather": "Sun",
+        "Season": "spring",
+        "Time": "{{Range: 1230, 1900}}"
+      },
+      "Update": "OnLocationChange"
+    },
+    {
+      "LogName": "Summer Music 2",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralTownEntrance,Maps/Custom_HM_WoodCutter,Maps/Custom_HM_GoddessHill,Maps/Custom_HM_MountainLake,Maps/Custom_HM_MountainSummit,Maps/Custom_HM_Highway,Maps/Custom_HM_HighwayEntrance,Maps/Custom_HM_UndergroundTunnel,Maps/Custom_HM_FlowerHill",
+      "MapProperties": {
+        "Music": "summer2"
+      },
+      "When": {
+        "Weather": "Sun",
+        "Season": "summer",
+        "Time": "{{Range: 1230, 1900}}"
+      },
+      "Update": "OnLocationChange"
+    },
+    {
+      "LogName": "Fall Music 2",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralTownEntrance,Maps/Custom_HM_WoodCutter,Maps/Custom_HM_GoddessHill,Maps/Custom_HM_MountainLake,Maps/Custom_HM_MountainSummit,Maps/Custom_HM_Highway,Maps/Custom_HM_HighwayEntrance,Maps/Custom_HM_UndergroundTunnel,Maps/Custom_HM_FlowerHill",
+      "MapProperties": {
+        "Music": "fall2"
+      },
+      "When": {
+        "Weather": "Sun",
+        "Season": "fall",
+        "Time": "{{Range: 1230, 1900}}"
+      },
+      "Update": "OnLocationChange"
+    },
+    {
+      "LogName": "Winter Music 2",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralTownEntrance,Maps/Custom_HM_WoodCutter,Maps/Custom_HM_GoddessHill,Maps/Custom_HM_MountainLake,Maps/Custom_HM_MountainSummit,Maps/Custom_HM_Highway,Maps/Custom_HM_HighwayEntrance,Maps/Custom_HM_UndergroundTunnel,Maps/Custom_HM_FlowerHill",
+      "MapProperties": {
+        "Music": "winter2"
+      },
+      "When": {
+        "Weather": "Sun",
+        "Season": "winter",
+        "Time": "{{Range: 1230, 1900}}"
+      },
+      "Update": "OnLocationChange"
+    },
+
+
+
+    //Town
+    {
+      "LogName": "Town Music",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralTown",
+      "MapProperties": {
+        "Music": "distantBanjo"
+      },
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 0600, 1900}}"
+      },
+      "Update": "OnLocationChange"
+    },
+
+    //Beach
+    {
+      "LogName": "Beach Music",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralBeach,Maps/Custom_HM_OceanSummit,Maps/Custom_HM_MineralTidePool",
+      "MapProperties": {
+        "Music": "ocean"
+      },
+      "When": {
+        "Weather": "Sun"
+      },
+      "Update": "OnLocationChange"
+    },
+
+    //Mine
+    {
+      "LogName": "Mine Music",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MountainMine",
+      "MapProperties": {
+        "Music": "Upper_Ambient"
+      },
+      "Update": "OnLocationChange"
+    },
+
+    //Whisp Song Forest
+    {
+      "LogName": "Forest Music",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MountainForest",
+      "MapProperties": {
+        "Music": "woodsTheme"
+      },
+      "When": {
+        "Weather": "Sun"
+      },
+      "Update": "OnLocationChange"
+    },
+
+    //Guild
+    {
+      "LogName": "Guild Music",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralGuild",
+      "MapProperties": {
+        "Music": "MarlonsTheme"
+      },
+      "Update": "OnLocationChange"
+    },
+
+    //Rainy days
+    {
+      "LogName": "Music No Sun",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralTown,Maps/Custom_HM_MineralTownEntrance,Maps/Custom_HM_WoodCutter,Maps/Custom_HM_GoddessHill,Maps/Custom_HM_MountainLake,Maps/Custom_HM_MountainSummit,Maps/Custom_HM_Highway,Maps/Custom_HM_MountainForest,Maps/Custom_HM_HighwayEntrance,Maps/Custom_HM_UndergroundTunnel,Maps/Custom_HM_FlowerHill",
+      "MapProperties": {
+        "Music": null
+      },
+      "When": {
+        "Weather: |contains=Sun": false
+      },
+      "Update": "OnLocationChange"
+    },
+    //At Night
+    {
+      "LogName": "Music Night",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralTown,Maps/Custom_HM_MineralTownEntrance,Maps/Custom_HM_WoodCutter,Maps/Custom_HM_GoddessHill,Maps/Custom_HM_MountainLake,Maps/Custom_HM_MountainSummit,Maps/Custom_HM_Highway,Maps/Custom_HM_HighwayEntrance,Maps/Custom_HM_UndergroundTunnel,Maps/Custom_HM_FlowerHill",
+      "MapProperties": {
+        "Music": "nightTime"
+      },
+      "When": {
+        "Time": "{{Range: 1900, 2600}}"
+      },
+      "Update": "OnLocationChange, OnTimeChange"
+    },
+    //At Night when rainy days
+    {
+      "LogName": "No Music Night",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralTown,Maps/Custom_HM_MineralTownEntrance,Maps/Custom_HM_WoodCutter,Maps/Custom_HM_GoddessHill,Maps/Custom_HM_MountainLake,Maps/Custom_HM_MountainSummit,Maps/Custom_HM_Highway,Maps/Custom_HM_MountainForest,Maps/Custom_HM_HighwayEntrance,Maps/Custom_HM_UndergroundTunnel,Maps/Custom_HM_FlowerHill",
+      "MapProperties": {
+        "Music": null
+      },
+      "When": {
+        "Weather: |contains=Sun": false,
+        "Time": "{{Range: 1900, 2600}}"
+      },
+      "Update": "OnLocationChange, OnTimeChange"
+    },
+
+
+
+    //Includes Tilesheets
+    /*
+		Loads tilesheets
+	  */
+    {
+      "LogName": "Include Tilesheets",
+      "Action": "Include",
+      "FromFile": "Data/Tilesheets.json"
+    },
+
+
+
+    //Add Warp Network
+    {
+      "Action": "EditData",
+      "Target": "Data/WarpNetwork/Destinations",
+      "Entries": {
+        "MineralTown": {
+          "location": "Custom_HM_MineralTown",
+          "x": 97,
+          "y": 56,
+          "enabled": true,
+          "label": "Mineral Town",
+          "icon": "MineralTown"
+        }
+      }
+    },
+
+    // Customises the warp objects
+    {
+      "Action": "EditData",
+      "Target": "Data/WarpNetwork/WarpItems",
+      "Entries": {
+        "{{spacechase0.JsonAssets/ObjectId:Warp Totem: Mineral Town}}": {
+          "destination": "MineralTown",
+          "ignoredisabled": true,
+          "consume": true,
+          "Color": "4485df"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/WarpNetwork/WarpItems",
+      "Entries": {
+        "{{spacechase0.JsonAssets/ObjectId:Warp Totem: Mineral Town}}": {
+          "destination": "MineralTown",
+          "ignoredisabled": true,
+          "consume": false,
+          "Color": "4485df"
+        }
+      },
+      "When": { "LocationName: |contains=farm, farmhouse": true },
+      "Update": "OnLocationChange"
+    },
+
+    // Adds the warp icons for the new locations to the Warp Network mod - Nexus 8567 - tlitookilakin.warpnetwork
+    {
+      "Action": "Load",
+      "Target": "Data/WarpNetwork/Icons/MineralTown",
+      "FromFile": "LooseSprites/Icons/MineralTown.png"
+    },
+
+
+    //SpouseRooms
+    //Load SpouseRooms
+    {
+      "Action": "EditData",
+      "Target": "Data/SpouseRooms",
+      "Entries": {
+        "Karen": "MTSpouseRooms/0",
+        "Ann": "MTSpouseRooms/1",
+        "Popuri": "MTSpouseRooms/2",
+        "Elli": "MTSpouseRooms/3",
+        "Mary": "MTSpouseRooms/4",
+        "Gray": "MTSpouseRooms/5",
+        "Doctor": "MTSpouseRooms/6",
+        "Cliff": "MTSpouseRooms/7",
+        "Kai": "MTSpouseRooms/8",
+        "Rick": "MTSpouseRooms/9"
+      }
+    },
+
+    // Load SpouseRoom Map
+    {
+      "Action": "Load",
+      "Target": "Maps/MTSpouseRooms",
+      "FromFile": "SpouseRooms/{{TargetWithoutPath}}.tmx"
+    },
+
+    // Load Spouse Patios
+    {
+      "Action": "Load",
+      "Target": "Maps/MTSpousePatios",
+      "FromFile": "SpouseRooms/{{TargetWithoutPath}}.tmx"
+    },
+
+    //Register patios
+    {
+      "Action": "EditData",
+      "Target": "Data/SpousePatios",
+      "Entries": {
+        "Karen": "MTSpousePatios/0/1 1 1 1 1/0 0",
+        "Ann": "MTSpousePatios/1/1 1 1 1 1/0 0",
+        "Popuri": "MTSpousePatios/2/1 1 1 1 1/0 0",
+        "Elli": "MTSpousePatios/3/1 1 1 1 1/0 0",
+        "Mary": "MTSpousePatios/4/1 1 1 1 1/0 0",
+        "Gray": "MTSpousePatios/5/1 1 1 1 1/0 0",
+        "Doctor": "MTSpousePatios/6/1 1 1 1 1/0 0",
+        "Cliff": "MTSpousePatios/7/1 1 1 1 1/0 0",
+        "Kai": "MTSpousePatios/8/1 1 1 1 1/0 0",
+        "Rick": "MTSpousePatios/9/1 1 1 1 1/0 0"
+      }
+    }
+
+    /*
+    //Chairs - not working as intended
+    {
+      "Action": "EditData",
+      "Target": "Data/ChairTiles",
+      "Entries": {
+        //Format: "tilesheet/x index/y index": "width/height/type/x offset/y offset/bool (can pass true?)"
+        //types: bench, stool, chair, picnic, swings, playground, booth, couch, (maybe just a name?)
+
+        //x offset & y offset:
+        //2/6 means for bench from summit
+        //-1/-1 means for chair
+        //-1/1 means for chair
+        //0/0 means for chair
+        //0/1 means for wooden bench side
+
+        "spring_lunartown/27/16": "2/1/playground/-1/-1/false",
+        "spring_lunartown/24/21": "1/2/swings/-1/-1/false",
+        "spring_lunartown/26/21": "1/2/swings/-1/-1/false"
+      }
+    }
+    */
+  ]
+}

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="24" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="3">
+ <properties>
+  <property name="AmbientLight" value="255 255 255"/>
+ </properties>
+ <tileset firstgid="1" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="37" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+  <tile id="1885">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="1887">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="1945">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="1946">
+   <properties>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="2046">
+   <animation>
+    <frame tileid="2046" duration="250"/>
+    <frame tileid="2046" duration="250"/>
+    <frame tileid="2046" duration="250"/>
+    <frame tileid="2046" duration="250"/>
+    <frame tileid="2009" duration="250"/>
+    <frame tileid="2009" duration="250"/>
+    <frame tileid="2009" duration="250"/>
+    <frame tileid="2009" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="2047">
+   <animation>
+    <frame tileid="2047" duration="250"/>
+    <frame tileid="2047" duration="250"/>
+    <frame tileid="2047" duration="250"/>
+    <frame tileid="1977" duration="250"/>
+    <frame tileid="1977" duration="250"/>
+    <frame tileid="1977" duration="250"/>
+    <frame tileid="1977" duration="250"/>
+    <frame tileid="2047" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="2075">
+   <properties>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="2076">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="2078">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="2079">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="2106">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="2107">
+   <properties>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="2108">
+   <properties>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="2109">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2213" name="Craftables" tilewidth="16" tileheight="16" tilecount="480" columns="8">
+  <image source="zMineralTownCraftables.png" width="128" height="960"/>
+ </tileset>
+ <tileset firstgid="2693" name="zextraobjects" tilewidth="16" tileheight="16" tilecount="72" columns="8">
+  <image source="zextraobjects.png" width="128" height="144"/>
+ </tileset>
+ <layer id="1" name="Back" width="20" height="24">
+  <data encoding="base64" compression="zlib">
+   eJxTZWBgUKUyphYYNY8+5ilwQDCx5rWwE8ZJHITVwMwDqaUU70MzD8R3BtJN7KRhZzzmxQNpBxKwIwdEDz7z9gPpBCQaHSOLJxJhHjYzqGEeujuRaRibXPfhCgNSzYO5BZvbKPEvNdyHK36R5YgxD5855JhHyCxS/AvKOy4kYnz5jZhyBlfZg24eNcsXYjBIDzHqAArVl6s=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="20" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzVlEsOgjAQhgcfafESiq+tHsDExMSb6MK97ryF3kC9gJ7BnVt0qaj30GmgdiS0FGHjn/yZUma+zKRQAIAuupfTfQg1juKNAQQsOVLrciBiTiMecACHJ0dqbQ5qRngN3PN4cqTW5VDe1TBHYDGriHemeC+mn8OxmFXEEle8umEOj8NHppwm4Q1x/cAen+gNessUY4LvWug24QoNSgDLqqobER6t/1V+RfHOTj7WHPtcVL+/F6lDLbTtugjePoUnn011pv6k0ni288Z5Wef9x/6W5DzWbj6eYMV5kqk7U91+Gq+o/vKK8nzy/67c0Fkl7gDBO6Ivjrp3dmXFtOHKOnFHnaK9TorlNzUz5Ei9AfMTmpI=
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings"/>
+ <layer id="5" name="Front" width="20" height="24">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAO0EBi32en3LxHQDM8oez/VDCPiQPBlufArY5YoIRkhj0VzHOighn4wGFgGB4B4mYsYckMtJsFzX4ZJgaGGFaEvqks1HXPViqaFwJ0ZygrdrnVXBBMLJsa5q0iYB4yH5c+fO7D539y/IsPUMO8wei+GKT46OGkzDyQWejmwczEFae4xAmZRy33UQpicOSPbk4IphTAyp02ZoSZxJgL04cMjgHxKTz4OFTdCTxqTlPuJawAAGxhYQw=
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+</map>
