@@ -51,9 +51,9 @@
                 "Fri6": "Does the inn seem busier to you? Maybe it's just that people seem to be getting more lively.$hMaybe it's because of you @.$l",
                 "Sat6": "Cliff's started helping out a lot more. Not with customers, but he helps pick up my slack with overnight stocking on the weekends!",
                 "Sun6": "Whew. Another long weekend. I sure am beat @!",
-		//LOCATION DIALOGUE
-	    "Resort": "Wow, the sunshine out here is amazing! Maybe my dad was right about taking time off now and then!$h",
-        "Custom_HM_Inn": "Welcome to the Moonlight Inn @! Can I get you something?#$b#Or did you just come to see me?$h",
+		        //LOCATION DIALOGUE
+	            "Resort": "Wow, the sunshine out here is amazing! Maybe my dad was right about taking time off now and then!$h",
+                "Custom_HM_Inn": "Welcome to the Moonlight Inn @! Can I get you something?#$b#Or did you just come to see me?$h",
             },
         },
     ],

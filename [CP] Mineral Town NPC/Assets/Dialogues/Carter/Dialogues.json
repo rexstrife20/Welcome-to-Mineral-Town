@@ -63,8 +63,8 @@
                 "Fri10": "We've started a fund to help Linus find more permanent residence.#$b#Nobody should have to experience need as he does on a daily basis.#$b#Come to think of it, there's a man in Forget-Me-Not Valley in much of the same predicament.",
                 "Sat10": "If there's one thing I truly want, it's for the people of Mineral Town to be well and live prosperous lives.#$b#I'm beginning to think that your arrival might be a part of the answers to my prayers.$h",
                 "Sun10": "Greetings, @. Say, what would you think about guest speaking at congregation one of these days?#$b#You seem to have a fountain of experience that would be invaluable to share with others.",
-		//LOCATION DIALOGUE
-		"Resort": "This resort is invigorating for both the body and the soul.#$b#I cannot recommend it enough.$h",
+		        //LOCATION DIALOGUE
+		        "Resort": "This resort is invigorating for both the body and the soul.#$b#I cannot recommend it enough.$h",
             },
         },
     ],

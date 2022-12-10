@@ -63,8 +63,8 @@
         "Fri10": "I never met Mei's father, but seeing as she doesn't resemble her mother much she must take after him.#$b#I wonder if he even knows that she exists.$s",
         "Sat10": "Cut a rug out there tonight @! If you don't, this old man will have to step in and show you a move or two!$h#$e#I've still got moves for days so you'd better watch your back!$h",
         "Sun10": "I feel better today than I have in quite some time farmer. Now step aside before I accidently run you over!$h",
-	//LOCATION DIALOGUE
-	"Resort": "Ohoho! This sunshine is more energizing than even the hot springs back home!$h",
+	      //LOCATION DIALOGUE
+	      "Resort": "Ohoho! This sunshine is more energizing than even the hot springs back home!$h",
       },
     },
   ],

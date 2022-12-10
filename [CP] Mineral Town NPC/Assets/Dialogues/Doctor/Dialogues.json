@@ -49,8 +49,8 @@
                 "Thu6": "I wonder if I could get grants for my clinic. Being able to afford to cover Elli's school expenses would be of great benefit to this town.",
                 "Sat6": "I sometimes run into Basil on Goddess Hill. He's a very kind person who goes out of his way to teach me about medicinal herbs.$h",
                 "Sun6": "Don't forget to take care of yourself first, @.#$b#Sometimes I worry, with you working %farm by yourself and all.",
-		//LOCATION DIALOGUE
-		"Resort": "There's all sorts of rare varieties of medicinal herbs here on the island.#$b#The good we could do with these.....who knows where to begin?",
+		        //LOCATION DIALOGUE
+		        "Resort": "There's all sorts of rare varieties of medicinal herbs here on the island.#$b#The good we could do with these.....who knows where to begin?",
             },
         },
     ],

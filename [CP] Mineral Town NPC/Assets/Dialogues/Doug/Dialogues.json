@@ -64,8 +64,8 @@
                 "Fri10": "Duke can be a real pain in the rear sometimes, but he's also one of my highest paying customers!#$b#He's really not all that bad once you get to know him.#$b#If Ann took off like Aja did…. I'm not sure how I'd feel myself.$s",
                 "Sat10": "I've thought about leaving Mineral Town for a fresh start before, especially after my wife passed.#$b#But, there's just something about this place that always assures me that I'm home where I belong.",
                 "Sun10": "One day, I hope to pass the Moonlight Inn down to my daughter. But, I want her to experience her life the way she wants to.#$b#If it's gonna happen, it'll happen naturally. Don't you agree?",
-		//LOCATION DIALOGUE
-		"Resort": "Ahhh, it's good to relax once in awhile.$h#$b#It's good for you to take a load off once in awhile, @$h",
+		        //LOCATION DIALOGUE
+		        "Resort": "Ahhh, it's good to relax once in awhile.$h#$b#It's good for you to take a load off once in awhile, @$h",
             }
         }
     ]

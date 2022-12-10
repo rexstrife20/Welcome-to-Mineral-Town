@@ -50,8 +50,8 @@
                 "Thu6": "Helping Ann at the inn has at least made me a bit more sociable I guess.#$b#It's nice to feel like you're wanted.",
                 "Sat6": "What are you up to this weekend?#$b#If you come across a sign of adventure, be sure to come take me with okay?",
                 "Sun6": "It's nice to know that I have some sort of support system here in Mineral Town.#$b#As long as I've got you and Ann, I can handle what life throws at me.$h",
-		//LOCATION DIALOGUE
-		"Resort": "I want to go checkout the volcano up north.#$b#What do you think, @? Up for a little adventure?",
+		        //LOCATION DIALOGUE
+		        "Resort": "I want to go checkout the volcano up north.#$b#What do you think, @? Up for a little adventure?",
             }
         }
     ]

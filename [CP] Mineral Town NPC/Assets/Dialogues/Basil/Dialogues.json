@@ -63,8 +63,8 @@
         "Fri10": "Hey @, I may need to interview you for a future project sometime. Whenever you get a moment that is.#$b#I know life must be insanely busy for you!",
         "Sat10": "That Gunther is an interesting man. Although he's more of a rocks kinda guy, I'd still consider him a kindred spirit.",
         "Sun10": "Did you know that a blue feather is a traditional proposal gift in this part of the valley?#$b#The one I wear in my hat is the very same one I proposed to Anna with all those years ago.#$b#It's my most treasured possession.$h",
-	//LOCATION DIALOGUE
-	"Resort": "Am I on vacation?#$b#No, there's just some really unique varieties of flora on this island.#$b#It just so happens that it's ALSO a tropical paradise!$h",
+	      //LOCATION DIALOGUE
+	      "Resort": "Am I on vacation?#$b#No, there's just some really unique varieties of flora on this island.#$b#It just so happens that it's ALSO a tropical paradise!$h",
       },
     },
   ],
