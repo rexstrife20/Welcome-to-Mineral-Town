@@ -30,6 +30,18 @@
             "Target": "Portraits/Sasha, Characters/Sasha",
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
+        {
+            "LogName": "Sasha Beach Wear Portrait",
+            "Action": "Load",
+            "Target": "Portraits/Sasha_Beach",
+            "FromFile": "Assets/Portraits/Sasha/Sasha_Beach.png"
+        },
+        {
+            "LogName": "Sasha Beach Wear Sprite",
+            "Action": "Load",
+            "Target": "Characters/Sasha_Beach",
+            "FromFile": "Assets/Characters/Sasha/Sasha_Beach.png"
+        },
         //------------------------
         // Load blank
         //------------------------
@@ -62,6 +74,17 @@
             "Entries": {
                 "Sasha_sleep": "48/48/48",
             }
-        }
+        },
+        //-------------------------
+        //Custom NPC Exclusions
+        //-------------------------
+        {
+            "LogName":"Exclusions",
+            "Action": "EditData",
+            "Target": "Data/CustomNPCExclusions",
+            "Entries": {
+            "Sasha": "WinterStar"
+            }
+        },
     ]
 }

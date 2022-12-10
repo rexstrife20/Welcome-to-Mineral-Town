@@ -30,6 +30,18 @@
             "Target": "Portraits/Mei, Characters/Mei",
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
+        {
+            "LogName": "Mei Beach Wear Portrait",
+            "Action": "Load",
+            "Target": "Portraits/Mei_Beach",
+            "FromFile": "Assets/Portraits/Mei/Mei_Beach.png"
+        },
+        {
+            "LogName": "Mei Beach Wear Sprite",
+            "Action": "Load",
+            "Target": "Characters/Mei_Beach",
+            "FromFile": "Assets/Characters/Mei/Mei_Beach.png"
+        },
         //------------------------
         // Load blank
         //------------------------
@@ -62,6 +74,17 @@
             "Entries": {
                 "Mei_sleep": "16/16/16",
                 "Mei_rope": "20/20 20 20 21 21 21 22 22 22 23 23 23 20 20 20/20",
+            }
+        },
+        //-------------------------
+        //Custom NPC Exclusions
+        //-------------------------
+        {
+            "LogName":"Exclusions",
+            "Action": "EditData",
+            "Target": "Data/CustomNPCExclusions",
+            "Entries": {
+            "Mei": "WinterStar"
             }
         },
     ]

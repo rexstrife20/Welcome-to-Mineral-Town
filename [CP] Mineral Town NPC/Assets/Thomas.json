@@ -75,5 +75,16 @@
                 "Thomas_sleep": "24/24/24",
             }
         },
+        //-------------------------
+        //Custom NPC Exclusions
+        //-------------------------
+        {
+            "LogName":"Exclusions",
+            "Action": "EditData",
+            "Target": "Data/CustomNPCExclusions",
+            "Entries": {
+            "Thomas": "WinterStar"
+            }
+        },
     ]
 }

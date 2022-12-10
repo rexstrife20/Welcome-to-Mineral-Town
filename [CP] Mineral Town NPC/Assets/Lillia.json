@@ -63,5 +63,16 @@
                 "Lillia_sleep": "48/48/48",
             }
         },
+        //-------------------------
+        //Custom NPC Exclusions
+        //-------------------------
+        {
+            "LogName":"Exclusions",
+            "Action": "EditData",
+            "Target": "Data/CustomNPCExclusions",
+            "Entries": {
+            "Lillia": "WinterStar IslandVisit"
+            }
+        },
     ]
 }

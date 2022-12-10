@@ -30,6 +30,18 @@
             "Target": "Portraits/Zack, Characters/Zack",
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
+        {
+            "LogName": "Zack Beach Wear Portrait",
+            "Action": "Load",
+            "Target": "Portraits/Zack_Beach",
+            "FromFile": "Assets/Portraits/Zack/Zack_Beach.png"
+        },
+        {
+            "LogName": "Zack Beach Wear Sprite",
+            "Action": "Load",
+            "Target": "Characters/Zack_Beach",
+            "FromFile": "Assets/Characters/Zack/Zack_Beach.png"
+        },
         //------------------------
         // Load blank
         //------------------------
@@ -51,6 +63,17 @@
         {
             "Action": "Include",
             "FromFile": "Assets/Schedules/Zack/Schedule.json"
+        },
+        //-------------------------
+        //Custom NPC Exclusions
+        //-------------------------
+        {
+            "LogName":"Exclusions",
+            "Action": "EditData",
+            "Target": "Data/CustomNPCExclusions",
+            "Entries": {
+            "Zack": "WinterStar"
+            }
         },
     ]
 }

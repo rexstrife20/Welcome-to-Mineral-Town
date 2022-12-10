@@ -30,6 +30,18 @@
             "Target": "Portraits/Ellen, Characters/Ellen",
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
+        {
+            "LogName": "Ellen Beach Wear Portrait",
+            "Action": "Load",
+            "Target": "Portraits/Ellen_Beach",
+            "FromFile": "Assets/Portraits/Ellen/Ellen_Beach.png"
+        },
+        {
+            "LogName": "Ellen Beach Wear Sprite",
+            "Action": "Load",
+            "Target": "Characters/Ellen_Beach",
+            "FromFile": "Assets/Characters/Ellen/Ellen_Beach.png"
+        },
         //------------------------
         // Load blank
         //------------------------
@@ -61,6 +73,17 @@
             "Target": "Data/animationDescriptions",
             "Entries": {
                 "Ellen_chairsleep": "16/16 16 16 17 17 17 18 18 18 19 19 19 16 16 16/16",
+            }
+        },
+        //-------------------------
+        //Custom NPC Exclusions
+        //-------------------------
+        {
+            "LogName":"Exclusions",
+            "Action": "EditData",
+            "Target": "Data/CustomNPCExclusions",
+            "Entries": {
+            "Ellen": "WinterStar"
             }
         },
     ]

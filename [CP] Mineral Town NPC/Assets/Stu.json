@@ -30,6 +30,18 @@
             "Target": "Portraits/Stu, Characters/Stu",
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
+        {
+            "LogName": "Stu Beach Wear Portrait",
+            "Action": "Load",
+            "Target": "Portraits/Stu_Beach",
+            "FromFile": "Assets/Portraits/Stu/Stu_Beach.png"
+        },
+        {
+            "LogName": "Stu Beach Wear Sprite",
+            "Action": "Load",
+            "Target": "Characters/Stu_Beach",
+            "FromFile": "Assets/Characters/Stu/Stu_Beach.png"
+        },
         //------------------------
         // Load blank
         //------------------------
@@ -62,6 +74,17 @@
             "Entries": {
                 "Stu_sleep": "16/16/16",
                 "Stu_play": "18/18 18 19 19 18 18/18",
+            }
+        },
+        //-------------------------
+        //Custom NPC Exclusions
+        //-------------------------
+        {
+            "LogName":"Exclusions",
+            "Action": "EditData",
+            "Target": "Data/CustomNPCExclusions",
+            "Entries": {
+            "Stu": "WinterStar"
             }
         },
     ]
