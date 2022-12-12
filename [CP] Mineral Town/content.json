@@ -151,10 +151,6 @@
       "MigrateLegacyNames": [ "Mineral Hospital" ]
     },
     {
-      "Name": "Custom_HM_HospitalSecondFloor",
-      "FromMapFile": "IndoorMaps/HospitalInterior2ndFloor.tmx"
-    },
-    {
       "Name": "Custom_HM_JeffMarket",
       "FromMapFile": "IndoorMaps/MarketInterior.tmx",
       "MigrateLegacyNames": [ "Jeff Market" ]
