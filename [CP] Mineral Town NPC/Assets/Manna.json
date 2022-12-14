@@ -25,9 +25,9 @@
         // Portraits & Sprite              	
         //------------------------
         {
-            "LogName": "Mannaa Portraits & Sprite",
+            "LogName": "Manna Portraits & Sprite",
             "Action": "Load",
-            "Target": "Portraits/Mannaa, Characters/Mannaa",
+            "Target": "Portraits/Manna, Characters/Manna",
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         {

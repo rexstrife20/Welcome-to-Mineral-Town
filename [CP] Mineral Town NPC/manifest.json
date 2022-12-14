@@ -2,7 +2,7 @@
   "Name": "Mineral Town NPCs",
   "Author": "Mineral Town Architects",
   "Description": "Adds NPC's to the Mineral Town",
-  "Version": "1.0.3",
+  "Version": "1.0.5",
   "UniqueID": "MineralTownProject.MineralTownNPCs",
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher"
