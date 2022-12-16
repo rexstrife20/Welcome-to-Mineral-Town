@@ -31,16 +31,10 @@
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         {
-            "LogName": "Saibara Beach Wear Portrait",
+            "LogName": "Saibara Beach Wear Portrait & Sprite",
             "Action": "Load",
-            "Target": "Portraits/Saibara_Beach",
-            "FromFile": "Assets/Portraits/Saibara/Saibara_Beach.png"
-        },
-        {
-            "LogName": "Saibara Beach Wear Sprite",
-            "Action": "Load",
-            "Target": "Characters/Saibara_Beach",
-            "FromFile": "Assets/Characters/Saibara/Saibara_Beach.png"
+            "Target": "Portraits/Saibara_Beach, Characters/Saibara_Beach",
+            "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         //------------------------
         // Load blank
@@ -74,17 +68,6 @@
             "Entries": {
                 "Saibara_sleep": "16/16 16 16 17 17 17 18 18 18 16 16 16/16",
                 "Saibara_work": "20/20 20 20 21 21 21 20 20 20/20",
-            }
-        },
-        //-------------------------
-        //Custom NPC Exclusions
-        //-------------------------
-        {
-            "LogName":"Exclusions",
-            "Action": "EditData",
-            "Target": "Data/CustomNPCExclusions",
-            "Entries": {
-            "Saibara": "WinterStar"
             }
         },
     ]

@@ -31,16 +31,10 @@
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         {
-            "LogName": "Doug Beach Wear Portrait",
+            "LogName": "Doug Beach Wear Portrait & Sprite",
             "Action": "Load",
-            "Target": "Portraits/Doug_Beach",
-            "FromFile": "Assets/Portraits/Doug/Doug_Beach.png"
-        },
-        {
-            "LogName": "Doug Beach Wear Sprite",
-            "Action": "Load",
-            "Target": "Characters/Doug_Beach",
-            "FromFile": "Assets/Characters/Doug/Doug_Beach.png"
+            "Target": "Portraits/Doug_Beach, Characters/Doug_Beach",
+            "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         //------------------------
         // Load blank
@@ -82,17 +76,6 @@
             "Target": "Strings/animationDescriptions",
             "Entries": {
                 "Doug_work": "Hello @. What would you like order?",
-            }
-        },
-        //-------------------------
-        //Custom NPC Exclusions
-        //-------------------------
-        {
-            "LogName":"Exclusions",
-            "Action": "EditData",
-            "Target": "Data/CustomNPCExclusions",
-            "Entries": {
-            "Doug": "WinterStar"
             }
         },
     ]

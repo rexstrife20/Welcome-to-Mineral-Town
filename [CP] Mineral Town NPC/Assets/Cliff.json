@@ -25,22 +25,16 @@
         // Portraits & Sprite              	
         //------------------------
         {
-            "LogName": "Thomas Portraits & Sprite",
+            "LogName": "Cliff Portraits & Sprite",
             "Action": "Load",
             "Target": "Portraits/Cliff, Characters/Cliff",
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         {
-            "LogName": "Cliff Beach Wear Portrait",
+            "LogName": "Cliff Beach Wear Portrait & Sprite",
             "Action": "Load",
-            "Target": "Portraits/Cliff_Beach",
-            "FromFile": "Assets/Portraits/Cliff/Cliff_Beach.png"
-        },
-        {
-            "LogName": "Cliff Beach Wear Sprite",
-            "Action": "Load",
-            "Target": "Characters/Cliff_Beach",
-            "FromFile": "Assets/Characters/Cliff/Cliff_Beach.png"
+            "Target": "Portraits/Cliff_Beach, Characters/Cliff_Beach",
+            "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         //------------------------
         // Load blank

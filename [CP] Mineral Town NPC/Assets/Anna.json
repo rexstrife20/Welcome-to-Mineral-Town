@@ -31,16 +31,10 @@
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         {
-            "LogName": "Anna Beach Wear Portrait",
+            "LogName": "Anna Beach Wear Portrait & Sprite",
             "Action": "Load",
-            "Target": "Portraits/Anna_Beach",
-            "FromFile": "Assets/Portraits/Anna/Anna_Beach.png"
-        },
-        {
-            "LogName": "Anna Beach Wear Sprite",
-            "Action": "Load",
-            "Target": "Characters/Anna_Beach",
-            "FromFile": "Assets/Characters/Anna/Anna_Beach.png"
+            "Target": "Portraits/Anna_Beach, Characters/Anna_Beach",
+            "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         //------------------------
         // Load blank
@@ -73,17 +67,6 @@
             "Target": "Data/animationDescriptions",
             "Entries": {
                 "Anna_sleep": "48/48/48",
-            }
-        },
-        //-------------------------
-        //Custom NPC Exclusions
-        //-------------------------
-        {
-            "LogName":"Exclusions",
-            "Action": "EditData",
-            "Target": "Data/CustomNPCExclusions",
-            "Entries": {
-            "Anna": "WinterStar"
             }
         },
     ]

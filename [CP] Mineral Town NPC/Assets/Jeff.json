@@ -31,16 +31,10 @@
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         {
-            "LogName": "Jeff Beach Wear Portrait",
+            "LogName": "Jeff Beach Wear Portrait & Sprite",
             "Action": "Load",
-            "Target": "Portraits/Jeff_Beach",
-            "FromFile": "Assets/Portraits/Jeff/Jeff_Beach.png"
-        },
-        {
-            "LogName": "Jeff Beach Wear Sprite",
-            "Action": "Load",
-            "Target": "Characters/Jeff_Beach",
-            "FromFile": "Assets/Characters/Jeff/Jeff_Beach.png"
+            "Target": "Portraits/Jeff_Beach, Characters/Jeff_Beach",
+            "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         //------------------------
         // Load blank
@@ -82,17 +76,6 @@
             "Target": "Strings/animationDescriptions",
             "Entries": {
                 "Jeff_work": "Hello @. Can I help you find anything?",
-            }
-        },
-        //-------------------------
-        //Custom NPC Exclusions
-        //-------------------------
-        {
-            "LogName":"Exclusions",
-            "Action": "EditData",
-            "Target": "Data/CustomNPCExclusions",
-            "Entries": {
-            "Jeff": "WinterStar"
             }
         },
     ]

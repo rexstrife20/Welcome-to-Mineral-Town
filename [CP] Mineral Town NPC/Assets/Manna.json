@@ -31,16 +31,10 @@
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         {
-            "LogName": "Manna Beach Wear Portrait",
+            "LogName": "Manna Beach Wear Portrait & Sprite",
             "Action": "Load",
-            "Target": "Portraits/Manna_Beach",
-            "FromFile": "Assets/Portraits/Manna/Manna_Beach.png"
-        },
-        {
-            "LogName": "Manna Beach Wear Sprite",
-            "Action": "Load",
-            "Target": "Characters/Manna_Beach",
-            "FromFile": "Assets/Characters/Manna/Manna_Beach.png"
+            "Target": "Portraits/Manna_Beach, Characters/Manna_Beach",
+            "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         //------------------------
         // Load blank
@@ -72,18 +66,8 @@
             "Action": "EditData",
             "Target": "Data/animationDescriptions",
             "Entries": {
-                "MMannaa_sleep": "48/48/48",
-            }
-        },
-        //-------------------------
-        //Custom NPC Exclusions
-        //-------------------------
-        {
-            "LogName":"Exclusions",
-            "Action": "EditData",
-            "Target": "Data/CustomNPCExclusions",
-            "Entries": {
-            "Manna": "WinterStar"
+                "Manna_sleep": "48/48/48",
+                "Duke_drink": "16/16 16 16 17 17 17 18 18 18 16 16 16/16",
             }
         },
     ]

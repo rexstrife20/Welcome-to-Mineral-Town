@@ -31,16 +31,10 @@
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         {
-            "LogName": "Thomas Beach Wear Portrait",
+            "LogName": "Thomas Beach Wear Portrait & Sprite",
             "Action": "Load",
-            "Target": "Portraits/Thomas_Beach",
-            "FromFile": "Assets/Portraits/Thomas/Thomas_Beach.png"
-        },
-        {
-            "LogName": "Thomas Beach Wear Sprite",
-            "Action": "Load",
-            "Target": "Characters/Thomas_Beach",
-            "FromFile": "Assets/Characters/Thomas/Thomas_Beach.png"
+            "Target": "Portraits/Thomas_Beach, Characters/Thomas_Beach",
+            "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         //------------------------
         // Load blank
@@ -73,17 +67,6 @@
             "Target": "Data/animationDescriptions",
             "Entries": {
                 "Thomas_sleep": "24/24/24",
-            }
-        },
-        //-------------------------
-        //Custom NPC Exclusions
-        //-------------------------
-        {
-            "LogName":"Exclusions",
-            "Action": "EditData",
-            "Target": "Data/CustomNPCExclusions",
-            "Entries": {
-            "Thomas": "WinterStar"
             }
         },
     ]

@@ -31,16 +31,10 @@
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         {
-            "LogName": "Harris Beach Wear Portrait",
+            "LogName": "Harris Beach Wear Portrait & Sprite",
             "Action": "Load",
-            "Target": "Portraits/Harris_Beach",
-            "FromFile": "Assets/Portraits/Harris/Harris_Beach.png"
-        },
-        {
-            "LogName": "Harris Beach Wear Sprite",
-            "Action": "Load",
-            "Target": "Characters/Harris_Beach",
-            "FromFile": "Assets/Characters/Harris/Harris_Beach.png"
+            "Target": "Portraits/Harris_Beach, Characters/Harris_Beach",
+            "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         //------------------------
         // Load blank
@@ -73,17 +67,6 @@
             "Target": "Data/animationDescriptions",
             "Entries": {
                 "Harris_sleep": "48/48/48",
-            }
-        },
-        //-------------------------
-        //Custom NPC Exclusions
-        //-------------------------
-        {
-            "LogName":"Exclusions",
-            "Action": "EditData",
-            "Target": "Data/CustomNPCExclusions",
-            "Entries": {
-            "Harris": "WinterStar"
             }
         },
     ]

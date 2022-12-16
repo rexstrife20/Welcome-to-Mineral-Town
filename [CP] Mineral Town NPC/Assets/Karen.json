@@ -8,7 +8,7 @@
             "Action": "EditData",
             "Target": "Data/NPCDispositions",
             "Entries": {
-                "Karen": "teen/rude/outgoing/positive/female/datable/null/other/fall 15/null/Custom_HM_JeffMarket 3 5 3/Karen"
+                "Karen": "teen/rude/outgoing/positive/female/datable/null/other/fall 15/Jeff 'dad' Sasha 'mom'/null/Custom_HM_JeffMarket 3 5 3/Karen"
             }
         },
         //------------------------
@@ -31,16 +31,10 @@
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         {
-            "LogName": "Karen Beach Wear Portrait",
+            "LogName": "Karen Beach Wear Portrait & Sprite",
             "Action": "Load",
-            "Target": "Portraits/Karen_Beach",
-            "FromFile": "Assets/Portraits/Karen/Karen_Beach.png"
-        },
-        {
-            "LogName": "Karen Beach Wear Sprite",
-            "Action": "Load",
-            "Target": "Characters/Karen_Beach",
-            "FromFile": "Assets/Characters/Karen/Karen_Beach.png"
+            "Target": "Portraits/Karen_Beach, Characters/Karen_Beach",
+            "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         //------------------------
         // Load blank

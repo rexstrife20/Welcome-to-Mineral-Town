@@ -31,16 +31,10 @@
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         {
-            "LogName": "Gotz Beach Wear Portrait",
+            "LogName": "Gotz Beach Wear Portrait & Sprite",
             "Action": "Load",
-            "Target": "Portraits/Gotz_Beach",
-            "FromFile": "Assets/Portraits/Gotz/Gotz_Beach.png"
-        },
-        {
-            "LogName": "Gotz Beach Wear Sprite",
-            "Action": "Load",
-            "Target": "Characters/Gotz_Beach",
-            "FromFile": "Assets/Characters/Gotz/Gotz_Beach.png"
+            "Target": "Portraits/Gotz_Beach, Characters/Gotz_Beach",
+            "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         //------------------------
         // Load blank
@@ -74,17 +68,6 @@
             "Entries": {
                 "Gotz_sleep": "48/48/48",
                 "Gotz_work": "16/16 16 16 17 17 17 18 18 18 18 19 19 19 20 20 20 16 16 16/16",
-            }
-        },
-        //-------------------------
-        //Custom NPC Exclusions
-        //-------------------------
-        {
-            "LogName":"Exclusions",
-            "Action": "EditData",
-            "Target": "Data/CustomNPCExclusions",
-            "Entries": {
-            "Gotz": "WinterStar"
             }
         },
     ]

@@ -31,16 +31,10 @@
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         {
-            "LogName": "Barley Beach Wear Portrait",
+            "LogName": "Barley Beach Wear Portrait & Sprite",
             "Action": "Load",
-            "Target": "Portraits/Barley_Beach",
-            "FromFile": "Assets/Portraits/Barley/Barley_Beach.png"
-        },
-        {
-            "LogName": "Barley Beach Wear Sprite",
-            "Action": "Load",
-            "Target": "Characters/Barley_Beach",
-            "FromFile": "Assets/Characters/Barley/Barley_Beach.png"
+            "Target": "Portraits/Barley_Beach, Characters/Barley_Beach",
+            "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         //------------------------
         // Load blank
@@ -73,17 +67,6 @@
             "Target": "Data/animationDescriptions",
             "Entries": {
                 "Barley_sleep": "48/48/48",
-            }
-        },
-        //-------------------------
-        //Custom NPC Exclusions
-        //-------------------------
-        {
-            "LogName":"Exclusions",
-            "Action": "EditData",
-            "Target": "Data/CustomNPCExclusions",
-            "Entries": {
-            "Barley": "WinterStar"
             }
         },
     ]

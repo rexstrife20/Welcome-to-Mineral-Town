@@ -31,16 +31,10 @@
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         {
-            "LogName": "Carter Beach Wear Portrait",
+            "LogName": "Carter Beach Wear Portrait & Sprite",
             "Action": "Load",
-            "Target": "Portraits/Carter_Beach",
-            "FromFile": "Assets/Portraits/Carter/Carter_Beach.png"
-        },
-        {
-            "LogName": "Carter Beach Wear Sprite",
-            "Action": "Load",
-            "Target": "Characters/Carter_Beach",
-            "FromFile": "Assets/Characters/Carter/Carter_Beach.png"
+            "Target": "Portraits/Carter_Beach, Characters/Carter_Beach",
+            "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         //------------------------
         // Load blank
@@ -74,17 +68,6 @@
             "Entries": {
                 "Carter_sleep": "48/48/48",
                 "Carter_reading": "16/16 16 16 17 17 17 18 18 18/17",
-            }
-        },
-        //-------------------------
-        //Custom NPC Exclusions
-        //-------------------------
-        {
-            "LogName":"Exclusions",
-            "Action": "EditData",
-            "Target": "Data/CustomNPCExclusions",
-            "Entries": {
-            "Carter": "WinterStar"
             }
         },
     ]
