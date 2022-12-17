@@ -6,7 +6,7 @@
       "Action": "EditData",
       "Target": "Characters/schedules/Carter",
       "Entries": {
-        "spring": "0 Custom_HM_CarterHouseInterior 11 6 1 Carter_sleep/610 Custom_HM_MineralTown 25 24 0/810 Custom_HM_ChurchInterior 10 6 2/1300 Custom_HM_ChurchInterior 10 9 2 Carter_reading/1900 Custom_HM_CarterHouseInterior 3 6 2/2200 Custom_HM_CarterHouseInterior 11 6 1 Carter_sleep",
+        "spring": "0 Custom_HM_CarterHouseInterior 11 6 1 Carter_sleep/610 Custom_HM_MineralTown 25 24 0/810 Custom_HM_ChurchInterior 10 8 2/1300 Custom_HM_ChurchInterior 10 8 2 Carter_reading/1900 Custom_HM_CarterHouseInterior 3 6 2/2200 Custom_HM_CarterHouseInterior 11 6 1 Carter_sleep",
         "summer": "GOTO spring",
         "fall": "GOTO spring",
         "winter": "GOTO spring"

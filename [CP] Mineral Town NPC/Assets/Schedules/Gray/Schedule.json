@@ -6,7 +6,7 @@
       "Action": "EditData",
       "Target": "Characters/schedules/Gray",
       "Entries": {
-        "spring": "0 Custom_HM_InnSecFloor 21 19 3 Gray_sleep/610 Custom_HM_InnSecFloor 24 20 2/700 Custom_HM_MineralTown 9 83 2/900 Custom_HM_BlackSmith 15 16 0/1200 Custom_HM_BlackSmithWorkshop 7 11 3/1500 Custom_HM_Library 6 6 2/1700 Custom_HM_Inn 4 11 1/2000 Custom_HM_InnSecFloor 24 20 2/2200 Custom_HM_InnSecFloor 21 19 3 Gray_sleep",
+        "spring": "0 Custom_HM_InnSecFloor 27 5 1 Gray_sleep/610 Custom_HM_InnSecFloor 13 11 3/700 Custom_HM_MineralTown 9 83 2/900 Custom_HM_BlackSmith 15 16 0/1200 Custom_HM_BlackSmithWorkshop 7 11 3/1500 Custom_HM_Library 6 6 2/1700 Custom_HM_Inn 4 11 1/2000 Custom_HM_InnSecFloor 31 7 2/2200 Custom_HM_InnSecFloor 27 5 1 Gray_sleep",
         "summer": "GOTO spring",
         "fall": "GOTO spring",
         "winter": "GOTO spring"
