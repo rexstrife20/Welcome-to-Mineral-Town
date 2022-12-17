@@ -31,10 +31,16 @@
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         {
-            "LogName": "Won Beach Wear Portrait & Sprite",
+            "LogName": "Won Beach Wear Portrait",
             "Action": "Load",
-            "Target": "Portraits/Won_Beach, Characters/Won_Beach",
-            "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
+            "Target": "Portraits/Won_Beach",
+            "FromFile": "Assets/Portraits/Won/Won_Beach.png"
+        },
+        {
+            "LogName": "Won Beach Wear Sprite",
+            "Action": "Load",
+            "Target": "Characters/Won_Beach",
+            "FromFile": "Assets/Characters/Won/Won_Beach.png"
         },
         //------------------------
         // Load blank

@@ -31,10 +31,16 @@
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         {
-            "LogName": "Thomas Beach Wear Portrait & Sprite",
+            "LogName": "Thomas Beach Wear Portrait",
             "Action": "Load",
-            "Target": "Portraits/Thomas_Beach, Characters/Thomas_Beach",
-            "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
+            "Target": "Portraits/Thomas_Beach",
+            "FromFile": "Assets/Portraits/Thomas/Thomas_Beach.png"
+        },
+        {
+            "LogName": "Thomas Beach Wear Sprite",
+            "Action": "Load",
+            "Target": "Characters/Thomas_Beach",
+            "FromFile": "Assets/Characters/Thomas/Thomas_Beach.png"
         },
         //------------------------
         // Load blank

@@ -31,10 +31,16 @@
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         {
-            "LogName": "Harris Beach Wear Portrait & Sprite",
+            "LogName": "Harris Beach Wear Portrait",
             "Action": "Load",
-            "Target": "Portraits/Harris_Beach, Characters/Harris_Beach",
-            "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
+            "Target": "Portraits/Harris_Beach",
+            "FromFile": "Assets/Portraits/Harris/Harris_Beach.png"
+        },
+        {
+            "LogName": "Harris Beach Wear Sprite",
+            "Action": "Load",
+            "Target": "Characters/Harris_Beach",
+            "FromFile": "Assets/Characters/Harris/Harris_Beach.png"
         },
         //------------------------
         // Load blank

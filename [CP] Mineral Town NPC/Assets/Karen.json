@@ -31,10 +31,16 @@
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         {
-            "LogName": "Karen Beach Wear Portrait & Sprite",
+            "LogName": "Karen Beach Wear Portrait",
             "Action": "Load",
-            "Target": "Portraits/Karen_Beach, Characters/Karen_Beach",
-            "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
+            "Target": "Portraits/Karen_Beach",
+            "FromFile": "Assets/Portraits/Karen/Karen_Beach.png"
+        },
+        {
+            "LogName": "Karen Beach Wear Sprite",
+            "Action": "Load",
+            "Target": "Characters/Karen_Beach",
+            "FromFile": "Assets/Characters/Karen/Karen_Beach.png"
         },
         //------------------------
         // Load blank

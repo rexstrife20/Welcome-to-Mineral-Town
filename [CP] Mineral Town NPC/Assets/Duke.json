@@ -31,10 +31,16 @@
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         {
-            "LogName": "Duke Beach Wear Portrait & Sprite",
+            "LogName": "Duke Beach Wear Portrait",
             "Action": "Load",
-            "Target": "Portraits/Duke_Beach, Characters/Duke_Beach",
-            "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
+            "Target": "Portraits/Duke_Beach",
+            "FromFile": "Assets/Portraits/Duke/Duke_Beach.png"
+        },
+        {
+            "LogName": "Duke Beach Wear Sprite",
+            "Action": "Load",
+            "Target": "Characters/Duke_Beach",
+            "FromFile": "Assets/Characters/Duke/Duke_Beach.png"
         },
         //------------------------
         // Load blank

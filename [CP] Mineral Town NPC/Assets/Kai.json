@@ -31,10 +31,16 @@
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         {
-            "LogName": "Kai Beach Wear Portrait & Sprite",
+            "LogName": "Kai Beach Wear Portrait",
             "Action": "Load",
-            "Target": "Portraits/Kai_Beach, Characters/Kai_Beach",
-            "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
+            "Target": "Portraits/Kai_Beach",
+            "FromFile": "Assets/Portraits/Kai/Kai_Beach.png"
+        },
+        {
+            "LogName": "Kai Beach Wear Sprite",
+            "Action": "Load",
+            "Target": "Characters/Kai_Beach",
+            "FromFile": "Assets/Characters/Kai/Kai_Beach.png"
         },
         //------------------------
         // Load blank

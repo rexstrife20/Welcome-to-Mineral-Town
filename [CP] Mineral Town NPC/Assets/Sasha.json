@@ -31,10 +31,16 @@
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         {
-            "LogName": "Sasha Beach Wear Portrait & Sprite",
+            "LogName": "Sasha Beach Wear Portrait",
             "Action": "Load",
-            "Target": "Portraits/Sasha_Beach, Characters/Sasha_Beach",
-            "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
+            "Target": "Portraits/Sasha_Beach",
+            "FromFile": "Assets/Portraits/Sasha/Sasha_Beach.png"
+        },
+        {
+            "LogName": "Sasha Beach Wear Sprite",
+            "Action": "Load",
+            "Target": "Characters/Sasha_Beach",
+            "FromFile": "Assets/Characters/Sasha/Sasha_Beach.png"
         },
         //------------------------
         // Load blank

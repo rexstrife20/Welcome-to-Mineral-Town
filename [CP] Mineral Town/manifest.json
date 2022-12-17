@@ -9,13 +9,10 @@
     "UniqueID": "Pathoschild.ContentPatcher"
   },
   "Dependencies": [
-    {
-      "UniqueID": "SuperAardvark.AntiSocial",
-      "IsRequired": true
-    },
+
     {
       "UniqueID": "spacechase0.ContentCode",
-      "IsRequired": true
+      "IsRequired": false
     },
     {
       "UniqueID": "PeacefulEnd.CustomCompanions",
@@ -28,7 +25,7 @@
     },
     {
       "UniqueID": "misscoriel.eventrepeater",
-      "IsRequired": true
+      "IsRequired": false
     },
     {
       "UniqueID": "Cherry.ExpandedPreconditionsUtility",

@@ -31,10 +31,16 @@
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         {
-            "LogName": "Rick Beach Wear Portrait & Sprite",
+            "LogName": "Rick Beach Wear Portrait",
             "Action": "Load",
-            "Target": "Portraits/Rick_Beach, Characters/Rick_Beach",
-            "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
+            "Target": "Portraits/Rick_Beach",
+            "FromFile": "Assets/Portraits/Rick/Rick_Beach.png"
+        },
+        {
+            "LogName": "Rick Beach Wear Sprite",
+            "Action": "Load",
+            "Target": "Characters/Rick_Beach",
+            "FromFile": "Assets/Characters/Rick/Rick_Beach.png"
         },
         //------------------------
         // Load blank

@@ -31,10 +31,16 @@
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         {
-            "LogName": "Zack Beach Wear Portrait & Sprite",
+            "LogName": "Zack Beach Wear Portrait",
             "Action": "Load",
-            "Target": "Portraits/Zack_Beach, Characters/Zack_Beach",
-            "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
+            "Target": "Portraits/Zack_Beach",
+            "FromFile": "Assets/Portraits/Zack/Zack_Beach.png"
+        },
+        {
+            "LogName": "Zack Beach Wear Sprite",
+            "Action": "Load",
+            "Target": "Characters/Zack_Beach",
+            "FromFile": "Assets/Characters/Zack/Zack_Beach.png"
         },
         //------------------------
         // Load blank

@@ -31,10 +31,16 @@
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         {
-            "LogName": "Anna Beach Wear Portrait & Sprite",
+            "LogName": "Anna Beach Wear Portrait",
             "Action": "Load",
-            "Target": "Portraits/Anna_Beach, Characters/Anna_Beach",
-            "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
+            "Target": "Portraits/Anna_Beach",
+            "FromFile": "Assets/Portraits/Anna/Anna_Beach.png"
+        },
+        {
+            "LogName": "Anna Beach Wear Sprite",
+            "Action": "Load",
+            "Target": "Characters/Anna_Beach",
+            "FromFile": "Assets/Characters/Anna/Anna_Beach.png"
         },
         //------------------------
         // Load blank

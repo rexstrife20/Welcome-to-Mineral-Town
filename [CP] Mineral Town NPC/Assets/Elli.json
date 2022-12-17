@@ -31,10 +31,16 @@
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         {
-            "LogName": "Elli Beach Wear Portrait & Sprite",
+            "LogName": "Elli Beach Wear Portrait",
             "Action": "Load",
-            "Target": "Portraits/Elli_Beach, Characters/Elli_Beach",
-            "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
+            "Target": "Portraits/Elli_Beach",
+            "FromFile": "Assets/Portraits/Elli/Elli_Beach.png"
+        },
+        {
+            "LogName": "Elli Beach Wear Sprite",
+            "Action": "Load",
+            "Target": "Characters/Elli_Beach",
+            "FromFile": "Assets/Characters/Elli/Elli_Beach.png"
         },
         //------------------------
         // Load blank

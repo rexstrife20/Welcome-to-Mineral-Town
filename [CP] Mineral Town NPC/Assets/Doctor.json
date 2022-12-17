@@ -31,10 +31,16 @@
             "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         {
-            "LogName": "Doctor Beach Wear Portrait & Sprite",
+            "LogName": "Doctor Beach Wear Portrait",
             "Action": "Load",
-            "Target": "Portraits/Doctor_Beach, Characters/Doctor_Beach",
-            "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
+            "Target": "Portraits/Doctor_Beach",
+            "FromFile": "Assets/Portraits/Doctor/Doctor_Beach.png"
+        },
+        {
+            "LogName": "Doctor Beach Wear Sprite",
+            "Action": "Load",
+            "Target": "Characters/Doctor_Beach",
+            "FromFile": "Assets/Characters/Doctor/Doctor_Beach.png"
         },
         //------------------------
         // Load blank
