@@ -1,6 +1,6 @@
 {
   "ForageSpawnEnabled": true,
-  "LargeObjectSpawnEnabled": false,
+  "LargeObjectSpawnEnabled": true,
   "OreSpawnEnabled": false,
   "MonsterSpawnEnabled": true,
   "Forage_Spawn_Settings": {
@@ -640,7 +640,52 @@
     "CustomTileIndex": []
   },
   "Large_Object_Spawn_Settings": {
-    "Areas": [],
+    "Areas": [
+      {
+        "ObjectTypes": [
+          "Stump"
+        ],
+        "FindExistingObjectLocations": false,
+        "PercentExtraSpawnsPerSkillLevel": 0,
+        "RelatedSkill": "Foraging",
+        "UniqueAreaID": "Highway Stump Spawns",
+        "MapName": "Custom_HM_Highway",
+        "MinimumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 5,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "5,40;5,40",
+          "1,40;1,40",
+          "7,43;7,43",
+          "2,43;2,43",
+          "5,45,5,45",
+          "1,37,1,37"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": 6
+        },
+        "DaysUntilSpawnsExpire": 0
+      }
+    ],
     "CustomTileIndex": []
   },
   "Ore_Spawn_Settings": {
