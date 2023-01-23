@@ -27,6 +27,7 @@
     "Name.Manna": "Manna",
     "Name.Mary": "Mary",
     "Name.Mei": "Mei",
+    "Name.Nami": "Nami",
     "Name.Popuri": "Popuri",
     "Name.Rick": "Rick",
     "Name.Saibara": "Saibara",
@@ -167,6 +168,11 @@
     "gifts.mei.like": "Wow, thanks. This is nice.",
     "gifts.mei.dislike": "I don't like this. But don't tell Grandpa, okay?",
     "gifts.mei.hate": "Do I reeeally hafta take this?",
+    //Nami
+    "gifts.nami.love": "That's very nice. You're giving it to me? Thank you.",
+    "gifts.nami.like": "Oh, you're so generous. Thank you, I'll accept it.",
+    "gifts.nami.dislike": "It might come in handy... I guess I'll accept it.",
+    "gifts.nami.hate": "What's this?............",
     //Popuri
     "gifts.popuri.love": "Wow, thank you! I super like it!",
     "gifts.popuri.like": "Ooh, thanks!",
@@ -208,9 +214,9 @@
     "gifts.zack.dislike": "Huh. Well, uh... 'Preciate the thought, but I ain't got much use for somethin' like this.",
     "gifts.zack.hate": "Yo, what the heck! Yer brain fulla lead or somethin'? Ugh, can't even begin to imagine what you were thinkin'...", 
  
-    //************************************************************************
-    // M A R R I A G E
-    //************************************************************************
+//************************************************************************
+// M A R R I A G E
+//************************************************************************
 
 //Ann Marriage Dialogue
 "Ann.MarriageDialogue.summer17": "Oh, @, you remembered my birthday this year!$h#$b#Not that I ever doubted you for a second...$h",
@@ -578,6 +584,98 @@
 //"Mary.MarriageDialogue.Bad_6"://
 //"Mary.MarriageDialogue.Bad_7"://
 //"Mary.MarriageDialogue.Bad_8"://    
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Nami Marriage Dialogue
+"Nami.MarriageDialogue.fall24": "Oh, I almost forgot about my birthday. #$b#Thank you Honey, this means a lot to me.$l",
+
+//Indoor Day
+"Nami.MarriageDialogue.Indoor_Day_0": "Good morning. I feel really good.$h",
+"Nami.MarriageDialogue.Indoor_Day_1": "Please hurry home tonight. I would like to do something together.",
+"Nami.MarriageDialogue.Indoor_Day_2": "Oh, honey. What are you up to today?",
+"Nami.MarriageDialogue.Indoor_Day_3": "What should I do today? Can I help you with work? I'd just get in the way... I won't do it.",
+"Nami.MarriageDialogue.Indoor_Day_4": "Since we got married, the scenery seems different. Maybe because I've changed? Hmm.",
+"Nami.MarriageDialogue.Indoor_Day_5": "There isn't much food in the refrigerator. Could you put some more in? Thanks.",
+
+//Indoor Night
+"Nami.MarriageDialogue.Indoor_Night_0": "Your body is important for your work, Honey. So rest without overdoing it. $h",
+"Nami.MarriageDialogue.Indoor_Night_1": "So, where should I go tomorrow?",
+"Nami.MarriageDialogue.Indoor_Night_2": "After your work is done tomorrow, would you like to go somewhere together?$h",
+"Nami.MarriageDialogue.Indoor_Night_3": "Hm, maybe we should invite some of the townfolks over someday.",
+"Nami.MarriageDialogue.Indoor_Night_4": "Y'know, even I get worried when you're out too late.",
+"Nami.MarriageDialogue.Indoor_Night_5": "I know I don't say it a lot, but good work today, honey.$h",
+"Nami.MarriageDialogue.Indoor_Night_6": "Thank you for working hard for us. I'll continue to support you.$l",
+
+//Outdoor
+"Nami.MarriageDialogue.Outdoor_0": "I never understood how you're such a morning person.",
+"Nami.MarriageDialogue.Outdoor_1": "I should take %pet for a walk around the farm today.$h",
+"Nami.MarriageDialogue.Outdoor_2": "I'll make dinner tonight, Honey. Is there anything in particular that you'd like?",
+"Nami.MarriageDialogue.Outdoor_3": "I always thought I'd be traveling for my life. #$b#I never could have expected that I'd be living on a farm.$l",
+"Nami.MarriageDialogue.Outdoor_4": "I'm gonna go out later. Do you want to come with me?$h",
+"Nami.MarriageDialogue.Outdoor_Nami": "This is my favorite spot in the valley. It helps me clear my mind.$h",
+
+//Rainy Day
+"Nami.MarriageDialogue.Rainy_Day_0": "When the weather is like this I tend to remember bad experiences from my past.$s",
+"Nami.MarriageDialogue.Rainy_Day_1": "Aren't your clothes wet, @? You're pretty energetic for a day like this.",
+"Nami.MarriageDialogue.Rainy_Day_2": "Oh, its raining today? I was hoping to stop by the beach. $s",
+"Nami.MarriageDialogue.Rainy_Day_3": "Try not to get too drenched out there, I wouldn't want you to get sick.",
+"Nami.MarriageDialogue.Rainy_Day_4": "I think I'll just watch the rain today. What about you?",
+"Nami.MarriageDialogue.Rainy_Day_5": "Today wouldn't be a bad day to go see the mines, what do you think?",
+"Nami.MarriageDialogue.Rainy_Day_6": "Maybe you should take a rest today. It's rare you get a day off.$h",
+
+//Rainy Night
+"Nami.MarriageDialogue.Rainy_Night_0": "It's so much quieter here than the town. Its peaceful.",
+"Nami.MarriageDialogue.Rainy_Night_1": "The atmosphere of the farm is so different in the rain.",
+"Nami.MarriageDialogue.Rainy_Night_2": "I wonder what %pet thinks about every day.",
+"Nami.MarriageDialogue.Rainy_Night_3": "You're soaked. You should go get changed honey.",
+"Nami.MarriageDialogue.Rainy_Night_4": "I'm glad you're home, sometimes it gets too quiet, even for me.",
+"Nami.MarriageDialogue.Rainy_Night_5": "Oh, you're already home. Even the rain sometimes keeps you in as well?",
+"Nami.MarriageDialogue.Rainy_Night_6": "Hopefully the rain at least made your work a little easier today.$h",
+
+//One Kid
+"Nami.MarriageDialogue.OneKid_0": "Sometimes it seems like %kid1 will grow up without any help from us.",
+"Nami.MarriageDialogue.OneKid_1": "I'd like %kid1 to have a wide variety of interests. But I guess as long as they're happy, I'm happy.$h",
+"Nami.MarriageDialogue.OneKid_2": "I wonder if %kid1 will ever want to take over the farm.",
+"Nami.MarriageDialogue.OneKid_3": "%kid1 is getting so big so fast!",
+
+//Two Kids
+"Nami.MarriageDialogue.TwoKids_0": "I was watching the kids the other day and its interesting just how different they are.",
+"Nami.MarriageDialogue.TwoKids_1": "Our children are neat. They do things that I never expect.$h",
+"Nami.MarriageDialogue.TwoKids_2": "I think %kid2 looks more like me, what do you think?",
+"Nami.MarriageDialogue.TwoKids_3": "Being a mother is hard. But I'll do my best for you and the kids.",
+
+//Relationship-dependent
+///Good
+"Nami.MarriageDialogue.Good_0": "I never thought I'd get married, but I've enjoyed it more than I ever could have expected.$l",
+"Nami.MarriageDialogue.Good_1": "I'm glad I decided to stay here with you.$h",
+"Nami.MarriageDialogue.Good_2": "Hm? Oh, was I staring at you? I didn't notice.$h",
+"Nami.MarriageDialogue.Good_3": "What? My face is red? I wonder why...$l",
+"Nami.MarriageDialogue.Good_4": "I was planning to leave the valley eventually. I see now that I belong here.$h",
+"Nami.MarriageDialogue.Good_5": "I'm glad I said yes to you. What do I mean? Oh, nothing hehe.$l",
+//"Nami.MarriageDialogue.Good_8":
+//"Nami.MarriageDialogue.Good_9":
+
+///Neutral
+//"Nami.MarriageDialogue.Neutral_0": 
+//"Nami.MarriageDialogue.Neutral_1": 
+//"Nami.MarriageDialogue.Neutral_2": 
+//"Nami.MarriageDialogue.Neutral_3": 
+//"Nami.MarriageDialogue.Neutral_4": 
+//"Nami.MarriageDialogue.Neutral_5":
+//"Nami.MarriageDialogue.Neutral_6":
+//"Nami.MarriageDialogue.Neutral_8":
+
+///Bad
+"Nami.MarriageDialogue.Bad_0": "%Nami sighs heavily.",
+"Nami.MarriageDialogue.Bad_1": "You should go get some work done.",
+"Nami.MarriageDialogue.Bad_2": "Don't talk to me right now.$a",
+"Nami.MarriageDialogue.Bad_3": "....$s",
+"Nami.MarriageDialogue.Bad_4": "This was not what I expect when you proposed.$s",
+"Nami.MarriageDialogue.Bad_5": "...Maybe I should go visit Ruby for a while.$s",
+"Nami.MarriageDialogue.Bad_6": "What? #$b#I wanna be left alone right now.$a",
+//"Nami.MarriageDialogue.Bad_7":
+//"Nami.MarriageDialogue.Bad_8":    
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -1496,6 +1594,15 @@
     //"Mei.Resort_Wander": "",
     //"Mei.Resort_Bar": "",
     "Mei.Resort": "Yay!$h#$b#Come build a sandcastle with me, @!$h",
+
+    //Nami
+    //"Nami.Resort_Entering": "",
+    //"Nami.Resort_Leaving": "",
+    //"Nami.Resort_Shore": "",
+    //"Nami.Resort_Umbrella": "",
+    //"Nami.Resort_Wander": "",
+    //"Nami.Resort_Bar": "",
+    "Nami.Resort": "I don't know how you managed to open a resort by yourself. #$b#Don't worry, I won't ask any questions.",
 
     //Popuri
     //"Popuri.Resort_Entering": "",

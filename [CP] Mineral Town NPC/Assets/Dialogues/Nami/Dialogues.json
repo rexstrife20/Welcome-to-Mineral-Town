@@ -1,0 +1,82 @@
+{
+    "Changes": [
+        {
+            "LogName": "Nami dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Nami",
+            "Entries": {
+                //INTRODUCTION
+                "Introduction": "Oh, hey. I haven't seen you around here before. #$b#I'm Nami, haven't really been here long myself. #$b#Well, I gotta get going, see you around I guess.",
+                "danceRejection": "Sorry, but no thanks. #$b#Maybe try asking someone else.",
+                "divorced": "...Go away.",
+                "breakUp": "Ah, I see. Well, maybe it's time for me to take off after all....$s",
+                //STARTING DIALOGUE
+                "Mon": "Oh, hey. Sorry, don't really have time to talk right now, got a lot on my mind.",
+                "Tue": "Huh? How long have you been standing there?",
+                "Wed": "You're all sweaty....did you run all the way here or something?",
+                "Thu": "You know, @, you're a really fun person. #$b#Oh... Never mind.",
+                "Fri": "......",
+                "Sat": "Hm? #$e#What's up? #$e#Nothing interesting? #$e#Hmph...$a",
+                "Sun": "I would've thought the chapel would be packed on Sundays. #$b#Seems like people are just milling about as usual.",
+                // SPECIFIC DAY
+                "spring_12": "Its interesting....to have an entire event about eggs.", // Day before the Egg Festival
+                "spring_23": "I'm not the biggest fan of flowers....or dancing for that matter. #$b#That being said....I could give it a shot.", // Day before the Flower Dance
+                "summer_10": "I wish I had some of Ruby's special curry spice. #$b#That would definitely liven up the Luau.$h", // Day before the Luau
+                "summer_27": "I've heard a lot of good things about the Midnight Jellies. #$b#So many people gathered in one place, and yet everyone just quietly reflects.", // Day before the Midnight Jellies
+                "fall_15": "Have you gone to the Stardew Fair before? I have my doubts about it, but I may as well experience what Pelican Town has to offer.", // Day before the Stardew Fair
+                "fall_26": "Not much scares me. I don't assume the Spirit's Eve festival will be any different.", // Day before Spirit's Eve
+                "winter_7": "I've been ice fishing once or twice before. #$b#I can't say that it's my favorite way to go about fishing....", // Day before the Ice Festival
+                "winter_24": "I don't know many people in the valley super well.....I don't think participating in the gift exchange would be a great idea...$s", // Day before Winter Star
+                //2 Heart
+                "Mon2": "Don't you ever get tired moving around all the time? #$b#I travel a ton, and even I get exhausted sometimes.",
+                "Tue2": "Huh? How long have you been standing there?",
+                "Wed2": "Ugh, I'm hungry. I wonder if Doug will make me something.",
+                "Thu2": "I feel sluggish today, I must not have slept well...",
+                "Fri2": "Huh? Do you need something? If not, can we discuss it later?",
+                "Sat2": "Mineral Town is a quiet enough place. #$b#I suppose it's time that I make room for relaxation.",
+                "Sun2": "What? Oh, you're saying hello.",
+                //4 Heart
+                "Mon4": "People ask me all the time why I'm traveling... But, I don't have a specific reason to tell them.",
+                "Tue4": "The people in this valley are very kind. #$b#Most places have let me stay for basically free.",
+                "Wed4": "Meetings and farewells are two sides of the same coin. Don't you think?",
+                "Thu4": "I'm not in a great mood in the morning, so beware.",
+                "Fri4": "You must have a lot of free time to come and talk to me.",
+                "Sat4": "I heard there's a saloon in Pelican Town. Is it a fun place?",
+                "Sun4": "Have you met Cliff? #$b#He seems really interesting, I wonder what his story is.",
+                //6 Heart
+                "Mon6": "Tell me about Pelican Town. I've been thinking about stopping by one of these days. #$b#Anything exciting going on?",
+                "Tue6": "I like just staying here and day dreaming. #$b#Why don't you try it, @? It feels good to clear your head.$h",
+                "Wed6": "I don't normally like being bothered....But since it's you, I'll allow it.",
+                "Thu6": "Y'know, I've been thinking of taking up painting. I used to be pretty good at it.#$b#When I was twelve....$h",
+                "Fri6": "",
+                "Sat6": "I heard you were helping out at the museum. #$b#When I find things like that, I feel like I'm a little girl again.",
+                "Sun6": "You know what, @? #$b#I don't care what everyone says about you, you're okay.$h",
+                //8 Heart
+                "Mon8": "Please take me to your farm. I'd like to see you working.$h",
+                "Tue8": "..I love it here....",
+                "Wed8": "I used to collapse from heat a lot when I was younger.#$b#I liked watching the passing people so much, I didn't notice the sun.",
+                "Thu8": "I've been meaning to ask, will you teach me about farming someday?$h",
+                "Fri8": "Y'know, you always seem to take the time to stop by and talk with me. #$b#I can't say that I don't appreciate it. #$b#So....thank you.$h",
+                "Sat8": "Oh, @. What are you up to today?",
+                "Sun8": "Want to go to another country with me? #$b#Oh, I guess you can't because of the farm. Sorry you feel that way.",
+                //10 Heart
+                "Mon10": "... I was just thinking. I've been to many places, but where I feel most at ease... is here.$l",
+                "Tue10": "I never thought I would find someone who understands me like you do, @",
+                "Wed10": "...If someone saw us here, do you think they'd think we're going steady?$l",
+                "Thu10": "It makes me happy just talking to you. Hehehe.$h",
+                "Fri10": "We should go to Forget-Me-Not Valley sometime, I would like for you to meet Ruby.",
+                "Sat10": "",
+                "Sun10": "",
+		        //LOCATION DIALOGUE
+	            "Resort": "I don't know how you managed to open a resort by yourself. #$b#Don't worry, I won't ask any questions.",
+                "Custom_HM_Inn": "Doug and Ann are really kind people. They let me stay here for basically free. #$b#I hope I can repay them one day...",
+                "Custom_HM_MineralBeach": "The beach here is so peaceful. #$b#I could do without the rock crabs though...$s",
+                "Custom_HM_GoddessHill": "How long has that mine been out of comission? #$b#It's a real shame...",
+                "Custom_HM_JeffMarket": "There's quite a few things here that I haven't seen anywhere else.",
+                "Custom_HM_Library": "There's a lot of interesting books here....Basil talks a bit too much though. #$b#Oh....forget I said that.$s",
+                "Custom_HM_SnackShack": "Kai is an interesting guy. A little too high energy, but he's traveled around a lot too.",
+                "Custom_HM_MountainLake": "It's so peaceful out here....but with a really unusual vibe.",
+            },
+        },
+    ],
+}

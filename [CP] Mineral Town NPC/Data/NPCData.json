@@ -118,6 +118,10 @@
       "Action": "Include",
       "FromFile": "Assets/Zack.json"
     },
+    {
+      "Action": "Include",
+      "FromFile": "Assets/Nami.json"
+    },
 
   ]
 }

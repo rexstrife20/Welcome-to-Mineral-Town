@@ -11,7 +11,7 @@
   "PurchasePrice": 250,
   "GiftTastes": {
     "Love": [ "" ],
-    "Dislike": [ "" ],
+    "Dislike": [ "Nami" ],
   },
   "NameLocalization":
   { 

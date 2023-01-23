@@ -1,0 +1,80 @@
+{
+    "Changes": [
+        //-------------------------
+        // NPCDispositions
+        //-------------------------        
+        {
+            "LogName": "NPC Manifestation",
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "Entries": {
+                "Nami": "teen/rude/outgoing/positive/female/datable/null/other/fall 24//null/Custom_HM_InnSecFloor 24 21 3/Nami"
+            }
+        },
+        //------------------------
+        // Gift             	
+        //------------------------
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Nami": "That's very nice. You're giving it to me? Thank you./398 907 125/Oh, you're so generous. Thank you, I'll accept it./-2 -4/It might come in handy... I guess I'll accept it./72 233 236/What's this? ............/344 440 709/Thanks, @./403 305 -2/,"
+            }
+        },
+        //------------------------
+        // Portraits & Sprite              	
+        //------------------------
+        {
+            "LogName": "Nami Portraits & Sprite",
+            "Action": "Load",
+            "Target": "Portraits/Nami, Characters/Nami",
+            "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}_{{season}}.png"
+        },
+        {
+            "LogName": "Nami Beach Wear Portrait",
+            "Action": "Load",
+            "Target": "Portraits/Nami_Beach",
+            "FromFile": "Assets/Portraits/Nami/Nami_Beach.png"
+        },
+        {
+            "LogName": "Nami Beach Wear Sprite",
+            "Action": "Load",
+            "Target": "Characters/Nami_Beach",
+            "FromFile": "Assets/Characters/Nami/Nami_Beach.png"
+        },
+        //------------------------
+        // Load blank
+        //------------------------
+        {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Nami, Characters/Schedules/Nami",
+            "FromFile": "Assets/blank.json"
+        },
+        //------------------------
+        // Dialogue              	
+        //------------------------
+        {
+            "Action": "Include",
+            "FromFile": "Assets/Dialogues/Nami/Dialogues.json"
+        },
+        //------------------------
+        // Schedule              	
+        //------------------------
+        {
+            "Action": "Include",
+            "FromFile": "Assets/Schedules/Nami/Schedule.json"
+        },
+        //------------------------
+        // Animation & Animation strings             	
+        //------------------------
+        {
+            "LogName": "Animations",
+            "Action": "EditData",
+            "Target": "Data/animationDescriptions",
+            "Entries": {
+                "Nami_sleep": "48/48/48",
+                "Nami_drink": "16/16 16 16 17 17 17 18 18 18 19 19 19 20 20 20 16 16 16/16",
+            }
+        }
+    ]
+}

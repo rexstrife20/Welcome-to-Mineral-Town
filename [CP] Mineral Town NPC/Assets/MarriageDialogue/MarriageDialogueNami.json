@@ -1,0 +1,110 @@
+{
+    "Changes": [
+        {
+           
+        "Action": "EditData",
+        "Target": "Characters/Dialogues/MarriageDialogueNami",
+        "Entries": {
+    
+    ///Birthday
+        "summer_17": "{{i18n:Nami.MarriageDialogue.fall24}}",
+    
+    ///Indoor Day
+        "Indoor_Day_0": "{{i18n:Nami.MarriageDialogue.Indoor_Day_0}}",
+        "Indoor_Day_1": "{{i18n:Nami.MarriageDialogue.Indoor_Day_1}}",
+        "Indoor_Day_2": "{{i18n:Nami.MarriageDialogue.Indoor_Day_2}}",
+        "Indoor_Day_3": "{{i18n:Nami.MarriageDialogue.Indoor_Day_3}}",
+        "Indoor_Day_4": "{{i18n:Nami.MarriageDialogue.Indoor_Day_4}}",
+        "Indoor_Day_5": "{{i18n:Nami.MarriageDialogue.Indoor_Day_5}}",
+    
+    ///Indoor Night
+        "Indoor_Night_0": "{{i18n:Nami.MarriageDialogue.Indoor_Night_0}}",
+        "Indoor_Night_1": "{{i18n:Nami.MarriageDialogue.Indoor_Night_1}}",
+        "Indoor_Night_2": "{{i18n:Nami.MarriageDialogue.Indoor_Night_2}}",
+        "Indoor_Night_3": "{{i18n:Nami.MarriageDialogue.Indoor_Night_3}}",
+        "Indoor_Night_4": "{{i18n:Nami.MarriageDialogue.Indoor_Night_4}}",
+        "Indoor_Night_5": "{{i18n:Nami.MarriageDialogue.Indoor_Night_5}}",
+        "Indoor_Night_6": "{{i18n:Nami.MarriageDialogue.Indoor_Night_6}}",
+    
+    ///Outdoor
+        "Outdoor_0": "{{i18n:Nami.MarriageDialogue.Outdoor_0}}",
+        "Outdoor_1": "{{i18n:Nami.MarriageDialogue.Outdoor_1}}",
+        "Outdoor_2": "{{i18n:Nami.MarriageDialogue.Outdoor_2}}",
+        "Outdoor_3": "{{i18n:Nami.MarriageDialogue.Outdoor_3}}",
+        "Outdoor_4": "{{i18n:Nami.MarriageDialogue.Outdoor_4}}",
+        "Outdoor_Nami": "{{i18n:Nami.MarriageDialogue.Outdoor_Nami}}",
+    
+    ///Rainy Day
+        "Rainy_Day_0": "{{i18n:Nami.MarriageDialogue.Rainy_Day_0}}",
+        "Rainy_Day_1": "{{i18n:Nami.MarriageDialogue.Rainy_Day_1}}",
+        "Rainy_Day_2": "{{i18n:Nami.MarriageDialogue.Rainy_Day_2}}",
+        "Rainy_Day_3": "{{i18n:Nami.MarriageDialogue.Rainy_Day_3}}",
+        "Rainy_Day_4": "{{i18n:Nami.MarriageDialogue.Rainy_Day_4}}",
+        "Rainy_Day_5": "{{i18n:Nami.MarriageDialogue.Rainy_Day_5}}",
+        "Rainy_Day_6": "{{i18n:Nami.MarriageDialogue.Rainy_Day_6}}",
+    
+    ///Rainy Night
+        "Rainy_Night_0": "{{i18n:Nami.MarriageDialogue.Rainy_Night_0}}",
+        "Rainy_Night_1": "{{i18n:Nami.MarriageDialogue.Rainy_Night_1}}",
+        "Rainy_Night_2": "{{i18n:Nami.MarriageDialogue.Rainy_Night_2}}",
+        "Rainy_Night_3": "{{i18n:Nami.MarriageDialogue.Rainy_Night_3}}",
+        "Rainy_Night_4": "{{i18n:Nami.MarriageDialogue.Rainy_Night_4}}",
+        "Rainy_Night_5": "{{i18n:Nami.MarriageDialogue.Rainy_Night_5}}",
+        "Rainy_Night_6": "{{i18n:Nami.MarriageDialogue.Rainy_Night_6}}",
+    
+    ///One Kid
+        "OneKid_0": "{{i18n:Nami.MarriageDialogue.OneKid_0}}",
+        "OneKid_1": "{{i18n:Nami.MarriageDialogue.OneKid_1}}",
+        "OneKid_2": "{{i18n:Nami.MarriageDialogue.OneKid_2}}",
+        "OneKid_3": "{{i18n:Nami.MarriageDialogue.OneKid_3}}",
+    
+    ///Two Kids
+        "TwoKids_0": "{{i18n:Nami.MarriageDialogue.TwoKids_0}}",
+        "TwoKids_1": "{{i18n:Nami.MarriageDialogue.TwoKids_1}}",
+        "TwoKids_2": "{{i18n:Nami.MarriageDialogue.TwoKids_2}}",
+        "TwoKids_3": "{{i18n:Nami.MarriageDialogue.TwoKids_3}}",
+    
+    //Relationship Dialogue//
+    ///Good
+        "Good_0": "{{i18n:Nami.MarriageDialogue.Good_0}}",
+        "Good_1": "{{i18n:Nami.MarriageDialogue.Good_1}}",
+        "Good_2": "{{i18n:Nami.MarriageDialogue.Good_2}}",
+        "Good_3": "{{i18n:Nami.MarriageDialogue.Good_3}}",
+        "Good_4": "{{i18n:Nami.MarriageDialogue.Good_4}}",
+        "Good_5": "{{i18n:Nami.MarriageDialogue.Good_5}}",
+        "Good_6": "{{i18n:Nami.MarriageDialogue.Good_6}}",
+        "Good_7": "{{i18n:Nami.MarriageDialogue.Good_7}}",
+        "Good_8": "{{i18n:Nami.MarriageDialogue.Good_8}}",
+        "Good_9": "{{i18n:Nami.MarriageDialogue.Good_9}}",
+    
+    ///Neutral
+        "Neutral_0": "{{i18n:Nami.MarriageDialogue.Neutral_0}}",
+        "Neutral_1": "{{i18n:Nami.MarriageDialogue.Neutral_1}}",
+        "Neutral_2": "{{i18n:Nami.MarriageDialogue.Neutral_2}}",
+        "Neutral_3": "{{i18n:Nami.MarriageDialogue.Neutral_3}}",
+        "Neutral_4": "{{i18n:Nami.MarriageDialogue.Neutral_4}}",
+        "Neutral_5": "{{i18n:Nami.MarriageDialogue.Neutral_5}}",
+        "Neutral_6": "{{i18n:Nami.MarriageDialogue.Neutral_6}}",
+        "Neutral_7": "{{i18n:Nami.MarriageDialogue.Neutral_7}}",
+        "Neutral_8": "{{i18n:Nami.MarriageDialogue.Neutral_8}}",
+        "Neutral_9": "{{i18n:Nami.MarriageDialogue.Neutral_9}}",
+    
+    ///Bad
+        "Bad_0": "{{i18n:Nami.MarriageDialogue.Bad_0}}",
+        "Bad_1": "{{i18n:Nami.MarriageDialogue.Bad_1}}",
+        "Bad_2": "{{i18n:Nami.MarriageDialogue.Bad_2}}",
+        "Bad_3": "{{i18n:Nami.MarriageDialogue.Bad_3}}",
+        "Bad_4": "{{i18n:Nami.MarriageDialogue.Bad_4}}",
+        "Bad_5": "{{i18n:Nami.MarriageDialogue.Bad_5}}",
+        "Bad_6": "{{i18n:Nami.MarriageDialogue.Bad_6}}",
+        "Bad_7": "{{i18n:Nami.MarriageDialogue.Bad_7}}",
+        "Bad_8": "{{i18n:Nami.MarriageDialogue.Bad_8}}",
+        "Bad_9": "{{i18n:Nami.MarriageDialogue.Bad_9}}",
+    
+                },
+            },
+        ]
+    }
+    
+    
+        
