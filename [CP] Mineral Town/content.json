@@ -1161,10 +1161,10 @@
       "Target": "Maps/BusStop",
       "FromFile": "OutdoorMaps/BusStopSign.tmx",
       "ToArea": {
-        "X": 10,
-        "Y": 21,
-        "Width": 1,
-        "Height": 2
+        "X": 31,
+        "Y": 2,
+        "Width": 4,
+        "Height": 4
       },
       "PatchMode": "ReplaceByLayer"
     },

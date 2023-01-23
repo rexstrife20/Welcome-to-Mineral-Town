@@ -121,7 +121,7 @@
     {
       "Action": "Include",
       "FromFile": "Assets/Nami.json"
-    },
+    }
 
   ]
 }

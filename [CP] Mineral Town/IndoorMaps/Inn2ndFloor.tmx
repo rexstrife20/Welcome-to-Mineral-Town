@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="50" height="37" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="51">
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="50" height="37" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="52">
  <properties>
   <property name="AmbientLight" value="95 95 95"/>
   <property name="Doors" value="20 13 townInterior 120 29 13 townInterior 120 38 13 townInterior 120 20 18 townInterior 120 29 18 townInterior 120 38 18 townInterior 120 20 29 townInterior 120 29 29 townInterior 120 38 29 townInterior 120 29 34 townInterior 120 38 34 townInterior 120 2 29 townInterior 120 11 29 townInterior 120 2 34 townInterior 120 11 34 townInterior 120"/>
@@ -251,11 +251,6 @@
     <property name="Action" value="Message &quot;MT.Inn.10&quot;"/>
    </properties>
   </object>
-  <object id="38" name="TileData" x="320" y="288" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;MT.Inn.12&quot;"/>
-   </properties>
-  </object>
   <object id="39" name="TileData" x="464" y="288" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;MT.Inn.12&quot;"/>
@@ -309,6 +304,11 @@
   <object id="50" name="TileData" x="320" y="544" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;MT.Inn.13&quot;"/>
+   </properties>
+  </object>
+  <object id="51" name="TileData" x="320" y="288" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door Nami"/>
    </properties>
   </object>
  </objectgroup>

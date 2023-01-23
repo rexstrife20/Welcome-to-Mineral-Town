@@ -8,7 +8,7 @@
             "Action": "EditData",
             "Target": "Data/NPCDispositions",
             "Entries": {
-                "Nami": "teen/rude/outgoing/positive/female/datable/null/other/fall 24//null/Custom_HM_InnSecFloor 24 21 3/Nami"
+                "Nami": "teen/rude/outgoing/positive/female/datable/null/Town/fall 24/Custom_HM_InnSecFloor 24 21 3/Nami"
             }
         },
         //------------------------
@@ -73,7 +73,7 @@
             "Target": "Data/animationDescriptions",
             "Entries": {
                 "Nami_sleep": "48/48/48",
-                "Nami_drink": "16/16 16 16 17 17 17 18 18 18 19 19 19 20 20 20 16 16 16/16",
+                "Nami_drinking": "16/16 16 16 17 17 17 18 18 18 19 19 19 20 20 20 16 16 16/16",
             }
         }
     ]

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="1" height="2" tilewidth="16" tileheight="16" infinite="0" nextlayerid="14" nextobjectid="13">
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="4" height="3" tilewidth="16" tileheight="16" infinite="0" nextlayerid="14" nextobjectid="13">
  <properties>
   <property name="Outdoors" type="bool" value="true"/>
  </properties>
@@ -342,47 +342,48 @@
  <tileset firstgid="2012" name="spring_extra_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="575" columns="25">
   <image source="spring_extra_outdoorsTileSheet.png" width="400" height="372"/>
  </tileset>
- <layer id="1" name="Back" width="1" height="2">
+ <tileset firstgid="2587" source="summer_highway_and_entrance.tsx"/>
+ <layer id="1" name="Back" width="4" height="3">
   <data encoding="csv">
-377,
-180
+0,0,0,0,
+0,0,0,0,
+0,0,0,0
 </data>
  </layer>
  <objectgroup id="2" name="Back"/>
- <layer id="3" name="Buildings" width="1" height="2">
+ <layer id="3" name="Buildings" width="4" height="3">
   <data encoding="csv">
-386,
-2182
+0,0,0,0,
+0,0,0,0,
+0,0,0,0
 </data>
  </layer>
  <objectgroup id="4" name="Buildings">
   <properties>
    <property name="Warp" value="51 12 BoatTunnel 6 10"/>
   </properties>
-  <object id="12" name="TileData" x="0" y="16" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue ------------------  Mineral Town  ------------------^    Go Forward to the Right Side of the Bus Road."/>
-   </properties>
-  </object>
  </objectgroup>
- <layer id="5" name="Front" width="1" height="2">
+ <layer id="5" name="Front" width="4" height="3">
   <data encoding="csv">
-2157,
-0
+2683,2684,2685,2686,
+2691,2692,2693,2694,
+2699,2700,2701,2702
 </data>
  </layer>
  <objectgroup id="6" name="Front"/>
- <layer id="7" name="Paths" width="1" height="2">
+ <layer id="7" name="Paths" width="4" height="3">
   <data encoding="csv">
-0,
-0
+0,0,0,0,
+0,0,0,0,
+0,0,0,0
 </data>
  </layer>
  <objectgroup id="8" name="Paths"/>
- <layer id="11" name="AlwaysFront" width="1" height="2">
+ <layer id="11" name="AlwaysFront" width="4" height="3">
   <data encoding="csv">
-0,
-0
+0,0,0,0,
+0,0,0,0,
+0,0,0,0
 </data>
  </layer>
  <objectgroup id="12" name="AlwaysFront"/>
