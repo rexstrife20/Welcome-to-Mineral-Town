@@ -6,10 +6,13 @@
       "Action": "EditData",
       "Target": "Characters/schedules/Gray",
       "Entries": {
-        "spring": "0 Custom_HM_InnSecFloor 27 5 1 Gray_sleep/610 Custom_HM_InnSecFloor 13 11 3/700 Custom_HM_MineralTown 9 83 2/900 Custom_HM_BlackSmith 15 16 0/1200 Custom_HM_BlackSmithWorkshop 7 11 3/1500 Custom_HM_Library 6 6 2/1700 Custom_HM_Inn 4 11 1/2000 Custom_HM_InnSecFloor 31 7 2/2200 Custom_HM_InnSecFloor 27 5 1 Gray_sleep",
+        "spring": "610 Custom_HM_InnSecFloor 31 6 0/700 Custom_HM_MineralTown 19 114 2/900 Custom_HM_BlackSmith 15 16 0/1200 Custom_HM_BlackSmithWorkshop 7 11 3/1500 Custom_HM_Library 8 8 0/1700 Custom_HM_Inn 8 15 1/2000 Custom_HM_InnSecFloor 31 8 2/2200 Custom_HM_InnSecFloor 27 6 3 Gray_sleep",
         "summer": "GOTO spring",
         "fall": "GOTO spring",
-        "winter": "GOTO spring"
+        "winter": "GOTO spring",
+
+        "Thu": "610 Custom_HM_MountainLake 25 31 3/1030 Custom_HM_BlackSmithWorkshop 7 11 3/1500 Custom_HM_Library 8 8 0/1700 Custom_HM_Inn 8 15 1/2000 Custom_HM_InnSecFloor 31 8 2/2200 Custom_HM_InnSecFloor 27 6 3 Gray_sleep",
+        "rain": "610 Custom_HM_InnSecFloor 31 6 0/900 Custom_HM_BlackSmith 15 16 0/1200 Custom_HM_BlackSmithWorkshop 7 11 3/1500 Custom_HM_Library 8 8 0/1700 Custom_HM_Inn 8 15 1/2000 Custom_HM_InnSecFloor 31 8 2/2200 Custom_HM_InnSecFloor 27 6 3 Gray_sleep"
       },
     },
   ],
