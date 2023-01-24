@@ -4,9 +4,9 @@
     {
       "LogName": "Won Schedule",
       "Action": "EditData",
-      "Target": "Characters/schedules/Won ",
+      "Target": "Characters/schedules/Won",
       "Entries": {
-        "spring": "0 Custom_HM_ZackHouse 17 8 3 Won_sleep/610 Custom_HM_ZackHouse 16 8 3/1100 Custom_HM_ZackHouse 16 8 2 Won_reading/1400 Custom_HM_ZackHouse 16 8 3/1800 Custom_HM_ZackHouse 10 9 2/2300 Custom_HM_ZackHouse 17 8 3 Won_sleep",
+        "spring": "610 Custom_HM_ZackHouse 16 8 3/700 Custom_HM_ZackHouse 9 5 0/800 Custom_HM_ZackHouse 10 7 2/900 Custom_HM_ZackHouse 16 8 2 Won_reading/1200 Custom_HM_ZackHouse 16 8 3/1600 Custom_HM_ZackHouse 9 5 0/1800 Custom_HM_ZackHouse 9 9 2/2100 Custom_HM_ZackHouse 16 8 2 Won_reading/2300 Custom_HM_ZackHouse 17 9 3 Won_sleep",
         "summer": "GOTO spring",
         "fall": "GOTO spring",
         "winter": "GOTO spring"
