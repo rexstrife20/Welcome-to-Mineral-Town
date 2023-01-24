@@ -6,10 +6,14 @@
       "Action": "EditData",
       "Target": "Characters/schedules/Ellen",
       "Entries": {
-        "spring": "0 Custom_HM_EllenHouse 21 5 3/610 Custom_HM_EllenHouse 22 16 3/810 Custom_HM_MineralTown 79 91 2/1000 Custom_HM_EllenHouse 18 13 2 Ellen_chairsleep/1200 Custom_HM_EllenHouse 22 16 1/1300 Custom_HM_EllenHouse 16 13 2/2000 Custom_HM_EllenHouse 21 5 3 Ellen_chairsleep",
+        "spring": "610 Custom_HM_EllenHouse 22 16 3/810 Custom_HM_MineralTown 79 91 2/1000 Custom_HM_EllenHouse 18 13 2 Ellen_nap/1200 Custom_HM_EllenHouse 22 16 3/1300 Custom_HM_EllenHouse 16 13 2/2000 Custom_HM_EllenHouse 21 5 3 Ellen_sleep",
         "summer": "GOTO spring",
         "fall": "GOTO spring",
-        "winter": "GOTO spring"
+        "winter": "GOTO spring",
+
+        "Wed": "610 Custom_HM_EllenHouse 22 16 3/810 Custom_HM_MineralTown 79 91 2/1000 Custom_HM_ChurchInterior 15 15 0/1400 Custom_HM_EllenHouse 16 13 2/2000 Custom_HM_EllenHouse 21 5 3 Ellen_sleep",
+
+        "rain": "610 Custom_HM_EllenHouse 22 16 3/1000 Custom_HM_EllenHouse 18 13 2 Ellen_nap/1200 Custom_HM_EllenHouse 22 16 3/1300 Custom_HM_EllenHouse 16 13 2/2000 Custom_HM_EllenHouse 21 5 3 Ellen_sleep"
       },
     },
   ],
