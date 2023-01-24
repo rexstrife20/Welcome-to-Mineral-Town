@@ -71,9 +71,20 @@
             "LogName": "Animations",
             "Action": "EditData",
             "Target": "Data/animationDescriptions",
+          "Entries": {
+            "Carter_sleep": "52/52/52",
+            "Carter_reading": "16/16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 18 18 18 18 18 18 18 18 18 18 18 18/17"
+          }
+        },
+        //-------------------------
+        //Custom NPC Exclusions
+        //-------------------------
+        {
+            "LogName":"Exclusions",
+            "Action": "EditData",
+            "Target": "Data/CustomNPCExclusions",
             "Entries": {
-                "Carter_sleep": "48/48/48",
-                "Carter_reading": "16/16 16 16 17 17 17 18 18 18/17",
+            "Carter": "WinterStar"
             }
         },
     ]

@@ -72,8 +72,18 @@
             "Action": "EditData",
             "Target": "Data/animationDescriptions",
             "Entries": {
-                "Manna_sleep": "48/48/48",
-                "Duke_drink": "16/16 16 16 17 17 17 18 18 18 16 16 16/16",
+              "Manna_sleep": "52/52/52"
+          }
+        },
+        //-------------------------
+        //Custom NPC Exclusions
+        //-------------------------
+        {
+            "LogName":"Exclusions",
+            "Action": "EditData",
+            "Target": "Data/CustomNPCExclusions",
+            "Entries": {
+            "Manna": "WinterStar"
             }
         },
     ]

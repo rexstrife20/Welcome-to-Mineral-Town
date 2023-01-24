@@ -7,9 +7,9 @@
             "LogName": "NPC Manifestation",
             "Action": "EditData",
             "Target": "Data/NPCDispositions",
-            "Entries": {
-                "Ann": "teen/neutral/outgoing/positive/female/datable/Cliff/other/summer 7/Doug 'dad' Karen 'friend'/Custom_HM_InnKitchen 11 5 3/Ann"
-            }
+          "Entries": {
+            "Ann": "teen/neutral/outgoing/positive/female/datable/Cliff/other/summer 7/Doug 'dad' Karen 'friend'/Custom_HM_InnKitchen 11 5 3/Ann"
+          }
         },
         //------------------------
         // Gift             	
@@ -42,7 +42,6 @@
             "Target": "Characters/Ann_Beach",
             "FromFile": "Assets/Characters/Ann/Ann_Beach.png"
         },
-        
         //------------------------
         // Load blank
         //------------------------

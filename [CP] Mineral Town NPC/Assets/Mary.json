@@ -8,7 +8,7 @@
             "Action": "EditData",
             "Target": "Data/NPCDispositions",
             "Entries": {
-                "Mary": "teen/polite/shy/neutral/female/datable/Gray/other/winter 20/Basil 'dad' Anna 'mother' Penny 'friend'/Custom_HM_LibraryHouseSecFloor 18 12 3/Mary"
+                "Mary": "teen/polite/shy/neutral/female/datable/Gray/other/winter 20/Basil 'dad' Marya 'mother' Penny 'friend'/Custom_HM_LibraryHouseSecFloor 18 12 3/Mary"
             }
         },
         //------------------------
@@ -71,10 +71,10 @@
             "LogName": "Animations",
             "Action": "EditData",
             "Target": "Data/animationDescriptions",
-            "Entries": {
-                "Mary_sleep": "48/48/48",
-                "Mary_reading": "16/16 16 16 17 17 17 18 18 18 19 19 19 18 18 18/18"
-            }
+          "Entries": {
+            "Mary_sleep": "52/52/52",
+            "Mary_reading": "16/18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 19 19 19 19 19 19 19 19/18"
+          }
         },
     ]
 }
