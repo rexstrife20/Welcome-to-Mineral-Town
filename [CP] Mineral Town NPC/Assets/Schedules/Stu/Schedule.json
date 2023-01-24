@@ -4,12 +4,16 @@
     {
       "LogName": "Stu Schedule",
       "Action": "EditData",
-      "Target": "Characters/schedules/Stu ",
+      "Target": "Characters/schedules/Stu",
       "Entries": {
-        "spring": "0 Custom_HM_EllenHouse 15 5 1 Stu_sleep/610 Custom_HM_EllenHouse 19 14 2/810 Custom_HM_MineralTown 85 67 1/1100 Custom_HM_MineralTown 128 81 1 Stu_play/1400 Custom_HM_EllenHouse 20 15 3/1800 Custom_HM_EllenHouse 19 6 3 Stu_play/2100 Custom_HM_EllenHouse 15 5 1 Stu_sleep",
+        "spring": "610 Custom_HM_EllenHouse 19 14 2/810 Custom_HM_MineralTown 73 83 1/1000 Custom_HM_MineralTown 73 67 2 Stu_play/1300 Custom_HM_EllenHouse 20 15 3/1800 Custom_HM_EllenHouse 19 6 3 Stu_play/2100 Custom_HM_EllenHouse 15 5 1 Stu_sleep",
         "summer": "GOTO spring",
         "fall": "GOTO spring",
-        "winter": "GOTO spring"
+        "winter": "GOTO spring",
+
+        "Wed": "610 Custom_HM_EllenHouse 19 14 2/810 Custom_HM_MineralTown 80 93 0/1000 Custom_HM_ChurchInterior 14 15 0/1400 Custom_HM_EllenHouse 20 15 3/1800 Custom_HM_EllenHouse 19 6 3 Stu_play/2100 Custom_HM_EllenHouse 15 5 1 Stu_sleep",
+
+        "rain": "610 Custom_HM_EllenHouse 19 14 2/700 Custom_HM_EllenHouse 9 15 1/800 Custom_HM_EllenHouse 20 15 2 Stu_play/1300 Custom_HM_EllenHouse 9 15 1/1400 Custom_HM_EllenHouse 20 15 2 Stu_play/1700 Custom_HM_EllenHouse 9 15 1/1800 Custom_HM_EllenHouse 19 6 3 Stu_play/2100 Custom_HM_EllenHouse 15 5 1 Stu_sleep"
       },
     },
   ],

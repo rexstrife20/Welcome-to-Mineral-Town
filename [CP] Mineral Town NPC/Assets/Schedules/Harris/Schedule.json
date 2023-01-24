@@ -6,7 +6,7 @@
       "Action": "EditData",
       "Target": "Characters/schedules/Harris",
       "Entries": {
-        "spring": "0 Custom_HM_MayorHouse 20 5 3 Harris_sleep/610 Custom_HM_MineralTown 32 68 2/810 Custom_HM_MineralTown 115 87 2/1000 Custom_HM_MineralTown 65 93 2/1200 Custom_HM_MayorHouse 6 15 3/1500 Custom_HM_WoodCutterInterior 6 10 3/1800 Custom_HM_Inn 22 10 3/2200 Custom_HM_MayorHouse 20 5 3 Harris_sleep",
+        "spring": "610 Custom_HM_MineralTown 30 68 2/810 Custom_HM_MineralTown 115 87 2/1000 Custom_HM_YodelInterior 8 13 3/1200 Custom_HM_MineralTown 65 93 2/1400 Custom_HM_WoodCutterInterior 6 13 3/1800 Custom_HM_Inn 20 18 0/2200 Custom_HM_MayorHouse 1 5 3 Harris_sleep",
         "summer": "GOTO spring",
         "fall": "GOTO spring",
         "winter": "GOTO spring"

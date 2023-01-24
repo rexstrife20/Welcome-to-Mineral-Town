@@ -76,5 +76,16 @@
                 "Stu_play": "18/18 18 19 19 18 18/18",
             }
         },
+        //-------------------------
+        //Custom NPC Exclusions
+        //-------------------------
+        {
+            "LogName":"Exclusions",
+            "Action": "EditData",
+            "Target": "Data/CustomNPCExclusions",
+            "Entries": {
+            "Stu": "WinterStar"
+            }
+        },
     ]
 }

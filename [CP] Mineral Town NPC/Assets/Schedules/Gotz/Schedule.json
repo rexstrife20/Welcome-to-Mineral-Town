@@ -6,10 +6,14 @@
       "Action": "EditData",
       "Target": "Characters/schedules/Gotz",
       "Entries": {
-        "spring": "0 Custom_HM_WoodCutterInterior 18 5 1 Gotz_sleep/610 Custom_HM_MountainLake 50 26 3/810 Custom_HM_WoodCutter 38 11 3/1200 Custom_HM_WoodCutterInterior 4 8 1 Gotz_work/1500 Custom_HM_WoodCutterInterior 4 10 1/1800 Custom_HM_MountainLake 50 26 3/2100 Custom_HM_WoodCutterInterior 18 5 1 Gotz_sleep",
+        "spring": "610 Custom_HM_MountainLake 46 20 3/830 Custom_HM_WoodCutter 38 11 3/1030 Custom_HM_WoodCutterInterior 2 5 0/1120 Custom_HM_WoodCutterInterior 3 10 1/1150 Custom_HM_WoodCutterInterior 14 8 2/1700 Custom_HM_WoodCutterInterior 4 8 3 Gotz_work/2100 Custom_HM_WoodCutterInterior 18 5 1 Gotz_sleep",
         "summer": "GOTO spring",
         "fall": "GOTO spring",
-        "winter": "GOTO spring"
+        "winter": "GOTO spring",
+
+        "Sun": "610 Custom_HM_WoodCutterInterior 2 5 0/710 Custom_HM_WoodCutterInterior 3 10 1/1230 Custom_HM_MountainLake 46 20 3/1500 Custom_HM_WoodCutterInterior 4 5 0/1700 Custom_HM_WoodCutterInterior 3 10 1/1800 Custom_HM_Inn 15 8 0/2100 Custom_HM_WoodCutterInterior 18 5 1 Gotz_sleep",
+
+        "rain": "610 Custom_HM_WoodCutterInterior 2 5 0/710 Custom_HM_WoodCutterInterior 3 10 1/900 Custom_HM_WoodCutterInterior 4 8 3 Gotz_work/1150 Custom_HM_WoodCutterInterior 14 8 2/1500 Custom_HM_WoodCutterInterior 4 5 0/1700 Custom_HM_WoodCutterInterior 3 10 1/2100 Custom_HM_WoodCutterInterior 18 5 1 Gotz_sleep"
       },
     },
   ],

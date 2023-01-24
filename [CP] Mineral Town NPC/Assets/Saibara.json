@@ -72,8 +72,19 @@
             "Action": "EditData",
             "Target": "Data/animationDescriptions",
             "Entries": {
-                "Saibara_sleep": "16/16 16 16 17 17 17 18 18 18 16 16 16/16",
+                "Saibara_sleep": "16/16 16 16 17 17 17 18 18 18 19 19 19/19",
                 "Saibara_work": "20/20 20 20 21 21 21 20 20 20/20",
+            }
+        },
+        //-------------------------
+        //Custom NPC Exclusions
+        //-------------------------
+        {
+            "LogName":"Exclusions",
+            "Action": "EditData",
+            "Target": "Data/CustomNPCExclusions",
+            "Entries": {
+            "Saibara": "WinterStar"
             }
         },
     ]

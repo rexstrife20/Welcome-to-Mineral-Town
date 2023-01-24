@@ -6,11 +6,15 @@
       "Action": "EditData",
       "Target": "Characters/schedules/Jeff",
       "Entries": {
-        "spring": "0 Custom_HM_JeffMarket 14 5 1 Jeff_sleep/610 Custom_HM_JeffMarket 7 14 2/700 Custom_HM_JeffMarket 4 32 3 Jeff_work/900 Custom_HM_JeffMarket 10 25 2/1800 Custom_HM_MineralTown 78 91 2/2200 Custom_HM_JeffMarket 14 5 1 Jeff_sleep",
+        "spring": "610 Custom_HM_JeffMarket 7 14 2/700 Custom_HM_JeffMarket 4 27 3 Jeff_work/730 Custom_HM_JeffMarket 4 29 3 Jeff_work/750 Custom_HM_JeffMarket 4 31 3 Jeff_work/820 Custom_HM_JeffMarket 4 33 3 Jeff_work/840 Custom_HM_JeffMarket 13 24 0/900 Custom_HM_JeffMarket 9 25 2/1800 Custom_HM_MineralTown 78 91 2/1900 Custom_HM_JeffMarket 14 18 0/2000 Custom_HM_JeffMarket 6 14 2/2200 Custom_HM_JeffMarket 14 5 1 Jeff_sleep",
         "summer": "GOTO spring",
         "fall": "GOTO spring",
         "winter": "GOTO spring",
-        "Sun": "0 Custom_HM_JeffMarket 14 5 1 Jeff_sleep/610 Custom_HM_JeffMarket 7 14 2/900 Custom_HM_ChurchInterior 15 12 0/1700 Custom_HM_Inn 17 15 3/2100 Custom_HM_JeffMarket 14 5 1 Jeff_sleep"
+
+        "Sun": "610 Custom_HM_JeffMarket 7 14 2/900 Custom_HM_ChurchInterior 15 12 0/1600 Custom_HM_Inn 25 11 3/2100 Custom_HM_JeffMarket 10 5 0/2350 Custom_HM_JeffMarket 14 5 1 Jeff_sleep",
+        "Tue": "610 Custom_HM_JeffMarket 7 14 2/700 Custom_HM_JeffMarket 4 27 3 Jeff_work/730 Custom_HM_JeffMarket 4 29 3 Jeff_work/750 Custom_HM_JeffMarket 4 31 3 Jeff_work/820 Custom_HM_JeffMarket 4 33 3 Jeff_work/840 Custom_HM_JeffMarket 13 24 0/900 Custom_HM_JeffMarket 9 25 2/1230 Custom_HM_HospitalFirstFloor 20 8 0/1600 Custom_HM_JeffMarket 9 25 2/1800 Custom_HM_JeffMarket 14 18 0/1900 Custom_HM_JeffMarket 6 14 2/2200 Custom_HM_JeffMarket 14 5 1 Jeff_sleep",
+
+        "rain": "610 Custom_HM_JeffMarket 7 14 2/700 Custom_HM_JeffMarket 4 27 3 Jeff_work/730 Custom_HM_JeffMarket 4 29 3 Jeff_work/750 Custom_HM_JeffMarket 4 31 3 Jeff_work/820 Custom_HM_JeffMarket 4 33 3 Jeff_work/840 Custom_HM_JeffMarket 13 24 0/900 Custom_HM_JeffMarket 9 25 2/1800 Custom_HM_JeffMarket 14 18 0/1900 Custom_HM_JeffMarket 6 14 2/2200 Custom_HM_JeffMarket 14 5 1 Jeff_sleep"
       },
     },
   ],

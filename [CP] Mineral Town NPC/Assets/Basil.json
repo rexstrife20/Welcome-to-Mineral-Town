@@ -71,10 +71,23 @@
             "LogName": "Animations",
             "Action": "EditData",
             "Target": "Data/animationDescriptions",
+          "Entries": {
+            "Basil_sleep": "48/48/48",
+            "Basil_reading": "16/16 16 16 17 17 17 18 18 18 16 16 16/16",
+            "Basil_writing_right": "20/20 20 20 21 21 21 22 22 22 21 21 21 22 22 22 21 21 21 22 22 22 21 21 21 22 22 22 21 21 21 22 22 22 20 20 20/20",
+            "Basil_writing_left": "24/24 24 24 25 25 25 26 26 26 25 25 25 26 26 26 25 25 25 26 26 26 25 25 25 26 26 26 25 25 25 26 26 26 24 24 24/24"
+
+          }
+        },
+        //-------------------------
+        //Custom NPC Exclusions
+        //-------------------------
+        {
+            "LogName":"Exclusions",
+            "Action": "EditData",
+            "Target": "Data/CustomNPCExclusions",
             "Entries": {
-                "Basil_sleep": "48/48/48",
-                "Basil_reading": "16/16 16 16 17 17 17 18 18 18 16 16 16/16",
-                "Basil_writinng": "20/20 20 20 21 21 21 22 22 22 20 20 20/20"
+            "Basil": "WinterStar"
             }
         },
     ]

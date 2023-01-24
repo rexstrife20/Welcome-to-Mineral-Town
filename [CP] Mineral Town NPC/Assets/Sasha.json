@@ -72,8 +72,19 @@
             "Action": "EditData",
             "Target": "Data/animationDescriptions",
             "Entries": {
-                "Sasha_sleep": "48/48/48",
+                "Sasha_sleep": "52/52/52",
             }
-        }
+        },
+        //-------------------------
+        //Custom NPC Exclusions
+        //-------------------------
+        {
+            "LogName":"Exclusions",
+            "Action": "EditData",
+            "Target": "Data/CustomNPCExclusions",
+            "Entries": {
+            "Sasha": "WinterStar"
+            }
+        },
     ]
 }

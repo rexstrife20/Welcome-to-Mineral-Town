@@ -6,10 +6,15 @@
       "Action": "EditData",
       "Target": "Characters/schedules/Carter",
       "Entries": {
-        "spring": "0 Custom_HM_CarterHouseInterior 11 6 1 Carter_sleep/610 Custom_HM_MineralTown 25 24 0/810 Custom_HM_ChurchInterior 10 8 2/1300 Custom_HM_ChurchInterior 10 8 2 Carter_reading/1900 Custom_HM_CarterHouseInterior 3 6 2/2200 Custom_HM_CarterHouseInterior 11 6 1 Carter_sleep",
+        "spring": "610 Custom_HM_MineralTown 25 24 0/910 Custom_HM_MineralTown 76 71 3/1300 Custom_HM_ChurchInterior 10 10 2 Carter_reading/1800 Custom_HM_CarterHouseInterior 3 6 2/2200 Custom_HM_CarterHouseInterior 11 6 1 Carter_sleep",
         "summer": "GOTO spring",
         "fall": "GOTO spring",
-        "winter": "GOTO spring"
+        "winter": "GOTO spring",
+
+        "Mon": "610 Custom_HM_MineralTown 25 24 0/910 Custom_HM_MineralTown 76 71 3/1300 Custom_HM_ConfessionBox 2 4 2/1800 Custom_HM_CarterHouseInterior 3 6 2/2200 Custom_HM_CarterHouseInterior 11 6 1 Carter_sleep",
+        "Wed": "610 Custom_HM_MineralTown 25 24 0/910 Custom_HM_ConfessionBox 2 4 2/1300 Custom_HM_ChurchInterior 10 10 2 Carter_reading/1800 Custom_HM_CarterHouseInterior 3 6 2/2200 Custom_HM_CarterHouseInterior 11 6 1 Carter_sleep",
+
+        "rain": "610 Custom_HM_MineralTown 25 24 0/910 Custom_HM_ChurchInterior 11 8 2/1300 Custom_HM_ChurchInterior 10 10 2 Carter_reading/1800 Custom_HM_CarterHouseInterior 3 6 2/2200 Custom_HM_CarterHouseInterior 11 6 1 Carter_sleep"
       },
     },
   ],

@@ -1,7 +1,7 @@
 {
   "Name": "MineralTown",
   "Author": "Mineral Town Architects",
-  "Version": "1.0.5",
+  "Version": "1.0.7",
   "Description": "Inspired from Harvest Moon: Friends of Mineral Town",
   "UniqueID": "MineralTownArchitects.MineralTown",
   "UpdateKeys": [ "Nexus:13996" ],
@@ -9,7 +9,10 @@
     "UniqueID": "Pathoschild.ContentPatcher"
   },
   "Dependencies": [
-
+    {
+      "UniqueID": "SuperAardvark.AntiSocial",
+      "IsRequired": false
+    },
     {
       "UniqueID": "spacechase0.ContentCode",
       "IsRequired": false
@@ -62,10 +65,6 @@
     },
     {
       "UniqueID": "DaisyNiko.Tilesheets",
-      "IsRequired": true
-    },
-    {
-      "UniqueID": "alvadea.tilesheet",
       "IsRequired": true
     },
     {

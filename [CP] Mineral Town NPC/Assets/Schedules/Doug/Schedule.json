@@ -6,10 +6,12 @@
       "Action": "EditData",
       "Target": "Characters/schedules/Doug",
       "Entries": {
-        "spring": "0 Custom_HM_InnKitchen 25 5 1 Doug_sleep/610 Custom_HM_InnKitchen 25 9 2/810 Custom_HM_Inn 14 6 2 Doug_work/1200 Custom_HM_InnKitchen 6 10 3/1300 Custom_HM_InnKitchen 1 5 0/1400 Custom_HM_Inn 14 6 2 Doug_work/2300 Custom_HM_InnKitchen 25 5 1 Doug_sleep",
+        "spring": "610 Custom_HM_InnKitchen 25 9 2/810 Custom_HM_Inn 13 6 2 Doug_work/1200 Custom_HM_InnKitchen 6 10 3/1300 Custom_HM_InnKitchen 2 5 0/1400 Custom_HM_Inn 14 6 2 Doug_work/2300 Custom_HM_InnKitchen 25 5 1 Doug_sleep",
         "summer": "GOTO spring",
         "fall": "GOTO spring",
-        "winter": "GOTO spring"
+        "winter": "GOTO spring",
+
+        "fall_5": "610 Custom_HM_InnKitchen 25 9 2/700 Custom_HM_MineralTown 27 28 0/1000 Custom_HM_MountainSummit 19 17/1500 Custom_HM_InnKitchen 6 10 3/1630 Custom_HM_InnKitchen 2 5 0/1730 Custom_HM_Inn 14 6 2 Doug_work/2300 Custom_HM_InnKitchen 25 5 1 Doug_sleep"
       },
     },
   ],

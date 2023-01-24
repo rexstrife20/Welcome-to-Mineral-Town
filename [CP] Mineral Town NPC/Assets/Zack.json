@@ -1,68 +1,90 @@
 {
-    "Changes": [
-        //-------------------------
-        // NPCDispositions
-        //-------------------------        
-        {
-            "LogName": "NPC Manifestation",
-            "Action": "EditData",
-            "Target": "Data/NPCDispositions",
-            "Entries": {
-                "Zack": "adult/rude/outgoing/positive/male/not-datable/null/other/summer 28/Won 'friend'/Custom_HM_ZackHouse 19 5 3/Zack"
-            }
-        },
-        //------------------------
-        // Gift             	
-        //------------------------
-        {
-            "Action": "EditData",
-            "Target": "Data/NPCGiftTastes",
-            "Entries": {
-                "Zack": "Yo, thanks! Now ain't this a hot little number?/72 195 227 400 424 426 613/Yo, thanks. 'Preciate it./233 194/Huh. Well, uh... 'Preciate the thought, but I ain't got much use for somethin' like this./-2/Yo, what the heck! Yer brain fulla lead or somethin'? Ugh, can't even begin to imagine what you were thinkin'.../219/Thank you.//,"
-            }
-        },
-        //------------------------
-        // Portraits & Sprite              	
-        //------------------------
-        {
-            "LogName": "Zack Portraits & Sprite",
-            "Action": "Load",
-            "Target": "Portraits/Zack, Characters/Zack",
-            "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
-        },
-        {
-            "LogName": "Zack Beach Wear Portrait",
-            "Action": "Load",
-            "Target": "Portraits/Zack_Beach",
-            "FromFile": "Assets/Portraits/Zack/Zack_Beach.png"
-        },
-        {
-            "LogName": "Zack Beach Wear Sprite",
-            "Action": "Load",
-            "Target": "Characters/Zack_Beach",
-            "FromFile": "Assets/Characters/Zack/Zack_Beach.png"
-        },
-        //------------------------
-        // Load blank
-        //------------------------
-        {
-            "Action": "Load",
-            "Target": "Characters/Dialogue/Zack, Characters/schedules/Zack",
-            "FromFile": "Assets/blank.json"
-        },
-        //------------------------
-        // Dialogue              	
-        //------------------------
-        {
-            "Action": "Include",
-            "FromFile": "Assets/Dialogues/Zack/Dialogues.json"
-        },
-        //------------------------
-        // Schedule              	
-        //------------------------
-        {
-            "Action": "Include",
-            "FromFile": "Assets/Schedules/Zack/Schedule.json"
-        },
-    ]
+  "Changes": [
+    //-------------------------
+    // NPCDispositions
+    //-------------------------        
+    {
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Zack": "adult/rude/outgoing/positive/male/not-datable/null/other/summer 28/Won 'friend'/Custom_HM_ZackHouse 19 5 3/Zack"
+      }
+    },
+    //------------------------
+    // Gift             	
+    //------------------------
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Zack": "Yo, thanks! Now ain't this a hot little number?/72 195 227 400 424 426 613/Yo, thanks. 'Preciate it./233 194/Huh. Well, uh... 'Preciate the thought, but I ain't got much use for somethin' like this./-2/Yo, what the heck! Yer brain fulla lead or somethin'? Ugh, can't even begin to imagine what you were thinkin'.../219/Thank you.//,"
+      }
+    },
+    //------------------------
+    // Portraits & Sprite              	
+    //------------------------
+    {
+      "LogName": "Zack Portraits & Sprite",
+      "Action": "Load",
+      "Target": "Portraits/Zack, Characters/Zack",
+      "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
+    },
+    {
+      "LogName": "Zack Beach Wear Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Zack_Beach",
+      "FromFile": "Assets/Portraits/Zack/Zack_Beach.png"
+    },
+    {
+      "LogName": "Zack Beach Wear Sprite",
+      "Action": "Load",
+      "Target": "Characters/Zack_Beach",
+      "FromFile": "Assets/Characters/Zack/Zack_Beach.png"
+    },
+    //------------------------
+    // Load blank
+    //------------------------
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Zack, Characters/schedules/Zack",
+      "FromFile": "Assets/blank.json"
+    },
+    //------------------------
+    // Dialogue              	
+    //------------------------
+    {
+      "Action": "Include",
+      "FromFile": "Assets/Dialogues/Zack/Dialogues.json"
+    },
+    //------------------------
+    // Schedule              	
+    //------------------------
+    {
+      "Action": "Include",
+      "FromFile": "Assets/Schedules/Zack/Schedule.json"
+    },
+    //------------------------
+    // Animation & Animation strings             	
+    //------------------------
+    {
+      "LogName": "Animations",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "Zack_sleep": "16/16/16"
+      }
+    },
+    //-------------------------
+    //Custom NPC Exclusions
+    //-------------------------
+    {
+      "LogName": "Exclusions",
+      "Action": "EditData",
+      "Target": "Data/CustomNPCExclusions",
+      "Entries": {
+        "Zack": "WinterStar"
+      }
+    }
+  ]
 }

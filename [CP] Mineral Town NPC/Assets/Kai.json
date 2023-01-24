@@ -7,9 +7,9 @@
             "LogName": "NPC Manifestation",
             "Action": "EditData",
             "Target": "Data/NPCDispositions",
-            "Entries": {
-                "Kai": "teen/neutral/outgoing/positive/male/datable/Popuri/other/summer 22/null/Custom_HM_SnackShack 2 4 2/Kai"
-            }
+          "Entries": {
+            "Kai": "teen/neutral/outgoing/positive/male/datable/Popuri/other/summer 22/null/Custom_HM_KaiBed 2 4 2/Kai"
+          }
         },
         //------------------------
         // Gift             	
@@ -20,15 +20,6 @@
             "Entries": {
                 "Kai": "Whoa, thanks! Good looking out./256 270 276 832 -5/Whoa, this is for me? Cool! Thanks./233 194/Sorry, but, uh...this REALLY isn't my style./205 218 404 606 -2/Hey, quick question: what's your major malfunction? I really don't have time for your weird pranks or whatever./219/Thank you.//,"
             }
-        },
-        //------------------------
-        // Portraits & Sprite              	
-        //------------------------
-        {
-            "LogName": "Kai Portraits & Sprite",
-            "Action": "Load",
-            "Target": "Portraits/Kai, Characters/Kai",
-            "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         {
             "LogName": "Kai Beach Wear Portrait",
@@ -41,6 +32,15 @@
             "Action": "Load",
             "Target": "Characters/Kai_Beach",
             "FromFile": "Assets/Characters/Kai/Kai_Beach.png"
+        },
+        //------------------------
+        // Portraits & Sprite              	
+        //------------------------
+        {
+            "LogName": "Kai Portraits & Sprite",
+            "Action": "Load",
+            "Target": "Portraits/Kai, Characters/Kai",
+            "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
         },
         //------------------------
         // Load blank

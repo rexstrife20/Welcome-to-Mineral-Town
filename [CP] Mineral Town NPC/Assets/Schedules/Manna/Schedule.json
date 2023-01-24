@@ -4,14 +4,18 @@
     {
       "LogName": "Manna Schedule",
       "Action": "EditData",
-      "Target": "Characters/schedules/Manna ",
+      "Target": "Characters/schedules/Manna",
       "Entries": {
-        "spring": "0 Custom_HM_AjaWinerySecFloor 1 19 3 Manna_sleep/610 Custom_HM_AjaWinery 5 6 2/810 Custom_HM_JeffMarket 16 25 1/1000 Custom_HM_Library 2 7 0/1700 Custom_HM_AjaWinery 5 6 2/2200 Custom_HM_AjaWinerySecFloor 1 19 3 Manna_sleep",
+        "spring": "610 Custom_HM_AjaWinery 3 5 0/700 Custom_HM_AjaWinery 7 8 1/900 Custom_HM_AjaWinery 5 17 2/1400 Custom_HM_AjaWinery 3 5 0/1500 Custom_HM_AjaWinery 7 8 1/1600 Custom_HM_AjaWinery 12 17 3/1900 Custom_HM_AjaWinerySecFloor 6 22 0/2200 Custom_HM_AjaWinerySecFloor 1 19 3 Manna_sleep",
         "summer": "GOTO spring",
         "fall": "GOTO spring",
         "winter": "GOTO spring",
-        "Sun": "0 Custom_HM_AjaWinerySecFloor 1 19 3 Manna_sleep/610 Custom_HM_AjaWinery 5 6 2/1400 Custom_HM_MineralTown 50 76 0/1700 Custom_HM_AjaWinery 5 6 2/2200 Custom_HM_AjaWinerySecFloor 1 19 3 Manna_sleep",
-      },
-    },
-  ],
+
+        "Sat": "610 Custom_HM_AjaWinery 3 5 0/700 Custom_HM_AjaWinery 7 8 1/810 Custom_HM_JeffMarket 16 27 1/1000 Custom_HM_Library 1 7 0/1700 Custom_HM_AjaWinery 3 5 0/1800 Custom_HM_AjaWinery 7 8 1/1900 Custom_HM_AjaWinerySecFloor 6 22 0/2200 Custom_HM_AjaWinerySecFloor 1 19 3 Manna_sleep",
+        "Sun": "610 Custom_HM_AjaWinery 3 5 0/700 Custom_HM_AjaWinery 7 8 1/900 Custom_HM_AjaWinerySecFloor 3 4 0/1030 Custom_HM_AjaWinerySecFloor 3 5 3/1200 Custom_HM_AjaWinerySecFloor 5 5 0/1400 Custom_HM_MineralTown 50 76 0/1700 Custom_HM_AjaWinery 5 6 2/2200 Custom_HM_AjaWinerySecFloor 1 19 3 Manna_sleep",
+
+        "rain": "GOTO spring"
+      }
+    }
+  ]
 }

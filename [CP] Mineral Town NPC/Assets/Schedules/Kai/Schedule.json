@@ -6,10 +6,14 @@
       "Action": "EditData",
       "Target": "Characters/schedules/Kai",
       "Entries": {
-        "spring": "610 Custom_HM_MineralBeach 38 25 1/810 Custom_HM_SnackShack 9 6 2/1700 Custom_HM_Inn 20 9 2/2200 Custom_HM_SnackShack 2 4 2",
-        "summer": "GOTO spring",
+        "spring": "610 Custom_HM_KaiBed 2 4 2/2200 Custom_HM_KaiBed 2 4 2",
+        "summer": "610 Custom_HM_MineralBeach 38 25 1/1030 Custom_HM_SnackShack 9 6 2/1300 Custom_HM_MineralBeach 32 28 1/1430 Custom_HM_SnackShack 9 6 2/1700 Custom_HM_Inn 7 18 0/2200 Custom_HM_KaiBed 2 4 2",
         "fall": "GOTO spring",
-        "winter": "GOTO spring"
+        "winter": "GOTO spring",
+
+        "summer_Sun": "610 Custom_HM_MineralBeach 23 6 2/800 Custom_HM_MineralBeach 25 33 1/1100 Custom_HM_MineralBeach 56 15 1/1300 Custom_HM_MineralBeach 32 28 1/1700 Custom_HM_Inn 7 18 0/2200 Custom_HM_KaiBed 2 4 2",
+
+        "rain": "610 Custom_HM_SnackShack 4 5 0/1050 Custom_HM_SnackShack 9 6 2/1300 Custom_HM_KaiBed 2 4 2/1430 Custom_HM_SnackShack 9 6 2/2200 Custom_HM_KaiBed 2 4 2"
       },
     },
   ],

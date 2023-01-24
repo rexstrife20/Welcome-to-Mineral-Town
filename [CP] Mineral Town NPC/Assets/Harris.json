@@ -7,9 +7,9 @@
             "LogName": "NPC Manifestation",
             "Action": "EditData",
             "Target": "Data/NPCDispositions",
-            "Entries": {
-                "Harris": "adult/polite/outgoing/positive/male/not-datable/null/other/summer 4/Thomas 'father'/Custom_HM_MayorHouse 20 5 3/Harris"
-            }
+          "Entries": {
+            "Harris": "adult/polite/outgoing/positive/male/not-datable/null/other/summer 4/Thomas 'father'/Custom_HM_MayorHouse 1 5 3/Harris"
+          }
         },
         //------------------------
         // Gift             	
@@ -72,7 +72,18 @@
             "Action": "EditData",
             "Target": "Data/animationDescriptions",
             "Entries": {
-                "Harris_sleep": "48/48/48",
+                "Harris_sleep": "52/52/52",
+            }
+        },
+        //-------------------------
+        //Custom NPC Exclusions
+        //-------------------------
+        {
+            "LogName":"Exclusions",
+            "Action": "EditData",
+            "Target": "Data/CustomNPCExclusions",
+            "Entries": {
+            "Harris": "WinterStar"
             }
         },
     ]

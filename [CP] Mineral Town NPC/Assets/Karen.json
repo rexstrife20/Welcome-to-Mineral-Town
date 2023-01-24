@@ -8,7 +8,7 @@
             "Action": "EditData",
             "Target": "Data/NPCDispositions",
             "Entries": {
-                "Karen": "teen/rude/outgoing/positive/female/datable/null/other/fall 15/Jeff 'dad' Sasha 'mom'/null/Custom_HM_JeffMarket 3 5 3/Karen"
+                "Karen": "teen/rude/outgoing/positive/female/datable/null/other/fall 15/null/Custom_HM_JeffMarket 3 5 3/Karen"
             }
         },
         //------------------------
@@ -73,7 +73,7 @@
             "Target": "Data/animationDescriptions",
             "Entries": {
                 "Karen_sleep": "48/48/48",
-                "Karen_drink": "16/16 16 16 17 17 17 18 18 18 19 19 19 20 20 20 16 16 16/16",
+                "Karen_drink": "16/16 16 17 18 19 20 20 20 20 20 20 20 20 20 20 19 18 17 16 16 16 16 16 16 16 16 16/16",
             }
         }
     ]

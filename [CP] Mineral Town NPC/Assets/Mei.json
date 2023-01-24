@@ -73,7 +73,18 @@
             "Target": "Data/animationDescriptions",
             "Entries": {
                 "Mei_sleep": "16/16/16",
-                "Mei_rope": "20/20 20 20 21 21 21 22 22 22 23 23 23 20 20 20/20",
+                "Mei_rope": "20/20 20 21 21 22 22 23 23/20",
+            }
+        },
+        //-------------------------
+        //Custom NPC Exclusions
+        //-------------------------
+        {
+            "LogName":"Exclusions",
+            "Action": "EditData",
+            "Target": "Data/CustomNPCExclusions",
+            "Entries": {
+            "Mei": "WinterStar"
             }
         },
     ]

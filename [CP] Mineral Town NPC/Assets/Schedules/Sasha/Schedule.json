@@ -4,13 +4,17 @@
     {
       "LogName": "Sasha Schedule",
       "Action": "EditData",
-      "Target": "Characters/schedules/Sasha ",
+      "Target": "Characters/schedules/Sasha",
       "Entries": {
-        "spring": "0 Custom_HM_JeffMarket 16 5 3 Sasha_sleep/610 Custom_HM_JeffMarket 14 14 0/700 Custom_HM_JeffMarket 16 24 1/1800 Custom_HM_MineralTown 7 14 2/2100 Custom_HM_JeffMarket 16 5 3 Sasha_sleep",
+        "spring": "610 Custom_HM_JeffMarket 14 14 0/700 Custom_HM_JeffMarket 16 24 1/900 Custom_HM_JeffMarket 14 24 0/1300 Custom_HM_JeffMarket 8 14 2/1800 Custom_HM_JeffMarket 15 14 0/1900 Custom_HM_JeffMarket 16 15 3/2000 Custom_HM_JeffMarket 8 14 2/2100 Custom_HM_JeffMarket 16 5 3 Sasha_sleep",
         "summer": "GOTO spring",
         "fall": "GOTO spring",
         "winter": "GOTO spring",
-        "Sun" : "0 Custom_HM_JeffMarket 16 5 3 Sasha_sleep/610 Custom_HM_JeffMarket 14 14 0/900 Custom_HM_PoultryInterior 15 12 1/1400 Custom_HM_MineralTown 51 75 3/1700 Custom_HM_Inn 14 15 1/2100 Custom_HM_JeffMarket 16 5 3 Sasha_sleep ",
+
+        "Tue": "610 Custom_HM_JeffMarket 14 14 0/650 Custom_HM_YodelInterior 8 13 3/930 Custom_HM_PoultryInterior 15 12 1/1300 Custom_HM_EllenHouse 16 14 0/1720 Custom_HM_JeffMarket 15 14 0/1900 Custom_HM_JeffMarket 16 15 3/2000 Custom_HM_JeffMarket 8 14 2/2100 Custom_HM_JeffMarket 16 5 3 Sasha_sleep",
+        "Sun": "610 Custom_HM_JeffMarket 14 14 0/700 Custom_HM_JeffMarket 16 24 1/900 Custom_HM_JeffMarket 14 24 0/1000 Custom_HM_JeffMarket 8 14 2/1400 Custom_HM_MineralTown 51 75 3/1700 Custom_HM_Inn 21 11 1/2100 Custom_HM_JeffMarket 16 5 3 Sasha_sleep",
+
+        "rain": "GOTO spring"
       },
     },
   ],
