@@ -12,10 +12,6 @@
       "MigrateLegacyNames": [ "Mineral Town Beach" ]
     },
     {
-      "Name": "Custom_HM_MineralBeachFalls",
-      "FromMapFile": "OutdoorMaps/BeachTideFalls.tmx"
-    },
-    {
       "Name": "Custom_HM_MineralTidePool",
       "FromMapFile": "OutdoorMaps/TidePool.tmx"
     },
@@ -194,10 +190,6 @@
       "MigrateLegacyNames": [ "Moonlight Inn" ]
     },
     {
-      "Name": "Custom_HM_InnNight",
-      "FromMapFile": "IndoorMaps/InnInteriorNight.tmx"
-    },
-    {
       "Name": "Custom_HM_InnSecFloor",
       "FromMapFile": "IndoorMaps/Inn2ndFloor.tmx"
     },
@@ -287,8 +279,16 @@
       "FromMapFile": "IndoorMaps/MineralBarn.tmx"
     },
     {
-      "Name": "Custom_HM_Void",
-      "FromMapFile": "IndoorMaps/Void.tmx"
+      "Name": "Custom_HM_KaiBed",
+      "FromMapFile": "IndoorMaps/KaiBed.tmx"
+    },
+    {
+      "Name": "Custom_HM_SecChurchFloor",
+      "FromMapFile": "IndoorMaps/2ndChurchFloor.tmx"
+    },
+    {
+      "Name": "Custom_HM_ConfessionBox",
+      "FromMapFile": "IndoorMaps/ConfessionBox.tmx"
     }
   ],
 
@@ -313,50 +313,50 @@
       }
     },
 
-    //Add NPC Warp for Snack Shack Bedroom, Church Confessional Box & Bell Tower Room
-    //Snack Shack Bedroom
+    //Add NPC Warp for Kai's Bedroom, Church Confession Box & 2nd Floor
+    //Kai's Bedroom
     {
       "Action": "EditMap",
       "Target": "Maps/Custom_HM_SnackShack",
       "MapProperties": {
-        "NPCWarp": "2 4 Custom_HM_Void 2 6"
+        "NPCWarp": "2 4 Custom_HM_KaiBed 2 6"
       }
     },
     {
       "Action": "EditMap",
-      "Target": "Maps/Custom_HM_Void",
+      "Target": "Maps/Custom_HM_KaiBed",
       "MapProperties": {
         "NPCWarp": "2 7 Custom_HM_SnackShack 2 5"
       }
     },
-    //Bell Tower
+    //Church 2nd Floor
     {
       "Action": "EditMap",
       "Target": "Maps/Custom_HM_ChurchInterior",
       "MapProperties": {
-        "NPCWarp": "3 8 Custom_HM_Void 3 6"
+        "NPCWarp": "3 8 Custom_HM_SecChurchFloor 2 6"
       }
     },
     {
       "Action": "EditMap",
-      "Target": "Maps/Custom_HM_Void",
+      "Target": "Maps/Custom_HM_SecChurchFloor",
       "MapProperties": {
-        "NPCWarp": "3 7 Custom_HM_ChurchInterior 4 8"
+        "NPCWarp": "2 7 Custom_HM_ChurchInterior 3 9"
       }
     },
-    //Confessional Box
+    //Confession Box
     {
       "Action": "EditMap",
       "Target": "Maps/Custom_HM_ChurchInterior",
       "MapProperties": {
-        "NPCWarp": "18 8 Custom_HM_Void 4 6"
+        "NPCWarp": "18 8 Custom_HM_ConfessionBox 2 6"
       }
     },
     {
       "Action": "EditMap",
-      "Target": "Maps/Custom_HM_Void",
+      "Target": "Maps/Custom_HM_ConfessionBox",
       "MapProperties": {
-        "NPCWarp": "4 7 Custom_HM_ChurchInterior 19 8"
+        "NPCWarp": "2 7 Custom_HM_ChurchInterior 18 9"
       }
     },
 
@@ -524,9 +524,9 @@
         "71 45 Custom_HM_MineralTownEntrance 10 10",
         "72 45 Custom_HM_MineralTownEntrance 10 10",
         "73 45 Custom_HM_MineralTownEntrance 10 10",
-	      "63 46 Custom_HM_MineralTownEntrance 10 10",
-	      "64 46 Custom_HM_MineralTownEntrance 10 10",
-	      "65 46 Custom_HM_MineralTownEntrance 10 10",
+        "63 46 Custom_HM_MineralTownEntrance 10 10",
+        "64 46 Custom_HM_MineralTownEntrance 10 10",
+        "65 46 Custom_HM_MineralTownEntrance 10 10",
         "66 46 Custom_HM_MineralTownEntrance 10 10",
         "67 46 Custom_HM_MineralTownEntrance 10 10",
         "68 46 Custom_HM_MineralTownEntrance 10 10",
@@ -535,10 +535,10 @@
         "71 46 Custom_HM_MineralTownEntrance 10 10",
         "72 46 Custom_HM_MineralTownEntrance 10 10",
         "73 46 Custom_HM_MineralTownEntrance 10 10",
-	      "63 47 Custom_HM_MineralTownEntrance 10 10",
-	      "64 47 Custom_HM_MineralTownEntrance 10 10",
-	      "65 47 Custom_HM_MineralTownEntrance 10 10",
-	      "66 47 Custom_HM_MineralTownEntrance 10 10",
+        "63 47 Custom_HM_MineralTownEntrance 10 10",
+        "64 47 Custom_HM_MineralTownEntrance 10 10",
+        "65 47 Custom_HM_MineralTownEntrance 10 10",
+        "66 47 Custom_HM_MineralTownEntrance 10 10",
         "67 47 Custom_HM_MineralTownEntrance 10 10",
         "68 47 Custom_HM_MineralTownEntrance 10 10",
         "69 47 Custom_HM_MineralTownEntrance 10 10",
@@ -672,10 +672,10 @@
         "150 43 Custom_HM_OceanSummit 21 35",
         "150 44 Custom_HM_OceanSummit 21 35",
         "150 45 Custom_HM_OceanSummit 21 35",
-        "34 121 Custom_HM_WoodCutter 50 6",
-        "35 121 Custom_HM_WoodCutter 50 6",
-        "36 121 Custom_HM_WoodCutter 50 6",
-        "37 121 Custom_HM_WoodCutter 50 6"
+        "34 121 Custom_HM_WoodCutter 50 18",
+        "35 121 Custom_HM_WoodCutter 50 18",
+        "36 121 Custom_HM_WoodCutter 50 18",
+        "37 121 Custom_HM_WoodCutter 50 18"
       ]
     },
     /////////////////
@@ -959,12 +959,12 @@
       "Action": "EditMap",
       "Target": "Maps/Custom_HM_WoodCutter",
       "AddWarps": [
-        "48 5 Custom_HM_MineralTown 35 120",
-        "49 5 Custom_HM_MineralTown 35 120",
-        "50 5 Custom_HM_MineralTown 35 120",
-        "51 5 Custom_HM_MineralTown 35 120",
-        "52 5 Custom_HM_MineralTown 35 120",
-        "53 5 Custom_HM_MineralTown 35 120",
+        "48 17 Custom_HM_MineralTown 35 120",
+        "49 17 Custom_HM_MineralTown 35 120",
+        "50 17 Custom_HM_MineralTown 35 120",
+        "51 17 Custom_HM_MineralTown 35 120",
+        "52 17 Custom_HM_MineralTown 35 120",
+        "53 17 Custom_HM_MineralTown 35 120",
         "0 13 Custom_HM_GoddessHill 41 21",
         "0 14 Custom_HM_GoddessHill 41 21",
         "0 15 Custom_HM_GoddessHill 41 21",
@@ -1161,17 +1161,87 @@
       "Target": "Maps/BusStop",
       "FromFile": "OutdoorMaps/BusStopSign.tmx",
       "ToArea": {
-        "X": 31,
-        "Y": 2,
-        "Width": 4,
-        "Height": 4
+        "X": 10,
+        "Y": 21,
+        "Width": 1,
+        "Height": 2
       },
       "PatchMode": "ReplaceByLayer"
     },
 
 
     /*********
-		** Change from Tide Rises to TideFalls
+		** Open Snack Shack in Summer and Close in other seasons
+		*********/
+    /* Bugged
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralBeach",
+      "FromFile": "OutdoorMaps/SnackShackClose.tmx",
+      "ToArea": {
+        "X": 10,
+        "Y": 1,
+        "Width": 7,
+        "Height": 6
+      },
+      "PatchMode": "ReplaceByLayer",
+      "When": {
+        "Season": "spring"
+      },
+      "Update": "OnTimeChange"
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralBeach",
+      "FromFile": "OutdoorMaps/SnackShackOpen.tmx",
+      "ToArea": {
+        "X": 10,
+        "Y": 1,
+        "Width": 7,
+        "Height": 6
+      },
+      "PatchMode": "ReplaceByLayer",
+      "When": {
+        "Season": "summer"
+      },
+      "Update": "OnTimeChange"
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralBeach",
+      "FromFile": "OutdoorMaps/SnackShackClose.tmx",
+      "ToArea": {
+        "X": 10,
+        "Y": 1,
+        "Width": 7,
+        "Height": 6
+      },
+      "PatchMode": "ReplaceByLayer",
+      "When": {
+        "Season": "fall"
+      },
+      "Update": "OnTimeChange"
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_HM_MineralBeach",
+      "FromFile": "OutdoorMaps/SnackShackClose.tmx",
+      "ToArea": {
+        "X": 10,
+        "Y": 1,
+        "Width": 7,
+        "Height": 6
+      },
+      "PatchMode": "ReplaceByLayer",
+      "When": {
+        "Season": "winter"
+      },
+      "Update": "OnTimeChange"
+    },
+    */
+
+    /*********
+		** Change from Tide Rises to Tide Falls
 		*********/
     {
       "Action": "EditMap",
@@ -1570,6 +1640,7 @@
 
         // Outdoors
         "MT.Bin": "The bin is empty.",
+
         "MT.Highway.1": "The road is in disrepair... is that a town in the distance?",
         "MT.Highway.2": "There's a heart carved high on the bark. You can make out the initials IxZ inside it.",
         "MT.Highway.3": "There's a heart carved low on the bark with the initials FxB inside it.",
@@ -1587,7 +1658,7 @@
 
         "MT.Grave.1": "-Technoblade-^So Long Nerds^  1999-2022",
         "MT.Grave.2": "RIP",
-        "MT.Grave.3": "-Gloria-^Our Beloved Mom",
+        "MT.Grave.3": "In Loving Memory of^---Gloria---^Beloved Wife & Mom",
 
         "MT.Forest.1": "The Harvest Goddess Statue",
 
@@ -2080,7 +2151,7 @@
         "Cliff": "MTSpousePatios/7/1 1 1 1 1/0 0",
         "Kai": "MTSpousePatios/8/1 1 1 1 1/0 0",
         "Rick": "MTSpousePatios/9/1 1 1 1 1/0 0",
-        "Nami": "MTSpousePatios/10/1 1 1 1 1/0 0",
+        "Nami": "MTSpousePatios/10/1 1 1 1 1/0 0"
       }
     }
 
