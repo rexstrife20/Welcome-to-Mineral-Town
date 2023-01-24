@@ -4,13 +4,16 @@
     {
       "LogName": "Karen Schedule",
       "Action": "EditData",
-      "Target": "Characters/schedules/Karen ",
+      "Target": "Characters/schedules/Karen",
       "Entries": {
-        "spring": "0 Custom_HM_JeffMarket 3 5 3 Karen_sleep/610 Custom_HM_JeffMarket 5 6 2/710 Custom_HM_MineralTown 77 88 2/1000 Custom_HM_JeffMarket 7 14 2/1500 Custom_HM_MineralBeach 56 14 1/1700 Custom_HM_Inn 19 8 2 Karen_drink/2300 Custom_HM_JeffMarket 3 5 3 Karen_sleep",
+        "spring": "610 Custom_HM_JeffMarket 5 6 2/710 Custom_HM_MineralTown 77 88 2/1000 Custom_HM_JeffMarket 7 14 2/1300 Custom_HM_MineralBeach 56 14 1/1700 Custom_HM_Inn 9 8 2 Karen_drink/2300 Custom_HM_JeffMarket 3 5 3 Karen_sleep",
         "summer": "GOTO spring",
         "fall": "GOTO spring",
         "winter": "GOTO spring",
-        "Sun": "0 Custom_HM_JeffMarket 3 5 3 Karen_sleep/610 Custom_HM_GoddessHill 31 12 0/1000 Custom_HM_MountainLake 36 27 3/1300 Custom_HM_Inn 19 8 0/1800 Custom_HM_OceanSummit 27 17 0/2200 Custom_HM_JeffMarket 3 5 3 Karen_sleep",
+
+        "Sun": "610 Custom_HM_GoddessHill 31 12 0/1000 Custom_HM_MountainLake 34 34 1/1300 Custom_HM_MineralTown 77 88 2/1700 Custom_HM_Inn 23 10 2/2100 Custom_HM_JeffMarket 6 7 1/2350 Custom_HM_JeffMarket 3 5 3 Karen_sleep",
+
+        "rain": "610 Custom_HM_JeffMarket 5 6 2/1000 Custom_HM_JeffMarket 7 14 2/1200 Custom_HM_JeffMarket 12 15 1/1300 Custom_HM_JeffMarket 6 7 1/1500 Custom_HM_JeffMarket 6 5 0/1600 Custom_HM_JeffMarket 3 7 1/1700 Custom_HM_Inn 9 8 2 Karen_drink/2300 Custom_HM_JeffMarket 3 5 3 Karen_sleep"
       },
     },
   ],
