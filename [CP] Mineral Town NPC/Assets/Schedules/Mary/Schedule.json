@@ -4,13 +4,16 @@
     {
       "LogName": "Mary Schedule",
       "Action": "EditData",
-      "Target": "Characters/schedules/Mary ",
+      "Target": "Characters/schedules/Mary",
       "Entries": {
-        "spring": "0 Custom_HM_LibraryHouseSecFloor 18 12 3 Mary_sleep/610 Custom_HM_LibraryHouseSecFloor 14 11 2/810 Custom_HM_Library 9 10 2/1400 Custom_HM_LibrarySecFloor 5 5 2 Mary_reading/1700 Custom_HM_LibraryHouseSecFloor 14 11 2 Mary_reading/2200 Custom_HM_LibraryHouseSecFloor 18 12 3 Mary_sleep",
+        "spring": "610 Custom_HM_LibraryHouseSecFloor 13 11 0/810 Custom_HM_Library 9 10 2/1400 Custom_HM_LibrarySecFloor 5 5 2 Mary_reading/1700 Custom_HM_LibraryHouseSecFloor 14 11 2 Mary_reading/2200 Custom_HM_LibraryHouseSecFloor 18 12 3 Mary_sleep",
         "summer": "GOTO spring",
         "fall": "GOTO spring",
         "winter": "GOTO spring",
-        "Mon" : "0 Custom_HM_LibraryHouseSecFloor 18 12 3 Mary_sleep/610 Custom_HM_MountainLake 50 27 3/1200 Custom_HM_MountainSummit 13 19 0/1400 Custom_HM_FlowerHill 15 25 2 Mary_reading/1600 Custom_HM_Inn 4 11 2/2100 Custom_HM_LibraryHouseSecFloor 18 12 3 Mary_sleep",
+
+        "Mon": "610 Custom_HM_MountainLake 50 27 3/1200 Custom_HM_MountainSummit 13 19 0/1400 Custom_HM_FlowerHill 15 25 2 Mary_reading/1600 Custom_HM_Inn 4 10 2/2100 Custom_HM_LibraryHouseSecFloor 18 12 3 Mary_sleep",
+
+        "rain": "610 Custom_HM_LibraryHouseSecFloor 13 11 0/810 Custom_HM_Library 9 10 2/1400 Custom_HM_LibrarySecFloor 5 5 2 Mary_reading/1730 Custom_HM_LibraryHouse 17 9 3/2000 Custom_HM_LibraryHouseSecFloor 14 11 2 Mary_reading/2200 Custom_HM_LibraryHouseSecFloor 18 12 3 Mary_sleep"
       },
     },
   ],
