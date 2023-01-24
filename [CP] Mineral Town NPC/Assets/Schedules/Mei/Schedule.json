@@ -4,12 +4,16 @@
     {
       "LogName": "Mei Schedule",
       "Action": "EditData",
-      "Target": "Characters/schedules/Mei ",
+      "Target": "Characters/schedules/Mei",
       "Entries": {
-        "spring": "0 Custom_HM_YodelSecFloor 1 13 3 Mei_sleep/610 Custom_HM_YodelSecFloor 5 5 0/730 Custom_HM_MineralTown 87 67 3/1100 Custom_HM_MineralTown 129 81 3 Mei_rope/1400 Custom_HM_YodelInterior 11 12 2/2100 Custom_HM_YodelSecFloor 1 13 3",
-        "summer": "GOTO spring Mei_sleep",
+        "spring": "610 Custom_HM_YodelSecFloor 5 5 0/730 Custom_HM_MineralTown 75 83 3/1000 Custom_HM_MineralTown 74 70 2 Mei_rope/1300 Custom_HM_YodelInterior 11 12 2/2100 Custom_HM_YodelSecFloor 1 13 3 Mei_sleep",
+        "summer": "GOTO spring",
         "fall": "GOTO spring",
-        "winter": "GOTO spring"
+        "winter": "GOTO spring",
+
+        "Wed": "610 Custom_HM_YodelSecFloor 5 5 0/1000 Custom_HM_YodelInterior 14 6 1/1100 Custom_HM_YodelInterior 9 6 2/1130 Custom_HM_YodelInterior 9 12 2/1200 Custom_HM_YodelInterior 14 6 1/1230 Custom_HM_YodelInterior 9 6 2/1300 Custom_HM_MineralTown 123 102 1/1400 Custom_HM_MineralTown 126 110 2 Mei_rope/1630 Custom_HM_YodelInterior 11 12 2/2100 Custom_HM_YodelSecFloor 1 13 3 Mei_sleep",
+
+        "rain": "610 Custom_HM_YodelSecFloor 5 5 0/1000 Custom_HM_YodelInterior 14 6 1/1100 Custom_HM_YodelInterior 9 6 2/1130 Custom_HM_YodelInterior 9 12 2/1200 Custom_HM_YodelInterior 14 6 1/1230 Custom_HM_YodelInterior 9 6 2/1300 Custom_HM_YodelSecFloor 5 5 0/1700 Custom_HM_YodelSecFloor 10 5 0/1710 Custom_HM_YodelSecFloor 11 7 2/1900 Custom_HM_YodelInterior 14 9 3/2100 Custom_HM_YodelSecFloor 1 13 3 Mei_sleep"
       },
     },
   ],
