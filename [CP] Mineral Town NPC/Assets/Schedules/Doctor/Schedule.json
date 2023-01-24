@@ -6,10 +6,13 @@
       "Action": "EditData",
       "Target": "Characters/schedules/Doctor",
       "Entries": {
-        "spring": "0 Custom_HM_DoctorHouseInterior 15 6 3 Doctor_sleep/700 Custom_HM_HospitalFirstFloor 20 5 2/1000 Custom_HM_HospitalFirstFloor 14 5 0/1200 Custom_HM_HospitalFirstFloor 26 6 2/1700 Custom_HM_DoctorHouseInterior 13 14 2/2200 Custom_HM_DoctorHouseInterior 15 6 3 Doctor_sleep",
+        "spring": "700 Custom_HM_HospitalFirstFloor 20 5 2/1000 Custom_HM_HospitalFirstFloor 25 5 0/1200 Custom_HM_HospitalFirstFloor 17 5 0/1330 Custom_HM_HospitalFirstFloor 20 5 2/1700 Custom_HM_DoctorHouseInterior 13 14 2/2200 Custom_HM_DoctorHouseInterior 15 6 3 Doctor_sleep",
         "summer": "GOTO spring",
         "fall": "GOTO spring",
-        "winter": "GOTO spring"
+        "winter": "GOTO spring",
+
+        "Wed": "610 Custom_HM_MountainLake 46 35 3/1000 Custom_HM_ChurchInterior 6 21 0/1430 Custom_HM_LibrarySecFloor 2 9 3/1700 Custom_HM_DoctorHouseInterior 13 14 2/2200 Custom_HM_DoctorHouseInterior 15 6 3 Doctor_sleep",
+        "rain": "GOTO spring"
       },
     },
   ],
