@@ -13,7 +13,7 @@
 			"ShopPrice": -1,
 			"DefaultSellPriceMultiplier": 0.9,
 			"When": [ 
-				"NPCAt Jeff 10 25"
+				"NPCAt Jeff 9 25"
 			],
 			"LocalizedQuote": {
 				//remove the "//" from your language
@@ -84,7 +84,7 @@
 			"ShopPrice": -1,
 			"DefaultSellPriceMultiplier": 0.75,
 			"When": [ 
-				"NPCAt Jeff 10 25" 
+				"NPCAt Jeff 9 25" 
 			],
 			"LocalizedQuote": {
 				//remove the "//" from your language
@@ -208,8 +208,11 @@
 			"MaxNumItemsSoldInStore": 2147483647,
 			"DefaultSellPriceMultiplier": 1,
 			"PriceMultiplierWhen": {
-				"0.6": [ "NPCAt Kai 9 6" ]
+				"0.6": [ "NPCAt Kai" ]
 			},
+			"When": [ 
+				"NPCAt Kai 9 6"
+			],
 			"LocalizedQuote": {
 				//remove the "//" from your language
 				//"es": "PLACEHOLDER",
@@ -303,7 +306,7 @@
 			"ShopPrice": -1,
 			"DefaultSellPriceMultiplier": 1.0,
 			"When": [ 
-				"NPCAt Doug 14 6" 
+				"NPCAt Doug 13 6" 
 			],
 			"LocalizedQuote": {
 				//remove the "//" from your language

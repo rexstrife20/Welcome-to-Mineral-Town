@@ -70,6 +70,10 @@
     {
       "UniqueID": "MineralTownProject.MineralTownNPCs",
       "IsRequired": false
+    },
+    {
+      "UniqueID": "Rafseazz.RSVCP",
+      "IsRequired": false
     }
   ]
 }
